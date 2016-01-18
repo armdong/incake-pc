@@ -1,0 +1,55 @@
+.container { background-color: #f6eddc; padding-bottom: 200px; }
+.container > div img, .activity-content > a img { width: 100%; }
+
+.activity-header { position: relative; height: 1110px; background: #f6eddc url(../img/christmas-new/header-bg.jpg) no-repeat top center; background-size: cover; font-family: arial,"微软雅黑"; font-size: 14px; font-weight: 400; overflow: hidden; }
+.activity-header .button01{ position: absolute; display: block; bottom: 20px; left: 50%; width: 360px; height: 60px; margin-left: -180px; }
+
+.activity-body{ width: 1200px; margin: 0 auto; }
+.activity-body .photo01 img{ float: left; height: 460px; }
+.activity-body .photo01 .photoL,.activity-body .photo01 .photoR{ width: 306px; }
+.activity-body .photo01 .photoC{ width: 588px; }
+
+.activity-body .cake01 .cake-text{ width: 280px; margin: 190px 20px 0 0; color: #90763c; float: right;  }
+.activity-body .cake01 .cake-text dt{ font-size: 20px; line-height: 20px; margin-bottom: 20px; font-weight: bold; }
+.activity-body .cake01 .cake-text dd{ line-height: 20px; }
+.activity-body .cake01 .cake-text p{ text-align: right; margin-top: 30px; }
+.activity-body .cake01 .cake-text .price{ font-size: 18px; line-height: 18px; }
+.activity-body .cake01 .cake-text .number{ font-size: 30px; line-height: 30px; }
+.activity-body .cake01 .cake-img{ display: block; width: 714px; margin-top: -82px; float: right; }
+
+.activity-body .gaw01 .gaw-img{ display: block; width: 610px; margin: -46px 0 12px 110px; float: left; }
+.activity-body .gaw01 .gaw-text{ width: 406px; margin: 40px 0 0 20px; color: #90763c; float: left;}
+.activity-body .gaw01 .gaw-text dt{ font-size: 20px; line-height: 20px; margin-bottom: 20px; font-weight: bold; }
+.activity-body .gaw01 .gaw-text dd{ line-height: 20px; }
+.activity-body .gaw01 .gaw-text dd.about{ margin-top: 24px; }
+.activity-body .gaw01 .gaw-text dd span{ margin-left: 16px; }
+.activity-body .gaw01 .gaw-text p{ text-align: right; margin-top: 10px; }
+.activity-body .gaw01 .gaw-text .price{ font-size: 18px; line-height: 18px; }
+.activity-body .gaw01 .gaw-text .number{ font-size: 30px; line-height: 30px; }
+
+.activity-content{ background-color: #fdf7ec; }
+.activity-content .body-line{ height: 16px; background: url(../img/christmas-new/body-bg.png) repeat-x; overflow: hidden; }
+.activity-content .activity-body2{ width: 1200px; margin: 0 auto; }
+.activity-content .activity-body2 .package02{ display: block; width: 590px; margin: 45px 0 0 330px; }
+.activity-content .activity-body2 .button02{ display: block; width: 360px; height: 60px; margin: 0 auto; }
+.activity-content .activity-body2 .photo02{ margin-top: 20px; }
+
+.activity-content .activity-bottom { width: 1200px; margin: 0 auto; padding-bottom: 50px; }
+.activity-content .activity-bottom > div { float: left; }
+.activity-bottom .left-wine a{ display: block; width: 128px; height: 412px; margin: 16px 30px 0 66px; float: left; }
+.activity-bottom .left-wine .wine-text{ width: 280px; margin-top: 196px; color: #90763c; text-align: justify; float: right; }
+.activity-bottom .left-wine .wine-text dt{ font-size: 20px; line-height: 20px; margin-bottom: 20px; font-weight: bold; }
+.activity-bottom .left-wine .wine-text dd{ line-height: 20px; }
+.activity-bottom .left-wine .wine-text p{ text-align: right; margin-top: 30px; }
+.activity-bottom .left-wine .wine-text .price{ font-size: 18px; line-height: 18px; }
+.activity-bottom .left-wine .wine-text .number{ font-size: 30px; line-height: 30px; }
+.activity-bottom .right-cake{ position: relative; width: 696px; }
+.activity-bottom .right-cake .cake02{ display: block; width: 428px; height: 340px; margin-top:16px; margin-left: 268px;}
+.activity-bottom .right-cake .gaw02{ display: block; width: 316px; height: 184px; margin-top:-12px;}
+
+.activity-bottom .right-cake > div { position: absolute; color: #90763c; }
+.activity-bottom .right-cake .title{ font-size: 20px; line-height: 20px; margin-bottom: 20px; font-weight: bold; }
+.activity-bottom .right-cake .price{ font-size: 18px; line-height: 18px; }
+.activity-bottom .right-cake .number{ font-size: 30px; line-height: 30px; }
+.activity-bottom .right-cake .cake-price{ top: 112px; left: 100px; }
+.activity-bottom .right-cake .gaw-price{ top: 430px; right: 140px; }

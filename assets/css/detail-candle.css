@@ -1,0 +1,94 @@
+.details-container { width: 100%; margin-bottom: 110px; }
+
+.details { width: 100%; margin: 30px 0; }
+.details .details-img { width: 500px; float: left; margin-top: 20px; }
+.details .operation { width: 600px; float: right; }
+.details .operation h2 { font-weight: normal; line-height: 60px; height: 60px; border-bottom: 1px solid #0f3677; color: #0f3677; font-size: 24px; }
+.details .operation .price { color: #c81528; line-height: 88px; height: 88px; font-size: 16px; border-bottom: 1px dashed #dcdcdc; }
+.details .operation .price b { font-weight: normal; font-style: normal; font-size: 30px; }
+.details .operation .pound-btns { width: 410px; padding: 15px 0; }
+.details .operation .pound-btns li { width: 50px; height: 50px; float: left; margin: 15px 30px 0 0; border: 1px solid #dcdcdc; text-align: center; line-height: 50px; }
+.details .operation .pound-btns li.active { border-color: #ea545d; color: #ea545d; }
+.details .operation .pound-btns .btn-pound { display: block; width: 100%; height: 100%; color: inherit; }
+.details .operation .info { width: 100%; margin-top: 36px; }
+.details .operation .info p { line-height: 24px; margin-left: 20px; color: #969696; }
+.details .operation .num { width: 100%; height: 60px; line-height: 60px; margin-top: 16px; background: #f5f5f5; }
+.details .operation .num span, .details .operation .num a, .details .operation .num input { float: left; display: inline-block; }
+.details .operation .num span { margin: 0 5px 0 20px; }
+.details .operation .num a { width: 30px; height: 30px; display: block; margin-top: 15px; background: url(../img/detail/detail_icons.png) no-repeat; }
+.details .operation .num .btn-minus { background-position: -220px 0; }
+.details .operation .num .btn-minus.active { background-position: -220px -30px; }
+.details .operation .num .btn-plus { background-position: -250px 0; }
+.details .operation .num .btn-plus.active { background-position: -250px -30px; }
+.details .operation .num .size-num { width: 68px; height: 32px; line-height: 32px; text-align: center; background: transparent; border: 1px solid #dcdcdc; margin: 13px 10px 0; outline: none; font-size: 16px; }
+.details .operation .operation-btns { width: 100%; margin-top: 24px; }
+.details .operation .operation-btns a { width: 200px; height: 46px; float: left; text-align: center; line-height: 46px; font-size: 16px; color: #fff; background: #0578c4; }
+
+.section { width: 100%; margin-top: 50px; }
+.section .section-title { height: 38px; line-height: 38px; padding-left: 30px; background: url(../img/shopping-cart/section_title_bg.png) no-repeat left center; font-size: 18px; color: #0f3677; font-weight: normal; }
+.section .section-body { width: 100%; }
+.section .section-body .body-header { width: 100%; height: 40px; line-height: 40px; background: #f5f5f5; color: #8c8c8c; }
+.section .section-body .body-header span { display: inline-block; float: left; text-align: center; }
+.section .section-body .body-header .h-product { width: 348px; }
+.section .section-body .body-header .h-attr { width: 200px; }
+.section .section-body .body-header .h-price { width: 124px; }
+.section .section-body .body-header .h-num { width: 212px; }
+.section .section-body .body-header .h-total { width: 148px; }
+.section .section-body .body-header .h-operator { width: 128px; }
+.section .section-body .body-list { width: 100%; }
+.section .section-body .body-item { width: 100%; height: 140px; border-bottom: 1px solid #dcdcdc; }
+.section .section-body .body-item ul { width: 100%; height: 100%; }
+.section .section-body .body-item ul li { float: left; height: 100%; }
+.section .section-body .body-item .b-product { width: 348px; }
+.section .section-body .body-item .b-product .img { width: 100px; height: 100%; float: left; position: relative; }
+.section .section-body .body-item .b-product .img a { display: block; width: 100px; height: 100px; position: absolute; left: 0; top: 50%; margin-top: -50px; }
+.section .section-body .body-item .b-product .img img { width: 100%; }
+.section .section-body .body-item .b-product .text { width: 200px; height: 100%; float: right; margin-right: 10px; display: table; }
+.section .section-body .body-item .b-product .text p { display: table-cell; line-height: 24px; vertical-align: middle; color: #4f4f4f; }
+.section .section-body .body-item .b-product .text span {width: 100%; line-height: 24px; }
+.section .section-body .body-item .b-product .text .cn { font-size: 14px; }
+.section .section-body .body-item .b-product .text .en { font-size: 12px; }
+.section .section-body .body-item .b-attr { width: 200px; }
+.section .section-body .body-item .b-attr .text { width: 100%; height: 100%; display: table; }
+.section .section-body .body-item .b-attr .text p { display: table-cell; vertical-align: middle; line-height: 26px; text-align: center; }
+.section .section-body .body-item .b-attr .text span { width: 100%; }
+.section .section-body .body-item .b-attr .text .pound { color: #4f4f4f; }
+.section .section-body .body-item .b-attr .text .free { color: #b4b4b4; }
+.section .section-body .body-item .b-attr .text .cut { color: #b4b4b4; }
+.section .section-body .body-item .b-attr .text .cut i { width: 17px; height: 17px; display: inline-block; background: url(../img/shopping-cart/section_body_cut_bg.png) no-repeat; position: relative; top: 4px; right: 5px; cursor: pointer; }
+.section .section-body .body-item .b-attr .text .cut i.checked { background: url(../img/shopping-cart/section_body_cut_checked_bg.png) no-repeat; }
+.section .section-body .body-item .b-price { width: 124px; }
+.section .section-body .body-item .b-price .text { width: 100%; height: 100%; display: table; }
+.section .section-body .body-item .b-price .text p { display: table-cell; vertical-align: middle; line-height: 26px; text-align: center; color: #4f4f4f; }
+.section .section-body .body-item .b-num { width: 212px; position: relative; }
+.section .section-body .body-item .b-num .num { width: 150px; height: 30px; position: absolute; left: 50%; top: 50%; margin: -15px 0 0 -75px; }
+.section .section-body .body-item .b-num .num a, .section .section-body .body-item .b-num .num input { float: left; display: inline-block; }
+.section .section-body .body-item .b-num .num a { width: 30px; height: 30px; display: block; background: url(../img/detail/detail_icons.png) no-repeat; }
+.section .section-body .body-item .b-num .num .btn-minus { background-position: -220px 0; }
+.section .section-body .body-item .b-num .num .btn-minus.active { background-position: -220px -30px; }
+.section .section-body .body-item .b-num .num .btn-plus { background-position: -250px 0; }
+.section .section-body .body-item .b-num .num .btn-plus.active { background-position: -250px -30px; }
+.section .section-body .body-item .b-num .num .size-num { width: 68px; height: 32px; line-height: 32px; text-align: center; background: transparent; border: 1px solid #dcdcdc; margin: 0 10px 0; outline: none; font-size: 16px; }
+.section .section-body .body-item .b-total { width: 148px; }
+.section .section-body .body-item .b-total .text { width: 100%; height: 100%; display: table; }
+.section .section-body .body-item .b-total .text p { display: table-cell; vertical-align: middle; line-height: 26px; text-align: center; color: #4f4f4f; }
+.section .section-body .body-item .b-operator { width: 128px; position: relative; }
+.section .section-body .body-item .b-operator .btn-delete { width: 20px; height: 20px; display: block; position: absolute; left: 50%; top: 50%; margin: -10px 0 0 -10px; background: url(../img/mask_btn_close.png) no-repeat; }
+.section .money { width: 100%; height: 50px; line-height: 50px; }
+.section .money span { display: inline-block; float: right; }
+.section .money .total-num { color: #b4b4b4; margin-right: 10px; }
+.section .money .total-price { color: #4f4f4f; }
+.section .money .total-price i { font-style: normal; font-size: 16px; color: #c81528; }
+.section .money .total-price i.js-subtotal { margin-right: 30px; }
+
+.cart-total { width: 100%; background: #faf5f0; }
+.cart-total .cart-total-price { width: 100%; display: block; float: right; font-size: 18px; color: #4f4f4f; height: 100%; line-height: 70px; text-align: right; }
+.cart-total .cart-total-price span { color: #c81528; display: inline-block; margin-right: 30px; }
+.cart-total .cart-total-price i { font-style: normal; font-size: 24px; display: inline-block; }
+
+.cart-btns { width: 100%; height: 50px; margin-top: 20px; }
+.cart-btns a { width: 210px; height: 50px; line-height: 50px; text-align: center; font-size: 18px; color: #fff; float: right; }
+.cart-btns .btn-continue-shopping { background: #0578c4; }
+.cart-btns .btn-go-pay { background: #0f3677; margin-left: 10px; }
+
+/*# sourceMappingURL=detail-candle.css.map */

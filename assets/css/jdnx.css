@@ -1,0 +1,26 @@
+body { width: 100%; overflow-x: hidden; font-family: arial,"微软雅黑"; font-weight: 400; }
+.activity-container { width: 1180px; height: 1180px; margin: 0 auto; position: relative; }
+.activity-container .activity-body { width: 1920px; height: 1180px; position: absolute; left: 50%; margin-left: -960px; top: 0; background: url(../img/jdnx/activity_container_bg.jpg) no-repeat left center; z-index: 999; }
+.activity-body .activity-content { width: 1178px; height: 640px; position: absolute; left: 50%; margin-left: -589px; top: 494px; z-index: 9999; background: url(../img/jdnx/content_bg.png) no-repeat center center; }
+
+.activity-body .activity-content .text { width: 480px; height: 364px; position: absolute; left: 94px; bottom: 0; }
+.activity-content .text > p { font-size: 18px; color: #fff; line-height: 26px; }
+.activity-content .text > dl { width: 100%; margin-top: 38px; }
+.activity-content .text > dl dt { font-size: 22px; color: #fff; line-height: 42px; }
+.activity-content .text > dl dd { font-size: 14px; color: #fff; line-height: 24px; }
+
+.activity-body .activity-content .btn-buy { width: 268px; height: 80px; border: none; outline: none; display: block; position: absolute; right: 142px; bottom: 98px; background: url(../img/jdnx/btn_buy_bg.png) no-repeat; }
+
+/* mask-go-pay begin */
+.mask-go-pay { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
+.mask-go-pay .go-pay { width: 380px; height: 240px; padding: 20px; position: absolute; left: 50%; margin-left: -210px; top: 50%; margin-top: -140px; z-index: 99999999; background: #fff; }
+.mask-go-pay .go-pay .btn-go-pay-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 24px; cursor: pointer; background: url(../img/mask_btn_close.png) no-repeat; }
+.mask-go-pay .go-pay .go-pay-header { width: 100%; height: 38px; line-height: 30px; color: #0f3677; border-bottom: 1px solid #0f3677; font-size: 18px; font-weight: normal; }
+.mask-go-pay .go-pay .go-pay-content { width: 100%; padding: 10px 0; }
+.mask-go-pay .go-pay .go-pay-content > p { height: 38px; line-height: 38px; font-size: 16px; color: #959595; }
+.mask-go-pay .go-pay .go-pay-content .city-list { width: 100%; padding: 10px 0; text-align: center; }
+.mask-go-pay .go-pay .go-pay-content .city-item { width: 100px; height: 34px; display: inline-block; line-height: 34px; text-align: center; margin: 0 10px; cursor: pointer; border: 1px solid #dcdcdc; }
+.mask-go-pay .go-pay .go-pay-content .city-item.checked { color: #0f3677; background: #eaeaea; border-color: #0f3677; }
+.mask-go-pay .go-pay .go-pay-footer { width: 100%; padding: 20px 0; }
+.mask-go-pay .go-pay .go-pay-footer .btn-city-ok { width: 138px; height: 48px; margin: 0 auto; background: #0f3677; line-height: 48px; text-align: center; color: #fff; display: block; font-size: 16px; }
+/* mask-go-pay end */

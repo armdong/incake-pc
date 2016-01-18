@@ -1,0 +1,38 @@
+.container { width: 100%; background: url(../img/christmas-fz/container_bg.png) repeat; }
+.container .activity-content { width: 1200px; height: 2090px; margin: 0 auto; overflow: hidden; position: relative; }
+
+.activity-content .christmas-title { width: 782px; height: 320px; background: url(../img/christmas-fz/christmas_text.png) no-repeat; margin: 42px auto 0; position: relative; z-index: 999; }
+
+.activity-content .btn-buy { width: 504px; height: 94px; display: block; position: absolute; top: 388px; left: 50%; margin-left: -252px; border: none; background: url(../img/christmas-fz/btn_buy_bg.png) no-repeat; z-index: 9999; }
+
+.activity-content .snow-girl-wrapper { width: 948px; height: 1002px; position: absolute; top: 134px; left: 50%; margin-left: -474px; background: url(../img/christmas-fz/snow_girl_wrapper_bg.png) no-repeat; z-index: 9; }
+.activity-content .snow-girl-wrapper .snow-girl-gradient { width: 948px; height: 948px; position: absolute; left: 0; bottom: -142px; background: url(../img/christmas-fz/snow_girl_gradient_bg.png) no-repeat center center; z-index: 99; }
+.activity-content .snow-girl-wrapper .snow-girl-light { width: 100%; height: 354px; position: absolute; right: 0; bottom: 0; background: url(../img/christmas-fz/snow_girl_light_bg.png) no-repeat center center; z-index: 999; }
+.activity-content .snow-girl-wrapper .snow-girl-img { width: 598px; height: 552px; position: absolute; bottom: 20px; left: 50%; margin-left: -299px; z-index: 9999; }
+.activity-content .snow-girl-wrapper .snow-girl-img img { width: 100%; border: none; vertical-align: bottom; }
+.activity-content .snow-girl-wrapper .snow-girl-tip { width: 163px; height: 168px; position: absolute; top: 454px; right: 130px; background: url(../img/christmas-fz/snow_girl_tip_bg.png) no-repeat; z-index: 99999; }
+.activity-content .snow-girl-wrapper .snow-girl-tip a { width: 100%; height: 100%; display: block; }
+
+.activity-content .pop-wine-wrapper { width: 570px; height: 836px; position: absolute; left: 0; bottom: -60px; z-index: 9; }
+.activity-content .pop-wine-wrapper .pop-wine-gradient { width: 570px; height: 836px; position: absolute; left: 0; top: 0; background: url(../img/christmas-fz/wine_gradient_bg.png) no-repeat; z-index: 99; }
+.activity-content .pop-wine-wrapper .pop-wine-star { width: 436px; height: 486px; position: absolute; right: -44px; bottom: 142px; background: url(../img/christmas-fz/wine_star_bg.png) no-repeat; z-index: 999; }
+.activity-content .pop-wine-wrapper .pop-wine-img { width: 226px; height: 735px; position: absolute; left: 50%; margin-left: -113px; top: -8px; z-index: 9999; }
+.activity-content .pop-wine-wrapper .pop-wine-img img { width: 100%; border: none; vertical-align: top; }
+.activity-content .pop-wine-wrapper .pop-wine-tip { width: 176px; height: 178px; position: absolute; top: 50px; right: 110px; background: url(../img/christmas-fz/wine_tip_bg.png) no-repeat; z-index: 99999; }
+.activity-content .pop-wine-wrapper .pop-wine-tip a { width: 100%; height: 100%; display: block; }
+
+.activity-content .flower-box-wrapper { width: 568px; height: 764px; position: absolute; right: 0; bottom: 230px; z-index: 9; }
+.activity-content .flower-box-wrapper .flower-box-gradient { width: 620px; height: 655px; position: absolute; left: -34px; bottom: -50px; background: url(../img/christmas-fz/flower_box_gradient_bg.png) no-repeat; z-index: 99; }
+.activity-content .flower-box-wrapper .flower-box-circle { width: 354px; height: 362px; position: absolute; left: 0; top: 135px; background: url(../img/christmas-fz/flower_box_circle_bg.png) no-repeat; z-index: 999; }
+.activity-content .flower-box-wrapper .flower-box-img { width: 568px; height: 764px; position: absolute; left: 0; top: 0; z-index: 9999; }
+.activity-content .flower-box-wrapper .flower-box-img img { width: 100%; border: none; vertical-align: top; }
+.activity-content .flower-box-wrapper .flower-box-tip { width: 175px; height: 178px; position: absolute; top: 97px; left: 109px; background: url(../img/christmas-fz/flower_box_tip_bg.png) no-repeat; z-index: 99999; }
+.activity-content .flower-box-wrapper .flower-box-tip a { width: 100%; height: 100%; display: block; }
+
+.activity-content .snows { width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: url(../img/christmas-fz/snow_bg.png) no-repeat; z-index: 8; }
+
+.container .activity-roles { width: 100%; height: 180px; background: #d2d247; }
+.activity-roles .roles-content { width: 1200px; height: 100%; margin: 0 auto; }
+.activity-roles .roles-content dl { width: 700px; padding: 10px 0; float: left; margin-left: 116px; color: #5f5f0e; }
+.activity-roles .roles-content dl dt { font-size: 20px; line-height: 48px; }
+.activity-roles .roles-content dl dd { font-size: 14px; line-height: 20px; }

@@ -1,0 +1,13 @@
+#wyjy-page { width: 100%; background: #fff url(../img/wyjy/body_bg.png) repeat; }
+#wyjy-page .main-content { width: 800px; height: 1616px; margin: 0 auto; position: relative; background: url(../img/wyjy/content_bg.png) no-repeat top center; }
+#wyjy-page .main-content img { width: 100%; }
+#wyjy-page .main-content .logo { width: 256px; height: 58px; position: absolute; left: 0; top: 43px; }
+#wyjy-page .main-content .btn-buy { width: 188px; height: 74px; display: block; position: absolute; left: 50%; margin-left: -94px; top: 689px; background: url(../img/wyjy/btn_buy_bg.png) no-repeat; }
+#wyjy-page .main-content .text { width: 600px; position: absolute; left: 50%; margin-left: -300px; bottom: 50px; }
+#wyjy-page .main-content .text dl,
+#wyjy-page .main-content .text dt,
+#wyjy-page .main-content .text dd { width: 100%; }
+#wyjy-page .main-content .text dl { margin-top: 30px; }
+#wyjy-page .main-content .text dt { font-size: 24px; color: #e13811; line-height: 40px; }
+#wyjy-page .main-content .text dd { color: #6a3906; font-size: 16px; line-height: 24px; }
+#wyjy-page .main-content .text dd span { color: #e13811; }

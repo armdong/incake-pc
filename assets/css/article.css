@@ -1,0 +1,224 @@
+.article-container { width: 100%;padding: 30px 0; }
+.article-container .article-nav { width: 230px; float: left; }
+.article-container .article-nav .article-nav-list { width: 100%; }
+.article-container .article-nav .nav-header { width: 100%; height: 68px; }
+.article-container .article-nav .nav-item { width: 100%; height: 38px; line-height: 38px; margin-top: 4px; background: #f5f5f5; }
+.article-container .article-nav .nav-item.active,
+.article-container .article-nav .nav-item:hover { background: #0f3677; }
+.article-container .article-nav .nav-item span { display: inline-block; width: 220px; float: right; text-align: center; background: #f5f5f5; }
+.article-container .article-nav .nav-item.active span,
+.article-container .article-nav .nav-item:hover span { position: relative; }
+.article-container .article-nav .nav-item.active i,
+.article-container .article-nav .nav-item:hover i { width: 7px; height: 14px; display: block; position: absolute; top: 50%; margin-top: -7px; right: 10px; background: url(../img/article/article_nav_dd_arrow.png) no-repeat; }
+.article-container .article-nav .nav-item a { color: #969696; width: 100%; height: 100%; display: block; }
+.article-container .article-nav .nav-item.active a,
+.article-container .article-nav .nav-item:hover a { color: #0f3677; }
+.article-container .article-body { width: 900px; float: right; }
+.article-container .article-body .article-body-list { width: 100%; }
+.article-container .article-body .body-item { width: 100%; display: none; }
+.article-container .article-body .body-item.active { display: block; }
+.article-container .article-body .body-item .body-item-header { width: 100%; height: 34px; line-height: 34px; background: url(../img/article/body_item_header_bg.png) no-repeat left center; font-weight: normal; font-size: 22px; color: #0f3677; }
+.article-container .body-item .body-item-header span { display: inline-block; margin-left: 30px; }
+.article-container .article-body .body-item .body-item-content { width: 100%; }
+
+/* ======================== 关于 INCAKE ========================== */
+
+.article-container .article-nav .header-about { background: url(../img/article/article_nav_header_about_bg.jpg) no-repeat; }
+
+/* 品牌故事 begin */
+.article-container .article-body .brand-story-content .content-logo { width: 230px; height: 130px; margin: 6px auto 0; display: block; }
+.article-container .article-body .brand-story-content .content-logo img { width: 100%; }
+.article-container .article-body .brand-story-content > p { line-height: 24px; color: #515151; text-indent: 2em; padding: 10px 0; text-align: justify; }
+.article-container .article-body .brand-story-content .content-img { width: 900px; height: 270px; margin-top: 10px; }
+.article-container .article-body .brand-story-content .content-img img { width: 100%; }
+/* 品牌故事 end */
+
+/* 产品理念 begin */
+.article-container .article-body .product-idea-content { width: 100%; padding-top: 26px; }
+.article-container .article-body .aside-left { width: 300px; float: left; }
+.article-container .article-body .aside-right { width: 600px; float: right; }
+.article-container .article-body .idea-aside .aside-section { width: 100%; }
+.article-container .article-body .idea-aside .aside-section img { width: 100%; }
+.article-container .article-body .idea-aside .aside-section .section-text { display: table; padding: 0 20px; }
+.article-container .article-body .idea-aside .aside-section .section-text p { width: 100%; display: table-cell; vertical-align: middle; }
+.article-container .article-body .idea-aside .aside-section .section-text span { width: 100%; display: inline-block; color: #595757; }
+.article-container .article-body .idea-aside .aside-section.section-masters .section-text span { color: #fff; }
+.article-container .article-body .idea-aside .aside-section .section-text .title-en { font-size: 18px; line-height: 20px; }
+.article-container .article-body .idea-aside .aside-section .section-text .title-cn { font-size: 18px; line-height: 28px; }
+.article-container .article-body .idea-aside .aside-section .section-text .content { font-size: 12px; line-height: 22px; text-align: justify; }
+/* 空图片 */
+.article-container .article-body .section-empty { height: 550px; }
+.article-container .article-body .section-empty .section-img { width: 100%; height: 100%; }
+/* 先进工艺 */
+.article-container .article-body .section-process { height: 560px; }
+.article-container .article-body .section-process .section-text { width: 260px; height: 280px; }
+.article-container .article-body .section-process .section-img { width: 100%; height: 280px; }
+/* 黄金比例配方 */
+.article-container .article-body .section-proportion { height: 280px; }
+.article-container .article-body .section-proportion .section-text { width: 280px; height: 100%; float: left; }
+.article-container .article-body .section-proportion .section-img { width: 280px; height: 100%; float: right; }
+/* 优质食材 */
+.article-container .article-body .section-materials { height: 270px; }
+.article-container .article-body .section-materials .section-img { width: 320px; height: 100%; float: left; }
+.article-container .article-body .section-materials .section-text { width: 240px; height: 100%; float: right; }
+/* 知名蛋糕师研发 */
+.article-container .article-body .section-masters { height: 280px; position: relative; }
+.article-container .article-body .section-masters .section-img { width: 600px; height: 100%; }
+.article-container .article-body .section-masters .section-text { width: 240px; height: 100%; position: absolute; right: 0; top: 0; }
+/* 生产标准 */
+.article-container .article-body .section-standard { height: 280px; }
+.article-container .article-body .section-standard .section-text { width: 280px; height: 100%; float: left; }
+.article-container .article-body .section-standard .section-img { width: 280px; height: 100%; float: right; }
+/* 产品理念 end */
+
+/* 优质体验 begin */
+.article-container .article-body .best-experience-content { width: 100%; }
+.article-container .article-body .best-experience-content > p { line-height: 24px; color: #515151; text-indent: 2em; padding: 22px 0; text-align: justify; }
+.article-container .article-body .best-experience-content .experience-list { width: 100%; }
+.article-container .article-body .best-experience-content .experience-item { width: 210px; margin-right: 20px; float: left; border-top: 2px solid #0f3677; border-bottom: 1px solid #0f3677; }
+.article-container .article-body .best-experience-content .experience-item.last { margin-right: 0; }
+.article-container .article-body .experience-item .experience-item-header { width: 100%; height: 66px; display: table; border-bottom: 1px solid #f5f5f5; }
+.article-container .article-body .experience-item-header p { width: 170px; height: ; padding: 0 20px; display: table-cell; vertical-align: middle; }
+.article-container .article-body .experience-item-header span { display: inline-block; width: 100%; color: #0f3677; line-height: 20px; }
+.article-container .article-body .experience-item-header .cn { font-size: 18px; }
+.article-container .article-body .experience-item-header .en { font-size: 12px; }
+.article-container .article-body .experience-item .experience-item-content { width: 100%; height: 210px; }
+.article-container .article-body .experience-item-content p { width: 170px; padding: 10px 20px 0; line-height: 24px; color: #515151; text-align: justify; }
+.article-container .article-body .experience-item .experience-item-footer { width: 100%; height: 140px; }
+.article-container .article-body .experience-item-footer img { width: 100%; }
+/* 优质体验 end */
+
+/* 合作单位 begin */
+.article-container .article-body .cooperation-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .cooperation-content .cooperation-list { width: 100%; }
+.article-container .article-body .cooperation-list li { width: 170px; height: 100px; border: 1px solid #c8c8c8; float: left; margin: 10px 10px 0 0; }
+.article-container .article-body .cooperation-list li.last-col { margin-right: 0; }
+.article-container .article-body .cooperation-list li:nth-of-type(5n+5) { margin-right: 0; }
+.article-container .article-body .cooperation-list li img { width: 100%; }
+/* 合作单位 end */
+
+/* ======================== 加入 INCAKE ========================== */
+
+.article-container .article-nav .header-join { background: url(../img/article/article_nav_header_join_bg.jpg) no-repeat; }
+
+/* 关于我们 begin */
+.article-container .article-body .about-us-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .about-us-content .content-img { width: 100%; height: 298px; }
+.article-container .article-body .about-us-content .content-text { width: 100%; }
+.article-container .article-body .about-us-content h3 { font-weight: normal; font-size: 18px; color: #0578c4; line-height: 24px; padding: 10px 0; text-align: justify; }
+.article-container .article-body .about-us-content p { line-height: 24px; color: #515151; text-indent: 2em; padding: 10px 0; text-align: justify; }
+.article-container .article-body .about-us-content dl { width: 100%; }
+.article-container .article-body .about-us-content dt { color: #000; line-height: 24px; }
+.article-container .article-body .about-us-content dd { color: #515151; line-height: 24px; }
+/* 关于我们 end */
+
+/* 联系我们 begin */
+.article-container .article-body .contact-us-content { width: 100%; }
+.article-container .article-body .contact-us-content .content-img { width: 230px; height: 866px; float: right; }
+.article-container .article-body .contact-us-content .content-text { width: 600px; float: left; }
+.article-container .article-body .contact-us-content .content-text p { width: 100%; line-height: 24px; padding: 14px 0; }
+.article-container .article-body .contact-us-content .content-text span { display: inline-block; width: 100%; }
+.article-container .article-body .contact-us-content .content-text dl { width: 100%; padding: 14px 0; }
+.article-container .article-body .contact-us-content .content-text dt { color: #0f3677; line-height: 24px; font-weight: bold; }
+.article-container .article-body .contact-us-content .content-text dd { color: #515151; line-height: 24px; }
+/* 联系我们 end */
+
+/* 英才招聘 begin */
+.article-container .article-body .recruitment-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .recruitment-content .recruitment-list { width: 100%; }
+.article-container .article-body .recruitment-content .recruitment-item { width: 100%; padding: 20px 0; }
+.article-container .article-body .recruitment-content .recruitment-item.last { padding-bottom: 0; }
+.article-container .article-body .recruitment-content .inner-list { width: 100%; }
+.article-container .article-body .recruitment-content .inner-item { width: 897px; float: left; position: relative; border: 1px solid #e6e6e6; margin-top: -1px; margin-left: -1px; }
+.article-container .article-body .recruitment-content .name-item,
+.article-container .article-body .recruitment-content .date-item,
+.article-container .article-body .recruitment-content .num-item,
+.article-container .article-body .recruitment-content .type-item { width: 448px; }
+.article-container .article-body .recruitment-content .inner-title { width: 118px; height: 24px; line-height: 24px; position: absolute; top: 50%; margin-top: -12px; }
+.article-container .article-body .recruitment-content .inner-title p { text-align: center; }
+.article-container .article-body .recruitment-content .inner-content { width: 779px; float: right; }
+.article-container .article-body .recruitment-content .name-item .inner-content,
+.article-container .article-body .recruitment-content .date-item .inner-content,
+.article-container .article-body .recruitment-content .num-item .inner-content,
+.article-container .article-body .recruitment-content .type-item .inner-content { width: 330px; float: right; }
+.article-container .article-body .recruitment-content .inner-content p { line-height: 24px;  padding: 8px 0 8px 20px; border-left: 1px solid #e6e6e6; margin-left: -1px; }
+.article-container .article-body .recruitment-content .inner-content span { display: inline-block; width: 100%; }
+.article-container .article-body .recruitment-content .name-item .inner-content p { font-weight: bold; color: #000; }
+.article-container .article-body .recruitment-content .recruitment-item .apply-job { width: 897px; height: 44px; line-height: 44px; padding: 12px 0; border: 1px solid #e6e6e6; margin-top: -1px; margin-left: -1px; }
+.article-container .article-body .recruitment-content .recruitment-item .btn-apply-job { width: 180px; height: 44px; display: block; float: left; line-height: 44px; text-align: center; background: #0f3677; color: #fff; font-size: 16px; margin-left: 46px; }
+.article-container .article-body .recruitment-content .recruitment-item .apply-job span { display: inline-block; margin-left: 24px; }
+/* 英才招聘 end */
+
+/* ======================== 新手上路 ========================== */
+
+.article-container .article-nav .header-guide { background: url(../img/article/article_nav_header_guide_bg.jpg) no-repeat; }
+
+/* 购买流程 begin */
+.article-container .article-body .flow-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .flow-content h3 { font-size: 16px; color: #000; line-height: 28px; font-weight: normal; }
+.article-container .article-body .flow-content .content-img { width: 760px; height: 104px; }
+.article-container .article-body .flow-content .content-text { width: 100%; }
+.article-container .article-body .flow-content .content-text dl { width: 100%; padding: 10px 0; }
+.article-container .article-body .flow-content .content-text dt,
+.article-container .article-body .flow-content .content-text dd { width: 100%; line-height: 24px; color: #515151; text-align: justify; }
+/* 购买流程 end */
+
+/* 支付方式 begin */
+.article-container .article-body .payment-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .payment-content .content-text { width: 100%; }
+.article-container .article-body .payment-content .content-text dl { width: 100%; padding: 10px 0; }
+.article-container .article-body .payment-content .content-text dt,
+.article-container .article-body .payment-content .content-text dd { width: 100%; line-height: 24px; color: #515151; text-align: justify; }
+.article-container .article-body .payment-content .content-text dt { color: #000; }
+/* 支付方式 end */
+
+/* 配送范围 begin */
+.article-container .article-body .delivery-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .delivery-content .content-img { width: 900px; height: 720px; }
+/* 配送范围 end */
+
+/* 退货服务 begin */
+.article-container .article-body .return-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .return-content .content-text { width: 100%; }
+.article-container .article-body .return-content .content-text p { width: 100%; padding: 10px 0; line-height: 24px; color: #515151; text-align: justify; }
+/* 退货服务 end */
+
+/* 帮助中心 begin */
+.article-container .article-body .help-content { width: 100%; padding-top: 16px; }
+.article-container .article-body .help-content .content-text { width: 100%; }
+.article-container .article-body .help-content .content-text dl { width: 100%; padding: 10px 0; }
+.article-container .article-body .help-content .content-text dt,
+.article-container .article-body .help-content .content-text dd { width: 100%; line-height: 24px; color: #515151; text-align: justify; }
+.article-container .article-body .help-content .content-text dt { font-size: 16px; color: #0f3677; line-height: 28px; }
+/* 帮助中心 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

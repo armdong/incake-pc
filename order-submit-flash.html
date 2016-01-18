@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>INCAKE | 提交订单（闪电购）</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="" name="description" />
+		<meta content="" name="author" />
+		<link rel="stylesheet" href="assets/css/normalize.css" />
+		<link rel="stylesheet" href="assets/css/common.css" />
+		<link rel="stylesheet" href="assets/css/shopping-cart.css" />
+		<link rel="shortcut icon" href="favicon.ico" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<!-- header begin -->
+			<div class="header">
+				<div class="header-wrapper">
+					<!-- header 状态栏 begin -->
+					<div class="status-bar clearfix">
+						<p class="text clearfix">
+							<span class="welcome">欢迎来到印克时光！</span>
+							<span class="work-time">周一至周日8:30~21:00</span>
+							<span class="hot-line">客服热线：400-921-5757</span>
+						</p>
+						<ul class="links clearfix">
+							<li class="cart"><a href="javascript:;"><i></i><span>0</span>件</a></li>
+							<li class="btns clearfix">
+								<a href="javascript:;" class="login">登录</a>
+								<span></span>
+								<a href="javascript:;" class="reg">注册</a>
+							</li>
+							<li class="location btn-locate"><i></i>上海</li>
+						</ul>
+					</div>
+					<!-- header 状态栏 end -->
+					<!-- logo & nav begin -->
+					<div class="content clearfix">
+						<a href="index.html" class="logo">
+							<img src="assets/img/logo.png" alt="Logo" />
+						</a>
+						<ul class="nav clearfix" id="nav">
+							<li class="item active">
+								<a href="cake-list.html">
+									<span class="en">Cake List</span>
+									<span class="cn">蛋糕馆</span>
+								</a>
+								<ul class="sub-nav clearfix">
+									<li class="sub-item">
+										<a href="cake-list.html?category=Cheese">
+											<span class="en">Cheese</span>
+											<span class="cn">芝士系列</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="cake-list.html?category=Chocolate">
+											<span class="en">Chocolate</span>
+											<span class="cn">巧克力系列</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="cake-list.html?category=Napoleon">
+											<span class="en">Napoleon</span>
+											<span class="cn">拿破仑系列</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="cake-list.html?category=Mousse">
+											<span class="en">Mousse</span>
+											<span class="cn">慕斯系列</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="cake-list.html?category=Cream">
+											<span class="en">Cream</span>
+											<span class="cn">乳脂系列</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="cake-list.html?category=DIY">
+											<span class="en">DIY</span>
+											<span class="cn">选拼系列</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="item">
+								<a href="javascript:;">
+									<span class="en">Theme Cake</span>
+									<span class="cn">主题蛋糕</span>
+								</a>
+								<ul class="sub-nav clearfix">
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Image Cake</span>
+											<span class="cn">画影</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Voice Cake</span>
+											<span class="cn">音.蛋糕</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Super Cake</span>
+											<span class="cn">夏</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Fly Incake</span>
+											<span class="cn">飞行蛋糕</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="item">
+								<a href="javascript:;">
+									<span class="en">Insweet</span>
+									<span class="cn">思蜜</span>
+								</a>
+							</li>
+							<li class="item">
+								<a href="javascript:;">
+									<span class="en">Activities</span>
+									<span class="cn">活动专享</span>
+								</a>
+								<ul class="sub-nav clearfix">
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">New Activity</span>
+											<span class="cn">最新活动</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Delicious Strategy</span>
+											<span class="cn">美味攻略</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Points Mall</span>
+											<span class="cn">积分商城</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="item">
+								<a href="javascript:;">
+									<span class="en">My Incake</span>
+									<span class="cn">我的INCAKE</span>
+								</a>
+								<ul class="sub-nav clearfix">
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">My Orders</span>
+											<span class="cn">我的订单</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">My Points</span>
+											<span class="cn">我的积分</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Coupons</span>
+											<span class="cn">我的优惠券</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="item last">
+								<a href="javascript:;">
+									<span class="en">Enterprises</span>
+									<span class="cn">企业专区</span>
+								</a>
+								<ul class="sub-nav clearfix">
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Apply For Foretaste</span>
+											<span class="cn">试吃申请</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">VIP Login</span>
+											<span class="cn">企业VIP登录</span>
+										</a>
+									</li>
+									<li class="sub-item">
+										<a href="javascript:;">
+											<span class="en">Exchange Zone</span>
+											<span class="cn">老客户兑换专区</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- logo & nav end -->
+					<!-- location mask begin -->
+					<div class="location-mask hide">
+						<p>请选择您要配送到的城市：</p>
+						<ul class="cities clearfix">
+							<li class="active"><a href="javascript:;">上海</a></li>
+							<li><a href="javascript:;">苏州</a></li>
+							<li><a href="javascript:;">昆山</a></li>
+							<li><a href="javascript:;">福州</a></li>
+							<li><a href="javascript:;">厦门</a></li>
+						</ul>
+					</div>
+					<!-- location mask end -->
+				</div>
+			</div>
+			<!-- header end -->
+
+			<!-- container begin -->
+			<div class="container">
+
+				<!-- shopping cart begin -->
+				<div class="shopping-cart-wrapper">
+
+					<ul class="shopping-step clearfix">
+						<li class="active">
+							<p><i class="icon-cart"></i><span>购物篮</span></p>
+						</li>
+						<li class="active">
+							<p><i class="icon-order-info"></i><span>填写和提交订单信息</span></p>
+						</li>
+						<li class="last">
+							<p><i class="icon-submit-ok"></i><span>成功提交订单</span></p>
+						</li>
+					</ul>
+
+					<div class="section-container">
+
+						<!-- 订单信息 begin -->
+						<div class="section section-order-info">
+							<h2 class="section-title">订单信息</h2>
+							<div class="section-body">
+								<p class="body-header clearfix">
+									<span class="h-product">商品</span>
+									<span class="h-attr">属性</span>
+									<span class="h-num">数量</span>
+									<span class="h-require">要求</span>
+									<span class="h-total">小计</span>
+								</p>
+								<ul class="body-list">
+									<li class="body-item">
+										<ul class="clearfix">
+											<li class="b-product clearfix">
+												<div class="img">
+													<a href="javascript:;">
+														<img src="assets/img/shopping-cart/cake_img.jpg" alt="" />
+													</a>
+												</div>
+												<div class="text">
+													<p>
+														<span class="cn">童趣</span>
+														<span class="en">Children's Interest Ice Cream Cake</span>
+													</p>
+												</div>
+											</li>
+											<li class="b-attr">
+												<div class="text">
+													<p>
+														<span class="pound">1.5磅</span>
+														<span class="free">免费赠送5套餐具</span>
+														<span class="cut">切分9块</span>
+													</p>
+												</div>
+											</li>
+											<li class="b-num">
+												<div class="text">
+													<p>1</p>
+												</div>
+											</li>
+											<li class="b-require">
+												<div class="text">
+													<p>-</p>
+												</div>
+											</li>
+											<li class="b-total">
+												<div class="text">
+													<p>￥169.00</p>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="body-item">
+										<ul class="clearfix">
+											<li class="b-product clearfix">
+												<div class="img">
+													<a href="javascript:;">
+														<img src="assets/img/cake/06.jpg" alt="" />
+													</a>
+												</div>
+												<div class="text">
+													<p>
+														<span class="cn">画影</span>
+														<span class="en">IMAGE CAKE</span>
+														<span class="image-btns clearfix">
+															<a href="javascript:;" class="btn-img-preview">预览</a>
+															<a href="javascript:;" class="btn-img-upload">上传定制图片</a>
+														</span>
+													</p>
+												</div>
+											</li>
+											<li class="b-attr">
+												<div class="text">
+													<p>
+														<span class="pound">1.5磅</span>
+														<span class="free">免费赠送5套餐具</span>
+														<span class="cut">切分9块</span>
+													</p>
+												</div>
+											</li>
+											<li class="b-num">
+												<div class="text">
+													<p>1</p>
+												</div>
+											</li>
+											<li class="b-require">
+												<div class="text">
+													<p>-</p>
+												</div>
+											</li>
+											<li class="b-total">
+												<div class="text">
+													<p>￥169.00</p>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="body-item">
+										<ul class="clearfix">
+											<li class="b-product clearfix">
+												<div class="img">
+													<a href="javascript:;">
+														<img src="assets/img/shopping-cart/cake_img.jpg" alt="" />
+													</a>
+												</div>
+												<div class="text">
+													<p>
+														<span class="cn">童趣</span>
+														<span class="en">Children's Interest Ice Cream Cake</span>
+													</p>
+												</div>
+											</li>
+											<li class="b-attr">
+												<div class="text">
+													<p>
+														<span class="pound">1.5磅</span>
+														<span class="free">免费赠送5套餐具</span>
+														<span class="cut">切分9块</span>
+													</p>
+												</div>
+											</li>
+											<li class="b-num">
+												<div class="text">
+													<p>1</p>
+												</div>
+											</li>
+											<li class="b-require">
+												<div class="text">
+													<p>要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求要求</p>
+												</div>
+											</li>
+											<li class="b-total">
+												<div class="text">
+													<p>￥169.00</p>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<p class="money clearfix">
+								<span class="total-price">商品金额：<i>￥565.00</i></span>
+								<span class="total-num">（共3件）</span>
+							</p>
+						</div>
+						<!-- 订单信息 end -->
+
+						<!-- 送货信息 begin -->
+						<div class="section section-address-info address-flash">
+							<h2 class="section-title">送货信息</h2>
+							<div class="section-body">
+								<div class="form-flash-address">
+									<div class="clearfix">
+										<span class="title">订货人：</span>
+										<input type="text" class="txt-input txt-flash-address-name" placeholder="请输入订货人姓名" />
+										<span class="require">*</span>
+										<span class="chk-reciever"><i class="checked"></i>是本人收货</span>
+									</div>
+									<div class="clearfix">
+										<span class="title">订货人手机号：</span>
+										<input type="text" class="txt-input txt-flash-address-mobile" placeholder="请输入订货人手机号" />
+										<a href="javascript:;" class="btn-flash-vcode">获取验证码</a>
+										<span class="require">*</span>
+									</div>
+									<div class="clearfix">
+										<span class="title">短信验证码：</span>
+										<input type="text" class="txt-input txt-flash-address-vcode" placeholder="请输入您收到的短信验证码" />
+										<span class="require">*</span>
+									</div>
+									<div class="clearfix">
+										<span class="title">送货地址：</span>
+										<div class="mock-selector content-selector selector-city">
+											<p class="selector-val">上海市</p>
+											<ul class="selector-options">
+												<li class="option-item selected">上海市</li>
+												<li class="option-item">苏州市</li>
+												<li class="option-item">昆山市</li>
+												<li class="option-item">福州市</li>
+												<li class="option-item">厦门市</li>
+												<li class="option-item">苏州市</li>
+												<li class="option-item">昆山市</li>
+												<li class="option-item">福州市</li>
+												<li class="option-item">厦门市</li>
+											</ul>
+										</div>
+										<div class="mock-selector content-selector selector-area">
+											<p class="selector-val">闸北区</p>
+											<ul class="selector-options">
+												<li class="option-item selected">闸北区</li>
+												<li class="option-item">宝山区</li>
+											</ul>
+										</div>
+										<div class="mock-selector content-selector selector-street last">
+											<p class="selector-val">广中西路</p>
+											<ul class="selector-options">
+												<li class="option-item selected">广中西路</li>
+												<li class="option-item">共和新路</li>
+											</ul>
+										</div>
+									</div>
+									<div class="clearfix">
+										<span class="title">&nbsp;</span>
+										<input type="text" class="txt-input txt-flash-address-more" placeholder="请输入收货人的详细地址" />
+										<span class="require">*</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 送货信息 end -->
+
+						<!-- 配送方式 begin -->
+						<div class="section section-transport">
+							<h2 class="section-title">配送方式</h2>
+							<div class="section-body">
+								<ul class="tab-list clearfix">
+									<li>
+										<a href="javascript:;">INCAKE冷链配送</a>
+									</li>
+									<li class="last active">
+										<a href="javascript:;">到店自提</a>
+									</li>
+								</ul>
+								<ul class="content-list">
+									<li>
+										<div class="content-wrapper">
+											<p class="content-header clearfix">
+												<span class="style">配送方式</span>
+												<span class="summary">备注</span>
+												<span class="fee">运费</span>
+												<span class="free">运费优惠信息</span>
+											</p>
+											<ul class="content-body">
+												<li class="last active clearfix">
+													<div class="style">
+														<p>INCAKE冷链配送</p>
+													</div>
+													<div class="summary">
+														<p>外环线以内</p>
+													</div>
+													<div class="fee">
+														<p>￥0.00</p>
+													</div>
+													<div class="free">
+														<p>无</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="receive-time clearfix">
+											<p>收货时间：</p>
+											<div class="mock-selector">
+												<p class="selector-val">2015-10-20</p>
+												<ul class="selector-options">
+													<li class="option-item selected">2015-10-20</li>
+													<li class="option-item">2015-10-21</li>
+													<li class="option-item">2015-10-22</li>
+													<li class="option-item">2015-10-23</li>
+												</ul>
+											</div>
+											<div class="mock-selector">
+												<p class="selector-val">中餐</p>
+												<ul class="selector-options">
+													<li class="option-item selected">中餐</li>
+													<li class="option-item">晚餐</li>
+												</ul>
+											</div>
+											<div class="mock-selector">
+												<p class="selector-val">9:30-10:30</p>
+												<ul class="selector-options">
+													<li class="option-item selected">9:30-10:30</li>
+													<li class="option-item">10:30-11:30</li>
+													<li class="option-item">11:30-12:30</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="active">
+										<div class="content-wrapper">
+											<p class="content-header clearfix">
+												<span class="station">站点名称</span>
+												<span class="address">地址</span>
+												<span class="mobile-no">联系电话</span>
+											</p>
+											<ul class="content-body">
+												<li class="clearfix">
+													<div class="station">
+														<p>徐汇站点1</p>
+													</div>
+													<div class="address">
+														<p>上海市闸北区广中西路777弄</p>
+													</div>
+													<div class="mobile-no">
+														<p>021-66666666</p>
+													</div>
+												</li>
+												<li class="active clearfix">
+													<div class="station">
+														<p>徐汇站点2</p>
+													</div>
+													<div class="address">
+														<p>上海市闸北区广中西路777弄</p>
+													</div>
+													<div class="mobile-no">
+														<p>021-66666666</p>
+													</div>
+												</li>
+												<li class="clearfix">
+													<div class="station">
+														<p>徐汇站点3</p>
+													</div>
+													<div class="address">
+														<p>上海市闸北区广中西路777弄</p>
+													</div>
+													<div class="mobile-no">
+														<p>021-66666666</p>
+													</div>
+												</li>
+												<li class="last clearfix">
+													<div class="station">
+														<p>徐汇站点4</p>
+													</div>
+													<div class="address">
+														<p>上海市闸北区广中西路777弄</p>
+													</div>
+													<div class="mobile-no">
+														<p>021-66666666</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="receive-time clearfix">
+											<p>自提时间：</p>
+											<div class="mock-selector">
+												<p class="selector-val">2015-10-20</p>
+												<ul class="selector-options">
+													<li class="option-item selected">2015-10-20</li>
+													<li class="option-item">2015-10-21</li>
+													<li class="option-item">2015-10-22</li>
+													<li class="option-item">2015-10-23</li>
+												</ul>
+											</div>
+											<div class="mock-selector">
+												<p class="selector-val">中餐</p>
+												<ul class="selector-options">
+													<li class="option-item selected">中餐</li>
+													<li class="option-item">晚餐</li>
+												</ul>
+											</div>
+											<div class="mock-selector">
+												<p class="selector-val">9:30-10:30</p>
+												<ul class="selector-options">
+													<li class="option-item selected">9:30-10:30</li>
+													<li class="option-item">10:30-11:30</li>
+													<li class="option-item">11:30-12:30</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- 配送方式 end -->
+
+						<!-- 支付方式 begin -->
+						<div class="section section-payment">
+							<h2 class="section-title">支付方式</h2>
+							<div class="section-body">
+								<div class="tab-container">
+									<ul class="tab-list clearfix">
+										<li><a href="javascript:;">货到付现金</a></li>
+										<li><a href="javascript:;">货到POS刷卡</a></li>
+										<li class="active"><a href="javascript:;">在线支付</a></li>
+										<li><a href="javascript:;">网上银行支付</a></li>
+									</ul>
+								</div>
+								<div class="content-container">
+									<ul class="content-list">
+										<li></li>
+										<li></li>
+										<li class="active clearfix">
+											<ul class="content-body clearfix">
+												<li class="active">
+													<img src="assets/img/shopping-cart/payment_online_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_online_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_online_img.jpg" alt="" />
+												</li>
+												<li class="last-col">
+													<img src="assets/img/shopping-cart/payment_online_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_online_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_online_img.jpg" alt="" />
+												</li>
+											</ul>
+										</li>
+										<li class="last clearfix">
+											<ul class="content-body clearfix">
+												<li>
+													<img src="assets/img/shopping-cart/payment_bank_img.jpg" alt="" />
+												</li>
+												<li class="active">
+													<img src="assets/img/shopping-cart/payment_bank_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_bank_img.jpg" alt="" />
+												</li>
+												<li class="last-col">
+													<img src="assets/img/shopping-cart/payment_bank_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_bank_img.jpg" alt="" />
+												</li>
+												<li>
+													<img src="assets/img/shopping-cart/payment_bank_img.jpg" alt="" />
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+
+								<!-- 优惠信息 begin -->
+								<div class="discount-info">
+									<dl class="tab-list clearfix">
+										<dt>优惠信息：</dt>
+										<dd><a href="javascript:;">无</a></dd>
+										<dd class="active"><a href="javascript:;">持有INCAKE蛋糕卡</a></dd>
+										<dd><a href="javascript:;">持有INCAKE现金券</a></dd>
+										<dd class="last"><a href="javascript:;">持有优惠/团购券</a></dd>
+									</dl>
+									<ul class="content-list">
+										<li></li>
+										<li class="active">
+											<div class="content-body cake-card-content">
+												<div class="body-operator clearfix">
+													<span>请输入蛋糕卡ID的后五位：</span>
+													<input type="text" class="txt-cake-card" />
+													<span>蛋糕卡密码：</span>
+													<input type="text" class="pwd-cake-card" />
+													<a href="javascript:;" class="btn btn-exchange">兑换</a>
+												</div>
+												<div class="body-text">
+													<p class="notice">您已明确知晓蛋糕卡的使用规则，抵扣完成如有未支付金额，请选一下支付方式，如不选则自动选定货到付款结算。</p>
+													<p class="tip">温馨提示：针对持有129，149，239，359的蛋糕卡用户，可以在企业客户兑换专区使用可享受免差价，去<a href="javascript:;">老客户兑换专区</a>。</p>
+												</div>
+												<div class="card-container">
+													<p class="card-header clearfix">
+														<span class="h-card-pwd">密码</span>
+														<span class="h-card-money">金额</span>
+														<span class="h-card-operator">操作</span>
+													</p>
+													<div class="card-list">
+														<div class="card-item clearfix">
+															<p class="l-card-pwd">蛋糕卡卡号后5位 11111</p>
+															<p class="l-card-money">￥15.00</p>
+															<p class="l-card-operator">
+																<a href="javascript:;" class="btn-card-delete"></a>
+															</p>
+														</div>
+														<div class="card-item last clearfix">
+															<p class="l-card-pwd">蛋糕卡卡号后5位 11111</p>
+															<p class="l-card-money">￥15.00</p>
+															<p class="l-card-operator">
+																<a href="javascript:;" class="btn-card-delete"></a>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="content-body cash-ticket-content">
+												<div class="body-operator clearfix">
+													<span>请输入现金券ID的后五位：</span>
+													<input type="text" class="txt-cake-card" />
+													<span>现金券密码：</span>
+													<input type="text" class="pwd-cake-card" />
+													<a href="javascript:;" class="btn btn-exchange">兑换</a>
+												</div>
+												<div class="body-text">
+													<p class="notice">您已明确知晓蛋糕卡的使用规则，抵扣完成如有未支付金额，请选一下支付方式，如不选则自动选定货到付款结算。</p>
+													<p class="tip">温馨提示：针对持有129，149，239，359的蛋糕卡用户，可以在企业客户兑换专区使用可享受免差价，去<a href="javascript:;">老客户兑换专区</a>。</p>
+												</div>
+												<div class="card-container">
+													<p class="card-header clearfix">
+														<span class="h-card-pwd">密码</span>
+														<span class="h-card-money">金额</span>
+														<span class="h-card-operator">操作</span>
+													</p>
+													<div class="card-list">
+														<div class="card-item clearfix">
+															<p class="l-card-pwd">现金券卡号后5位 11111</p>
+															<p class="l-card-money">￥15.00</p>
+															<p class="l-card-operator">
+																<a href="javascript:;" class="btn-card-delete"></a>
+															</p>
+														</div>
+														<div class="card-item last clearfix">
+															<p class="l-card-pwd">现金券卡号后5位 11111</p>
+															<p class="l-card-money">￥15.00</p>
+															<p class="l-card-operator">
+																<a href="javascript:;" class="btn-card-delete"></a>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="content-body ticket-content">
+												<div class="body-operator clearfix">
+													<span>请输入优惠/团购券：</span>
+													<input type="text" class="txt-cake-card" />
+													<a href="javascript:;" class="btn btn-exchange">点击验证</a>
+												</div>
+												<div class="body-text">
+													<p class="notice">您已明确知晓蛋糕卡的使用规则，抵扣完成如有未支付金额，请选一下支付方式，如不选则自动选定货到付款结算。</p>
+													<p class="tip">温馨提示：针对持有129，149，239，359的蛋糕卡用户，可以在企业客户兑换专区使用可享受免差价，去<a href="javascript:;">老客户兑换专区</a>。</p>
+												</div>
+												<div class="card-container">
+													<p class="card-header clearfix">
+														<span class="h-card-pwd">账号</span>
+														<span class="h-card-money">金额</span>
+														<span class="h-card-operator">操作</span>
+													</p>
+													<div class="card-list">
+														<div class="card-item clearfix">
+															<p class="l-card-pwd">优惠/团购券 11111</p>
+															<p class="l-card-money">￥15.00</p>
+															<p class="l-card-operator">
+																<a href="javascript:;" class="btn-card-delete"></a>
+															</p>
+														</div>
+														<div class="card-item last clearfix">
+															<p class="l-card-pwd">优惠/团购券 11111</p>
+															<p class="l-card-money">￥15.00</p>
+															<p class="l-card-operator">
+																<a href="javascript:;" class="btn-card-delete"></a>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!-- 优惠信息 end -->
+
+								<!-- 我的优惠券 begin -->
+								<div class="my-ticket">
+									<h2 class="ticket-title clearfix">
+										<span class="open">我的优惠券</span>
+									</h2>
+									<div class="ticket-content">
+										<p class="content-header clearfix">
+											<span class="h-id">编号</span>
+											<span class="h-type">类型</span>
+											<span class="h-value">面值</span>
+											<span class="h-spend-money">所需消费金额</span>
+											<span class="h-spend-time">消费时间</span>
+											<span class="h-limit">使用限制</span>
+										</p>
+										<div class="content-list">
+											<div class="content-item clearfix">
+												<p class="b-id">蛋糕优惠券</p>
+												<p class="b-type">类型1</p>
+												<p class="b-value">￥15.00</p>
+												<p class="b-spend-money">￥15.00</p>
+												<p class="b-spend-time">2015/12/12 12:13</p>
+												<p class="b-limit">无限制</p>
+											</div>
+											<div class="content-item active clearfix">
+												<p class="b-id">面膜一张</p>
+												<p class="b-type">类型2</p>
+												<p class="b-value">￥15.00</p>
+												<p class="b-spend-money">￥15.00</p>
+												<p class="b-spend-time">2015/12/12 12:13</p>
+												<p class="b-limit">无限制</p>
+											</div>
+											<div class="content-item last clearfix">
+												<p class="b-id">蛋糕优惠券</p>
+												<p class="b-type">类型3</p>
+												<p class="b-value">￥15.00</p>
+												<p class="b-spend-money">￥15.00</p>
+												<p class="b-spend-time">2015/12/12 12:13</p>
+												<p class="b-limit">无限制</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 我的优惠券 end -->
+
+							</div>
+						</div>
+						<!-- 支付方式 end -->
+
+						<!-- 更多信息 begin -->
+						<div class="section section-more-info">
+							<h2 class="section-title">更多信息</h2>
+							<div class="section-body">
+
+								<!-- 发票信息 begin -->
+								<div class="invoice-flash">
+									<div class="form-invoice-flash">
+										<h2>
+											<span>发票信息：</span>
+											
+											<div class="mock-selector selector-target last">
+												<p class="selector-val">无</p>
+												<ul class="selector-options">
+													<li class="option-item selected">无</li>
+													<li class="option-item">公司</li>
+													<li class="option-item">个人</li>
+												</ul>
+											</div>
+										</h2>
+										<div class="invoice-wrapper">
+											<div class="clearfix">
+												<span class="content-title">发票类型：</span>
+												<span class="content-item">普通发票</span>
+											</div>
+											<div class="target-show clearfix">
+												<span class="content-title">发票抬头：</span>
+												<span class="content-target">公司</span>
+											</div>
+											<div class="clearfix">
+												<span class="content-title">&nbsp;</span>
+												<input type="text" class="txt-invoice-name" />
+												<span class="content-require">*</span>
+											</div>
+											<div class="clearfix">
+												<span class="content-title">发票内容：</span>
+												<div class="mock-selector content-selector selector-content last">
+													<p class="selector-val">蛋糕</p>
+													<ul class="selector-options">
+														<li class="option-item selected">蛋糕</li>
+														<li class="option-item">其它</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 发票信息 end -->
+
+								<!-- 生日牌&贺卡 begin -->
+								<div class="birth-info">
+									<div class="birth-card clearfix">
+										<span>生日牌：</span>
+										<div class="mock-selector">
+											<p class="selector-val">请选择生日牌</p>
+											<ul class="selector-options">
+												<li class="option-item">无</li>
+												<li class="option-item">中文（生日快乐）</li>
+												<li class="option-item">英文（Happy Birthday）</li>
+												<li class="option-item">自定义</li>
+												<li class="option-item option-diy clearfix">
+													<input type="text" class="txt-diy-content" />
+													<a href="javascript:;" class="btn-diy-ok">确认</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="congratulation-card clearfix">
+										<span>贺卡：</span>
+										<div class="mock-selector">
+											<p class="selector-val">请选择贺卡</p>
+											<ul class="selector-options">
+												<li class="option-item">无</li>
+												<li class="option-item">生日</li>
+												<li class="option-item">商务</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- 生日牌&贺卡 end -->
+
+								<!-- 订单备注 begin -->
+								<div class="order-summary">
+									<h2 class="summary-title clearfix">
+										<span class="open">订单备注</span>
+									</h2>
+									<div class="summary-container">
+										<div class="summary-content">
+											<textarea class="txt-summary" placeholder="给INCAKE留言"></textarea>
+										</div>
+										<p class="summary-notice">最多可输入<span>200</span>字</p>
+									</div>
+								</div>
+								<!-- 订单备注 end -->
+
+							</div>
+						</div>
+						<!-- 更多信息 end -->
+
+					</div>
+
+					<!-- 订单详情 begin -->
+					<div class="order-detail clearfix">
+						<p class="detail-list clearfix">
+							<span>商品总金额：￥565.00</span>
+							<span>优惠券：￥50.00</span>
+							<span>蛋糕卡：￥0.00</span>
+							<span>促销：￥0.00</span>
+							<span>优惠/团购券：￥0.00</span>
+							<span>优惠活动：￥0.00</span>
+							<span>补差价：￥0.00</span>
+							<span>运费：￥0.00</span>
+						</p>
+						<p class="order-total">您需要支付<span>￥<i>565.00</i></span></p>
+					</div>
+					<!-- 订单详情 end -->
+
+					<!-- 提交订单 begin -->
+					<p class="order-submit clearfix">
+						<a href="javascript:;" class="btn-order-submit">提交订单</a>
+						<span>请确认信息无误后下单</span>
+					</p>
+					<!-- 提交订单 end -->
+
+				</div>
+				<!-- shopping cart end -->
+				
+				<!-- mask-vcode begin -->
+				<div class="mask-vcode">
+					<div class="vcode-container">
+						<i class="btn-vcode-close"></i>
+						<h2 class="vcode-header"><span>提示：</span></h2>
+						<ul class="vcode-content">
+							<li class="clearfix">
+								<span class="content-title">验证码：</span>
+								<input type="text" class="txt-invoice-name" />
+							</li>
+							<li class="clearfix">
+								<span class="content-title">&nbsp;</span>
+								<a href="javascript:;" class="img-vcode">
+									<img src="assets/img/login/vcode_img.jpg" alt="" />
+								</a>
+								<span>看不清？<a href="javascript:;" class="btn-change-code">换一换</a></span>									
+							</li>
+						</ul>
+						<div class="vcode-footer clearfix">
+							<a href="javascript:;" class="btn-vcode-ok">确定</a>
+							<a href="javascript:;" class="btn-vcode-cancel">取消</a>
+						</div>
+					</div>
+				</div>
+				<!-- mask-vcode end -->
+				
+				<!-- mask image preview begin -->
+				<div class="mask-image-preview">
+					<div class="image-preview">
+						<i class="btn-image-preview-close"></i>
+						<img src="assets/img/shopping-cart/preview_img.jpg" alt="" />
+					</div>
+				</div>
+				<!-- mask image preview begin -->
+				
+			</div>
+			<!-- container end -->
+
+			<!-- footer begin -->
+			<div class="footer">
+				<div class="footer-wrapper">
+					<ul class="footer-top clearfix">
+						<li class="first">
+							<i class="one"></i>
+							<p>全年无休</p>
+							<p>送货上门</p>
+							<p>多种支付</p>
+						</li>
+						<li>
+							<i class="two"></i>
+							<p>品牌保障</p>
+							<p>专业挑选</p>
+							<p>品质认证</p>
+						</li>
+						<li>
+							<i class="three"></i>
+							<p>安全配送</p>
+							<p>专人专区</p>
+							<p>及时送达</p>
+						</li>
+						<li>
+							<i class="four"></i>
+							<p>专业客服</p>
+							<p>贴心服务</p>
+							<p>创造感动</p>
+						</li>
+					</ul>
+					<div class="footer-middle clearfix">
+						<div class="order-flow clearfix">
+							<div class="img">
+								<img src="assets/img/footer_qrcode.png" alt="" />
+							</div>
+							<div class="text">
+								<h2>微信订购流程：</h2>
+								<p>关注微信公众号 → 点击［微信订购］→［蛋糕预定］→ 选择蛋糕磅数［立即购买］→ 点击［去结算］→ 确认订单信息 → 选择［支付方式］→ 输入优惠券密码 → 提交订单</p>
+							</div>
+						</div>
+						<ul class="site-map clearfix">
+							<li>
+								<dl>
+									<dt>新手上路</dt>
+									<dd><a href="guide.html?article=flow">购买流程</a></dd>
+									<dd><a href="guide.html?article=payment">支付方式</a></dd>
+									<dd><a href="guide.html?article=delivery">配送范围</a></dd>
+									<dd><a href="guide.html?article=return">退货服务</a></dd>
+									<dd><a href="guide.html?article=help">帮助中心</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>Incake产品</dt>
+									<dd><a href="javascript:;">精品蛋糕</a></dd>
+									<dd><a href="javascript:;">主题蛋糕</a></dd>
+									<dd><a href="javascript:;">Insweet | 思蜜</a></dd>
+									<dd><a href="javascript:;">Incake活动</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>关于Incake</dt>
+									<dd><a href="about-incake.html?article=brandstory">品牌故事</a></dd>
+									<dd><a href="about-incake.html?article=productidea">产品理念</a></dd>
+									<dd><a href="about-incake.html?article=bestexperience">优质体验</a></dd>
+									<dd><a href="about-incake.html?article=cooperation">合作单位</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>加入Incake</dt>
+									<dd><a href="join-incake.html?article=aboutus">关于我们</a></dd>
+									<dd><a href="join-incake.html?article=contactus">联系我们</a></dd>
+									<dd><a href="join-incake.html?article=recruitment">英才招聘</a></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-bottom clearfix">
+						<div class="info clearfix">
+							<a href="index.html" class="footer-logo">
+								<img src="assets/img/footer_logo.png" alt="" />
+							</a>
+							<div class="work-time">
+								<p>周一至周日</p>
+								<p>8:30~21:00</p>
+							</div>
+							<div class="hot-line clearfix">
+								<p class="text">客服热线</p>
+								<p class="tel">400-921-5757</p>
+							</div>
+						</div>
+						<div class="copyright clearfix">
+							<a class="shgs-logo" href="javascript:;">
+								<img src="assets/img/footer_shgs.jpg" alt="" />
+							</a>
+							<div class="text">
+								<p>沪ICP备12045835号</p>
+								<p>版权所有：上海印克电子商务有限公司 Copyright&copy;2012-2015</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- footer end -->
+
+			<!-- sidebar begin -->
+			<div class="sidebar" id="sidebar">
+				<div class="sidebar-wrapper">
+					<ul class="side-list first">
+						<li class="side-item side-wechat">
+							<div class="side-tip wechat-tip">
+								<div class="img">
+									<img src="assets/img/wechat_qrcode.jpg" alt="" />
+								</div>
+								<p>InCake_2012</p>
+							</div>
+						</li>
+						<li class="side-item side-weibo">
+							<a class="side-link" href="http://weibo.com/incake/profile?rightmod=1&wvr=6&mod=personnumber" target="_blank"></a>
+							<div class="side-tip weibo-tip">
+								<p>微博</p>
+							</div>
+						</li>
+						<li class="side-item side-qq">
+							<a class="side-link" href="http://wpa.qq.com/msgrd?v=3&uin=2837572001&site=qq&menu=yes" target="_blank"></a>
+							<div class="side-tip qq-tip">
+								<p>QQ</p>
+							</div>
+						</li>
+						<li class="side-item side-dzdp">
+							<a class="side-link" href="http://www.dianping.com/shop/8039213?kid=150924" target="_blank"></a>
+							<div class="side-tip dzdp-tip">
+								<p>大众点评</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="side-list">
+						<li class="side-item side-cake-list">
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip cake-list-tip">
+								<p>蛋糕馆</p>
+							</div>
+						</li>
+						<li class="side-item side-theme-cake">
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip theme-cake-tip">
+								<p>主题蛋糕</p>
+							</div>
+						</li>
+						<li class="side-item side-insweet">
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip insweet-tip">
+								<p>思蜜</p>
+							</div>
+						</li>
+						<li class="side-item side-mof">
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip mof-tip">
+								<p>MOF蛋糕</p>
+							</div>
+						</li>
+						<li class="side-item side-sale">
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip sale-tip">
+								<p>活动专享</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="side-list">
+						<li class="side-item side-filter">
+							<div class="side-tip filter-tip">
+								<p>
+									<span><a href="javascript:;">全部</a></span>|
+									<span><a href="javascript:;">芝士</a></span>|
+									<span><a href="javascript:;">巧克力</a></span>|
+									<span><a href="javascript:;">坚果</a></span>|
+									<span><a href="javascript:;">奶油</a></span>|
+									<span><a href="javascript:;">水果</a></span>|
+									<span><a href="javascript:;">慕斯</a></span>|
+									<span><a href="javascript:;">咖啡</a></span>|
+									<span><a href="javascript:;">拿破仑</a></span>
+								</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="side-list">
+						<li class="side-item side-me">
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip me-tip">
+								<p>我的INCAKE</p>
+							</div>
+						</li>
+						<li class="side-item side-cart">
+							<span class="product-num">0</span>
+							<a class="side-link" href="javascript:;"></a>
+							<div class="side-tip cart-tip">
+								<p>购物篮</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- sidebar end -->
+
+			<!-- back to top begin -->
+			<a href="javascript:;" class="back-to-top" id="backToTop"></a>
+			<!-- back to top end -->
+
+		</div>
+
+		<!-- script begin -->
+		<script src="assets/js/jquery-1.8.3.min.js"></script>
+		<script src="assets/js/jquery.placeholder.min.js"></script>
+		<script src="assets/js/jquery.hoverdelay.js"></script>
+		<script src="assets/js/common.js"></script>
+		<script src="assets/js/order-submit.js"></script>
+		<!-- script end -->
+	</body>
+
+</html>

@@ -1,0 +1,20 @@
+.container-wrapper { width: 1160px; margin: 0 auto; }
+
+/* ===================== 蛋糕卡验证 ======================= */
+
+.container-wrapper .verify-container { width: 100%; padding: 50px 0; }
+.verify-container .verify-form { width: 350px; margin: 0 auto; position: relative; color: #4f4f4f; }
+.verify-container .verify-form .form-header { width: 100%; height: 60px; line-height: 60px; color: #0f3677; font-size: 20px; font-weight: normal; text-align: center; }
+.verify-form .form-header span { display: inline-block; margin-left: 20px; }
+.verify-container .verify-form .form-content { width: 100%; }
+.verify-form .form-content > li { width: 100%; height: 44px; line-height: 44px; }
+.verify-form .form-content .li-verify-vcode,
+.verify-form .form-content .li-verify-pwd { width: 100%; height: 50px; outline: 1px solid #0f3677; outline-offset: -1px; position: relative; margin-bottom: 10px; }
+.verify-form .form-content .li-verify-vcode input,
+.verify-form .form-content .li-verify-pwd input { width: 300px; height: 50px; line-height: 50px; border: none; background: transparent; -webkit-appearance: none; -moz-appearance: none; appearance: none; float: right; outline: none; }
+.verify-form .form-content .li-verify-vcode i,
+.verify-form .form-content .li-verify-pwd i { width: 20px; height: 26px; display: block; position: absolute; left: 15px; top: 12px; background: url(../img/login/icons_form_content.png) no-repeat; }
+.verify-form .form-content .li-verify-pwd .icon-verify-pwd { background-position: -20px 0; }
+.verify-form .form-content .li-verify-vcode .icon-verify-vcode { background-position: -168px 0; }
+.verify-form .form-content > li .btn-verify { width: 100%; height: 100%; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #0f3677; display: block; }
+.verify-form .verify-tip { margin-top: 20px; color: #f00; }

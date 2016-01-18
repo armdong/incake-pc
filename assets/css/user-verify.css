@@ -1,0 +1,51 @@
+.container-wrapper { width: 1160px; margin: 0 auto; }
+
+/* ===================== VIP用户验证 ======================= */
+
+.container-wrapper .verify-container { width: 100%; padding: 50px 0; }
+.verify-container .verify-form { width: 350px; margin: 0 auto; position: relative; color: #4f4f4f; }
+.verify-container .verify-form .form-header { width: 100%; height: 60px; line-height: 60px; color: #0f3677; font-size: 20px; font-weight: normal; text-align: center; }
+.verify-form .form-header span { display: inline-block; margin-left: 20px; }
+.verify-container .verify-form .form-content { width: 100%; }
+.verify-form .form-content > li { width: 100%; height: 44px; line-height: 44px; }
+.verify-form .form-content .li-verify-vcode,
+.verify-form .form-content .li-verify-pwd { width: 100%; height: 50px; outline: 1px solid #0f3677; outline-offset: -1px; position: relative; margin-bottom: 10px; }
+.verify-form .form-content .li-verify-vcode input,
+.verify-form .form-content .li-verify-pwd input { width: 300px; height: 50px; line-height: 50px; border: none; background: transparent; -webkit-appearance: none; -moz-appearance: none; appearance: none; float: right; outline: none; }
+.verify-form .form-content .li-verify-vcode i,
+.verify-form .form-content .li-verify-pwd i { width: 20px; height: 26px; display: block; position: absolute; left: 15px; top: 12px; background: url(../img/login/icons_form_content.png) no-repeat; }
+.verify-form .form-content .li-verify-pwd .icon-verify-pwd { background-position: -20px 0; }
+.verify-form .form-content .li-verify-vcode .icon-verify-vcode { background-position: 0 0; }
+.verify-form .form-content > li .btn-verify { width: 100%; height: 100%; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #0f3677; display: block; }
+.verify-container .verify-privilege { width: 350px; margin: 0 auto;}
+.verify-privilege .privilege-title { margin: 40px 0; font-size: 16px; }
+.verify-privilege ul li { width: 154px; height: 24px; line-height: 24px; margin-bottom: 10px; font-size: 12px; float: left; }
+.verify-privilege ul li.li-right{ width: 140px; float: right; }
+.verify-privilege ul li i { display: inline-block; width: 24px; height: 24px; background: url(../img/user-verify/icon01.png) no-repeat; float: left; }
+.verify-privilege ul li i.icon02 { background-image: url(../img/user-verify/icon02.png); }
+.verify-privilege ul li i.icon03 { background-image: url(../img/user-verify/icon03.png); }
+.verify-privilege ul li i.icon04 { background-image: url(../img/user-verify/icon04.png); }
+.verify-privilege ul li i.icon05 { background-image: url(../img/user-verify/icon05.png); }
+.verify-privilege ul li i.icon06 { background-image: url(../img/user-verify/icon06.png); }
+.verify-privilege ul li span { height: 24px; line-height: 24px; float: left; margin-left: 20px; }
+
+/* mask-verify-vip begin */
+.mask-verify-vip { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
+.mask-verify-vip .verify-vip { width: 300px; padding: 20px; position: absolute; left: 50%; margin-left: -210px; top: 15%; z-index: 99999999; background: #fff; }
+.mask-verify-vip .verify-vip .btn-verify-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 24px; cursor: pointer; background: url(../img/mask_btn_close.png) no-repeat; }
+.mask-verify-vip .verify-vip .new-verify-header { width: 100%; height: 38px; line-height: 30px; color: #0f3677; border-bottom: 1px solid #0f3677; font-size: 18px; font-weight: normal; }
+.mask-verify-vip .verify-vip .new-verify-header span { margin-left: 24px; }
+.mask-verify-vip .verify-vip .new-verify-content { width: 100%; padding: 22px 0 14px 0; }
+.verify-vip .new-verify-content p { width:100%; height: 36px; line-height: 36px; margin-bottom: 10px; }
+.verify-vip .new-verify-content .p-last { margin-bottom: 0; }
+.verify-vip .new-verify-content .mask-verify-email { text-align: center; }
+.verify-vip .new-verify-content input { width: 298px; height: 34px; line-height: 34px; border: 1px solid #0f3677; outline: none; text-indent: 1em; }
+.verify-vip .new-verify-content .input-email{ width: 122px; margin-right: 2px; float: left; }
+.verify-vip .new-verify-content .input-vcode{ width: 208px; float: left; }
+.verify-vip .new-verify-content .verify-email,
+.verify-vip .new-verify-content .mask-btn-verify { display: inline-block; float: right; width: 90px; height: 36px; line-height: 36px; text-align: center; color: #fff; background: #0f3677; }
+.mask-verify-vip .verify-vip .new-verify-footer { width: 160px; margin: 0 auto; height: 46px; }
+.mask-verify-vip .verify-vip .new-verify-footer a { width: 160px; height: 46px; line-height: 46px; color: #fff; font-size: 16px; display: block; text-align: center; }
+.mask-verify-vip .verify-vip .new-verify-footer .averify-ok { background: #0f3677; }
+/* mask-verify-vip end */
+ 

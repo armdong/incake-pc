@@ -1,0 +1,27 @@
+.points-container { width: 100%;padding: 30px 0; }
+.points-container .points-nav { width: 230px; float: left; }
+.points-nav .nav-header { width: 100%; height: 70px; background: url(../img/points-mall/nav-header.jpg) no-repeat; }
+.points-nav .points-title { position: relative; width: 100%; height: 70px; background: #fff; }
+.points-nav .points-title a { display: block; width: 126px; height: 48px; line-height: 24px; padding: 10px 0 0 10px; font-size: 20px; color: #0f3677; cursor: default; }
+.points-nav .points-title i{ position: absolute; top: 50%; right: 14px; display: block; width: 14px; height: 14px; margin-top: -7px; background: url(../img/points-mall/nav_dd_arrow.png) no-repeat; }
+.points-nav .points-detail { width: 100%; height: 260px; background: #f5f5f5; }
+.points-nav .points-detail ul { padding:40px 8px 36px 30px; font-size: 12px; }
+.points-nav .points-detail ul li{ list-style: outside decimal none; line-height: 20px; }
+.points-nav .points-detail p { text-align: center; font-size: 14px;}
+.points-nav .points-detail p a{ text-decoration: underline; color: #2378cd; }
+
+.points-container .points-body { width: 900px; float: right; }
+.points-body .body-list { width: 100%; }
+.points-body .body-list .list-item { position: relative; width: 426px; height: 200px; margin-bottom: 40px; border: 1px solid #0f3677; float: left; }
+.points-body .body-list .double-item { float: right; }
+.points-body .body-list .list-item .item-left { width: 198px; margin:26px 0 0 36px; float: left;}
+.points-body .body-list .list-item .item-right { width: 162px; margin: 18px 24px 0 0; float: right;}
+.points-body .body-list .list-item .circle-logo { position: absolute; top: 20px; left: 32px; }
+.points-body .body-list .list-item .logo-text { position: absolute; top: 35px; left: 39px; width: 56px; height: 20px; line-height: 20px; text-align: center; font-size: 14px; color: #4694d1; }
+.points-body .body-list .list-item .item-name { float: right; width: 106px; padding-right: 16px; height: 60px; line-height: 30px; font-size: 20px; text-align: right; color: #4694d1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.points-body .body-list .list-item .item-info { float: left; width: 182px; margin-top: 10px; font-size: 14px; }
+.points-body .body-list .list-item .item-time { float: left; margin-top: 4px; margin-top: 12px\9; height: 40px; line-height: 40px; font-size: 12px; color: #969696; }
+.points-body .body-list .list-item .coupon { width: 100%; }
+.points-body .body-list .list-item a{ display: block; width: 160px; height: 40px; margin: 10px auto; line-height: 40px; background-color: #008de9; text-align: center; font-size: 16px; color: #fff; }
+
+

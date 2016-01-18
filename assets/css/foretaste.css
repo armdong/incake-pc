@@ -1,0 +1,32 @@
+.foretaste-container { width: 100%; margin-top: 20px; }
+.foretaste-container .foretaste-header { width: 100%; height: 120px; }
+.foretaste-container .foretaste-header img { width: 100%; }
+.foretaste-container .foretaste-content { width: 100%; height: 246px; margin-top: 34px; border-bottom: 1px solid #0f3677; }
+.foretaste-container .foretaste-content dl { width: 540px; padding: 0 20px; float: left; }
+.foretaste-container .foretaste-content dt { width: 100%; height: 54px; line-height: 54px; font-size: 20px; color: #000; }
+.foretaste-container .foretaste-content dd { line-height: 24px; }
+
+.foretaste-container .foretaste-form { width: 100%; margin-bottom: 80px; }
+.foretaste-container .foretaste-form .form-title { height: 56px; line-height: 56px; text-align: center; font-size: 20px; color: #000; font-weight: normal; margin-top: 32px; }
+.foretaste-container .foretaste-form .form-content { width: 100%; padding: 50px 0; background: #f0f0f0; }
+.foretaste-container .foretaste-form .info-list { width: 100%; }
+.foretaste-container .foretaste-form .info-item { width: 50%; height: 36px; line-height: 36px; float: left; margin-bottom: 15px; }
+.foretaste-container .foretaste-form .info-item .item-title { width: 144px; display: inline-block; text-align: right; float: left; color: #4f4f4f; }
+.foretaste-container .foretaste-form .info-item .item-content { width: 430px; height: 36px; float: right; }
+.foretaste-form .info-item .item-content input { width: 328px; height: 34px; line-height: 34px; border: 1px solid #c8c8c8; outline: none; text-indent: 0.6em; background: transparent; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.foretaste-form .info-item .item-content .taste-area-selector { width: 328px; border: 1px solid #c8c8c8; }
+.foretaste-form .info-item .item-content .company-area-selector { width: 158px; border: 1px solid #c8c8c8; float: left; }
+.foretaste-form .info-item .item-content .city-selector { margin-right: 10px; }
+.foretaste-container .foretaste-form .btn-submit-apply { width: 250px; height: 50px; display: block; line-height: 50px; text-align: center; background: #0f3677; color: #fff; font-size: 18px; margin: 54px auto 0; }
+
+/* mask-foretaste-tip begin */
+.mask-foretaste-tip { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
+.mask-foretaste-tip .tip-foretaste-container { width: 540px; height: 310px; padding: 40px 45px; position: absolute; left: 50%; margin-left: -270px; top: 50%; margin-top: -200px; z-index: 99999999; background: #fff; }
+.mask-foretaste-tip .tip-foretaste-container .btn-foretaste-tip-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 20px; cursor: pointer; background: url(../img/mask_btn_close.png) no-repeat; }
+.mask-foretaste-tip .tip-foretaste-container .tip-foretaste-content { width: 450px; padding: 0 45px; height: 266px; display: table; }
+.mask-foretaste-tip .tip-foretaste-container .tip-foretaste-content p { width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 20px; line-height: 30px; color: #515151; }
+.mask-foretaste-tip .tip-foretaste-container .tip-foretaste-footer { width: 400px; height: 46px; margin: 0 auto; }
+.mask-foretaste-tip .tip-foretaste-container .tip-foretaste-footer a { width: 160px; height: 46px; line-height: 46px; color: #fff; font-size: 16px; display: block; text-align: center; }
+.mask-foretaste-tip .tip-foretaste-container .tip-foretaste-footer .btn-foretaste-tip-ok { float: left; background: #0f3677; }
+.mask-foretaste-tip .tip-foretaste-container .tip-foretaste-footer .btn-foretaste-tip-cancel { float: right; background: #0578c4; }
+/* mask-foretaste-tip end */

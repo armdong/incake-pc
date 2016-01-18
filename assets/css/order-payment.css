@@ -1,0 +1,23 @@
+.order-payment-wrapper { width: 1160px; margin: 0 auto; }
+.order-payment-wrapper .section-container { margin: 30px 0; }
+
+/* 订单支付 begin */
+.order-payment-wrapper .section { width: 100%; }
+.order-payment-wrapper .section .section-title { height: 38px; line-height: 38px; padding-left: 30px; background: url(../img/shopping-cart/section_title_bg.png) no-repeat left center; font-size: 18px; color: #0f3677; font-weight: normal; }
+.order-payment-wrapper .section .section-body { width: 100%; }
+
+.order-payment-wrapper .section { margin-bottom: 30px; }
+.order-payment-wrapper .section .section-body { width: 100%; }
+.section .section-body .content-container { width: 1100px; padding: 0 30px; background: #f5f5f5; }
+.section .section-body .content-list { width: 100%; }
+.section .content-list > li { width: 258px; height: 58px; border: 1px solid #dcdcdc; float: left; margin: 20px 20px 0 0; cursor: pointer; }
+.section .content-list > li.last-col { margin-right: 0; }
+.section .content-list > li:nth-of-type(4n+4) { margin-right: 0; }
+.section .content-list > li.active { border-color: #ea545d; outline: 1px solid #ea545d; outline-offset: -2px; position: relative; }
+.section .content-list > li.active:after { width: 30px; height: 30px; position: absolute; right: -1px; bottom: -1px; content: url(../img/detail/btn_pound_bg.png); }
+.section .content-list > li img { width: 100%; }
+
+.order-payment-wrapper .payment-submit { width: 100%; height: 50px; margin-top: 20px; line-height: 50px; margin: 30px 0 30px 30px; }
+.order-payment-wrapper .payment-submit .btn-payment-submit { width: 250px; height: 50px; line-height: 50px; font-size: 18px; text-align: center; background: #0f3677; color: #fff; float: left; }
+
+/* 订单支付 end */

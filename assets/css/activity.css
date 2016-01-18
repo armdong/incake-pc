@@ -1,0 +1,21 @@
+.activity-container { width: 100%; margin-top: 30px; margin-bottom: 56px; }
+.activity-container .activity-nav { width: 230px; float: left; }
+.activity-container .activity-nav .activity-nav-header { width: 100%; height: 68px; }
+.activity-container .activity-nav .activity-nav-header img { width: 100%; }
+.activity-container .activity-nav .activity-nav-section { width: 100%; }
+.activity-nav .activity-nav-section .nav-section-title { width: 100%; height: 42px; line-height: 42px; text-align: center; background: #fff; color: #0f3677; font-size: 20px; font-weight: normal; position: relative; cursor: pointer; }
+.activity-nav .activity-nav-section .nav-section-title i { width: 14px; height: 15px; display: block; background: url(../img/activity/nav_section_title_bg.png) no-repeat; background-position: 0 0; position: absolute; right: 50px; top: 50%; margin-top: -7px; }
+.activity-nav .activity-nav-section .nav-section-title.open i { background-position: -14px 0; }
+.activity-nav .activity-nav-section .nav-section-list { width: 100%; display: none; }
+.activity-nav .activity-nav-section .nav-section-list.active { display: block; }
+.activity-nav .activity-nav-section .nav-section-item { width: 100%; height: 38px; line-height: 38px; background: #f5f5f5; margin-bottom: 2px; }
+.activity-nav .activity-nav-section .nav-section-item.active,
+.activity-nav .activity-nav-section .nav-section-item:hover { background: #0f3677; }
+.activity-nav .activity-nav-section .nav-section-item a { width: 220px; display: inline-block; float: right; text-align: center; background: #f5f5f5; color: #969696; }
+.activity-nav .activity-nav-section .nav-section-item.active a,
+.activity-nav .activity-nav-section .nav-section-item:hover a { color: #0f3677; position: relative; }
+.activity-nav .activity-nav-section .nav-section-item.active a:after,
+.activity-nav .activity-nav-section .nav-section-item:hover a:after { width: 7px; height: 14px; display: block; position: absolute; top: 2px; right: 10px; content: url(../img/article/article_nav_dd_arrow.png); }
+
+.activity-container .activity-content { width: 900px; float: right; }
+.activity-container .activity-content .activity-content-wrapper { width: 100%; }

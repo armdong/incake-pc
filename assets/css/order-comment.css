@@ -1,0 +1,36 @@
+.container .order-comment-container { width: 1160px; margin: 30px auto; }
+.order-comment-container .comment-header { height: 38px; line-height: 38px; padding-left: 30px; background: url(../img/shopping-cart/section_title_bg.png) no-repeat left center; font-size: 18px; color: #0f3677; font-weight: normal; }
+.order-comment-container .comment-content { width: 1158px; border: 1px solid #e6e6e6; }
+.comment-content .content-title { width: 100%; height: 36px; line-height: 36px; border-bottom: 1px solid #e6e6e6; color: #515151; background: #f5f5f5; }
+.comment-content .content-title i { font-style: normal; color: #0f3677; }
+.comment-content .content-title .order-no { width: 350px; display: inline-block; margin-left: 20px; }
+.comment-content .content-body { width: 100%; }
+.comment-content .content-body > li { width: 100%; height: 168px; border-bottom: 1px solid #e6e6e6; }
+.comment-content .content-body .product-info { width: 330px; padding: 20px 20px 0; float: left; }
+.comment-content .content-body .product-info .img { width: 80px; height: 80px; float: left; display: block; }
+.comment-content .content-body .product-info .img img { width: 100%; }
+.comment-content .content-body .product-info .text { width: 220px; float: right; margin-right: 15px; }
+.comment-content .content-body .product-info .text p { line-height: 24px; }
+.comment-content .content-body .product-info .text .cn { color: #4f4f4f; }
+.comment-content .content-body .product-info .text .size { color: #969696; }
+
+.comment-content .content-body .record-container { width: 766px; float: right; margin-right: 20px; }
+.content-body .record-container .record-btns { width: 240px; margin-top: 20px; float: left; }
+.record-container .record-btns .btn-item { width: 100%; line-height: 26px; height: 26px; margin-bottom: 10px; }
+.record-container .record-btns .btn-item .item-title { width: 60px; text-align: right; float: left; display: inline-block; font-size: 12px; }
+.record-container .record-btns .btn-item ul { float: left; display: inline-block; }
+.record-container .record-btns .btn-item ul li { width: 25px; height: 26px; float: left; margin: 0 5px; background: url(../img/icon_smile.png) no-repeat; cursor: pointer; }
+.record-container .record-btns .btn-item .score-list li { background-position: 0 -26px; }
+.record-container .record-btns .btn-item .score-list li.active { background-position: 0 0; }
+.record-container .record-btns .btn-item .taste-list li,
+.record-container .record-btns .btn-item .front-list li,
+.record-container .record-btns .btn-item .service-list li { background-position: -25px -26px; }
+.record-container .record-btns .btn-item .taste-list li.active,
+.record-container .record-btns .btn-item .front-list li.active,
+.record-container .record-btns .btn-item .service-list li.active { background-position: -25px 0; }
+
+.content-body .record-container .record-txt { width: 494px; height: 128px; float: right; margin-top: 20px; border: 1px solid #e6e6e6; }
+.content-body .record-container .record-txt .txt-comment { width: 100%; height: 100%; outline: none; background: transparent; -webkit-appearance: none; -moz-appearance: none; appearance: none; resize: none; border: none; line-height: 24px; text-indent: 1em; }
+
+.comment-content .content-submit { width: 100%; height: 86px; position: relative; }
+.comment-content .content-submit .btn-comment-submit { width: 160px; height: 46px; color: #fff; background: #0f3677; line-height: 46px; text-align: center; display: block; position: absolute; left: 50%; margin-left: -80px; top: 50%; margin-top: -23px; }

@@ -1,0 +1,47 @@
+.container { width: 100%; background: url(../img/happy-newyear/content_bg.png) repeat; }
+.container-wrapper { width: 1160px; height: 1737px; margin: 0 auto; background: url(../img/happy-newyear/container_bg.png) no-repeat top center; background-size: cover; overflow: hidden; }
+
+.container-wrapper .lottery { width: 100%; height: 728px; margin-top: 340px; position: relative; }
+.lottery .lottery-outer { width: 728px; height: 728px; margin: 0 auto; background: url(../img/happy-newyear/lottery_circle_outer.png) no-repeat center center; background-size: cover; position: relative; z-index: 9; }
+.lottery .lottery-outer .lottery-inner { width: 170px; height: 170px; border-radius: 50%; overflow: hidden; position: absolute; left: 50%; top: 50%; margin: -85px 0 0 -85px; background: url(../img/happy-newyear/lottery_circle_inner.png) no-repeat center center; background-size: cover; cursor: pointer; z-index: 99; }
+.lottery .lottery-outer .lottery-pointer { width: 58px; height: 174px; position: absolute; left: 50%; margin-left: -29px; top: 190px; background: url(../img/happy-newyear/lottery_pointer.png) no-repeat top center; background-size: cover; z-index: 9; /*-webkit-transform-origin: center bottom; -moz-transform-origin: center bottom; -ms-transform-origin: center bottom; -o-transform-origin: center bottom; transform-origin: center bottom;*/ }
+.lottery .lottery-outer .prize-list { width: 100%; height: 100%; position: absolute; left: 0; top: 0; display: none; }
+.lottery .lottery-outer .prize-list > div { width: 100%; height: 100%; display: none; position: relative; }
+.lottery .lottery-outer .prize-list > div img { width: 100%; }
+.lottery .lottery-outer .prize-list > a { width: 120px; height: 42px; line-height: 42px; border-radius: 21px; text-align: center; font-size: 18px; display: block; background: #755c31; color: #fff; position: absolute; bottom: 164px; }
+.lottery .lottery-outer .prize-list > a.btn-view-prize { left: 232px; }
+.lottery .lottery-outer .prize-list > a.btn-continue { right: 232px; }
+
+/* lottery-mask begin */
+.lottery .lottery-outer .lottery-mask { width: 728px; height: 728px; position: absolute; left: 2px; top: 0; background: url(../img/happy-newyear/mask_bg.png) no-repeat top center; z-index: 9999; display: none; }
+ .lottery-mask .mask-content { width: 362px; height: 186px; position: absolute; left: 50%; margin-left: -181px; top: 50%; margin-top: -93px; background: #f5eddc; border-radius: 10px; }
+.lottery-mask .mask-content .text { width: 100%; margin-top: 36px; }
+.lottery-mask .mask-content .text > p { font-size: 18px; color: #3a2e18; text-align: center; line-height: 24px; }
+.lottery-mask .mask-content .text > p.notice { color: #e2625b; }
+.lottery-mask .mask-content > a { width: 92px; height: 32px; border-radius: 16px; line-height: 32px; background: #755c31; color: #fff; text-align: center; font-size: 16px; position: absolute; bottom: 26px; }
+.lottery-mask .mask-content > a.btn-go-shopping { left: 72px; }
+.lottery-mask .mask-content > a.btn-return { right: 72px; }
+/* lottery-mask end */
+
+.lottery .lottery-tip { width: 270px; height: 62px; position: absolute; top: 239px; right: 32px; background: url(../img/happy-newyear/lottery_tip_bg.png) no-repeat left top; background-size: cover; z-index: 8; }
+.lottery .lottery-tip .text { height: 50px; line-height: 50px; text-align: center; font-size: 20px; color: #fff; text-shadow: 1px 1px 3px #000; }
+.lottery .lottery-tip .text span { font-size: 26px; color: #ff032f; margin: 0 2px; font-family: arial; }
+
+.container-wrapper .prize { width: 528px; height: 269px; margin: 28px auto 0; background: url(../img/happy-newyear/prize_bg.png) no-repeat top center; position: relative; }
+.prize .prize-box { width: 468px; height: 215px; position: absolute; left: 30px; top: 29px; }
+.prize .prize-box .prize-header { width: 100%; height: 42px; line-height: 42px; text-align: center; color: #f3e7bd; font-size: 24px; background: #f2687d; }
+.prize .prize-box .prize-content { width: 100%; height: 173px; background: #fe8899; overflow: hidden; position: relative; }
+.prize .prize-box .prize-content .list { width: 100%; position: absolute; left: 0; top: 0; }
+.prize .prize-box .prize-content .item { width: 360px; margin: 0 auto; line-height: 24px; }
+.prize .prize-box .prize-content .item > span { display: inline-block; font-size: 14px; font-weight: bold; color: #c41a3b; }
+.prize .prize-box .prize-content .item .level { width: 104px; float: left; }
+.prize .prize-box .prize-content .item .name { width: 174px; float: left; }
+.prize .prize-box .prize-content .item .date { width: 82px; float: right; }
+
+.container-wrapper .roles { width: 1080px; height: 190px; padding: 50px 40px; margin-top: 46px; background: url(../img/happy-newyear/roles_bg.png) repeat; border-radius: 10px; position: relative; }
+.container-wrapper .roles > dl { width: 520px; color: #fff8c6; }
+.container-wrapper .roles > dl.roles-left { float: left; }
+.container-wrapper .roles > dl.roles-right { float: right; }
+.container-wrapper .roles > dl dt { font-size: 18px; line-height: 22px; }
+.container-wrapper .roles > dl dd { font-size: 14px; line-height: 24px; text-align: justify; }
+.container-wrapper .roles .split-line { width: 2px; height: 190px; background: #948771; position: absolute; left: 50%; margin-left: -1px; top: 50px; }

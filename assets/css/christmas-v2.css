@@ -1,0 +1,124 @@
+.container { min-width: 1200px; margin: 0 auto; height: 3000px; background: url(../img/christmas/container_bg_v2.png) no-repeat top center;  font-family: arial,"微软雅黑"; font-size: 14px; font-weight: 400; overflow: hidden; }
+.activity-content{ width: 1200px; height: 1480px; margin: 0 auto; position: relative; background: url(../img/christmas/content_bg_v2.png) no-repeat top center; }
+.activity-content > div img, .activity-content > a img { width: 100%; }
+.activity-content .star-left-01 { width: 86px; height: 364px; position: absolute; left: 0; top: -364px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+.activity-content .star-left-02 { width: 33px; height: 476px; position: absolute; left: 100px; top: -370px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+.activity-content .star-left-03 { width: 52px; height: 234px; position: absolute; left: 123px; top: -234px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+.activity-content .star-right-01 { width: 40px; height: 132px; position: absolute; right: 212px; top: -132px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+.activity-content .star-right-02 { width: 33px; height: 184px; position: absolute; right: 115px; top: -184px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+.activity-content .star-right-03 { width: 52px; height: 264px; position: absolute; right: 65px; top: -264px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+.activity-content .star-right-04 { width: 91px; height: 506px; position: absolute; right: 1px; top: -370px; z-index: 9; -webkit-transform-origin: top center; -moz-transform-origin: top center; -ms-transform-origin: top center; -o-transform-origin: top center; transform-origin: top center; }
+@-webkit-keyframes ani-shake {
+	0% { -webkit-transform: rotateZ(0deg); }
+	25% { -webkit-transform: rotateZ(10deg); }
+	50% { -webkit-transform: rotateZ(0deg); }
+	75% { -webkit-transform: rotateZ(-10deg); }
+	100% { -webkit-transform: rotateZ(0deg); }
+}
+@-moz-keyframes ani-shake {
+	0% { -moz-transform: rotateZ(0deg); }
+	25% { -moz-transform: rotateZ(10deg); }
+	50% { -moz-transform: rotateZ(0deg); }
+	75% { -moz-transform: rotateZ(-10deg); }
+	100% { -moz-transform: rotateZ(0deg); }
+}
+@-ms-keyframes ani-shake {
+	0% { -ms-transform: rotateZ(0deg); }
+	25% { -ms-transform: rotateZ(10deg); }
+	50% { -ms-transform: rotateZ(0deg); }
+	75% { -ms-transform: rotateZ(-10deg); }
+	100% { -ms-transform: rotateZ(0deg); }
+}
+@-o-keyframes ani-shake {
+	0% { -o-transform: rotateZ(0deg); }
+	25% { -o-transform: rotateZ(10deg); }
+	50% { -o-transform: rotateZ(0deg); }
+	75% { -o-transform: rotateZ(-10deg); }
+	100% { -o-transform: rotateZ(0deg); }
+}
+@keyframes ani-shake {
+	0% { transform: rotateZ(0deg); }
+	25% { transform: rotateZ(10deg); }
+	50% { transform: rotateZ(0deg); }
+	75% { transform: rotateZ(-10deg); }
+	100% { transform: rotateZ(0deg); }
+}
+.activity-content .btn-buy { width: 240px; height: 218px; display: block; position: absolute; right: 130px; top: 450px; z-index: 999; }
+.activity-content .btn-buy:hover img { 
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-ms-transform-origin: top center;
+	-o-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.activity-content .christmas-car { width: 230px; height: 102px; position: absolute; left: 0; top: 671px; display: none; }
+.activity-content .christmas-cake { width: 740px; height: 690px; position: absolute; left: 295px; top: 660px; z-index: 99; }
+.activity-content .christmas-cake:hover > img { 
+	-webkit-transform-origin: 30% 50%; 
+	-moz-transform-origin: 30% 50%; 
+	-ms-transform-origin: 30% 50%; 
+	-o-transform-origin: 30% 50%; 
+	transform-origin: 30% 50%; 
+	-webkit-transform: rotateZ(5deg);  
+	-moz-transform: rotateZ(5deg); 
+	-ms-transform: rotateZ(5deg);  
+	-o-transform: rotateZ(5deg); 
+	transform: rotateZ(5deg);  
+}
+.activity-content .snow-toy { width: 126px; height: 156px; position: absolute; left: 390px; top: 100px; z-index: -1; display: none; }
+.activity-content .christmas-cake:hover .snow-toy { display: block; }
+.activity-content .tip-sled { width: 200px; height: 200px; position: absolute; left: -53px; top: 110px; z-index: 999; }
+.activity-content .christmas-flower { width: 404px; height: 468px; position: absolute; left: 20px; bottom: -113px; z-index: 9; background: url(../img/christmas/christmas_flow_close.png) no-repeat; }
+.activity-content .christmas-flower:hover { background-image: url(../img/christmas/christmas_flow_open.png); }
+.activity-content .tip-flower { width: 134px; height: 134px; position: absolute; right: 0; bottom: 90px; z-index: 99; }
+.activity-content .christmas-wine { width: 242px; height: 510px; position: absolute; right: 0; bottom: 130px; z-index: 9999; background: url(../img/christmas/christmas_wine_close.png) no-repeat; }
+.activity-content .christmas-wine:hover { background-image: url(../img/christmas/christmas_wine_open.png); }
+.activity-content .tip-wine { width: 140px; height: 140px; position: absolute; left: 0; bottom: 0; z-index: 99; }
+
+.activity-content .text { width: 510px; height: 108px; position: absolute; right: 240px; bottom: -38px; }
+.activity-content .text .img { width: 88px; height: 108px; float: left; }
+.activity-content .text .content { width: 416px; height: 108px; float: right; color: #fff; }
+.activity-content .text .content h3 { font-size: 16px; font-style: normal; font-weight: 400; line-height: 30px; }
+.activity-content .text .content p { font-size: 14px; line-height: 20px; text-align: justify; }
+.activity-content .text .text-btmline { width: 460px; height: 42px; position: absolute; left: -147px; top: 79px; background: url(../img/christmas/text_bg.png) no-repeat; z-index: 1; }
+
+.container .activity-bottom { width: 1200px; height: 1300px; margin: 0 auto; position: relative; }
+.container .activity-bottom img { width: 100%; }
+.container .activity-bottom .btn { width: 190px; height: 40px; line-height: 40px; text-align: center; display: block; position: absolute; color: #fff; font-size: 16px; background: #173c78; border-radius: 20px; border: none; outline: none; }
+.container .activity-bottom .btn-buy-xuancai { left: 244px; top: 618px; }
+.container .activity-bottom .btn-buy-kuanghuan { right: 36px; bottom: 272px; }
+
+.container .activity-roles { width: 1200px; margin: 0 auto; height: 220px; position: relative; }
+.container .activity-roles .roles-logo { width: 184px; height: 92px; position: absolute; left: 226px; top: 55px; }
+.container .activity-roles .roles-logo img { width: 100%; }
+.container .activity-roles .roles-text { width: 460px; position: absolute; left: 510px; top: 30px; color: #fff; }
+.container .activity-roles .roles-text h3 { font-weight: normal; font-size: 18px; line-height: 40px; text-align: center; }
+.container .activity-roles .roles-text p { line-height: 24px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
