@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "E:\\incake\\incake-invitation-h5"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "E:\\incake\\incake-jd-h5"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "E:\\incake\\incake-nestle-h5"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "E:\\incake\\incake-wechat"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "F:\\study\\javascript_oop"
+		}
+	]
+}
