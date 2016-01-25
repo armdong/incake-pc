@@ -1,43 +1,9 @@
-<<<<<<< HEAD
 {
 	"folders":
 	[
 		{
 			"follow_symlinks": true,
-			"path": "E:\\incake\\incake-invitation-h5"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "E:\\incake\\incake-jd-h5"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "E:\\incake\\incake-nestle-h5"
-		},
-		{
-			"follow_symlinks": true,
 			"path": "."
-		},
-		{
-			"follow_symlinks": true,
-			"path": "E:\\incake\\incake-wechat"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "F:\\study\\javascript_oop"
 		}
 	]
 }
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>incake-pc</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-	</buildSpec>
-	<natures>
-	</natures>
-</projectDescription>
->>>>>>> a14dbb13013583e76ac5b0621e6d676055bbb71c
