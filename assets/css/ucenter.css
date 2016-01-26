@@ -594,3 +594,28 @@
 /* my-invoice end */
 
 /* ucenter-content end */
+
+/*
+ * Desc: 订单列表页新增订单取消弹窗
+ * Author: wangmd
+ * Date: 2016/01/26
+ */
+
+/* mask-undo begin */
+.mask-undo { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
+.mask-undo .undo { width: 420px; height: 300px; padding: 20px; position: absolute; left: 50%; margin-left: -230px; top: 50%; margin-top: -170px; z-index: 99999999; background: #fff; }
+.mask-undo .undo .btn-undo-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 24px; cursor: pointer; background: url(../img/mask_btn_close.png) no-repeat; }
+.mask-undo .undo .undo-header { width: 100%; height: 38px; line-height: 30px; color: #0f3677; border-bottom: 1px solid #0f3677; font-size: 18px; font-weight: normal; }
+.mask-undo .undo .undo-header span { margin-left: 24px; }
+.mask-undo .undo .undo-content { width: 100%; padding: 10px 0; }
+.mask-undo .undo .undo-content p { line-height: 24px; color: #333; }
+.mask-undo .undo .undo-content ul { width: 80%; margin: 0 auto; }
+.mask-undo .undo .undo-content li { line-height: 24px; margin: 5px 0; cursor: pointer; }
+.mask-undo .undo .undo-content li span { display: inline-block; position: relative; top: 2px; margin-right: 10px; width: 14px; height: 14px; background: url(../img/unchecked.png) no-repeat; background-size: cover; background-position: center center; }
+.mask-undo .undo .undo-content li.active span { background-image: url(../img/checked.png); }
+.mask-undo .undo .undo-content input { width: 100%; height: 34px; line-height: 34px; border: 1px solid #dcdcdc; outline: none; text-indent: 1em; }
+.mask-undo .undo .undo-footer { width: 80%; margin: 0 auto; height: 46px; }
+.mask-undo .undo .undo-footer a { width: 160px; height: 46px; line-height: 46px; color: #fff; font-size: 16px; display: block; text-align: center; }
+.mask-undo .undo .undo-footer .btn-undo-ok { float: left; background: #0f3677; }
+.mask-undo .undo .undo-footer .btn-undo-cancel { float: right; background: #0578c4; }
+/* mask-undo end */
