@@ -1,0 +1,41 @@
+#valentines-wrapper { width: 100%; background: url(../img/valentines/body_bg.png); }
+#main { width: 1200px; margin: 0 auto; }
+#main .banner { width: 100%; height: 370px; background: url(../img/valentines/banner_bg.png) no-repeat; background-position: center center; background-size: cover; }
+
+#main .product-collect { position: relative; width: 100%; height: 974px; }
+#main .product-collect:before { position: absolute; top: -50px; left: 0; z-index: 2; width: 358px; height: 500px; content: url(../img/valentines/collect_lt_bg.png); }
+#main .product-collect:after { position: absolute; right: 0; bottom: 0; z-index: 2; width: 190px; height: 290px; content: url(../img/valentines/collect_rb_bg.png); }
+#main .collect-content { position: absolute; bottom: 0; left: 0; z-index: 1; width: 1200px; height: 1084px; background: url(../img/valentines/collect_img.png) no-repeat center center; background-size: cover; }
+#main .collect-content > a { position: absolute; display: block; }
+#main .collect-content .flower-box { top: 250px; left: 274px; width: 340px; height: 260px; }
+#main .collect-content .flower-box .tip { position: absolute; bottom: 0; left: 188px; width: 300px; height: 382px; background: url(../img/valentines/flower_box_tip.png) no-repeat; }
+#main .collect-content .popo-wine { top: 300px; right: 170px; width: 190px; height: 390px; }
+#main .collect-content .popo-wine .tip { position: absolute; bottom: 0; left: 97px; width: 152px; height: 434px; background: url(../img/valentines/popo_wine_tip.png) no-repeat; }
+#main .collect-content .valentine-cake { bottom: 134px; left: 432px; width: 400px; height: 400px; }
+#main .collect-content .valentine-cake .tip { position: absolute; bottom: 0; left: -247px; width: 408px; height: 242px; background: url(../img/valentines/valentine_cake_tip.png) no-repeat; }
+
+#main .love-package { position: relative; width: 100%; height: 560px; }
+#main .love-package:after { position: absolute; top: -26px; left: 0; z-index: 2; width: 230px; height: 224px; content: url(../img/valentines/love_package_bg.png); }
+#main .love-package .box { position: absolute; top: 18px; left: 104px; z-index: 1; width: 650px; height: 350px; background: url(../img/valentines/love_package_box.png) no-repeat; }
+#main .love-package .box > a { position: absolute; bottom: 97px; left: 113px; width: 320px; height: 64px; background: url(../img/valentines/love_package_btn_bg.png) no-repeat; }
+#main .love-package .cake { position: absolute; top: 0; left: 416px; z-index: 3; width: 704px; height: 560px; background: url(../img/valentines/love_package_cake.png) no-repeat; }
+
+#main .forever-package { position: relative; width: 100%; height: 560px; }
+#main .forever-package:after { position: absolute; top: 76px; right: 0; z-index: 2; width: 168px; height: 220px; content: url(../img/valentines/forever_package_bg.png); }
+#main .forever-package .box { position: absolute; top: 6px; right: 60px; z-index: 1; width: 660px; height: 390px; background: url(../img/valentines/forever_package_box.png) no-repeat; }
+#main .forever-package .box > a { position: absolute; bottom: 77px; right: 98px; width: 320px; height: 62px; background: url(../img/valentines/forever_package_btn_bg.png) no-repeat; }
+#main .forever-package .cake { position: absolute; top: 120px; left: 260px; z-index: 3; width: 438px; height: 412px; background: url(../img/valentines/forever_package_cake.png) no-repeat; }
+#main .forever-package .flower { position: absolute; top: -130px; left: 26px; z-index: 4; width: 390px; height: 570px; background: url(../img/valentines/forever_package_flower.png) no-repeat; }
+
+#main .deep-package { position: relative; width: 100%; height: 615px; }
+#main .deep-package:after { position: absolute; top: -26px; left: 0; z-index: 2; width: 230px; height: 224px; content: url(../img/valentines/love_package_bg.png); }
+#main .deep-package .box { position: absolute; top: 98px; left: 38px; z-index: 1; width: 650px; height: 394px; background: url(../img/valentines/deep_package_box.png) no-repeat; }
+#main .deep-package .box > a { position: absolute; bottom: 69px; left: 95px; width: 320px; height: 66px; background: url(../img/valentines/deep_package_btn_bg.png) no-repeat; }
+#main .deep-package .cake { position: absolute; right: 0; bottom: 0; z-index: 4; width: 618px; height: 676px; background: url(../img/valentines/deep_package_cake.png) no-repeat; }
+#main .deep-package .flower { position: absolute; top: -10px; right: 348px; z-index: 3; width: 318px; height: 458px; background: url(../img/valentines/deep_package_flower.png) no-repeat; }
+
+#rules { width: 100%; height: 296px; background: #f8ece5; }
+#rules .content { position: relative; width: 1200px; margin: 0 auto; padding-top: 80px; }
+#rules .content .title { position: absolute; top: 28px; left: 86px; width: 178px; height: 128px; background: url(../img/valentines/rules_bg.png) no-repeat; }
+#rules .content ul { margin-left: 270px; }
+#rules .content li { line-height: 30px; font-size: 18px; color: #666; font-weight: 400; }

@@ -8,6 +8,10 @@
 		{
 			"follow_symlinks": true,
 			"path": "E:\\incake\\incake-wechat"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }
