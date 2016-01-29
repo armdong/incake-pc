@@ -3,7 +3,11 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "."
+			"path": "F:\\study\\frontend_note"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "E:\\incake\\incake-wechat"
 		}
 	]
 }
