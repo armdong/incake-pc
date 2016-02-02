@@ -406,10 +406,10 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 
 /* mask image preview begin */
 .mask-image-preview { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
-.mask-image-preview .image-preview { width: 320px; height: 320px; padding: 90px; position: absolute; left: 50%; margin-left: -250px; top: 50%; margin-top: -250px; z-index: 99999999; background: url(../img/shopping-cart/huaying.jpg) no-repeat #fff; }
-.mask-image-preview .image-preview img { width: 100%; }
+.mask-image-preview .image-preview { width: 320px; height: 320px; padding: 90px; position: absolute; left: 50%; margin-left: -250px; top: 50%; margin-top: -250px; z-index: 99999999; background: url(../img/shopping-cart/huaying.png) no-repeat #fff; }
+.mask-image-preview .image-preview img { position: absolute; top: 141px; left: 106px; z-index: 999999998; width: 300px; height: 300px; }
 .mask-image-preview .image-preview .btn-image-preview-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 20px; cursor: pointer; background: url(../img/mask_btn_close.png) no-repeat; }
-.mask-image-preview .image-preview .preview-bg { width: 316px; height: 316px; position: absolute; left: 50%; top: 50%; margin: -160px 0 0 -160px; z-index: 999999999; background: url(../img/shopping-cart/preview_bg_282x282.png) no-repeat center center; background-size: cover; }
+.mask-image-preview .image-preview .preview-bg { width: 300px; height: 300px; position: absolute; left: 106px; top: 141px; z-index: 999999999; background: url(../img/shopping-cart/preview_bg_282x282.png) no-repeat center center; background-size: cover; }
 /* mask image preview end */
 
 /* mask image upload begin */
