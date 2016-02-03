@@ -39,3 +39,9 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .shopping-cart-wrapper .cart-btns .btn-view { background: #0f3677; margin-left: 10px; }
 .shopping-cart-wrapper .cart-btns .btn-browse { width: 180px; background: #0578c4; }
 .shopping-cart-wrapper .cart-btns span{ height: 50px; line-height: 50px; margin-right: 10px; font-size: 14px; color: #b5b5b5; float: right; }
+
+.shopping-cart-wrapper .section .section-tip { width:326px; margin: 0 auto; margin-bottom: 40px;}
+.shopping-cart-wrapper .section-tip p { line-height: 24px; font-size: 14px; color: #666; text-align: justify; }
+.shopping-cart-wrapper .section-tip p span { color: #c81528; }
+.shopping-cart-wrapper .section-tip .qr-code { width: 100px; height: 100px; margin: 10px auto 0; border: 1px solid #ddd; }
+.shopping-cart-wrapper .section-tip .qr-code img { padding: 5px; }
