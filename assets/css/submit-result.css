@@ -43,5 +43,5 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .shopping-cart-wrapper .section .section-tip { width:326px; margin: 0 auto; margin-bottom: 40px;}
 .shopping-cart-wrapper .section-tip p { line-height: 24px; font-size: 14px; color: #666; text-align: justify; }
 .shopping-cart-wrapper .section-tip p span { color: #c81528; }
-.shopping-cart-wrapper .section-tip .qr-code { width: 100px; height: 100px; margin: 10px auto 0; border: 1px solid #ddd; }
-.shopping-cart-wrapper .section-tip .qr-code img { padding: 5px; }
+.shopping-cart-wrapper .section-tip .qr-code { width: 326px; height: 326px; margin: 10px auto 0; border: 1px solid #ddd; }
+.shopping-cart-wrapper .section-tip .qr-code img { width: 316px; height: 316px; padding: 5px; }
