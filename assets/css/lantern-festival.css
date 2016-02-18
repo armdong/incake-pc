@@ -1,0 +1,43 @@
+#lantern-wrapper { width: 100%; }
+#lantern-wrapper .lantern-body { background: url(../img/lantern-festival/body_bg.png); background-color: #efe9e0; }
+
+#lantern-wrapper .lantern-main { width: 1200px; margin: 0 auto; background: url(../img/lantern-festival/main_bg.png) no-repeat top right; }
+#lantern-wrapper .lantern-main img { width: 100%; }
+#lantern-wrapper .lantern-main .btn { display: block; position: absolute; width: 190px; height: 60px; border: 1px solid #ece5d5; font-size: 24px; line-height: 60px; text-align: center; color: #fff; background: rgba(180,40,40,.5); border-radius: 31px; box-shadow: 0 0 20px rgba(0,0,0,.2); }
+.lantern-main .monkey-cake { position: relative; width: 660px; height: 642px; background: url(../img/lantern-festival/monkey_bg.png) no-repeat; }
+.lantern-main .monkey-cake .cake { position: absolute; display: block; top: 286px; left: 176px; width: 528px; height: 462px; }
+.lantern-main .monkey-cake .btn-monkey { bottom: 172px; left: 94px; }
+
+.lantern-main .fish-cake { position: relative; width: 660px; height: 642px; background: url(../img/lantern-festival/fish_bg.png) no-repeat; }
+.lantern-main .fish-cake .cake { position: absolute; display: block; bottom: -60px; right: -100px; width: 460px; height: 420px; }
+.lantern-main .fish-cake .btn-fish { bottom: 144px; left: 104px; }
+
+.lantern-main ul { width: 100%; height: 666px; }
+.lantern-main li { float: left; width: 400px; height: 100%; position: relative; }
+
+.lantern-main li .li-btn { display: block; position: absolute; bottom: 79px; width: 212px; height: 50px; border: 1px solid #ece5d5; font-size: 24px; line-height: 50px; text-align: center; color: #fff; background: rgba(180,40,40,.5); border-radius: 26px; box-shadow: 0 0 20px rgba(0,0,0,.2); }
+
+.lantern-main .queen-cake { background: url(../img/lantern-festival/queen_bg.png) no-repeat top left; }
+.lantern-main .queen-cake .cake { position: absolute; display: block; top: 254px; left: 20px; width: 346px; height: 300px; }
+
+.lantern-main .margaret-cake { background: url(../img/lantern-festival/margaret_bg.png) no-repeat top left; }
+.lantern-main .margaret-cake .cake { position: absolute; display: block; top: 254px; left: 40px; width: 346px; height: 300px; }
+
+.lantern-main .creme-cake { background: url(../img/lantern-festival/creme_bg.png) no-repeat top left; }
+.lantern-main .creme-cake .cake { position: absolute; display: block; top: 254px; left: 65px; width: 312px; height: 300px; }
+
+.lantern-main li .btn-queen { left: 80px; }
+.lantern-main li .btn-margaret { left: 106px; }
+.lantern-main li .btn-creme { left: 128px; }
+
+#lantern-wrapper .lantern-footer { width: 100%; background: #b29a62; }
+.lantern-footer ul { width: 1200px; margin: 0 auto; padding: 39px 0; }
+.lantern-footer li { float: left; width: 300px; height: 62px; }
+.lantern-footer li .img { float: left; width: 62px; height: 62px; margin-left: 34px; background: url(../img/lantern-festival/icons.png) no-repeat; }
+.lantern-footer li .img_01 { background-position: 0 0; }
+.lantern-footer li .img_02 { background-position: -62px 0; }
+.lantern-footer li .img_03 { background-position: -124px 0; }
+.lantern-footer li .img_04 { background-position: -186px 0; }
+.lantern-footer li .text { float: left; width: 140px; margin-left: 16px; color: #efe9e0; }
+.lantern-footer li .text h2 { font-size: 16px; line-height: 24px; }
+.lantern-footer li .text p { line-height: 18px; }
