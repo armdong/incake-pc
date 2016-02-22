@@ -1,0 +1,35 @@
+#lantern-wrapper { width: 100%; background: url(../img/lantern-festival-wx/wrapper_bg.png); }
+#lantern-wrapper .lantern-body { background: url(../img/lantern-festival-wx/body_bg.png); background-color: #efe9e0; }
+
+#lantern-wrapper .body-main { width: 1200px; margin: 0 auto; }
+#lantern-wrapper .body-main img { width: 100%; }
+#lantern-wrapper .body-main .banner { position: relative; width: 100%; height: 582px; }
+#lantern-wrapper .body-main .banner-inner { position: absolute; top: 0; left: 50%; width: 1920px; height: 582px; margin-left: -960px; background: url(../img/lantern-festival-wx/banner_top.png) no-repeat center center; background-size: cover; }
+
+#lantern-wrapper .body-main .rec-cake { width: 100%; padding: 20px 0 50px 0; }
+.body-main .rec-cake .list-top { width: 1100px; margin: 20px auto 0; }
+.body-main .rec-cake ul li { float: left; width: 260px; }
+.body-main .rec-cake ul li.last { margin-right: 0; }
+.body-main .rec-cake .list-top li { margin-right: 20px; }
+.body-main .rec-cake ul .img { display: block; }
+.body-main .rec-cake ul .text { color: #af9762; padding-top: 10px; }
+.body-main .rec-cake ul .text p { text-align: center; font-weight: 400; line-height: 24px; }
+.body-main .rec-cake ul .text .cn { font-size: 18px; }
+.body-main .rec-cake ul .text .en { font-size: 16px; }
+.body-main .rec-cake .list-center,
+.body-main .rec-cake .list-bottom { width: 916px; margin: 30px auto 0; }
+.body-main .rec-cake .list-center li,
+.body-main .rec-cake .list-bottom li { margin-right: 68px; }
+
+#lantern-wrapper .body-main .section { width: 100%; }
+.body-main .section .section-title { width: 436px; height: 49px; margin: 0 auto; }
+.body-main .section .section-body { width: 1140px; padding: 30px 30px 50px; }
+.body-main .section .address-title { background: url(../img/lantern-festival-wx/title_address.png) no-repeat; }
+.body-main .section .address-list ul { width: 50%; }
+.body-main .section .address-list .fl { float: left; }
+.body-main .section .address-list .fr { float: right; }
+.body-main .section .address-list p { font-size: 16px; color: #af9762; line-height: 30px; }
+.body-main .section .address-list .name { float: left; width: 90px; }
+.body-main .section .address-list .addr { float: right; width: 480px; text-align: left; }
+.body-main .section .rules-title { background: url(../img/lantern-festival-wx/title_rules.png) no-repeat; }
+.body-main .section .rules-list li { font-size: 16px; color: #af9762; line-height: 30px; }
