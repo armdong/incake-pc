@@ -2,24 +2,25 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
 			"path": "F:\\study\\frontend_note"
 		},
 		{
-			"follow_symlinks": true,
 			"path": "E:\\incake\\incake-wechat"
 		},
 		{
-			"follow_symlinks": true,
 			"path": "."
 		},
 		{
-			"follow_symlinks": true,
 			"path": "F:\\study\\h5_canvas"
 		},
 		{
-			"follow_symlinks": true,
 			"path": "F:\\study\\imooc_spring_festval"
+		},
+		{
+			"path": "C:\\Users\\user888\\Downloads\\Metronic.4.5.3"
+		},
+		{
+			"path": "C:\\Users\\user888\\Desktop\\meiyin"
 		}
 	]
 }
