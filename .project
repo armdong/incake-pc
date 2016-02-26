@@ -1,26 +1,11 @@
-{
-	"folders":
-	[
-		{
-			"path": "F:\\study\\frontend_note"
-		},
-		{
-			"path": "E:\\incake\\incake-wechat"
-		},
-		{
-			"path": "."
-		},
-		{
-			"path": "F:\\study\\h5_canvas"
-		},
-		{
-			"path": "F:\\study\\imooc_spring_festval"
-		},
-		{
-			"path": "C:\\Users\\user888\\Downloads\\Metronic.4.5.3"
-		},
-		{
-			"path": "C:\\Users\\user888\\Desktop\\meiyin"
-		}
-	]
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>incake-pc</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>

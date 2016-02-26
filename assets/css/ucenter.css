@@ -223,6 +223,47 @@
 
 /*==============================================================================*/
 
+/* my-incoin begin */
+.ucenter-content .my-incoin { width: 100%; }
+.my-incoin .incoin-detail { padding-bottom: 10px; border-bottom: 1px #0f3677 solid; }
+.my-incoin .incoin-detail .incoin-info { height: 70px; background-color: #faf5f0; margin-bottom: 10px; }
+.my-incoin .incoin-info .balance { float: left; width: 546px; font-size: 18px; line-height: 70px; margin-left: 28px; }
+.my-incoin .incoin-info span { margin-right: 6px; font-size: 26px; color: #c81528; }
+.my-incoin .incoin-info a { float: left; display: inline-block; width: 86px; height: 30px; margin-top: 20px; font-size: 14px; line-height: 30px; text-align: center; color: #fff; }
+.my-incoin .incoin-info .recharge { background-color: #ea8f8f; }
+.my-incoin .incoin-info .exchange { background-color: #ecc67d; margin: 20px 26px 0 14px; }
+.my-incoin .incoin-info .raiders { background-color: #faf5f0; color: #2378cd; text-decoration: underline; }
+.my-incoin .incoin-detail .incoin-nav { height: 54px; font-size: 16px; }
+.my-incoin .incoin-detail .incoin-nav li { float: left; width: 116px; margin: 18px 0; border-right: 1px #b4b4b4 solid; text-align: center; }
+.my-incoin .incoin-detail .incoin-nav .active { color: #0f3677; }
+.my-incoin .incoin-search { height: 30px; padding-left: 20px; margin-top: 20px; line-height: 30px; }
+.my-incoin .incoin-search input { float: left; width: 82px; height: 28px; padding-left: 16px; border: 1px solid #b4b4b4; font-size: 12px; outline: none; }
+.my-incoin .incoin-search i.laydate-icon { float: left; display: inline-block; width: 28px; height: 28px; padding-right: 0; border: 1px solid #b4b4b4; margin-left: -1px; }
+.my-incoin .incoin-search i.i-split { float: left; margin: 0 8px; }
+.my-incoin .incoin-search .state { float: left; margin-left: 24px; }
+.my-incoin .incoin-search select { float: left; width: 100px; height: 30px; border: 1px solid #b4b4b4; font-size: 12px; outline: none; }
+.my-incoin .incoin-search a { float: left; display: inline-block; width: 70px; height: 30px; background-color: #0f3677; margin-left: 10px; text-align: center; color: #fff; }
+.my-incoin .incoin-search p { float: right; margin-right: 20px; }
+.my-incoin .incoin-search p span { color: #C81528; }
+.my-incoin .incoin-list { margin-top: 22px; font-size: 12px; }
+.my-incoin .incoin-list ul li { width: 98px; margin-left: -1px; text-align: center; float: left; }
+.my-incoin .incoin-list ul .li-first,.my-incoin .incoin-list ul .li-date { width: 150px; }
+.my-incoin .incoin-list ul .li-first { margin-left: 0; }
+.my-incoin .incoin-list ul .li-last { padding:0 1px 0 2px; }
+.my-incoin .incoin-list ul .li-last a { padding: 5px; border: 1px solid #0f3677; border-radius: 4px; color: #0f3677; }
+.my-incoin .incoin-list .list-title { height: 36px; line-height: 36px; border: 1px #e6e6e6 solid; }
+.my-incoin .incoin-list .list-title li { width: 99px; height: 36px; margin-left: 0; line-height: 36px; background-color: #f5f5f5; }
+.my-incoin .incoin-list .list-title .li-first,.my-incoin .incoin-list .list-title .li-date { width: 150px; }
+.my-incoin .incoin-list .list-title .li-last { padding-right: 2px; }
+.my-incoin .incoin-list .list-item li { height: 40px; line-height: 40px; border: 1px #e6e6e6 solid; border-top: 0; }
+.my-incoin .incoin-list .list-page a { display: inline-block; width: 28px; height: 28px; line-height: 28px; margin-left: 10px; margin-top: 30px; border: 1px #e6e6e6 solid; text-align: center; float: right; }
+.my-incoin .incoin-list .list-page span { display: inline-block; line-height: 28px; margin: 30px -5px 0 5px; float: right; }
+.my-incoin .incoin-list .list-page .active { border-color: #0f3677; background-color: #f5f5f5; }
+.my-incoin .incoin-list .list-page .arrow.active { border-color: #e9e9e9; }
+/* my-incoin end */
+
+/*==============================================================================*/
+
 /* my-point begin */
 .ucenter-content .my-point { width: 100%; }
 .my-point .points-detail { padding-bottom: 10px; border-bottom: 1px #0f3677 solid; }

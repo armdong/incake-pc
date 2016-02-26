@@ -1,0 +1,36 @@
+/* for header */
+.header .status-bar .links .btns { margin-left: 20px; }
+.header .status-bar .links .btns span { height: 20px; margin-top: 12px; }    
+.loginIn { position: relative; }
+.loginIn .myList { position: absolute; left: 0; top: 35px; width: 148px; border: 1px solid #0f3677; background-color: #fff; z-index: 999999; }
+.loginIn .myList li { line-height: 30px; }
+.loginIn .myList li a { width: 116px; padding-left: 32px; }
+.loginIn .myList li:hover { background-color: #0f3677; color: #fff; }
+.loginIn .userName { position: relative; width: 148px; height: 28px; line-height: 28px; border: 1px solid #0f3677; border-radius: 5px; margin-top: 6px; }
+.loginIn .list-open { border-radius: 5px 5px 0 0; } 
+.loginIn .userName:after { width: 0; height: 0; content: ''; display: block; position: absolute; right: 10px; top: 50%; margin-top: -4px; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 8px solid #505050; }
+.loginIn .userName i { display: inline-block; width: 20px; height: 20px; background: url(../img/status_bar_icons.png) no-repeat; background-position: -40px 0; margin: 0 6px; vertical-align: middle; }
+.loginIn .exit { margin-top: 6px; line-height: 30px; }
+
+/* for container */
+.container { width: 100%; background-color: #f5f1ef; }
+.container .main { width: 1160px; margin: 0 auto; }
+.main img { width: 100%; }
+.main .button { width: 512px; margin: 0 auto; }
+.main .button a { float: left; display: inline-block; height: 40px; font-size: 16px; line-height: 40px; text-align: center; color: #c81528; background-color: #fff; border: 1px solid #c81528; }
+.main .button .exchange { width: 260px; border-radius: 20px 0 0 20px; }
+.main .button .recharge { width: 248px; border-left: 0; border-radius: 0 20px 20px 0;}
+.main .button p { width: 100%; line-height: 34px; text-align: center; }
+.main .introduct { padding: 46px 0 50px; }
+.main .introduct div { margin-bottom: 20px; }
+.main .introduct img { float: left; width: 580px; height: 280px; }
+.main .introduct .box dl { margin-top: 92px; }
+.main .introduct dl { float: right; width: 530px; margin: 0 20px 0 24px; }
+.main .introduct dt { font-size: 20px; line-height: 42px; color: #000; }
+.main .introduct .box03 dt { line-height: 28px; margin-bottom: 10px; }
+.main .introduct dd, .main .introduct li { font-size: 16px; line-height: 30px; color: #515151; }
+.main .introduct .box03 dd { line-height: 24px; }
+.main .introduct dd span, .main .introduct li i { font-size: 20px; color: #c81528; font-style: normal; }
+.main .introduct ul { float: right; width: 380px; margin: 0 170px 0 24px; }
+.main .introduct li.title { width: 100px; text-align: center; line-height: 18px; color: #f5f1ef; background-color: #422320; margin: 16px 0 10px; }
+.main .introduct li span { color: #c81528; }

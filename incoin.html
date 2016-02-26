@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Incoin</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/incoin.css" />
+</head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <!-- header begin -->
+            <div class="header">
+                <div class="header-wrapper">
+                    <!-- header 状态栏 begin -->
+                    <div class="status-bar clearfix">
+                        <p class="text clearfix">
+                            <span class="welcome">欢迎来到印克时光！</span>
+                            <span class="work-time">周一至周日8:30~21:00</span>
+                            <span class="hot-line">客服热线：400-921-5757</span>
+                        </p>
+                        <ul class="links clearfix">
+                            <li class="cart"><a href="javascript:;"><i></i><span>0</span>件</a></li>
+                            <!-- 2016-02-25 edit -->
+                            <li class="btns loginOut clearfix">
+                                <a href="javascript:;" class="login">登录</a>
+                                <span></span>
+                                <a href="javascript:;" class="reg">注册</a>
+                            </li>
+                            <!-- 2016-02-25 add begin -->
+                            <li class="btns loginIn clearfix">
+                                <a href="javascript:;" class="userName"><i></i>17091592298</a>
+                                <span></span>
+                                <a href="javascript:;" class="exit">退出</a>
+                                <ul class="myList">
+                                	<li><a href="javascript:;">我的订单</a></li>
+                                	<li><a href="javascript:;">我的IN币</a></li>
+                                	<li><a href="javascript:;">我的积分</a></li>
+                                	<li><a href="javascript:;">我的优惠券</a></li>
+                                </ul>
+                            </li>
+                            <!-- 2016-02-25 add end -->
+                            <li class="location btn-locate"><i></i>上海</li>
+                        </ul>
+                    </div>
+                    <!-- header 状态栏 end -->
+                    <!-- logo & nav begin -->
+                    <div class="content clearfix">
+                        <a href="index.html" class="logo">
+                            <img src="assets/img/logo.png" alt="Logo" />
+                        </a>
+                        <ul class="nav clearfix" id="nav">
+                            <li class="item">
+                                <a href="cake-list.html">
+                                    <span class="en">Cake List</span>
+                                    <span class="cn">蛋糕馆</span>
+                                </a>
+                                <ul class="sub-nav clearfix">
+                                    <li class="sub-item">
+                                        <a href="cake-list.html?category=Cheese">
+                                            <span class="en">Cheese</span>
+                                            <span class="cn">芝士系列</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="cake-list.html?category=Chocolate">
+                                            <span class="en">Chocolate</span>
+                                            <span class="cn">巧克力系列</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="cake-list.html?category=Napoleon">
+                                            <span class="en">Napoleon</span>
+                                            <span class="cn">拿破仑系列</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="cake-list.html?category=Mousse">
+                                            <span class="en">Mousse</span>
+                                            <span class="cn">慕斯系列</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="cake-list.html?category=Cream">
+                                            <span class="en">Cream</span>
+                                            <span class="cn">乳脂系列</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="cake-list.html?category=DIY">
+                                            <span class="en">DIY</span>
+                                            <span class="cn">选拼系列</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="javascript:;">
+                                    <span class="en">Theme Cake</span>
+                                    <span class="cn">主题蛋糕</span>
+                                </a>
+                                <ul class="sub-nav clearfix">
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Image Cake</span>
+                                            <span class="cn">画影</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Voice Cake</span>
+                                            <span class="cn">音.蛋糕</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Super Cake</span>
+                                            <span class="cn">夏</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Fly Incake</span>
+                                            <span class="cn">飞行蛋糕</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="javascript:;">
+                                    <span class="en">Insweet</span>
+                                    <span class="cn">思蜜</span>
+                                </a>
+                            </li>
+                            <li class="item active">
+                                <a href="javascript:;">
+                                    <span class="en">Activities</span>
+                                    <span class="cn">活动专享</span>
+                                </a>
+                                <ul class="sub-nav clearfix">
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">New Activity</span>
+                                            <span class="cn">最新活动</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Delicious Strategy</span>
+                                            <span class="cn">美味攻略</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Points Mall</span>
+                                            <span class="cn">积分商城</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li class="item">
+                                <a href="javascript:;">
+                                    <span class="en">My Incake</span>
+                                    <span class="cn">我的INCAKE</span>
+                                </a>
+                                <ul class="sub-nav clearfix">
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">My Orders</span>
+                                            <span class="cn">我的订单</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">My Points</span>
+                                            <span class="cn">我的积分</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Coupons</span>
+                                            <span class="cn">我的优惠券</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>-->
+                            <li class="item">
+                                <a href="javascript:;">
+                                    <span class="en">Enterprises</span>
+                                    <span class="cn">企业专区</span>
+                                </a>
+                                <ul class="sub-nav clearfix">
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Apply For Foretaste</span>
+                                            <span class="cn">试吃申请</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">VIP Login</span>
+                                            <span class="cn">企业VIP登录</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Exchange Zone</span>
+                                            <span class="cn">老客户兑换专区</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item last">
+                            	<!-- 2016-02-25 add begin -->
+                                <a href="javascript:;">
+                                    <span class="en">Incoin</span>
+                                    <span class="cn">兑换IN币</span>
+                                </a>
+                                <ul class="sub-nav clearfix">
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Exchange</span>
+                                            <span class="cn">兑换IN币</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="javascript:;">
+                                            <span class="en">Recharge</span>
+                                            <span class="cn">IN币充值</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- 2016-02-25 add end -->
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- logo & nav end -->
+                    <!-- location mask begin -->
+                    <div class="location-mask hide">
+                        <p>请选择您要配送到的城市：</p>
+                        <ul class="cities clearfix">
+                            <li class="active"><a href="javascript:;">上海</a></li>
+                            <li><a href="javascript:;">苏州</a></li>
+                            <li><a href="javascript:;">昆山</a></li>
+                            <li><a href="javascript:;">福州</a></li>
+                            <li><a href="javascript:;">厦门</a></li>
+                        </ul>
+                    </div>
+                    <!-- location mask end -->
+                </div>
+            </div>
+            <!-- header end -->
+
+            <!-- container begin -->
+            <div class="container">
+                <div class="main">
+                    <img src="assets/img/incoin/top_bg.png"/>
+					<div class="button clearfix">
+						<a href="javascript:;" class="exchange" >立即兑换</a>
+						<a href="javascript:;" class="recharge" >IN币充值</a>
+						<p>IN币等值现金使用，消费更便捷，更超值。</p>
+					</div>
+					<div class="introduct">
+						<div class="box clearfix">
+							<img src="assets/img/incoin/cake01.png"/>
+							<dl>
+								<dt>●&nbsp;IN币是啥？</dt>
+								<dd>简单的说，IN币是INCAKE的虚拟货币哦，在官网、微信平台订购INCAKE商品时使用，<span>1个IN币=1元</span>。</dd>
+							</dl>
+						</div>
+						<div class="box clearfix">
+							<img src="assets/img/incoin/cake02.png"/>
+							<dl>
+								<dt>●&nbsp;IN币咋用？</dt>
+								<dd>在我们的官网、微信平台购买任意产品，支付时都可以选择IN币抵扣哦！</dd>
+								<dd>IN币的购买力与RMB等同哦！</dd>
+							</dl>
+						</div>
+						<div class="box03 clearfix">
+							<img src="assets/img/incoin/cake03.png"/>
+							<dl>
+								<dt>●&nbsp;IN币充值困难么？</dt>
+								<dd>一点也不！官网，微信平台都能实现快速充值哦！！</dd>
+								<dd>现在充值还享受充值优惠哟！</dd>
+							</dl>
+							<ul>
+								<li class="title">充值IN币：</li>
+								<li>充值<span>50元</span>获得  ·································  <i>50个</i> IN币</li>
+								<li>充值<span>100元</span>获得  ·······························  <i>100个</i> IN币</li>
+								<li>充值<span>200元</span>获得  ·······························  <i>220个</i> IN币</li>
+								<li>充值<span>500元</span>获得  ·······························  <i>550个</i> IN币</li>
+								<li>充值<span>1000元</span>获得  ····························  <i>1100个</i> IN币</li>
+							</ul>
+						</div>
+						<div class="box clearfix">
+							<img src="assets/img/incoin/cake04.png"/>
+							<dl>
+								<dt>●&nbsp;你知道么？蛋糕卡也可兑换IN币哦！</dt>
+								<dd>仅需登录充值页面，输入所持蛋糕卡的卡号及密码，点击兑换，即可把卡内金额兑换成IN币啦~</dd>
+							</dl>
+						</div>
+					</div>
+                </div>
+            </div>
+            <!-- container end -->
+
+            <!-- footer begin -->
+            <div class="footer">
+                <div class="footer-wrapper">
+                    <ul class="footer-top clearfix">
+                        <li class="first">
+                            <i class="one"></i>
+                            <p>全年无休</p>
+                            <p>送货上门</p>
+                            <p>多种支付</p>
+                        </li>
+                        <li>
+                            <i class="two"></i>
+                            <p>品牌保障</p>
+                            <p>专业挑选</p>
+                            <p>品质认证</p>
+                        </li>
+                        <li>
+                            <i class="three"></i>
+                            <p>安全配送</p>
+                            <p>专人专区</p>
+                            <p>及时送达</p>
+                        </li>
+                        <li>
+                            <i class="four"></i>
+                            <p>专业客服</p>
+                            <p>贴心服务</p>
+                            <p>创造感动</p>
+                        </li>
+                    </ul>
+                    <div class="footer-middle clearfix">
+                        <div class="order-flow clearfix">
+                            <div class="img">
+                                <img src="assets/img/footer_qrcode.png" alt="" />
+                            </div>
+                            <div class="text">
+                                <h2>微信订购流程：</h2>
+                                <p>关注微信公众号 → 点击［微信订购］→［蛋糕预定］→ 选择蛋糕磅数［立即购买］→ 点击［去结算］→ 确认订单信息 → 选择［支付方式］→ 输入优惠券密码 → 提交订单</p>
+                            </div>
+                        </div>
+                        <ul class="site-map clearfix">
+                            <li>
+                                <dl>
+                                    <dt>新手上路</dt>
+                                    <dd><a href="guide.html?article=flow">购买流程</a></dd>
+                                    <dd><a href="guide.html?article=payment">支付方式</a></dd>
+                                    <dd><a href="guide.html?article=delivery">配送范围</a></dd>
+                                    <dd><a href="guide.html?article=return">退货服务</a></dd>
+                                    <dd><a href="guide.html?article=help">帮助中心</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Incake产品</dt>
+                                    <dd><a href="javascript:;">精品蛋糕</a></dd>
+                                    <dd><a href="javascript:;">主题蛋糕</a></dd>
+                                    <dd><a href="javascript:;">Insweet | 思蜜</a></dd>
+                                    <dd><a href="javascript:;">Incake活动</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>关于Incake</dt>
+                                    <dd><a href="about-incake.html?article=brandstory">品牌故事</a></dd>
+                                    <dd><a href="about-incake.html?article=productidea">产品理念</a></dd>
+                                    <dd><a href="about-incake.html?article=bestexperience">优质体验</a></dd>
+                                    <dd><a href="about-incake.html?article=cooperation">合作单位</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>加入Incake</dt>
+                                    <dd><a href="join-incake.html?article=aboutus">关于我们</a></dd>
+                                    <dd><a href="join-incake.html?article=contactus">联系我们</a></dd>
+                                    <dd><a href="join-incake.html?article=recruitment">英才招聘</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-bottom clearfix">
+                        <div class="info clearfix">
+                            <a href="index.html" class="footer-logo">
+                                <img src="assets/img/footer_logo.png" alt="" />
+                            </a>
+                            <div class="work-time">
+                                <p>周一至周日</p>
+                                <p>8:30~21:00</p>
+                            </div>
+                            <div class="hot-line clearfix">
+                                <p class="text">客服热线</p>
+                                <p class="tel">400-921-5757</p>
+                            </div>
+                        </div>
+                        <div class="copyright clearfix">
+                            <a class="shgs-logo" href="javascript:;">
+                                <img src="assets/img/footer_shgs.jpg" alt="" />
+                            </a>
+                            <div class="text">
+                                <p>沪ICP备12045835号</p>
+                                <p>版权所有：上海印克电子商务有限公司 Copyright&copy;2012-2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer end -->
+
+            <!-- back to top begin -->
+            <a href="javascript:;" class="back-to-top" id="backToTop"></a>
+            <!-- back to top end -->
+
+        </div>
+
+        <!-- script begin -->
+        <script src="assets/js/jquery-1.8.3.min.js"></script>
+        <script src="assets/js/jquery.placeholder.min.js"></script>
+        <script src="assets/js/jquery.hoverdelay.js"></script>
+        <script src="assets/js/common.js"></script>
+        <!-- 2016-02-25 add -->
+        <script src="assets/js/incoin.js" ></script>
+        <!-- script end -->
+
+    </body>
+
+</html>

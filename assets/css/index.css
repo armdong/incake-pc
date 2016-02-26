@@ -12,6 +12,15 @@
 
 /* cake container begin */
 .container .cake-container { width: 1160px; margin: 0 auto; }
+/* 2016-02-25 add begin */
+.cake-container .mode-incoin { width: 100%; border-bottom: 1px solid #0f3677; margin: 20px 0; }
+.cake-container .mode-incoin .icon_incoin { text-align: center; } 
+.cake-container .mode-incoin .button { width: 512px; margin: 0 auto; }
+.cake-container .mode-incoin .button a { float: left; display: inline-block; height: 40px; font-size: 16px; line-height: 40px; text-align: center; color: #c81528; background-color: #fff; border: 1px solid #c81528; }
+.cake-container .mode-incoin .button .exchange { width: 260px; border-radius: 20px 0 0 20px; }
+.cake-container .mode-incoin .button .recharge { width: 248px; border-left: 0; border-radius: 0 20px 20px 0;}
+.cake-container .mode-incoin .button p { width: 100%; line-height: 34px; margin-bottom: 16px; text-align: center; }
+/* 2016-02-25 add end */
 .cake-container .cake-section { width: 100%; margin-top: 40px; }
 .cake-container .section-title { width: 100%; height: 80px; line-height: 80px; text-align: center; position: relative; }
 .cake-container .section-title .text { display: inline-block; font-size: 24px; color: #0f3677; background: url(../img/section_title_bg.png) no-repeat left center; text-indent: 40px; }
