@@ -293,7 +293,10 @@
 /* my-coupon begin */
 .ucenter-content .my-coupon { width: 100%; }
 .my-coupon .coupon-detail { padding-bottom: 10px; border-bottom: 1px #0f3677 solid; }
+/* modify on 2016/2/29 by wangmd */
 .my-coupon .coupon-detail .coupon-title p { width: 400px; height: 46px; line-height: 46px; padding-left: 18px; float: left; }
+.my-coupon .coupon-detail .coupon-title p span { margin: 0 5px; }
+.my-coupon .coupon-detail .coupon-title p a { color: #2378cd; text-decoration: underline; }/* end of modify */
 .my-coupon .coupon-detail .coupon-title .coupon-add { float: right; text-align: right; }
 .my-coupon .coupon-detail .coupon-title .coupon-add a { display: inline-block; width: 140px; height: 32px; line-height: 32px; margin-left: 10px; text-align: center; color: #fff; background-color: #82aac8; }
 .my-coupon .coupon-detail .coupon-title .coupon-add a img { margin: 7px 10px 0 0; }
@@ -325,6 +328,9 @@
 .my-coupon .exchange-list .list-title li { height: 36px; line-height: 36px; background-color: #f5f5f5; }
 .my-coupon .exchange-list .list-item li { height: 40px; line-height: 40px; border: 1px #e6e6e6 solid; border-top: 0; }
 .my-coupon .exchange-list .list-item .li-last { width: 196px; }
+/* modify on 2016/2/29 by wangmd */
+.my-coupon .coupon-rule { margin: 70px 0 30px; padding-left: 18px; }
+.my-coupon .coupon-rule dt { margin-bottom: 22px; font-size: 16px; color: #0f3677; }
 
 /* mask-new-coupon begin */
 .mask-new-coupon { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
