@@ -1,0 +1,52 @@
+#girls-day { width: 100%; min-width: 1200px; overflow: hidden; }
+
+#girls-day .banner { position: relative; width: 1200px; height: 744px; margin: 0 auto; }
+#girls-day .banner img { position: absolute; top: 0; left: 50%; width: 1920px; margin-left: -960px; }
+
+#girls-day .main { width: 100%; background-color: #decbbf; }
+#girls-day .main .inner-main { position: relative; width: 1200px; height: 1516px; margin: 0 auto; background: url(../img/girls-day/main_bg.jpg) no-repeat; }
+#girls-day .inner-main .cake { position: absolute; }
+.inner-main .cake .img { display: block; float: left; }
+.inner-main .cake .img img { width: 100%; }
+.inner-main .cake .text { position: absolute; }
+.inner-main .cake .text > h2 { height: 34px; }
+.inner-main .cake .text .desc { font-size: 16px; color: #481a22; line-height: 34px; }
+.inner-main .cake .text .btn { display: block; width: 242px; height: 42px; margin-top: 26px; }
+.inner-main .cake .text .btn img { width: 100%; }
+
+#girls-day .inner-main .cake-01 { top: -67px; left: 70px; }
+.inner-main .cake-01 .img { width: 405px; }
+.inner-main .cake-01 .text { top: 120px; left: 455px; width: 400px; }
+.inner-main .cake-01 .text .btn { margin-left: 5px; }
+
+#girls-day .inner-main .cake-02 { top: 230px; right: 54px; }
+.inner-main .cake-02 .img { width: 398px; }
+.inner-main .cake-02 .text { top: 109px; left: -334px; width: 334px; }
+.inner-main .cake-02 .text .btn { margin-left: 63px; }
+
+#girls-day .inner-main .cake-03 { top: 504px; left: 251px; }
+.inner-main .cake-03 .img { width: 447px; }
+.inner-main .cake-03 .text { top: 144px; left: 479px; width: 360px; }
+.inner-main .cake-03 .text .btn { margin-left: 21px; }
+
+#girls-day .inner-main .cake-04 { top: 836px; left: 51px; }
+.inner-main .cake-04 .img { width: 483px; }
+.inner-main .cake-04 .text { top: 144px; left: 517px; width: 290px; }
+.inner-main .cake-04 .text .btn { margin-left: 16px; }
+
+#girls-day .inner-main .cake-05 { bottom: 33px; right: 50px; }
+.inner-main .cake-05 .img { width: 465px; }
+.inner-main .cake-05 .text { top: 110px; left: -325px; width: 280px; }
+.inner-main .cake-05 .text .btn { margin-left: 3px; }
+
+#girls-day .feature { width: 100%; padding: 38px 0; background-color: #481a22; }
+.feature .content { width: 1200px; margin: 0 auto; }
+.feature .content li { float: left; width: 240px; margin-left: 30px; }
+.feature .content li .img { float: left; width: 62px; height: 62px; background: url(../img/girls-day/icons_feature.png) no-repeat; }
+.feature .content li.material .img { background-position: 0 0; }
+.feature .content li.cut .img { background-position: -62px 0; }
+.feature .content li.discount .img { background-position: -124px 0; }
+.feature .content li.transport .img { background-position: -186px 0; }
+.feature .content li .text { float: left; width: 140px; margin-left: 20px; color: #efe9e0; }
+.feature .content li .text h2 { font-size: 18px; line-height: 30px; }
+.feature .content li .text p { font-size: 14px; line-height: 16px; }
