@@ -1,0 +1,23 @@
+.container { width: 100%; min-width: 1200px; overflow: hidden; background-color: #fffaf4; }
+.container img { width: 100%; }
+
+.container .banner { position: relative; width: 1200px; height: 752px; margin: 0 auto; }
+.container .banner > img { position: absolute; top: 0; left: 50%; width: 1920px; margin-left: -960px; }
+.container .banner .btn-buy { display: block; position: absolute; top: 118px; left: 188px; width: 324px; height: 110px; }
+
+.container .list { width: 1200px; margin: 0 auto; }
+.container .list .title { width: 100%; height: 50px; background: url(../img/315/list_title_bg.png) no-repeat; background-position: center center; }
+.container .list .content { width: 100%; padding: 30px 0; }
+.list .content > li { float: left; width: 320px; height: 380px; margin-left: 60px; margin-bottom: 40px; background-color: #fef3e6; }
+.list .content > li .img { width: 240px; margin: 20px auto 0; }
+.list .content > li .img a { display: block; width: 100%; height: 220px; }
+.list .content > li .img .desc { height: 54px; padding: 0 5px; font-size: 14px; line-height: 18px; color: #9b7667; text-align: center; }
+.list .content > li .img .detail { width: 100%; margin-top: 10px; }
+.list .content > li .img .detail p { font-size: 14px; line-height: 30px; text-align: center; color: #9b7667; }
+.list .content > li .img .detail .price { font-size: 18px; }
+
+.container .rules { width: 100%; height: 296px; background: #b99481; }
+.container .rules .content { position: relative; width: 1200px; margin: 0 auto; padding-top: 80px; }
+.container .rules .content .title { position: absolute; top: 28px; left: 86px; width: 178px; height: 128px; background: url(../img/315/rules_bg.png) no-repeat; }
+.container .rules .content ul { margin-left: 270px; }
+.container .rules .content li { line-height: 24px; font-size: 16px; color: #fff; font-weight: 400; }
