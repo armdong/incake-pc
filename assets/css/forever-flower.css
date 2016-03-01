@@ -1,0 +1,16 @@
+.container { width: 100%; min-width: 1200px; background-color: #fff; overflow: hidden; }
+.container img { width: 100%; }
+
+.container .banner { position: relative; width: 1200px; height: 650px; margin: 0 auto; }
+.container .banner > img { position: absolute; top: 0; left: 50%; width: 1920px; height: 100%; margin-left: -960px; }
+
+.container .body { width: 100%; height: 1875px; background: url(../img/forever-flower/bottom_bg.png) no-repeat; background-position: bottom center; }
+.container .body .main { position: relative; width: 1200px; height: 1590px; margin: 0 auto; background: url(../img/forever-flower/main_bg.png) no-repeat; background-size: cover; background-position: center center; }
+.container .body .main .btn { display: block; position: absolute; width: 154px; height: 36px; }
+.container .body .main .btn-01 { top: 685px; left: 594px; }
+.container .body .main .btn-02 { top: 1315px; left: 180px; }
+
+.container .body .rules { width: 100%; height: 212px; padding-top: 16px; background-color: #fff; background-color: rgba(255, 255, 255, .5); }
+.container .body .rules dl { width: 840px; margin: 0 auto; }
+.container .body .rules dt { font-size: 24px; line-height: 60px; color: #ad77ae; }
+.container .body .rules dd { font-size: 18px; line-height: 30px; color: #666; text-indent: 2em; }
