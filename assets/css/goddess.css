@@ -1,0 +1,6 @@
+#goddess { position: relative; width: 100%; min-width: 1200px; height: 1702px; background: url(../img/goddess/body_bg.jpg) no-repeat; background-size: cover; background-position: center center; overflow: hidden; }
+#goddess .main { position: relative; width: 1200px; height: 1702px; margin: 0 auto; background: url(../img/goddess/main_bg.png) no-repeat; }
+#goddess .main .btn-buy { position: absolute; top: 962px; left: 55%; display: block; width: 206px; height: 262px; }
+#goddess .main .rules { position: absolute; bottom: 40px; left: 50%; width: 524px; margin-left: -262px; color: #03002f; }
+#goddess .main .rules dt { font-size: 26px; line-height: 40px; }
+#goddess .main .rules dd { font-size: 18px; line-height: 30px; text-align: justify; }
