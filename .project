@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>incake-pc</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-	</buildSpec>
-	<natures>
-	</natures>
-</projectDescription>
-=======
 {
 	"folders":
 	[
+		{
+			"path": "F:\\study\\javascript_pattern"
+		},
 		{
 			"path": "."
 		},
@@ -22,10 +12,6 @@
 		},
 		{
 			"path": "E:\\incake\\incake-jd-h5"
-		},
-		{
-			"path": "E:\\incake\\incake-nestle-h5"
 		}
 	]
 }
->>>>>>> ea6133cbcb65400c7af91a016da4779d23ee22f5
