@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"folders":
 	[
@@ -15,3 +16,16 @@
 		}
 	]
 }
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>incake-pc</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
+>>>>>>> cb47d858467d8ac5a0c00af91d121508ea0189a4
