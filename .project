@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>incake-pc</name>
@@ -10,22 +9,3 @@
 	<natures>
 	</natures>
 </projectDescription>
-=======
-{
-	"folders":
-	[
-		{
-			"path": "."
-		},
-		{
-			"path": "E:\\incake\\incake-wechat"
-		},
-		{
-			"path": "E:\\incake\\incake-jd-h5"
-		},
-		{
-			"path": "E:\\incake\\incake-nestle-h5"
-		}
-	]
-}
->>>>>>> ea6133cbcb65400c7af91a016da4779d23ee22f5
