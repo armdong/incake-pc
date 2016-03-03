@@ -39,6 +39,12 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 .header .status-bar .work-time { margin-right: 20px; }
 .header .status-bar .links { float: right; }
 .header .status-bar .links li { display: inline-block; float: left; }
+/* added search style on 2016/03/03 */
+.header .status-bar .links .search { width: 200px; height: 40px; margin-right: 20px; }
+.header .status-bar .links .search-box { position: relative; top: 8px; width: 198px; height: 24px; line-height: 24px; border: 1px solid #505050; border-radius: 13px; overflow: hidden; }
+.header .status-bar .links .search-box > input { float: left; width: 164px; height: 100%; line-height: 24px; border: none; border-right: 1px solid #e6e6e6; -webkit-appearance: none; outline: none; text-indent: 1em; }
+.header .status-bar .links .search-box > a { display: block; float: right; width: 32px; height: 100%; background: url(../img/icon_search.png) no-repeat; background-position: 40% center; }
+/* end added */
 .header .status-bar .links .cart { position: relative; }
 .header .status-bar .links .cart a { display: block; color: inherit; }
 .header .status-bar .links .cart i { width: 20px; height: 20px; display: inline-block; background: url(../img/status_bar_icons.png) no-repeat; background-position: 0 0; position: absolute; left: 0; top: 50%; margin-top: -10px; }
