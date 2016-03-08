@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 {
 	"folders":
 	[
-		{
-			"path": "F:\\study\\javascript_pattern"
-		},
 		{
 			"path": "."
 		},
@@ -12,20 +8,10 @@
 			"path": "E:\\incake\\incake-wechat"
 		},
 		{
-			"path": "E:\\incake\\incake-jd-h5"
+			"path": "F:\\study\\javascript_tools"
+		},
+		{
+			"path": "F:\\study\\learning_underscore.js"
 		}
 	]
 }
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>incake-pc</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-	</buildSpec>
-	<natures>
-	</natures>
-</projectDescription>
->>>>>>> cb47d858467d8ac5a0c00af91d121508ea0189a4

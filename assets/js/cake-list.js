@@ -1,6 +1,10 @@
 (function() {
 
 	$(function() {
+
+		// 图片懒加载
+        $("img.lazy").lazyload();
+
 		fnCategory();
 		fnSizeChange();
 		fnInitCategory();

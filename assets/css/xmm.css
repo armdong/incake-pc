@@ -1,0 +1,10 @@
+.container { width: 100%; min-width: 1200px; overflow: hidden; }
+
+#xmm-body { position: relative; width: 1200px; height: 2747px; margin: 0 auto; }
+#xmm-body .main { position: absolute; top: 0; left: 50%; width: 1920px; margin-left: -960px; }
+#xmm-body .main > img { width: 100%; }
+#xmm-body .main > .btn { display: block; position: absolute; right: 440px; bottom: 392px; width: 335px; height: 58px; background: url(../img/xmm/btn_bg.png) no-repeat; }
+#xmm-body .main > .rules { position: absolute; bottom: 77px; left: 0; width: 100%; height: 228px; background: url(../img/xmm/rules_bg.png); }
+#xmm-body .main > .rules dl { width: 1050px; margin: 20px auto 0; }
+#xmm-body .main > .rules dt { font-size: 24px; line-height: 50px; color: #a56250; }
+#xmm-body .main > .rules dd { font-size: 18px; line-height: 30px; color: #666; text-indent: 0.5em; }
