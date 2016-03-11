@@ -40,6 +40,10 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .shopping-cart-wrapper .section-body .b-product .text { width: 200px; height: 100%; float: right; margin-right: 10px; display: table; }
 .shopping-cart-wrapper .section-body .b-product .text p { display: table-cell; line-height: 24px; vertical-align: middle; color: #4f4f4f; }
 .shopping-cart-wrapper .section-body .b-product .text span { display: inline-block; width: 100%; }
+/* added by wangmd on 2016/03/10 */
+.shopping-cart-wrapper .section-body .b-product .check-box { float: left; display: inline-block; position: relative; width: 30px; height: 100%; }
+.shopping-cart-wrapper .section-body .b-product .check-box i { display: block; position: absolute; top: 50%; left: 50%; width: 17px; height: 17px; margin: -8px 0 0 -8px; background: url(../img/shopping-cart/section_body_cut_bg.png) no-repeat; cursor: pointer; }
+.shopping-cart-wrapper .section-body .b-product .check-box i.checked { background: url(../img/shopping-cart/section_body_cut_checked_bg.png) no-repeat; }
 /* 图片蛋糕 */
 .shopping-cart-wrapper .section-body .b-product .image-btns {}
 .shopping-cart-wrapper .section-body .b-product .image-btns a { display: inline-block; padding: 0 10px; background: #82aac8; color: #fff; float: left; margin-right: 2px; }

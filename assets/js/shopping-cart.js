@@ -13,6 +13,8 @@
 		fnImageUpload();
 		// 购物车提交
 		fnGoPay();
+		// 套餐推荐
+		fnRecommend();
 	});
 
 	function fnCutChecked() {
@@ -118,6 +120,20 @@
 			$(ele).on('click',function(){
 				$(this).addClass('checked').siblings('.city-item').removeClass('checked');
 				$oSpan.html($(this).html());
+			});
+		});
+	}
+
+	function fnRecommend(){
+		var $oRecommend = $('.section-recommend');
+		var $aCheckBox = $oRecommend.find('.check-box').find('>i');
+		$aCheckBox.each(function(i, ele) {
+			$(ele).on('click', function() {
+				if ($(this).hasClass('checked')) {
+					$(this).removeClass('checked');
+				} else {
+					$(this).addClass('checked');
+				}
 			});
 		});
 	}
