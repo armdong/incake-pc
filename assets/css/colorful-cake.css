@@ -1,0 +1,15 @@
+.container { width: 100%; min-width: 1200px; background: url(../img/colorful-cake/body_bg.jpg); overflow: hidden; }
+
+#colorful-cake { width: 100%; }
+#colorful-cake img { width: 100%; }
+#colorful-cake .banner { width: 1200px; margin: 0 auto; }
+
+#colorful-cake .content { position: relative; width: 1200px; margin: 0 auto; }
+#colorful-cake .content .btn { display: block; position: absolute; bottom: 252px; left: 522px; width: 210px; height: 54px; }
+
+#colorful-cake .rules { width: 100%; height: 190px; padding: 30px 0; background-color: #78483d; }
+#colorful-cake .rules .rules-wrapper { width: 1200px; margin: 0 auto; }
+#colorful-cake .rules-wrapper dl { float: left; width: 688px; margin-left: 158px; }
+#colorful-cake .rules-wrapper dt { width: 100%; height: 98px; background: url(../img/colorful-cake/rules_title.png) no-repeat; background-position: left center; }
+#colorful-cake .rules-wrapper dd { margin-left: 86px; font-size: 18px; color: #fff; line-height: 24px; }
+#colorful-cake .rules .qrcode { float: left; width: 200px; height: 190px; }
