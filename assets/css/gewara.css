@@ -3,7 +3,10 @@
 .container .main { position: relative; width: 1200px; height: 1050px; margin: 0 auto; }
 .container .main img { width: 100%; }
 .container .main .btn { position: absolute; right: 160px; bottom: 120px; display: block; width: 322px; height: 50px; line-height: 50px; border: 2px solid #eb611e; font-size: 20px; color: #eb611e; text-align: center; border-radius: 27px; }
-.container .rules { width: 100%; height: 220px; padding-top: 20px; background-color: #b0aba8; }
-.container .rules dl { width: 910px; margin: 0 auto; color: #ebe3e0; }
+
+.container .bottom { width: 100%; padding: 20px 0; background-color: #b0aba8; }
+.container .rules { width: 1200px; margin: 0 auto; }
+.container .rules dl { float: left; width: 490px; margin-left: 86px; color: #ebe3e0; }
 .container .rules dt { line-height: 40px; font-size: 18px; }
 .container .rules dd { line-height: 24px; font-size: 14px; }
+.container .rules .guide { float: right; width: 590px; }
