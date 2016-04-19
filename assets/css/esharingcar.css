@@ -1,0 +1,12 @@
+.container-wrapper { width: 100% !important; min-width: 1200px; overflow: hidden; background: url(../img/esharingcar/body_bg.png) repeat; }
+#esharingcar { position: relative; width: 1200px; height: 2256px; margin: 0 auto; }
+#esharingcar img { width: 100%; }
+#esharingcar .img_01 { position: absolute; top: 54px; left: 40px; width: 600px; height: 550px; }
+#esharingcar .img_02 { position: absolute; top: 38px; right: -88px; width: 628px; height: 580px; }
+#esharingcar .img_03 { position: absolute; top: 573px; left: 302px; width: 670px; height: 214px; }
+#esharingcar .img_04 { position: absolute; top: 823px; left: 24px; width: 610px; height: 370px; }
+#esharingcar .img_04 .link { position: absolute; bottom: 38px; right: -170px; width: 232px; height: 84px; z-index: 999; }
+#esharingcar .img_05 { position: absolute; top: 741px; right: 30px; width: 626px; height: 626px; }
+#esharingcar .img_06 { position: absolute; top: 1244px; left: 33px; width: 576px; height: 566px; }
+#esharingcar .img_07 { position: absolute; top: 1420px; right: 30px; width: 542px; height: 406px; }
+#esharingcar .img_08 { position: absolute; bottom: 98px; left: 0; width: 1200px; height: 190px; }
