@@ -1,0 +1,76 @@
+#mothersDay { width: 100%; min-width: 1200px; font-family: Arial, "Microsoft Yahei"; font-size: 14px; overflow: hidden; }
+#mothersDay .section { width: 100%; }
+#mothersDay .section.even { background-color: #fff; }
+#mothersDay .section.odd { background-color: #e4d48c; }
+#mothersDay .section:nth-of-type(even) { background-color: #fff; }
+#mothersDay .section:nth-of-type(odd) { background-color: #e4d48c; }
+#mothersDay .section-box { position: relative; width: 1200px; margin: 0 auto; }
+#mothersDay .section-box .cake { position: absolute; z-index: 9; display: block; }
+#mothersDay .section-box .cake:hover > img { -webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); -ms-transform: rotate(5deg); -o-transform: rotate(5deg); transform: rotate(5deg); }
+#mothersDay .section-box .cake > img { width: 100%; vertical-align: top; }
+#mothersDay .section-box .cake-detail { position: absolute; z-index: 9; }
+#mothersDay .section-box .cake-detail .title,
+#mothersDay .section-box .cake-detail .content { width: 100%; }
+#mothersDay .section-box .cake-detail .content .price { float: left; }
+#mothersDay .section-box .cake-detail .content .link { display: block; float: right; color: #fff; background: url("../img/mothers-day/section2_cake_link_bg.png") no-repeat; font-size: 24px; text-align: left; text-indent: .6em; }
+#mothersDay .section-box .cake-detail .content .link span { font-weight: bold; }
+#mothersDay .section-box .cake-detail .content .link:hover { color: #f9c9c9; }
+
+#mothersDay .section1 .section-box { height: 740px; background: url("../img/mothers-day/section1_bg.png") no-repeat; background-position: 0 0; }
+#mothersDay .section1 .cake { bottom: -142px; left: 312px; }
+#mothersDay .section1 .cake-detail { right: 30px; bottom: -90px; width: 292px; height: 138px; }
+#mothersDay .section1 .cake-detail .title { height: 48px; }
+#mothersDay .section1 .cake-detail .content { height: 90px; }
+#mothersDay .section1 .cake-detail .price { width: 180px; }
+#mothersDay .section1 .cake-detail .link { width: 94px; height: 90px; line-height: 100px !important; background-image: url("../img/mothers-day/section1_cake_link_bg.png") !important; font-size: 28px !important; text-indent: 1em !important; }
+#mothersDay .section1 .text { position: absolute; top: 356px; right: 40px; z-index: 99; width: 292px; }
+#mothersDay .section1 .text p { color: #000; line-height: 24px; text-indent: 2em; text-align: justify; }
+#mothersDay .section1 .text p.date { text-align: right; }
+
+#mothersDay .section2 .section-box { height: 560px; background: url("../img/mothers-day/section2_bg.png") no-repeat; background-position: 853px 218px; }
+#mothersDay .section2 .cake { bottom: 18px; left: 18px; }
+#mothersDay .section2 .cake-detail { left: 475px; bottom: 120px; width: 212px; height: 156px; }
+#mothersDay .section2 .cake-detail .title { height: 96px; }
+#mothersDay .section2 .cake-detail .content { height: 60px; }
+#mothersDay .section2 .cake-detail .price { width: 128px; }
+#mothersDay .section2 .cake-detail .link { width: 70px; height: 60px; line-height: 60px; }
+
+
+#mothersDay .section3 .section-box { height: 410px; background: url("../img/mothers-day/section3_bg.png") no-repeat; background-position: 34px 32px; }
+#mothersDay .section3 .cake { bottom: 13px; right: 20px; }
+#mothersDay .section3 .cake-detail { left: 291px; bottom: 148px; width: 242px; height: 108px; }
+#mothersDay .section3 .cake-detail .title { height: 48px; }
+#mothersDay .section3 .cake-detail .content { height: 60px; }
+#mothersDay .section3 .cake-detail .price { width: 160px; }
+#mothersDay .section3 .cake-detail .link { width: 70px; height: 60px; line-height: 60px; }
+
+#mothersDay .section4 .section-box { height: 480px; background: url("../img/mothers-day/section4_bg.png") no-repeat; background-position: 906px 116px; }
+#mothersDay .section4 .cake { bottom: 29px; left: 19px; }
+#mothersDay .section4 .cake-detail { left: 479px; bottom: 139px; width: 212px; height: 156px; }
+#mothersDay .section4 .cake-detail .title { height: 96px; }
+#mothersDay .section4 .cake-detail .content { height: 60px; }
+#mothersDay .section4 .cake-detail .price { width: 128px; }
+#mothersDay .section4 .cake-detail .link { width: 70px; height: 60px; line-height: 60px; }
+
+
+#mothersDay .section5 .section-box { height: 560px; background: url("../img/mothers-day/section5_bg.png") no-repeat; background-position: 358px 118px; }
+#mothersDay .section5 .cake { bottom: 54px; left: 244px; }
+#mothersDay .section5 .cake-detail { left: 512px; top: 61px; width: 212px; height: 162px; }
+#mothersDay .section5 .cake-detail .title { height: 102px; }
+#mothersDay .section5 .cake-detail .content { height: 60px; }
+#mothersDay .section5 .cake-detail .price { width: 128px; }
+#mothersDay .section5 .cake-detail .link { width: 70px; height: 60px; line-height: 60px; }
+
+#mothersDay .section6 .section-box { height: 460px; background: url("../img/mothers-day/section6_bg.png") no-repeat; background-position: 396px 112px; }
+#mothersDay .section6 .cake { bottom: 23px; left: 102px; }
+#mothersDay .section6 .cake-detail { left: 504px; top: 44px; width: 220px; height: 162px; }
+#mothersDay .section6 .cake-detail .title { height: 102px; }
+#mothersDay .section6 .cake-detail .content { height: 60px; }
+#mothersDay .section6 .cake-detail .price { width: 136px; }
+#mothersDay .section6 .cake-detail .link { width: 70px; height: 60px; line-height: 60px; }
+
+
+#mothersDay .section7 .section-box { height: 220px; }
+#mothersDay .section7 .section-box dl { width: 500px; margin: 0 auto; line-height: 24px; color: #000; }
+#mothersDay .section7 .section-box dt { font-size: 18px; text-align: center; padding: 20px 0 10px; }
+#mothersDay .section7 .section-box dd { font-size: 14px; }
