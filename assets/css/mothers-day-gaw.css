@@ -1,9 +1,5 @@
-#mothersDay { width: 100%; min-width: 1200px; font-family: Arial, "Microsoft Yahei"; font-size: 14px; overflow: hidden; }
+#mothersDay { width: 100%; min-width: 1200px; font-family: Arial, "Microsoft Yahei"; font-size: 14px; overflow: hidden; background: url("../img/mothers-day-gaw/container_bg.jpg"); }
 #mothersDay .section { width: 100%; }
-#mothersDay .section.even { background-color: #fff; }
-#mothersDay .section.odd { background-color: #95af65; }
-#mothersDay .section:nth-of-type(even) { background-color: #fff; }
-#mothersDay .section:nth-of-type(odd) { background-color: #95af65; }
 #mothersDay .section-box { position: relative; width: 1200px; margin: 0 auto; }
 #mothersDay .section-box .cake { position: absolute; z-index: 9; display: block; }
 #mothersDay .section-box .cake:hover > img { -webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); -ms-transform: rotate(5deg); -o-transform: rotate(5deg); transform: rotate(5deg); }
@@ -14,10 +10,10 @@
 #mothersDay .section-box .cake-detail .content .price { float: left; }
 #mothersDay .section-box .cake-detail .content .link { display: block; float: right; color: #fff; background: url("../img/mothers-day-gaw/section2_cake_link_bg.png") no-repeat; font-size: 24px; text-align: left; text-indent: .6em; }
 #mothersDay .section-box .cake-detail .content .link span { font-weight: bold; }
-#mothersDay .section-box .cake-detail .content .link:hover { color: #c9e692; }
+#mothersDay .section-box .cake-detail .content .link:hover { color: #ffe1dd; }
 
 #mothersDay .section1 .section-box { height: 740px; background: url("../img/mothers-day-gaw/section1_bg.png") no-repeat; background-position: 0 0; }
-#mothersDay .section1 .cake { bottom: -131px; left: 258px; }
+#mothersDay .section1 .cake { bottom: -131px; left: 320px; }
 #mothersDay .section1 .cake-detail { right: 31px; bottom: -89px; width: 290px; height: 128px; }
 #mothersDay .section1 .cake-detail .title { height: 48px; }
 #mothersDay .section1 .cake-detail .content { height: 80px; }
@@ -40,15 +36,16 @@
 #mothersDay .section3 .section-box dt { font-size: 18px; text-align: center; padding: 60px 0 10px; }
 #mothersDay .section3 .section-box dd { font-size: 14px; }
 
+#mothersDay .section4 { background: #fff; background: rgba(255, 255, 255, .85); }
 #mothersDay .section4 .section-box { height: 122px; }
 #mothersDay .section4 .frm-register { width: 100%; }
-#mothersDay .section4 .frm-register > h2 { line-height: 52px; font-size: 30px; font-weight: 400; color: #95af65; text-align: center; }
+#mothersDay .section4 .frm-register > h2 { line-height: 52px; font-size: 30px; font-weight: 400; color: #ee9b4b; text-align: center; }
 #mothersDay .section4 .frm-register > ul { width: 100%; }
 #mothersDay .section4 .frm-register li { float: left; margin-right: 49px; }
 #mothersDay .section4 .frm-register li.last { margin-right: 0; }
 #mothersDay .section4 .frm-register li input { width: 348px; height: 58px; line-height: 58px; outline: none; font-size: 18px; color: #505050; text-indent: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
 #mothersDay .section4 .frm-register li .txt-mobile { float: left; width: 240px; border-radius: 10px 0 0 10px; background-image: url(../img/register-welfare/icon_mobile.png); background-repeat: no-repeat; background-position: 20px center; }
 #mothersDay .section4 .frm-register li .txt-vcode { background-image: url(../img/register-welfare/icon_vcode.png); background-repeat: no-repeat; background-position: 20px center; }
-#mothersDay .section4 .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 58px; margin-left: -1px; line-height: 58px; text-align: center; color: #fff; font-size: 18px; background: #95af65; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
-#mothersDay .section4 .frm-register li .btn-quick-register { display: block; width: 354px; height: 58px; line-height: 58px; font-size: 18px; text-align: center; color: #fff; background-color: #95af65; border-radius: 10px; }
+#mothersDay .section4 .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 58px; margin-left: -1px; line-height: 58px; text-align: center; color: #fff; font-size: 18px; background: #ee9b4b; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#mothersDay .section4 .frm-register li .btn-quick-register { display: block; width: 354px; height: 58px; line-height: 58px; font-size: 18px; text-align: center; color: #fff; background-color: #ee9b4b; border-radius: 10px; }
 #mothersDay .section4.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
