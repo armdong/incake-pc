@@ -1,0 +1,6 @@
+#starbucks { width: 100%; min-width: 1200px; background-color: #000; overflow: hidden; }
+#starbucks .content { position: relative; width: 1200px; height: 1428px; margin: 0 auto; background: url("../img/starbucks/body_bg.jpg") no-repeat; background-position: top center; }
+#starbucks .content .btn-go { display: block; position: absolute; bottom: 578px; left: 214px; width: 94px; height: 107px; background: url("../img/starbucks/btn_go.png") no-repeat; background-size: cover; background-position: center center; }
+#starbucks .content .rules { position: absolute; bottom: 90px; left: 80px; width: 460px; color: #a55927; }
+#starbucks .content .rules dt { font-size: 18px; line-height: 24px; margin-bottom: 10px; }
+#starbucks .content .rules dd { font-size: 14px; line-height: 24px; }
