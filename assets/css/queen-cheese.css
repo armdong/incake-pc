@@ -1,0 +1,13 @@
+#cheeseVoice { width: 100%; min-width: 1200px; overflow: hidden; background-color: #d5822f; }
+#cheeseVoice .voice-container { width: 1200px; margin: 0 auto; }
+.voice-container .banner { position: relative; width: 100%; height: 550px; background: url("../img/queen-cheese/banner.png") no-repeat; }
+.voice-container .banner > p { position: absolute; right: 204px; bottom: 210px; font-size: 16px; color: #fff; line-height: 24px; }
+.voice-container .content { position: relative; width: 100%; height: 1060px; background: url("../img/queen-cheese/content_bg.png") no-repeat; background-position: top center; }
+.voice-container .content > p { font-size: 16px; line-height: 30px; text-align: center; color: #f9e495; }
+.voice-container .content .btn-buy { position: absolute; top: 138px; right: 312px; width: 186px; height: 186px; background-color: #fce407; border-radius: 50%; overflow: hidden; text-align: center; }
+.voice-container .content .btn-buy p { width: 70%; margin: 54px auto 0; color: #d5822f; font-size: 28px; }
+.voice-container .content .btn-buy:hover p { color: #e9b077; }
+.voice-container .content .btn-buy span { width: 100%; display: inline-block; line-height: 38px; text-align: left; }
+.voice-container .content dl { position: absolute; bottom: 50px; left: 0; width: 100%; color: #fbedcf; text-align: center; }
+.voice-container .content dt { font-size: 18px; line-height: 24px; margin-bottom: 10px; }
+.voice-container .content dd { font-size: 14px; line-height: 24px; }
