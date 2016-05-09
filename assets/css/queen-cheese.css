@@ -11,3 +11,16 @@
 .voice-container .content dl { position: absolute; bottom: 50px; left: 0; width: 100%; color: #fbedcf; text-align: center; }
 .voice-container .content dt { font-size: 18px; line-height: 24px; margin-bottom: 10px; }
 .voice-container .content dd { font-size: 14px; line-height: 24px; }
+
+#frm-container { width: 100%; background: #fff; background: rgba(255, 255, 255, .85); }
+#frm-container .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 10px; }
+#frm-container .frm-register > h2 { line-height: 52px; font-size: 30px; font-weight: 400; color: #ee9b4b; text-align: center; }
+#frm-container .frm-register > ul { width: 100%; }
+#frm-container .frm-register li { float: left; margin-right: 49px; }
+#frm-container .frm-register li.last { margin-right: 0; }
+#frm-container .frm-register li input { width: 348px; height: 58px; line-height: 58px; outline: none; font-size: 18px; color: #505050; text-indent: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#frm-container .frm-register li .txt-mobile { float: left; width: 240px; border-radius: 10px 0 0 10px; background-image: url(../img/register-welfare/icon_mobile.png); background-repeat: no-repeat; background-position: 20px center; }
+#frm-container .frm-register li .txt-vcode { background-image: url(../img/register-welfare/icon_vcode.png); background-repeat: no-repeat; background-position: 20px center; }
+#frm-container .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 58px; margin-left: -1px; line-height: 58px; text-align: center; color: #fff; font-size: 18px; background: #ee9b4b; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#frm-container .frm-register li .btn-quick-register { display: block; width: 354px; height: 58px; line-height: 58px; font-size: 18px; text-align: center; color: #fff; background-color: #ee9b4b; border-radius: 10px; }
+#frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
