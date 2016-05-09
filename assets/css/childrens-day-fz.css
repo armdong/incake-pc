@@ -1,0 +1,29 @@
+#childrensDay { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background: url("../img/childrens-day-fz/container_bg.jpg") repeat-y; }
+#childrensDay .c-container { width: 1200px; margin: 0 auto; }
+.c-container .c-header { width: 100%; height: 72px; padding: 64px 0; }
+.c-container .c-header .c-logo { width: 480px; height: 72px; margin-left: auto; background: url("../img/childrens-day-fz/logo.png") no-repeat; }
+.c-container .c-body { width: 100%; }
+.c-container .c-body .c-banner { position: relative; width: 100%; height: 610px; background: url("../img/childrens-day-fz/banner.png") no-repeat; }
+.c-container .c-body .c-banner .btn-buy { display: block; position: absolute; bottom: 26px; left: 40px; width: 170px; height: 170px; background: url("../img/childrens-day-fz/btn_buy.png") no-repeat; }
+.c-container .c-body .c-desc { position: relative; width: 100%; height: 790px; background: url("../img/childrens-day-fz/desc_bg.png") no-repeat; }
+.c-container .c-body .c-desc p { position: absolute; top: 248px; left: 110px; font-size: 18px; color: #003242; line-height: 36px; width: 414px; text-align: justify; }
+.c-container .c-body .c-env { position: relative; width: 100%; height: 930px; background: url("../img/childrens-day-fz/env_bg.jpg") no-repeat; background-position: 58px 30px; }
+.c-container .c-body .c-env .box { position: absolute; width: 488px; height: 380px; }
+.c-container .c-body .c-env .box.yellow { background: url("../img/childrens-day-fz/outer_bg_yellow.png") no-repeat; }
+.c-container .c-body .c-env .box.blue { background: url("../img/childrens-day-fz/outer_bg_blue.png") no-repeat; }
+.c-container .c-body .c-env .box1 { top: 88px; left: 46px; }
+.c-container .c-body .c-env .box2 { top: 10px; right: 46px; }
+.c-container .c-body .c-env .box3 { bottom: 10px; left: 46px; }
+.c-container .c-body .c-env .box4 { bottom: 88px; right: 46px; }
+.c-container .c-body .c-env .box .inner-box { position: absolute; top: 22px; left: 22px; width: 444px; height: 336px; overflow: hidden; border-radius: 10px; }
+.c-container .c-body .c-env .box ul,
+.c-container .c-body .c-env .box span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px; }
+.c-container .c-body .c-env .box ul { cursor: pointer; z-index: 5; }
+.c-container .c-body .c-env .box span { -webkit-transform: scale(1.5); -moz-transform: scale(1.5); transform: scale(1.5); -webkit-transition: .5s all; -moz-transition: .5s all; transition: .5s all; }
+.c-container .c-body .c-env .box ul li { position: relative; float: left; overflow: hidden; }
+.c-container .c-body .c-env .box ul img { position: absolute; -webkit-transition: .5s all; -moz-transition: .5s all; transition: .5s all; }
+.c-container .c-body .c-rules { width: 100%; height: 400px; padding-top: 70px; }
+.c-container .c-body .c-rules dl { width: 990px; margin: 0 auto; color: #003242; }
+.c-container .c-body .c-rules dt { line-height: 68px; font-size: 48px; -webkit-text-shadow: 0 0 1px #fbcc00; -moz-text-shadow: 0 0 1px #fbcc00; -ms-text-shadow: 0 0 1px #fbcc00; -o-text-shadow: 0 0 1px #fbcc00; text-shadow: 0 0 1px #fbcc00; }
+.c-container .c-body .c-rules dd { line-height: 48px; font-size: 28px; text-align: justify; }
+.c-container .c-body .c-rules dd span { color: #c30d23; }
