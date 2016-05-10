@@ -17,7 +17,7 @@
 .c-container .c-body .c-env .box4 { bottom: 88px; right: 46px; }
 .c-container .c-body .c-env .box .inner-box { position: absolute; top: 22px; left: 22px; width: 444px; height: 336px; overflow: hidden; border-radius: 10px; }
 .c-container .c-body .c-env .box ul,
-.c-container .c-body .c-env .box span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px; }
+.c-container .c-body .c-env .box span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px; overflow: hidden; }
 .c-container .c-body .c-env .box ul { cursor: pointer; z-index: 5; }
 .c-container .c-body .c-env .box span { -webkit-transform: scale(1.5); -moz-transform: scale(1.5); transform: scale(1.5); -webkit-transition: .5s all; -moz-transition: .5s all; transition: .5s all; }
 .c-container .c-body .c-env .box ul li { position: relative; float: left; overflow: hidden; }
