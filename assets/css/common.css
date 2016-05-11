@@ -37,6 +37,8 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 .header .status-bar .hot-line { display: inline-block; float: left; color: #969696; }
 .header .status-bar .welcome { margin-right: 40px; }
 .header .status-bar .work-time { margin-right: 20px; }
+.header .status-bar .hot-line { margin-right: 20px; }
+.header .status-bar .code { color: #0f3677; }
 .header .status-bar .links { float: right; }
 .header .status-bar .links li { display: inline-block; float: left; }
 /* added search style on 2016/03/03 */
@@ -159,8 +161,8 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 .footer .footer-bottom .hot-line { width: 264px; float: left; padding-top: 24px; }
 .footer .footer-bottom .hot-line .text { width: 28px; line-height: 24px; float: left; }
 .footer .footer-bottom .hot-line .tel { width: 222px; float: right; font-size: 30px; color: #4f4f4f; line-height: 48px; }
-.footer .footer-bottom .copyright { float: right; width: 478px; padding-top: 20px; }
-.footer .footer-bottom .copyright .shgs-logo { display: block; float: left; }
+.footer .footer-bottom .copyright { float: right; width: 478px; /* padding-top: 20px; */ }
+.footer .footer-bottom .copyright .shgs-logo { position: relative; top: 15px; display: block; float: left; }
 .footer .footer-bottom .copyright .shgs-logo img { width: 47px; }
 .footer .footer-bottom .copyright .text { width: 418px; float: right; padding-top: 4px; }
 .footer .footer-bottom .copyright .text { line-height: 24px; }
