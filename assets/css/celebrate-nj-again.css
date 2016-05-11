@@ -1,0 +1,15 @@
+.container { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #dbcebb; }
+#celebrate { width: 1200px; margin: 0 auto; }
+#celebrate .banner { width: 100%; height: 1414px; background: url("../img/celebrate-nj-again/banner.jpg") no-repeat; }
+#celebrate .content { width: 100%; }
+#celebrate .content .who-we-are { width: 1130px; height: 836px; padding: 0 15px 10px; margin: 0 auto; color: #38291f; background: url("../img/celebrate-nj-again/who_we_are_bg.jpg") no-repeat; background-position: bottom center; border-bottom: 1px solid #38291f; }
+#celebrate .who-we-are h2 { line-height: 114px; font-size: 38px; font-weight: normal; text-align: center; }
+#celebrate .who-we-are p { line-height: 36px; font-size: 16px; text-indent: 2em; }
+#celebrate .who-we-are p span { color: #9f362f; }
+#celebrate .content .bottom { width: 100%; color: #38291f; padding-bottom: 50px; }
+#celebrate .bottom h2 { text-align: center; line-height: 60px; margin-top: 20px; }
+#celebrate .bottom p { text-align: center; line-height: 48px; font-size: 20px; }
+#celebrate .bottom p.arrow-down { width: 100%; height: 70px; background: url("../img/celebrate-nj-again/arrow_down.jpg") no-repeat; background-position: center center; }
+#celebrate .bottom .qrcode { width: 162px; height: 162px; border: 1px solid #c8c8c8; margin: 0 auto; background: url("../img/celebrate-nj-again/qrcode.jpg") no-repeat; margin-bottom: 10px; cursor: pointer; }
+#celebrate .bottom p.tip { font-size: 14px; color: #38291f; line-height: 24px; }
+#celebrate .bottom p.tip span { color: #9f362f; }
