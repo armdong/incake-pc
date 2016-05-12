@@ -1,0 +1,46 @@
+.container-wrapper { width: 100% !important; min-width: 1200px; overflow: hidden; background-color: #fffced; }
+.container-wrapper .banner { width: 1200px; height: 780px; margin: 0 auto; background: url("../img/520/banner.png") no-repeat; }
+.container-wrapper .content { position: relative; width: 1200px; height: 630px; margin: 0 auto; background: url("../img/520/cake.png") no-repeat; }
+.container-wrapper .content .btn-buy { display: block; position: absolute; width: 202px; height: 190px; bottom: 80px; left: 268px; background: url("../img/520/btn_buy.png") no-repeat; -webkit-transform-origin: top right; -moz-transform-origin: top right; -ms-transform-origin: top right; -o-transform-origin: top right; transform-origin: top right; -webkit-animation: 3s smooth infinite; -moz-animation: 3s smooth infinite; -ms-animation: 3s smooth infinite; -o-animation: 3s smooth infinite; animation: 3s smooth infinite; }
+@-webkit-keyframes smooth {
+	0% { -webkit-transform: scale(0.8); }
+	50% { -webkit-transform: scale(1.2); }
+	100% { -webkit-transform: scale(0.8); }
+}
+@-moz-keyframes smooth {
+	0% { -moz-transform: scale(0.8); }
+	50% { -moz-transform: scale(1.2); }
+	100% { -moz-transform: scale(0.8); }
+}
+@-ms-keyframes smooth {
+	0% { -ms-transform: scale(0.8); }
+	50% { -ms-transform: scale(1.2); }
+	100% { -ms-transform: scale(0.8); }
+}
+@-o-keyframes smooth {
+	0% { -o-transform: scale(0.8); }
+	50% { -o-transform: scale(1.2); }
+	100% { -o-transform: scale(0.8); }
+}
+@keyframes smooth {
+	0% { transform: scale(0.8); }
+	50% { transform: scale(1.2); }
+	100% { transform: scale(0.8); }
+}
+.container-wrapper .rules { width: 100%; height: 210px; background-color: #5f443b; color: #fff; text-align: center; line-height: 24px; }
+.container-wrapper .rules dt { font-size: 18px; padding: 44px 0 16px; }
+.container-wrapper .rules dd { font-size: 14px; }
+
+.container-wrapper .frm-container { width: 100%; background-color: #fbc50d; }
+.container-wrapper .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+.container-wrapper .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 8px; }
+.container-wrapper .frm-register > h2 { line-height: 52px; font-size: 30px; font-weight: 400; color: #5f443b; text-align: center; }
+.container-wrapper .frm-register > h2 a { color: #f90000; text-decoration: underline; }
+.container-wrapper .frm-register > ul { width: 100%; }
+.container-wrapper .frm-register li { float: left; margin-right: 49px; }
+.container-wrapper .frm-register li.last { margin-right: 0; }
+.container-wrapper .frm-register li input { width: 348px; height: 60px; line-height: 60px; outline: none; font-size: 18px; color: #505050; text-indent: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+.container-wrapper .frm-register li .txt-mobile { float: left; width: 240px; border-radius: 10px 0 0 10px; background-image: url(../img/register-welfare-nj/icon_mobile.png); background-repeat: no-repeat; background-position: 20px center; }
+.container-wrapper .frm-register li .txt-vcode { background-image: url(../img/register-welfare-nj/icon_vcode.png); background-repeat: no-repeat; background-position: 20px center; }
+.container-wrapper .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 60px; margin-left: -1px; line-height: 60px; text-align: center; color: #fff; font-size: 18px; background: #5f443b; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+.container-wrapper .frm-register li .btn-quick-register { display: block; width: 354px; height: 60px; line-height: 60px; font-size: 18px; text-align: center; color: #fff; background-color: #5f443b; border-radius: 10px; }
