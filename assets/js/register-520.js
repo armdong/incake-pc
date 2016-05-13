@@ -15,6 +15,8 @@
             fnFrmScroll(disT, $oFrmContainer);
         });
 
+        fnRegister($oFrmContainer);
+
     });
 
     function fnFrmScroll(disT, $obj) {
@@ -26,6 +28,24 @@
                 $obj.removeClass('flt');
             }
         }
+    }
+
+    function fnRegister($oFrmContainer){
+
+        // TODO 处理注册逻辑
+
+        var $oMask = $('#mask-tip');
+        $oFrmContainer.on('click', '.btn-quick-register', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            $oMask.show();
+        });
+
+        $oMask.on('click', '.btn-tip-close', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            $oMask.hide();
+        });
     }
 
 })();
