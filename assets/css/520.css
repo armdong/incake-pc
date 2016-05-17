@@ -39,7 +39,7 @@
 .container-wrapper .frm-register > ul { width: 100%; }
 .container-wrapper .frm-register li { float: left; margin-right: 49px; }
 .container-wrapper .frm-register li.last { margin-right: 0; }
-.container-wrapper .frm-register li input { width: 282px; height: 60px; line-height: 60px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+.container-wrapper .frm-register li input { width: 282px; height: 60px; line-height: 60px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
 .container-wrapper .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url(../img/register-welfare-nj/icon_mobile.png); background-repeat: no-repeat; background-position: 20px center; }
 .container-wrapper .frm-register li .txt-vcode { background-image: url(../img/register-welfare-nj/icon_vcode.png); background-repeat: no-repeat; background-position: 20px center; }
 .container-wrapper .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 60px; margin-left: -1px; line-height: 60px; text-align: center; color: #fff; font-size: 18px; background: #5f443b; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
