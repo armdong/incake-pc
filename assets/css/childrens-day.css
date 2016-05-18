@@ -1,0 +1,100 @@
+/* loading begin */
+#loading { position: fixed; top: 0; left: 0; z-index: 999999; width: 100%; height: 100%; background-color: rgba(244, 229, 173, .95); }
+#loading .content { position: absolute; left: 50%; top: 40%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+#loading .content img { width: 100%; }
+/* loading end */
+
+#childrensDay { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f7d03a; }
+#childrensDay .c-container { width: 1200px; margin: 0 auto; }
+#childrensDay .c-container .banner { position: relative; }
+.c-container .banner a { position: absolute; top: 1242px; left: 192px; display: block; width: 268px; height: 270px; }
+.c-container .banner .yellow-left { position: relative; }
+.c-container .yellow-left i { position: absolute; top: -144px; left: -36px; display: inline-block; width: 200px; height: 200px; background: url(../img/childrens-day/yellow01.png) no-repeat; }
+.c-container .yellow-left i:hover { background: url(../img/childrens-day/yellow02.png) no-repeat;  }
+.c-container .banner .yellow-right { position: absolute; top: 1130px; left: 524px; }
+.c-container .banner .yellow-shake { position: absolute; top: 1152px; left: 836px; -webkit-transform-origin:52% 0; -moz-transform-origin:52% 0; -ms-transform-origin:52% 0; -o-transform-origin:52% 0; transform-origin:52% 0; -webkit-animation: shake 3s infinite; -moz-animation: shake 3s infinite; -ms-animation: shake 3s infinite; -o-animation: shake 3s infinite; animation: shake 3s infinite; }
+.c-container .banner .banner-text { position: absolute; top: 1552px; left: 372px; width: 448px; }
+.c-container .banner-text p { font-size: 18px; line-height: 30px; color: #000; text-align: justify; text-indent: 2em; } 
+.c-container .banner-text p span { color: #f8394a; }
+.c-container .tips { display: block; width: 430px; margin: 50px auto 26px; }
+.c-container ul { width: 1016px; margin-left: 14px; }
+.c-container ul li { float: right; height: 210px; border-radius: 155px 0 0 155px; margin-bottom: 56px; cursor: default; }
+.c-container ul li.li01 { background-color: #d3a802; }
+.c-container ul li.li02 { background-color: #f8394a; }
+.c-container ul li.li03 { background-color: #4189b3; }
+.c-container li .img-box { position: relative; float: left; width: 344px; height: 210px; }
+.c-container li .img-box img { position: absolute;	 }
+.c-container li.li01 .img-box img { top: 6px; left: 20px; }
+.c-container li.li02 .img-box img { top: -36px; left: -2px; }
+.c-container li.li03 .img-box img { top: 6px; left: 10px; }
+.c-container li .g-text { float: right; width: 322px; padding: 65px 0; color: #000; text-align: center; }
+.c-container li .g-text .text-s { font-size: 24px; line-height: 24px; }
+.c-container li .g-text .text-m { font-size: 36px; line-height: 56px; }
+.c-container li.li02 .g-text { padding: 76px 0; }
+.c-container li a { float: right; display: block; width: 190px; height: 210px; background: url(../img/childrens-day/get.png) no-repeat center center; }
+.c-container li.li01 a { background-color: #675510; }
+.c-container li.li02 a { background-color: #971420; }
+.c-container li.li03 a { background-color: #184f6f; }
+
+#childrensDay .c-rules { background-color: #000; }
+.c-rules .rules { width: 860px; margin: 0 auto; padding: 14px 0 50px 0; color: #f7d03a; text-align: justify; }
+.c-rules .rules dt{ font-size: 24px; line-height: 60px; }
+.c-rules .rules dd{ font-size: 16px; line-height: 30px; }
+
+/* mask-register begin */
+.mask-register { display: none; width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/childrens-day/mask_bg.png) repeat; z-index: 9999999; }
+.mask-register .register-container { width: 408px; padding: 56px 66px 46px; position: absolute; left: 50%; margin-left: -270px; top: 50%; margin-top: -154px; z-index: 99999999; background: #fff; -webkit-box-shadow: 2px 4px 22px; -moz-box-shadow: 2px 4px 22px; box-shadow: 2px 4px 22px; }
+.mask-register .register-header { position: absolute; top: -180px; left: 48%; }
+
+.mask-register .register-container .register-content .li-mobile,
+.mask-register .register-container .register-content .li-vcode,
+.mask-register .register-container .register-content .li-name { width: 400px; height: 60px; border: 4px solid #f7d03a; border-radius: 34px; position: relative; margin-bottom: 12px; }
+.mask-register .register-container .register-content .li-mobile input,
+.mask-register .register-container .register-content .li-vcode input,
+.mask-register .register-container .register-content .li-name input { width: 340px; height: 60px; line-height: 60px; border: none; background: transparent; margin-right: 30px; font-size: 18px; -webkit-appearance: none; -moz-appearance: none; appearance: none; float: right; outline: none; }
+.mask-register .register-container .register-content .li-mobile input { width: 230px; margin-right: 0; }
+.mask-register .register-container .register-content .li-mobile .btn-vcode { float: right; display: block; width: 130px; height: 50px; background: #f7b23d; border-radius: 25px; margin: 5px; font-size: 18px; line-height: 50px; color: #564a1c; text-align: center; }
+
+.mask-register .register-container .step-02 .status { width: 100%; height: 44px; line-height: 44px; font-size: 24px; color: #f8394a; text-align: center; }
+.mask-register .register-container .step-02 .tips { width: 100%; height: 80px; line-height: 80px; font-size: 18px; color: #000; text-align: center; }
+
+.mask-register .register-container .step-03 .tips { width: 100%; height: 120px; line-height: 120px; font-size: 24px; color: #000; text-align: center; }
+
+.mask-register .register-container .register-footer { width: 408px; height: 68px; padding-top: 10px; margin: 0 auto; }
+.mask-register .register-container .register-footer a { display: block; width: 408px; height: 68px; border-radius: 34px; background: #f7d03a; font-size: 18px; line-height: 68px; color: #000; text-align: center; }
+/* mask-register end */
+
+@-webkit-keyframes shake /* Safari 和 Chrome */
+{
+	0% { -webkit-transform: rotate(-40deg); }
+	50% {-webkit-transform: rotate(40deg); }
+	100% {-webkit-transform: rotate(-40deg); }
+}
+@-moz-keyframes shake /* Firefox */
+{
+	0% {-moz-transform: rotate(-40deg); }
+	50% {-moz-transform: rotate(40deg); }
+	100% {-moz-transform: rotate(-40deg); }
+}
+@-ms-keyframes shake
+{
+	0% {-ms-transform: rotate(-40deg); }
+	50% {-ms-transform: rotate(40deg); }
+	100% {-ms-transform: rotate(-40deg); }
+}
+@-o-keyframes shake
+{
+	0% {-o-transform: rotate(-40deg); }
+	50% {-o-transform: rotate(40deg); }
+	100% {-o-transform: rotate(-40deg); }
+}
+@keyframes shake
+{
+	0% {transform: rotate(-40deg); }
+	50% {transform: rotate(40deg); }
+	100% {transform: rotate(-40deg); }
+}
+
+
+
+
