@@ -1,4 +1,4 @@
-/* loading begin */
+﻿/* loading begin */
 #loading { position: fixed; top: 0; left: 0; z-index: 999999; width: 100%; height: 100%; background-color: rgba(244, 229, 173, .95); }
 #loading .content { position: absolute; left: 50%; top: 40%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 #loading .content img { width: 100%; }
@@ -9,14 +9,15 @@
 #childrensDay .c-container .banner { position: relative; }
 .c-container .banner a { position: absolute; top: 1242px; left: 192px; display: block; width: 268px; height: 270px; }
 .c-container .banner .yellow-left { position: relative; }
-.c-container .yellow-left i { position: absolute; top: -144px; left: -36px; display: inline-block; width: 200px; height: 200px; background: url(../img/childrens-day/yellow01.png) no-repeat; }
-.c-container .yellow-left i:hover { background: url(../img/childrens-day/yellow02.png) no-repeat;  }
+.c-container .yellow-left i { position: absolute; top: -144px; left: -36px; display: inline-block; width: 200px; height: 200px; background: url(../img/childrens-day/yellow02.png) no-repeat; }
+.c-container .banner a:hover i { background: url(../img/childrens-day/yellow01.png) no-repeat;  }
 .c-container .banner .yellow-right { position: absolute; top: 1130px; left: 524px; }
 .c-container .banner .yellow-shake { position: absolute; top: 1152px; left: 836px; -webkit-transform-origin:52% 0; -moz-transform-origin:52% 0; -ms-transform-origin:52% 0; -o-transform-origin:52% 0; transform-origin:52% 0; -webkit-animation: shake 3s infinite; -moz-animation: shake 3s infinite; -ms-animation: shake 3s infinite; -o-animation: shake 3s infinite; animation: shake 3s infinite; }
-.c-container .banner .banner-text { position: absolute; top: 1552px; left: 372px; width: 448px; }
-.c-container .banner-text p { font-size: 18px; line-height: 30px; color: #000; text-align: justify; text-indent: 2em; } 
+.c-container .banner .banner-text { position: absolute; top: 1620px; left: 372px; width: 450px; }
+.c-container .banner-text p { font-size: 18px; line-height: 30px; color: #000; text-align: justify; } 
 .c-container .banner-text p span { color: #f8394a; }
-.c-container .tips { display: block; width: 430px; margin: 50px auto 26px; }
+.c-container .tips { display: block; width: 430px; margin: 50px auto 20px; }
+.c-container .tips-text { margin-bottom: 50px; font-size: 20px; line-height: 20px; text-align: center; font-weight: bold; color: #f8394a; }
 .c-container ul { width: 1016px; margin-left: 14px; }
 .c-container ul li { float: right; height: 210px; border-radius: 155px 0 0 155px; margin-bottom: 56px; cursor: default; }
 .c-container ul li.li01 { background-color: #d3a802; }
@@ -35,6 +36,13 @@
 .c-container li.li01 a { background-color: #675510; }
 .c-container li.li02 a { background-color: #971420; }
 .c-container li.li03 a { background-color: #184f6f; }
+.c-container .gift-box2 { width: 1166px; padding-bottom: 50px; margin: 0 auto; border-top: 2px solid #000; }
+.c-container .gift-box2 .p-title { margin: 36px 0 12px; font-size: 30px; line-height: 30px; text-align: center; color: #f8394a; }
+.c-container .gift-box2 .p-text { width: 630px; margin: 0 auto; font-size: 20px; line-height: 30px; }
+.c-container .gift-box2 p span{ color: #f8394a; }
+.c-container .gift-box2 .gift-img { margin: 32px auto 20px; }
+.c-container .gift-box2 a { display: block; width: 310px; margin: 0 auto; }
+
 
 #childrensDay .c-rules { background-color: #000; }
 .c-rules .rules { width: 860px; margin: 0 auto; padding: 14px 0 50px 0; color: #f7d03a; text-align: justify; }
@@ -94,7 +102,5 @@
 	50% {transform: rotate(40deg); }
 	100% {transform: rotate(-40deg); }
 }
-
-
 
 
