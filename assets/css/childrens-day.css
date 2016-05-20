@@ -53,6 +53,7 @@
 .mask-register { display: none; width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/childrens-day/mask_bg.png) repeat; z-index: 9999999; }
 .mask-register .register-container { width: 408px; padding: 56px 66px 46px; position: absolute; left: 50%; margin-left: -270px; top: 50%; margin-top: -154px; z-index: 99999999; background: #fff; -webkit-box-shadow: 2px 4px 22px; -moz-box-shadow: 2px 4px 22px; box-shadow: 2px 4px 22px; }
 .mask-register .register-header { position: absolute; top: -180px; left: 48%; }
+.mask-register .register-close { position: absolute; top: 8px; right: 8px; }
 
 .mask-register .register-container .register-content .li-mobile,
 .mask-register .register-container .register-content .li-vcode,

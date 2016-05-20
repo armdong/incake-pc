@@ -47,6 +47,7 @@
             $oStep2 = $oMask.find('.step-02'),
             $oStep3 = $oMask.find('.step-03'),
             $oName = $oStep1.find('.li-name'),
+            $oBtnClose = $oMask.find('.register-close'),
 			oldUser = false;
 
 		$aLi.on('mouseover', function() {
@@ -76,6 +77,10 @@
             	$oStep1.hide();
             	$oStep2.show();
             }
+        });
+        
+        $oBtnClose.on('click', function() {
+        	$oMask.hide();
         });
 
     }
