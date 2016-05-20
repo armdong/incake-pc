@@ -3,9 +3,9 @@
 .c-container .c-header { width: 100%; height: 72px; padding: 64px 0; }
 .c-container .c-header .c-logo { width: 480px; height: 72px; margin-left: auto; background: url("../img/childrens-day-fz/logo.png") no-repeat; }
 .c-container .c-body { width: 100%; }
-.c-container .c-body .c-banner { position: relative; width: 100%; height: 610px; background: url("../img/childrens-day-fz/banner.png") no-repeat; }
-.c-container .c-body .c-banner .btn-buy { display: block; position: absolute; bottom: 26px; left: 40px; width: 170px; height: 170px; background: url("../img/childrens-day-fz/btn_buy.png") no-repeat; }
+.c-container .c-body .c-banner { width: 100%; height: 610px; background: url("../img/childrens-day-fz/banner.png") no-repeat; }
 .c-container .c-body .c-desc { position: relative; width: 100%; height: 790px; background: url("../img/childrens-day-fz/desc_bg.png") no-repeat; }
+.c-container .c-body .c-desc .btn-buy { display: block; position: absolute; right: 352px; bottom: 154px; width: 170px; height: 170px; background: url("../img/childrens-day-fz/btn_buy.png") no-repeat; }
 .c-container .c-body .c-desc p { position: absolute; top: 248px; left: 110px; font-size: 18px; color: #003242; line-height: 36px; width: 414px; text-align: justify; }
 .c-container .c-body .c-env { position: relative; width: 100%; height: 930px; background: url("../img/childrens-day-fz/env_bg.jpg") no-repeat; background-position: 58px 30px; }
 .c-container .c-body .c-env .box { position: absolute; width: 488px; height: 380px; }
