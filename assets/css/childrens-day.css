@@ -7,9 +7,8 @@
 #childrensDay { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f7d03a; }
 #childrensDay .c-container { width: 1200px; margin: 0 auto; }
 #childrensDay .c-container .banner { position: relative; }
-.c-container .banner a { position: absolute; top: 1242px; left: 192px; display: block; width: 268px; height: 270px; }
-.c-container .banner .yellow-left { position: relative; }
-.c-container .yellow-left i { position: absolute; top: -144px; left: -36px; display: inline-block; width: 200px; height: 200px; background: url(../img/childrens-day/yellow02.png) no-repeat; }
+.c-container .banner a { position: absolute; top: 1414px; left: 368px; display: block; width: 200px; height: 200px; }
+.c-container .banner i { display: inline-block; width: 200px; height: 200px; background: url(../img/childrens-day/yellow02.png) no-repeat; }
 .c-container .banner a:hover i { background: url(../img/childrens-day/yellow01.png) no-repeat;  }
 .c-container .banner .yellow-right { position: absolute; top: 1130px; left: 524px; }
 .c-container .banner .yellow-shake { position: absolute; top: 1152px; left: 836px; -webkit-transform-origin:52% 0; -moz-transform-origin:52% 0; -ms-transform-origin:52% 0; -o-transform-origin:52% 0; transform-origin:52% 0; -webkit-animation: shake 3s infinite; -moz-animation: shake 3s infinite; -ms-animation: shake 3s infinite; -o-animation: shake 3s infinite; animation: shake 3s infinite; }
