@@ -1,0 +1,33 @@
+.container { width: 100%; min-width: 1200px; background-color: #fff; background: url('../img/supermaca/body_bg.jpg'); overflow: hidden; }
+.container .supermaca-container { width: 1200px; margin: 0 auto; }
+.supermaca-container img { width: 100%; border: none; vertical-align: top; }
+.supermaca-container .desc { position: relative; width: 100%; padding: 290px 0 50px; }
+.supermaca-container .desc .desc-title { width: 100%; height: 66px; background: url('../img/supermaca/desc_title.png') no-repeat; }
+.supermaca-container .desc .desc-content { width: 100%; font-family: 'Microsoft YaHei'; }
+.supermaca-container .desc .desc-content p { font-size: 16px; line-height: 30px; color: #ba896f; text-align: center; font-weight: 400; }
+.supermaca-container .desc .plane { position: absolute; top: 84px; left: -2000px; width: 941px; height: 169px; background: url('../img/supermaca/plane.png') no-repeat; }
+
+.supermaca-container .content { width: 100%; height: 724px; background: url('../img/supermaca/content_bg.png') no-repeat; }
+
+.supermaca-container .cakes { width: 1040px; margin: 0 auto; padding: 70px 0 120px; }
+.supermaca-container .cakes li { float: left; width: 294px; margin-right: 79px; }
+.supermaca-container .cakes li.last { margin-right: 0; }
+.supermaca-container .cakes .img { width: 100%; }
+.supermaca-container .cakes .info { padding-bottom: 20px; }
+.supermaca-container .cakes .info p { text-align: center; color: #5f443b; }
+.supermaca-container .cakes .info .title { font-size: 18px; line-height: 22px; }
+.supermaca-container .cakes .info .group { font-size: 14px; line-height: 22px; }
+.supermaca-container .cakes .info .price { line-height: 30px; }
+.supermaca-container .cakes .info .now { display: inline-block; font-size: 24px; color: #ed6e70; }
+.supermaca-container .cakes .info .now i { font-style: normal; font-size: 14px; }
+.supermaca-container .cakes .info .old { display: inline-block; padding-left: 10px; font-size: 18px; text-decoration: line-through; color: #5f443b; }
+.supermaca-container .cakes .btn { display: block; width: 196px; height: 50px; margin: 0 auto; line-height: 50px; border-radius: 25px; outline: none; background-color: #ed6e70; color: #fff; text-indent: 28px; font-size: 24px; background-position: right top; background-repeat: no-repeat; }
+.supermaca-container .cakes .btn:hover { background-color: #5f443b; color: #f4d7c9; }
+.supermaca-container .cakes .btn1 { background-image: url('../img/supermaca/btn1_bg.png'); }
+.supermaca-container .cakes .btn2 { background-image: url('../img/supermaca/btn2_bg.png'); }
+.supermaca-container .cakes .btn3 { background-image: url('../img/supermaca/btn3_bg.png'); }
+
+.container .supermaca-rules { width: 100%; background-color: #455570; padding: 36px 0; }
+.container .supermaca-rules dl { width: 1200px; margin: 0 auto; color: #fcfcfc; text-align: center; }
+.container .supermaca-rules dt { font-size: 18px; line-height: 24px; padding-bottom: 16px; }
+.container .supermaca-rules dd { font-size: 14px; line-height: 24px; }
