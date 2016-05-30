@@ -9,7 +9,7 @@
         fnPlaneAnimation(tl);
 
         var $oFrmContainer = $('#frm-container');
-        if ($oFrmContainer) {
+        if ($oFrmContainer.length > 0) {
             fnScroll($oFrmContainer);
         }
 
