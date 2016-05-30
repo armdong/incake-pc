@@ -7,7 +7,74 @@
 .supermaca-container .desc .desc-content p { font-size: 16px; line-height: 30px; color: #ba896f; text-align: center; font-weight: 400; }
 .supermaca-container .desc .plane { position: absolute; top: 84px; left: -2000px; width: 941px; height: 169px; background: url('../img/supermaca/plane.png') no-repeat; }
 
-.supermaca-container .content { width: 100%; height: 724px; background: url('../img/supermaca/content_bg.png') no-repeat; }
+.supermaca-container .content { position: relative; width: 100%; height: 724px; background: url('../img/supermaca/content_bg.png') no-repeat; }
+.supermaca-container .content .cheers { display: none; position: absolute; top: 3px; left: 138px; width: 206px; height: 90px; background: url('../img/supermaca/cheers.png') no-repeat; }
+.supermaca-container .content .bottle { position: absolute; top: -81px; left: 81px; width: 163px; height: 336px; background: url('../img/supermaca/bottle.png') no-repeat; -webkit-animation: shakeAni 1s; -moz-animation: shakeAni 1s; -ms-animation: shakeAni 1s; -o-animation: shakeAni 1s; animation: shakeAni 1s; -webkit-animation-play-state: paused; -moz-animation-play-state: paused; -ms-animation-play-state: paused; -o-animation-play-state: paused; animation-play-state: paused; }
+@-webkit-keyframes shakeAni {
+	0% { -webkit-transform: rotate(0deg); }
+	10% { -webkit-transform: rotate(30deg); }
+	20% { -webkit-transform: rotate(-30deg); }
+	30% { -webkit-transform: rotate(30deg); }
+	40% { -webkit-transform: rotate(-30deg); }
+	50% { -webkit-transform: rotate(30deg); }
+	60% { -webkit-transform: rotate(-30deg); }
+	70% { -webkit-transform: rotate(30deg); }
+	80% { -webkit-transform: rotate(-30deg); }
+	90% { -webkit-transform: rotate(30deg); }
+	100% { -webkit-transform: rotate(0deg); }
+}
+@-moz-keyframes shakeAni {
+	0% { -moz-transform: rotate(0deg); }
+	10% { -moz-transform: rotate(30deg); }
+	20% { -moz-transform: rotate(-30deg); }
+	30% { -moz-transform: rotate(30deg); }
+	40% { -moz-transform: rotate(-30deg); }
+	50% { -moz-transform: rotate(30deg); }
+	60% { -moz-transform: rotate(-30deg); }
+	70% { -moz-transform: rotate(30deg); }
+	80% { -moz-transform: rotate(-30deg); }
+	90% { -moz-transform: rotate(30deg); }
+	100% { -moz-transform: rotate(0deg); }
+}
+@-ms-keyframes shakeAni {
+	0% { -ms-transform: rotate(0deg); }
+	10% { -ms-transform: rotate(30deg); }
+	20% { -ms-transform: rotate(-30deg); }
+	30% { -ms-transform: rotate(30deg); }
+	40% { -ms-transform: rotate(-30deg); }
+	50% { -ms-transform: rotate(30deg); }
+	60% { -ms-transform: rotate(-30deg); }
+	70% { -ms-transform: rotate(30deg); }
+	80% { -ms-transform: rotate(-30deg); }
+	90% { -ms-transform: rotate(30deg); }
+	100% { -ms-transform: rotate(0deg); }
+}
+@-o-keyframes shakeAni {
+	0% { -o-transform: rotate(0deg); }
+	10% { -o-transform: rotate(30deg); }
+	20% { -o-transform: rotate(-30deg); }
+	30% { -o-transform: rotate(30deg); }
+	40% { -o-transform: rotate(-30deg); }
+	50% { -o-transform: rotate(30deg); }
+	60% { -o-transform: rotate(-30deg); }
+	70% { -o-transform: rotate(30deg); }
+	80% { -o-transform: rotate(-30deg); }
+	90% { -o-transform: rotate(30deg); }
+	100% { -o-transform: rotate(0deg); }
+}
+@keyframes shakeAni {
+	0% { transform: rotate(0deg); }
+	10% { transform: rotate(30deg); }
+	20% { transform: rotate(-30deg); }
+	30% { transform: rotate(30deg); }
+	40% { transform: rotate(-30deg); }
+	50% { transform: rotate(30deg); }
+	60% { transform: rotate(-30deg); }
+	70% { transform: rotate(30deg); }
+	80% { transform: rotate(-30deg); }
+	90% { transform: rotate(30deg); }
+	100% { transform: rotate(0deg); }
+}
 
 .supermaca-container .cakes { width: 1040px; margin: 0 auto; padding: 70px 0 120px; }
 .supermaca-container .cakes li { float: left; width: 294px; margin-right: 79px; }
@@ -31,3 +98,16 @@
 .container .supermaca-rules dl { width: 1200px; margin: 0 auto; color: #fcfcfc; text-align: center; }
 .container .supermaca-rules dt { font-size: 18px; line-height: 24px; padding-bottom: 16px; }
 .container .supermaca-rules dd { font-size: 14px; line-height: 24px; }
+
+.container .frm-container { width: 100%; background-color: #f4d7c9; }
+.container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+.container .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 10px; }
+.container .frm-register > h2 { line-height: 48px; font-size: 24px; font-weight: 400; color: #5f443b; text-align: center; }
+.container .frm-register > ul { width: 100%; }
+.container .frm-register li { float: left; margin-right: 49px; }
+.container .frm-register li.last { margin-right: 0; }
+.container .frm-register li input { width: 282px; height: 42px; line-height: 42px; outline: none; font-size: 16px; color: #505050; padding-left: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+.container .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url(../img/supermaca/icon_mobile.png); background-repeat: no-repeat; background-position: 20px center; }
+.container .frm-register li .txt-vcode { background-image: url(../img/supermaca/icon_vcode.png); background-repeat: no-repeat; background-position: 20px center; }
+.container .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 42px; margin-left: -1px; line-height: 42px; text-align: center; color: #fff; font-size: 16px; background: #ed6e70; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+.container .frm-register li .btn-quick-register { display: block; width: 354px; height: 42px; line-height: 42px; font-size: 16px; text-align: center; color: #fff; background-color: #ed6e70; border-radius: 10px; }
