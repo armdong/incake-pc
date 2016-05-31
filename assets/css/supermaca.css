@@ -95,9 +95,11 @@
 .supermaca-container .cakes .btn3 { background-image: url('../img/supermaca/btn3_bg.png'); }
 
 .container .supermaca-rules { width: 100%; background-color: #455570; padding: 36px 0; }
-.container .supermaca-rules dl { width: 1200px; margin: 0 auto; color: #fcfcfc; text-align: center; }
+.container .supermaca-rules .rules-wrapper { width: 1200px; margin: 0 auto; color: #fcfcfc; }
+.container .supermaca-rules dl { float: left; width: 500px; margin-left: 172px; }
 .container .supermaca-rules dt { font-size: 18px; line-height: 24px; padding-bottom: 16px; }
 .container .supermaca-rules dd { font-size: 14px; line-height: 24px; }
+.container .supermaca-rules .rules-img { float: right; width: 241px; height: 136px; background: url('../img/supermaca/rules_img.png') no-repeat; margin-right: 202px; }
 
 .container .frm-container { width: 100%; background-color: #f4d7c9; }
 .container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
