@@ -149,6 +149,20 @@
              /* Act on the event */
              $(this).find('.selector-options').removeClass('active');
          });
+
+         // 如果事件源不是.mock-selector, 关闭所有mock-selector
+         $('body').on('click', function(event) {
+             event.preventDefault();
+             /* Act on the event */
+
+             //console.log(event.target);
+             var $oMockSel = $(event.target).closest('.mock-selector');
+             var isMockSel = $oMockSel.length > 0 ? true : false;
+
+             if (!isMockSel) {
+                $('.mock-selector').find('.selector-options').removeClass('active');
+             }
+         });
      }
 
      function fnMockSelector() {
