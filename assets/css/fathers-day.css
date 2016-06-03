@@ -1,0 +1,28 @@
+#fathersDay { width: 100%; min-width: 1200px; background: url('../img/fathers-day/bg.jpg'); }
+#fathersDay .f-section { width: 1200px; margin: 0 auto; }
+
+.f-header .title { width: 540px; height: 80px; margin: 0 auto; background-color: #323848; }
+.f-header .title p { font-size: 36px; line-height: 80px; text-align: center; color: #b9385c; }
+.f-header .title span { font-weight: bold; }
+.f-header .active-time { font-size: 14px; color: #323848; line-height: 30px; text-align: center; }
+
+.f-content .banner { position: relative; width: 100%; height: 320px; background: url('../img/fathers-day/banner.png') no-repeat; }
+.f-content .banner .leaf { position: absolute; bottom: -63px; right: 434px; width: 77px; height: 95px; background: url('../img/fathers-day/banner_leaf.png') no-repeat; }
+.f-content .cake { position: relative; width: 100%; height: 1024px; background: url('../img/fathers-day/cake_bg.png') no-repeat; }
+.f-content .cake .btn { display: block; position: absolute; width: 101px; height: 101px; border-radius: 50%; background-color: #ba395d; color: #fff; font-size: 22px; box-shadow: -1px 6px 10px #666; }
+.f-content .cake .btn:hover { color: #323848; }
+.f-content .cake .btn:after { position: absolute; left: -16px; bottom: 20px; width: 22px; height: 29px; content: url('../img/fathers-day/btn_arrow.png'); }
+.f-content .cake .btn span { display: inline-block; width: 100%; text-align: center; line-height: 30px; }
+.f-content .cake .btn span.first { margin-top: 20px; }
+.f-content .cake .btn-buy { top: 257px; right: 96px; }
+
+.f-rules { width: 100%; background-color: #303541; padding: 36px 0; }
+.f-rules .rules-wrapper { width: 1200px; margin: 0 auto; color: #fff; }
+.f-rules dl { float: left; width: 500px; margin-left: 172px; }
+.f-rules dt { font-size: 18px; line-height: 24px; padding-bottom: 16px; }
+.f-rules dd { font-size: 14px; line-height: 24px; }
+.f-rules .rules-img { float: right; width: 241px; height: 136px; background: url('../img/fathers-day/rules_img.png') no-repeat; margin-right: 202px; }
+
+.f-content .cake.cake-ssk { height: 1572px; background-image: url('../img/fathers-day/cake_ssk_bg.png'); }
+.f-content .cake .btn-buy1 { top: 138px; right: 12px; }
+.f-content .cake .btn-buy2 { bottom: 51px; left: 287px; }
