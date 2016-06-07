@@ -152,7 +152,7 @@
 
          // 如果事件源不是.mock-selector, 关闭所有mock-selector
          $('body').on('click', function(event) {
-             event.preventDefault();
+             //event.preventDefault();
              /* Act on the event */
 
              //console.log(event.target);

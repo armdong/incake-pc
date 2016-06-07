@@ -1,0 +1,34 @@
+#disney-container { width: 100%; min-width: 1200px; overflow: hidden; background: url('../img/disney/bg.jpg'); }
+#disney-container .banner { position: relative; width: 1200px; height: 510px; margin: 0 auto; background: url('../img/disney/banner.png') no-repeat; }
+#disney-container .banner .date { position: absolute; bottom: 28px; left: 188px; width: 326px; height: 45px; line-height: 45px; text-align: center; border: 3px solid #682b00; background-color: #f49d03; color: #fff; font-size: 18px; border-radius: 12px; }
+#disney-container .content { position: relative; width: 1200px; height: 1054px; margin: 0 auto; }
+#disney-container .content .btn-buy { display: block; position: absolute; top: -91px; left: 57px; width: 173px; height: 150px; background: url('../img/disney/btn_buy.png') no-repeat; }
+#disney-container .content .btn-buy:hover { background-image: url('../img/disney/btn_buy_hover.png'); }
+#disney-container .content .btn-buy span { display: inline-block; text-align: center; width: 100%; line-height: 30px; }
+#disney-container .content .desc { position: relative; top: 20px; width: 790px; }
+#disney-container .content .desc p { text-align: center; font-size: 16px; color: #ba896f; line-height: 30px; }
+#disney-container .content .mouse { position: absolute; }
+#disney-container .content .mouse1 { top: -130px; right: 57px; width: 423px; height: 458px; background: url('../img/disney/mouse_01.png') no-repeat; }
+#disney-container .content .mouse2 { top: 281px; left: 42px; width: 398px; height: 422px; background: url('../img/disney/mouse_02.png') no-repeat; }
+#disney-container .content .mouse2 .cake { position: absolute; top: -133px; right: -199px; width: 300px; height: 272px; background: url('../img/disney/cake.png') no-repeat; }
+#disney-container .content .summary { position: absolute; right: 60px; bottom: 60px; width: 580px; color: #4d4d4d; }
+#disney-container .summary .title { line-height: 30px; font-size: 16px; margin-bottom: 20px; }
+#disney-container .summary .title span { font-weight: bold; }
+#disney-container .summary .cont { width: 100%; }
+#disney-container .summary .cont .exchange { float: left; width: 290px; }
+#disney-container .summary .cont .prizes { float: right; width: 290px; }
+#disney-container .summary .cont .tt { width: 100%; text-align: center; line-height: 26px; margin-bottom: 10px; }
+#disney-container .summary .cont .tt span { display: inline-block; width: 100%; }
+#disney-container .summary .cont .tt .cn { font-size: 24px; font-weight: bold; }
+#disney-container .summary .cont .tt .en { font-size: 18px; }
+#disney-container .summary .cont .step { width: 100%; height: 400px; background: url('../img/disney/exchange.png') no-repeat; }
+#disney-container .summary .cont .list { width: 100%; }
+#disney-container .summary .cont .list li { text-indent: 70px; font-size: 16px; line-height: 30px; }
+#disney-container .summary .cont .list li span { font-weight: bold; }
+
+#disney-container .content .duck { position: absolute; bottom: -12px; left: 107px; width: 170px; height: 125px; background: url('../img/disney/duck.png') no-repeat; }
+
+#disney-container .rules { width: 100%; padding: 40px 0; background-color: #4d4d4d; }
+#disney-container .rules dl { width: 884px; margin: 0 auto; color: #fff; }
+#disney-container .rules dt { font-size: 18px; line-height: 24px; padding-bottom: 24px; }
+#disney-container .rules dd { font-size: 14px; line-height: 24px; }
