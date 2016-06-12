@@ -4,7 +4,7 @@
 		fnArticle();
 		fnInitArticle();
 	});
-
+	
 	function fnArticle() {
 		var $oArticle = $('.article-container');
 		var $oNav = $oArticle.find('.article-nav');
