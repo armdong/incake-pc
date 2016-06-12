@@ -45,3 +45,10 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .shopping-cart-wrapper .section-tip p span { color: #c81528; }
 .shopping-cart-wrapper .section-tip .qr-code { width: 326px; height: 326px; margin: 10px auto 0; border: 1px solid #ddd; }
 .shopping-cart-wrapper .section-tip .qr-code img { width: 316px; height: 316px; padding: 5px; }
+
+.shopping-cart-wrapper .section-lottery { width: 100%; margin: 100px 0; }
+.shopping-cart-wrapper .section-lottery .flow { width: 100%; }
+.shopping-cart-wrapper .section-lottery .flow p { text-align: center; font-size: 18px; line-height: 28px; color: #682b00; }
+.shopping-cart-wrapper .section-lottery .flow span { color: #e99500; }
+.shopping-cart-wrapper .section-lottery .qrcode { width: 214px; height: 211px; margin: 40px auto 0; }
+.shopping-cart-wrapper .section-lottery .qrcode img { width: 100%; }
