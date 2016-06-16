@@ -1,0 +1,43 @@
+#carShare { width: 100%; min-width: 1200px; background: url('../img/car-share/bg.jpg'); padding-bottom: 75px; }
+#carShare .share-container { width: 1200px; margin: 0 auto; padding-bottom: 58px; }
+.share-container .banner { position: relative; width: 1200px; height: 760px; background: url('../img/car-share/banner.png') no-repeat; }
+.share-container .banner .superhero { position: absolute; bottom: 72px; left: 50%; width: 664px; height: 240px; margin-left: -332px; background: url('../img/car-share/superhero.png') no-repeat; }
+.share-container .description { width: 100%; }
+.share-container .description p { text-align: center; font-size: 30px; line-height: 46px; color: #fff; }
+.share-container .description p.time { font-size: 20px; }
+.share-container .btn-butterfly { display: block; position: relative; width: 220px; height: 120px; margin: 10px auto 0; background: url('../img/car-share/butterfly.png') no-repeat; -webkit-animation: 1.75s breathAni infinite; -moz-animation: 1.75s breathAni infinite; -ms-animation: 1.75s breathAni infinite; -o-animation: 1.75s breathAni infinite; animation: 1.75s breathAni infinite; }
+.share-container .btn-butterfly:after { position: absolute; top: -16px; right: -235px; width: 222px; height: 102px; content: url('../img/car-share/butterfly_tip.png'); cursor: default; }
+@-webkit-keyframes breathAni {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(0.8); }
+	100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes breathAni {
+	0% { -moz-transform: scale(1); }
+	50% { -moz-transform: scale(0.8); }
+	100% { -moz-transform: scale(1); }
+}
+@-ms-keyframes breathAni {
+	0% { -ms-transform: scale(1); }
+	50% { -ms-transform: scale(0.8); }
+	100% { -ms-transform: scale(1); }
+}
+@-o-keyframes breathAni {
+	0% { -o-transform: scale(1); }
+	50% { -o-transform: scale(0.8); }
+	100% { -o-transform: scale(1); }
+}
+@keyframes breathAni {
+	0% { transform: scale(1); }
+	50% { transform: scale(0.8); }
+	100% { transform: scale(1); }
+}
+
+
+.share-container .cake-wrapper { width: 900px; height: 600px; margin: 20px auto 0; border-width: 35px; border-style: solid; border-color: #fff; border-color: rgba(255, 255, 255, .2); }
+.share-container .cake-wrapper .cake { width: 860px; height: 574px; margin: 15px auto; background: url('../img/car-share/cake.jpg') no-repeat; }
+
+#carShare .share-rules { width: 100%; background-color: #3f4c74; background-color: rgba( 255, 255, 255, .2); }
+#carShare .share-rules dl { width: 960px; margin: 0 auto; color: #fff; padding: 10px 0; }
+#carShare .share-rules dt { padding: 14px 0; line-height: 24px; font-size: 22px; text-align: center; }
+#carShare .share-rules dd { font-size: 20px; line-height: 26px; text-align: justify; }
