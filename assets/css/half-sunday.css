@@ -4,14 +4,14 @@
 .half-container .banner .person { position: absolute; top: 176px; right: 22px; width: 261px; height: 280px; background: url('../img/half-sunday/person.gif') no-repeat; }
 .half-container .banner .cake { position: absolute; bottom: -196px; left: 39px; width: 300px; height: 316px; background: url('../img/half-sunday/cake.png') no-repeat; }
 .half-container .banner .fork { position: absolute; right: 171px; bottom: -27px; width: 166px; height: 188px; background: url('../img/half-sunday/fork.png') no-repeat; }
+.half-container .banner .cup { position: absolute; top: 250px; left: 20px; width: 225px; height: 276px; background: url('../img/half-sunday/cup.png') no-repeat; }
 
 .half-container .content { width: 100%; padding-bottom: 80px; }
 .half-container .content .desc { width: 100%; }
 .half-container .desc p { line-height: 34px; font-size: 18px; text-align: center; color: #334457; }
-.half-container .content .cake { position: relative; width: 752px; height: 616px; margin: 0 auto; background: url('../img/half-sunday/cake_bg.png') no-repeat; }
-.half-container .content .cake .cup { position: absolute; bottom: -48px; left: -40px; width: 225px; height: 276px; background: url('../img/half-sunday/cup.png') no-repeat; }
+.half-container .line { width: 476px; border-top: 1px solid #334457; margin: 40px auto; }
 
-.half-container .content .portail { width: 100%; color: #334457; }
+.half-container .content .portail { width: 100%; margin-top: 20px; color: #334457; }
 .half-container .portail h2 { text-align: center; font-size: 30px; line-height: 58px; font-weight: normal; }
 .half-container .portail p { text-align: center; font-size: 20px; line-height: 34px; }
 .half-container .portail .arrow-down { width: 31px; height: 26px; margin: 20px auto; background: url('../img/half-sunday/arrow_down.png') no-repeat; }
