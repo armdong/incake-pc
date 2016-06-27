@@ -1,0 +1,15 @@
+#halfPrice { width: 100%; min-width: 1200px; overflow: hidden; background-color: #f6ebe7; }
+#halfPrice .half-wrapper { width: 1200px; margin: 0 auto; }
+.half-wrapper .banner { position: relative; width: 100%; height: 980px; background: url('../img/half-price/banner.png') no-repeat; }
+.half-wrapper .banner .btn-buy { display: block; position: absolute; bottom: 71px; left: 64px; width: 214px; height: 214px; background: url('../img/half-price/btn_bg.png') no-repeat; }
+.half-wrapper .cake { width: 530px; height: 734px; margin: 0 auto; padding: 28px; background-color: #fff; }
+.half-wrapper .cake .img { position: relative; width: 530px; height: 734px; background: url('../img/half-price/cake.jpg') no-repeat; }
+.half-wrapper .cake .desc { position: absolute; bottom: 0; left: 0; width: 100%; height: 244px; background: url('../img/half-price/cake_summary.png') no-repeat; }
+.half-wrapper .cake .tip { position: absolute; bottom: -71px; right: -149px; width: 266px; height: 105px; background: url('../img/half-price/cake_tip.png') no-repeat; }
+.half-wrapper .text { width: 100%; padding: 64px 0 86px; }
+.half-wrapper .text p { font-size: 18px; text-align: center; line-height: 36px; color: #5e505e; }
+
+#halfPrice .half-rules { width: 100%; background-color: #5e4f5e; }
+.half-rules dl { width: 1200px; margin: 0 auto; color: #fff; text-align: center; padding-bottom: 35px; }
+.half-rules dt { font-size: 18px; line-height: 24px; padding: 24px 0 15px; }
+.half-rules dd { font-size: 14px; line-height: 24px; }
