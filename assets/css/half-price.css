@@ -13,3 +13,16 @@
 .half-rules dl { width: 1200px; margin: 0 auto; color: #fff; text-align: center; padding-bottom: 35px; }
 .half-rules dt { font-size: 18px; line-height: 24px; padding: 24px 0 15px; }
 .half-rules dd { font-size: 14px; line-height: 24px; }
+
+.container .frm-container { width: 100%; background-color: #b29890; }
+.container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+.container .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 10px; }
+.container .frm-register > h2 { line-height: 48px; font-size: 24px; font-weight: 400; color: #b13a41; text-align: center; }
+.container .frm-register > ul { width: 100%; }
+.container .frm-register li { float: left; margin-right: 49px; }
+.container .frm-register li.last { margin-right: 0; }
+.container .frm-register li input { width: 282px; height: 42px; line-height: 42px; outline: none; font-size: 16px; color: #505050; padding-left: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+.container .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+.container .frm-register li .txt-vcode { background-image: url('../img/half-price/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+.container .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 42px; margin-left: -1px; line-height: 42px; text-align: center; color: #fff; font-size: 16px; background: #aa4e54; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+.container .frm-register li .btn-quick-register { display: block; width: 354px; height: 42px; line-height: 42px; font-size: 16px; text-align: center; color: #fff; background-color: #aa4e54; border-radius: 10px; }
