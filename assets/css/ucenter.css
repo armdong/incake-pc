@@ -599,7 +599,7 @@
 
 /* mask-new-address begin */
 .mask-new-address { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: none; }
-.mask-new-address .new-address { width: 540px; height: 350px; padding: 20px; position: absolute; left: 50%; margin-left: -290px; top: 50%; margin-top: -195px; z-index: 99999999; background: #fff; }
+.mask-new-address .new-address { width: 540px; height: 400px; padding: 20px; position: absolute; left: 50%; margin-left: -290px; top: 50%; margin-top: -195px; z-index: 99999999; background: #fff; }
 .mask-new-address .new-address .btn-new-address-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 24px; cursor: pointer; background: url(../img/mask_btn_close.png) no-repeat; }
 .mask-new-address .new-address .new-address-header { width: 100%; height: 38px; line-height: 30px; color: #0f3677; border-bottom: 1px solid #0f3677; font-size: 18px; font-weight: normal; }
 .mask-new-address .new-address .new-address-header span { margin-left: 24px; }
@@ -611,8 +611,9 @@
 .mask-new-address .new-address .new-address-content .txt-receiver-tel-no { width: 118px; }
 .mask-new-address .new-address .new-address-content .txt-receiver-mobile-no { margin-right: 10px; }
 .mask-new-address .new-address .new-address-content .content-require { display: inline-block; float: left; margin-left: 10px; color: #dc0000; }
-.mask-new-address .new-address .new-address-content .content-selector { width: 108px; height: 34px; float: left; margin-right: 10px; border: 1px solid #dcdcdc; line-height: 34px; }
+.mask-new-address .new-address .new-address-content .content-selector { width: 168px; height: 34px; float: left; margin-right: 10px; border: 1px solid #dcdcdc; line-height: 34px; }
 .mask-new-address .new-address .new-address-content .content-selector.last { margin-right: 0; }
+.mask-new-address .new-address .new-address-content .content-selector.selector-street { width: 348px; }
 .mask-new-address .new-address .new-address-footer { width: 100%; height: 46px; line-height: 46px; }
 .mask-new-address .new-address .new-address-footer p { display: block; width: 350px; margin: 0 auto; }
 .mask-new-address .new-address .new-address-footer .btn-new-address-ok,
