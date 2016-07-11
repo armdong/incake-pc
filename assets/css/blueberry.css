@@ -30,6 +30,11 @@
 	100% { transform: rotate(20deg); }
 }
 
+#blueberry .rules { width: 100%; background-color: #e4555f; padding: 16px 0; }
+#blueberry .rules dl { width: 1200px; margin: 0 auto; }
+#blueberry .rules dt { padding: 10px 0; font-size: 18px; line-height: 24px; color: #fff; text-align: center; }
+#blueberry .rules dd { font-size: 14px; line-height: 24px; color: #fff; text-align: center; }
+
 #blueberry .frm-container { width: 100%; background-color: #425670; }
 #blueberry .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
 #blueberry .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
