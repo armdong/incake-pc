@@ -1,0 +1,45 @@
+.container { width: 100%; min-width: 1200px; overflow: hidden; }
+.container #blueberry { width: 100%; background: url('../img/blueberry/bd_bg.jpg'); }
+#blueberry .content-wrapper { width: 1200px; margin: 0 auto; }
+#blueberry .banner { width: 100%; height: 1050px; background: url('../img/blueberry/banner.png') no-repeat; }
+#blueberry .cake { position: relative; width: 100%; height: 864px; background: url('../img/blueberry/cake.png') no-repeat; }
+#blueberry .cake .btn { display: block; position: absolute; top: -160px; left: 400px; width: 201px; height: 301px; background: url('../img/blueberry/btn.png') no-repeat; -webkit-transform-origin: bottom center; -moz-transform-origin: bottom center; -ms-transform-origin: bottom center; -o-transform-origin: bottom center; transform-origin: bottom center; -webkit-animation: aniTick 2.5s infinite; -moz-animation: aniTick 2.5s infinite; -ms-animation: aniTick 2.5s infinite; -o-animation: aniTick 2.5s infinite; animation: aniTick 2.5s infinite; }
+@-webkit-keyframes aniTick {
+	0% { -webkit-transform: rotate(20deg); }
+	50% { -webkit-transform: rotate(-20deg); }
+	100% { -webkit-transform: rotate(20deg); }
+}
+@-moz-keyframes aniTick {
+	0% { -moz-transform: rotate(20deg); }
+	50% { -moz-transform: rotate(-20deg); }
+	100% { -moz-transform: rotate(20deg); }
+}
+@-ms-keyframes aniTick {
+	0% { -ms-transform: rotate(20deg); }
+	50% { -ms-transform: rotate(-20deg); }
+	100% { -ms-transform: rotate(20deg); }
+}
+@-o-keyframes aniTick {
+	0% { -o-transform: rotate(20deg); }
+	50% { -o-transform: rotate(-20deg); }
+	100% { -o-transform: rotate(20deg); }
+}
+@keyframes aniTick {
+	0% { transform: rotate(20deg); }
+	50% { transform: rotate(-20deg); }
+	100% { transform: rotate(20deg); }
+}
+
+#blueberry .frm-container { width: 100%; background-color: #425670; }
+#blueberry .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#blueberry .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#blueberry .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #e4555f; text-align: center; }
+#blueberry .frm-register > h2 a { color: #f90000; text-decoration: underline; }
+#blueberry .frm-register > ul { width: 100%; }
+#blueberry .frm-register li { float: left; margin-right: 49px; }
+#blueberry .frm-register li.last { margin-right: 0; }
+#blueberry .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#blueberry .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url(../img/register-welfare-nj/icon_mobile.png); background-repeat: no-repeat; background-position: 20px center; }
+#blueberry .frm-register li .txt-vcode { background-image: url(../img/register-welfare-nj/icon_vcode.png); background-repeat: no-repeat; background-position: 20px center; }
+#blueberry .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#blueberry .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
