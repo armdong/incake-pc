@@ -31,6 +31,7 @@
 }
 
 #blueberry .rules { width: 100%; background-color: #e4555f; padding: 16px 0; }
+#blueberry .rules.normal { background-color: #42566f; }
 #blueberry .rules dl { width: 1200px; margin: 0 auto; }
 #blueberry .rules dt { padding: 10px 0; font-size: 18px; line-height: 24px; color: #fff; text-align: center; }
 #blueberry .rules dd { font-size: 14px; line-height: 24px; color: #fff; text-align: center; }
