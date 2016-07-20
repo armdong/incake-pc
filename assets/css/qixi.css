@@ -1,0 +1,27 @@
+#qixi { width: 100%; min-width: 1200px; overflow: hidden; }
+#qixi .qixi-wrapper { width: 100%; background-color: #eae7de; }
+#qixi .qixi-wrapper .qx-content { position: relative; width: 1200px; height: 1180px; margin: 0 auto; background: url('../img/qixi/bg.jpg') no-repeat; }
+#qixi .qixi-wrapper .qx-content .btn-buy { display: block; position: absolute; top: 0; right: 162px; width: 174px; height: 407px; background: url('../img/qixi/btn_buy.jpg') no-repeat; }
+#qixi .qixi-wrapper .qx-content .btn-lovehouse { display: block; position: absolute; top: 544px; left: 318px; width: 48px; height: 48px; background: url('../img/qixi/detail_bg.png') no-repeat; border-radius: 50%; overflow: hidden; }
+#qixi .qixi-wrapper .qx-content .btn-simplelove { display: block; position: absolute; top: 638px; right: 152px; width: 48px; height: 48px; background: url('../img/qixi/detail_bg.png') no-repeat; border-radius: 50%; overflow: hidden; }
+#qixi .qixi-wrapper .qx-rules { width: 100%; background-color: #505050; }
+#qixi .qixi-wrapper .qx-rules .inner { width: 1200px; height: 210px; margin: 0 auto; background: url('../img/qixi/rules_bg.jpg') no-repeat; }
+
+#qixi .frm-container { width: 100%; background-color: #425670; }
+#qixi .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#qixi .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#qixi .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#qixi .frm-register > ul { width: 100%; }
+#qixi .frm-register li { float: left; margin-right: 49px; }
+#qixi .frm-register li.last { margin-right: 0; }
+#qixi .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#qixi .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/qixi/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#qixi .frm-register li .txt-vcode { background-image: url('../img/qixi/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#qixi .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#qixi .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
+
+#qixi .qixi-bj { background-color: #eae4de; }
+#qixi .qixi-bj .qx-content { background-image: url('../img/qixi/bg_bj.jpg'); }
+#qixi .qixi-bj .qx-content .btn-buy { background-image: url('../img/qixi/btn_buy_bj.jpg'); }
+#qixi .qixi-bj .qx-content .btn-lovehouse { top: 580px; left: 300px; }
+#qixi .qixi-bj .qx-rules .inner { background-image: url('../img/qixi/rules_bg_bj.jpg'); }
