@@ -25,12 +25,12 @@
 .diy-bottom .form-apply li .attrs > span { display: inline-block; float: left; width: 70px; padding-left: 35px; margin-right: 10px; line-height: 30px; cursor: pointer; background: url('../img/gaw-diy/unchecked_bg.png') no-repeat top left; }
 .diy-bottom .form-apply li .attrs > span.checked { position: relative; background-image: url('../img/gaw-diy/checked_bg.png'); }
 .diy-bottom .form-apply li .attrs > span.lst { margin-right: 0; }
-.diy-bottom .form-apply li .attrs > span input { display: none; position: absolute; top: 0; left: 80px; width: 110px; line-height: 30px; padding-left: 10px; background-color: #dfc9ad; outline: none; color: #000; }
+.diy-bottom .form-apply li .attrs > span input { display: none; position: absolute; top: 0; left: 80px; width: 110px; height: 30px; line-height: 30px; padding-left: 10px; background-color: #dfc9ad; outline: none; color: #000; border: none; }
 .diy-bottom .form-apply li .attrs > span.checked input { display: block; }
-.diy-bottom .form-apply li .attrs textarea { width: 430px; height: 130px; padding: 5px 10px; outline: none; background-color: #dfc9ad; line-height: 30px; font-size: 14px; color: #000; }
+.diy-bottom .form-apply li .attrs textarea { width: 430px; height: 130px; padding: 5px 10px; outline: none; background-color: #dfc9ad; line-height: 30px; font-size: 14px; color: #000; border: none; }
 .diy-bottom .form-apply li .attrs > p { text-align: right; font-size: 14px; line-height: 30px; }
 .diy-bottom .form-apply li .attrs > p span { font-size: 18px; }
-.diy-bottom .form-apply li .attrs > input { width: 220px; padding-left: 10px; font-size: 14px; color: #000; line-height: 30px; outline: none; background-color: #dfc9ad; }
+.diy-bottom .form-apply li .attrs > input { width: 220px; height: 30px; padding-left: 10px; font-size: 14px; color: #000; line-height: 30px; outline: none; background-color: #dfc9ad; border: none; }
 .diy-bottom .form-apply .btn-submit { display: block; width: 360px; height: 50px; margin: 30px auto; line-height: 50px; text-align: center; font-size: 20px; color: #e8ceac; background-color: #773535; border-radius: 25px; }
 .diy-bottom .form-apply .btn-submit:hover { background-color: #5a1e1e; }
 
