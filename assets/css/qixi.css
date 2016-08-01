@@ -1,9 +1,12 @@
 #qixi { width: 100%; min-width: 1200px; overflow: hidden; }
 #qixi .qixi-wrapper { width: 100%; background-color: #eae7de; }
 #qixi .qixi-wrapper .qx-content { position: relative; width: 1200px; height: 1180px; margin: 0 auto; background: url('../img/qixi/bg.jpg') no-repeat; }
+#qixi .qixi-wrapper .qx-content-hd { height: 1294px; background: url('../img/qixi/bg-hd.jpg') no-repeat; }
 #qixi .qixi-wrapper .qx-content .btn-buy { display: block; position: absolute; top: 0; right: 162px; width: 174px; height: 407px; background: url('../img/qixi/btn_buy.jpg') no-repeat; }
 #qixi .qixi-wrapper .qx-content .btn-lovehouse { display: block; position: absolute; top: 544px; left: 318px; width: 48px; height: 48px; background: url('../img/qixi/detail_bg.png') no-repeat; border-radius: 50%; overflow: hidden; }
+#qixi .qixi-wrapper .qx-content .btn-lovehouse-hd { top: 680px; }
 #qixi .qixi-wrapper .qx-content .btn-simplelove { display: block; position: absolute; top: 595px; right: 149px; width: 48px; height: 48px; background: url('../img/qixi/detail_bg.png') no-repeat; border-radius: 50%; overflow: hidden; }
+#qixi .qixi-wrapper .qx-content .btn-simplelove-hd { top: 718px; }
 #qixi .qixi-wrapper .qx-rules { width: 100%; background-color: #505050; }
 #qixi .qixi-wrapper .qx-rules .inner { width: 1200px; height: 210px; margin: 0 auto; background: url('../img/qixi/rules_bg.jpg') no-repeat; }
 
