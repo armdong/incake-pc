@@ -26,3 +26,16 @@
 #qixi .qixi-bj .qx-content .btn-lovehouse { top: 580px; left: 300px; }
 #qixi .qixi-bj .qx-content .btn-simplelove { top: 594px; right: 161px; }
 #qixi .qixi-bj .qx-rules .inner { background-image: url('../img/qixi/rules_bg_bj.jpg'); }
+
+#qixi .qixi-fx { background-color: #fff; }
+#qixi .qixi-fx .qxcontent { width: 1200px; margin: 0 auto; }
+#qixi .qixi-fx .qxcontent .banner { position: relative; width: 100%; height: 830px; }
+#qixi .qixi-fx .qxcontent .banner .inner { position: absolute; top: 0; left: -360px; width: 1920px; height: 830px; background: url('../img/qixi/banner_fx.jpg') no-repeat; }
+#qixi .qixi-fx .qxcontent .bg { position: relative; width: 1000px; height: 1134px; margin: 0 auto; background: url('../img/qixi/bg_fx.jpg') no-repeat; }
+#qixi .qixi-fx .qxcontent .bg .btn-buy { display: block; position: absolute; right: 18px; bottom: 372px; width: 140px; height: 30px; background-color: #000; color: #fff; font-size:  14px; line-height: 30px; text-align: center; border-radius: 15px; overflow: hidden; }
+#qixi .qixi-fx .qxcontent .bg .btn-buy:hover { color: #ad345f; }
+#qixi .qixi-fx .qxrules { width: 100%; padding: 40px 0; background-color: #000; }
+#qixi .qixi-fx .qxrules .inner { width: 1000px; margin: 0 auto; }
+#qixi .qixi-fx .qxrules .inner dl { position: relative; width: 500px; height: 120px; margin-left: 154px; color: #fff; }
+#qixi .qixi-fx .qxrules .inner dt { position: absolute; top: 0; left: -100px; font-size: 18px; line-height: 30px; }
+#qixi .qixi-fx .qxrules .inner dd { font-size: 14px; line-height: 30px; }
