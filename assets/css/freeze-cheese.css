@@ -1,0 +1,16 @@
+#cheese { width: 100%; min-width: 1200px; margin: 0 auto; background-color: #f1f0f6; }
+#cheese .cheese-container { position: relative; width: 1200px; height: 1007px; margin: 0 auto; background: url('../img/freeze-cheese/bd_bg.jpg') no-repeat; }
+#cheese .cheese-container .btn-buy { display: block; position: absolute; right: 308px; bottom: 51px; width: 52px; height: 59px; background: url('../img/freeze-cheese/btn_bg.png') no-repeat; }
+
+#cheese .frm-container { width: 100%; background-color: #425670; }
+#cheese .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#cheese .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#cheese .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#cheese .frm-register > ul { width: 100%; }
+#cheese .frm-register li { float: left; margin-right: 49px; }
+#cheese .frm-register li.last { margin-right: 0; }
+#cheese .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#cheese .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/freeze-cheese/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#cheese .frm-register li .txt-vcode { background-image: url('../img/freeze-cheese/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#cheese .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#cheese .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
