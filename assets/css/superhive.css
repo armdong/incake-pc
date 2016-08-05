@@ -1,0 +1,80 @@
+#superhive { position: relative; width: 100%; min-width: 1200px; margin: 0 auto; background: url('../img/superhive/bd_bg.png') top left repeat-x; background-color: #e5edf8; overflow: hidden; cursor: none; }
+#superhive .superhive-container { position: relative; width: 1200px; height: 1922px; margin: 0 auto; }
+.superhive-container .section { position: absolute; }
+.superhive-container .section01 { top: 310px; right: -360px; width: 1278px; height: 881px; background: url('../img/superhive/section01_bg.png') no-repeat; }
+.superhive-container .section01 .btn-buy { display: block; position: absolute; left: 640px; bottom: 8px; width: 134px; height: 29px; line-height: 29px; text-align: center; background-color: #b09169; color: #fff; border-radius: 2px; }
+.superhive-container .section01 .btn-buy:hover { background-color: #ffe256; color: #481a22; }
+.superhive-container .section02 { top: 156px; left: 0; width: 525px; height: 480px; background: url('../img/superhive/section02_bg.png') no-repeat; }
+.superhive-container .section02 .bee { position: absolute; top: 17px; right: 20px; width: 58px; height: 58px; background-image: url('../img/superhive/bee_bg.png'); background-repeat: no-repeat; background-position: 0 0; -webkit-animation: aniBee 1s linear infinite; -moz-animation: aniBee 1s linear infinite; -ms-animation: aniBee 1s linear infinite; -o-animation: aniBee 1s linear infinite; animation: aniBee 1s linear infinite; }
+@-webkit-keyframes aniBee {
+	  0% { top: 17px; }
+	 10% { top: 12px; }
+	 20% { top: 7px; }
+	 30% { top: 2px; }
+	 40% { top: 7px; }
+	 50% { top: 12px; }
+	 60% { top: 17px; }
+	 70% { top: 22px; }
+	 80% { top: 27px; }
+	 90% { top: 22px; }
+	100% { top: 17px; }
+}
+@-moz-keyframes aniBee {
+	  0% { top: 17px; }
+	 10% { top: 12px; }
+	 20% { top: 7px; }
+	 30% { top: 2px; }
+	 40% { top: 7px; }
+	 50% { top: 12px; }
+	 60% { top: 17px; }
+	 70% { top: 22px; }
+	 80% { top: 27px; }
+	 90% { top: 22px; }
+	100% { top: 17px; }
+}
+@-ms-keyframes aniBee {
+	  0% { top: 17px; }
+	 10% { top: 12px; }
+	 20% { top: 7px; }
+	 30% { top: 2px; }
+	 40% { top: 7px; }
+	 50% { top: 12px; }
+	 60% { top: 17px; }
+	 70% { top: 22px; }
+	 80% { top: 27px; }
+	 90% { top: 22px; }
+	100% { top: 17px; }
+}
+@-o-keyframes aniBee {
+	  0% { top: 17px; }
+	 10% { top: 12px; }
+	 20% { top: 7px; }
+	 30% { top: 2px; }
+	 40% { top: 7px; }
+	 50% { top: 12px; }
+	 60% { top: 17px; }
+	 70% { top: 22px; }
+	 80% { top: 27px; }
+	 90% { top: 22px; }
+	100% { top: 17px; }
+}
+@keyframes aniBee {
+	  0% { top: 17px; }
+	 10% { top: 12px; }
+	 20% { top: 7px; }
+	 30% { top: 2px; }
+	 40% { top: 7px; }
+	 50% { top: 12px; }
+	 60% { top: 17px; }
+	 70% { top: 22px; }
+	 80% { top: 27px; }
+	 90% { top: 22px; }
+	100% { top: 17px; }
+}
+
+.superhive-container .section03 { top: 207px; left: 509px; width: 380px; height: 186px; background: url('../img/superhive/section03_bg.png') no-repeat; }
+.superhive-container .section04 { top: 667px; left: 97px; width: 451px; height: 567px; background: url('../img/superhive/section04_bg.png') no-repeat; }
+.superhive-container .section05 { bottom: 63px; left: 172px; width: 953px; height: 645px; background: url('../img/superhive/section05_bg.png') no-repeat; }
+#superhive .mouse { position: absolute; top: 639px; left: 354px; width: 51px; height: 42px; background: url('../img/superhive/mouse_bg.png') no-repeat; }
+#superhive .mouse.show { display: block; }
+#superhive .mouse.hide { display: none; }
