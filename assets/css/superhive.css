@@ -78,3 +78,16 @@
 #superhive .mouse { position: absolute; top: 639px; left: 354px; width: 51px; height: 42px; background: url('../img/superhive/mouse_bg.png') no-repeat; }
 #superhive .mouse.show { display: block; }
 #superhive .mouse.hide { display: none; }
+
+#superhive .frm-container { width: 100%; background-color: #425670;cursor: default; }
+#superhive .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#superhive .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#superhive .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#superhive .frm-register > ul { width: 100%; }
+#superhive .frm-register li { float: left; margin-right: 49px; }
+#superhive .frm-register li.last { margin-right: 0; }
+#superhive .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#superhive .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/superhive/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#superhive .frm-register li .txt-vcode { background-image: url('../img/superhive/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#superhive .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#superhive .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
