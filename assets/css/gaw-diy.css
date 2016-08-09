@@ -34,6 +34,15 @@
 .diy-bottom .form-apply .btn-submit { display: block; width: 360px; height: 50px; margin: 30px auto; line-height: 50px; text-align: center; font-size: 20px; color: #e8ceac; background-color: #773535; border-radius: 25px; }
 .diy-bottom .form-apply .btn-submit:hover { background-color: #5a1e1e; }
 
+.diy-bottom .form-apply li .attrs .upload-list,
+.diy-bottom .form-apply li .attrs .btn-upload { float: left; height: 100px; }
+.diy-bottom .form-apply li .attrs .upload-list .thumb-img { display: block; float: left; position: relative; width: 96px; height: 96px; border: 2px solid #fff; border-radius: 10px; margin-right: 20px; }
+.diy-bottom .form-apply li .attrs .upload-list .thumb-img img { border-radius: 10px; overflow: hidden; }
+.diy-bottom .form-apply li .attrs .upload-list .thumb-close { display: block; position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background: url('../img/gaw-diy/thumb_close.png') no-repeat; }
+.diy-bottom .form-apply li .attrs .btn-upload { display: block; width: 100px; height: 100px; background: url('../img/gaw-diy/upload_bg.png') no-repeat; }
+.diy-bottom .form-apply li .attrs .upload-notice { float: left; width: 100%; text-align: left; }
+.diy-bottom .form-apply li .attrs .upload-notice span { margin: 0 5px; color: #f17b7b; }
+
 .diy-container .diy-bottom .banner { width: 1056px; margin: 150px auto 100px; }
 .diy-container .diy-bottom .banner h2 { font-size: 24px; line-height: 44px; color: #c2a385; font-weight: 400; }
 .diy-container .diy-bottom .banner .img { position: relative; width: 100%; height: 356px; background: url('../img/gaw-diy/bottom_banner.jpg') no-repeat; }
