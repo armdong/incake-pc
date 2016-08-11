@@ -1,0 +1,15 @@
+#kingland { width: 100%; min-width: 1200px; margin: 0 auto; overflow: hidden; background-color: #faf4db; }
+#kingland .kingland-container { width: 1200px; margin: 0 auto; }
+.kingland-container .banner { width: 100%; height: 665px; background: url('../img/kingland-spa/banner.jpg') no-repeat; }
+.kingland-container .content { position: relative; width: 100%; height: 908px; background: url('../img/kingland-spa/content.jpg') no-repeat; }
+.kingland-container .content .btn-buy { display: block; position: absolute; top: 354px; right: 183px; width: 179px; height: 179px; background: url('../img/kingland-spa/btn_buy.png') no-repeat; }
+.kingland-container .rules { position: relative; width: 100%; height: 466px; }
+.kingland-container .rules dt { position: absolute; top: -32px; left: 19px; width: 238px; height: 57px; line-height: 57px; background: url('../img/kingland-spa/rules_dt_bg.jpg') no-repeat; font-size: 30px; color: #fff; text-align: center; }
+.kingland-container .rules dd { margin-left: 110px; line-height: 70px; font-size: 28px; color: #6a6052; }
+.kingland-container .rules dd.first { padding-top: 60px; }
+.kingland-container .rules dd span { color: #e00011; }
+
+#kingland .spa-rules { width: 100%; background-color: #6a6052; }
+#kingland .spa-rules dl { width: 980px; margin: 0 auto; color: #fff; padding: 10px 0; }
+#kingland .spa-rules dt { line-height: 60px; font-size: 22px; }
+#kingland .spa-rules dd { line-height: 36px; font-size: 18px; }
