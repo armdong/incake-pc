@@ -31,6 +31,8 @@
 .diy-bottom .form-apply li .attrs > p { text-align: right; font-size: 14px; line-height: 30px; }
 .diy-bottom .form-apply li .attrs > p span { font-size: 18px; }
 .diy-bottom .form-apply li .attrs > input { width: 220px; height: 30px; padding-left: 10px; font-size: 14px; color: #000; line-height: 30px; outline: none; background-color: #dfc9ad; border: none; }
+.diy-bottom .form-apply li .attrs > .txt-mobile { float: left; width: 119px; }
+.diy-bottom .form-apply li .attrs > .btn-vcode { display: block; float: left; width: 100px; height: 30px; line-height: 30px; text-align: center; margin-left: 1px; background-color: #8a2b33; color: #c2a385; }
 .diy-bottom .form-apply .btn-submit { display: block; width: 360px; height: 50px; margin: 30px auto; line-height: 50px; text-align: center; font-size: 20px; color: #e8ceac; background-color: #773535; border-radius: 25px; }
 .diy-bottom .form-apply .btn-submit:hover { background-color: #5a1e1e; }
 
