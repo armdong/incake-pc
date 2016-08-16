@@ -1,0 +1,121 @@
+#midAutumn { width: 100%; min-width: 1200px; margin: 0 auto; overflow: hidden; background-color: #282049; }
+#midAutumn .autumn-container { width: 1200px; margin: 0 auto; }
+.autumn-container .banner { position: relative; width: 100%; height: 1234px; }
+.autumn-container .banner .inner { position: absolute; top: 0; left: -360px; width: 1920px; height: 1234px; background: url("../img/mid-autumn-88/banner.jpg") no-repeat; }
+.autumn-container .banner .arrow { position: absolute; bottom: 110px; right: 322px; width: 16px; height: 16px; background: url('../img/mid-autumn-88/banner_arrow.png') no-repeat; -webkit-animation: 1.5s bannerArrow infinite; -moz-animation: 1.5s bannerArrow infinite; -ms-animation: 1.5s bannerArrow infinite; -o-animation: 1.5s bannerArrow infinite; animation: 1.5s bannerArrow infinite; }
+@-webkit-keyframes bannerArrow {
+	from{
+        bottom: 120px;
+        opacity: 0;
+    }
+    to{
+        bottom: 100px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes bannerArrow {
+	from{
+        bottom: 120px;
+        opacity: 0;
+    }
+    to{
+        bottom: 100px;
+        opacity: 1;
+    }
+}
+@-ms-keyframes bannerArrow {
+	from{
+        bottom: 120px;
+        opacity: 0;
+    }
+    to{
+        bottom: 100px;
+        opacity: 1;
+    }
+}
+@-o-keyframes bannerArrow {
+	from{
+        bottom: 120px;
+        opacity: 0;
+    }
+    to{
+        bottom: 100px;
+        opacity: 1;
+    }
+}
+@keyframes bannerArrow {
+	from{
+        bottom: 120px;
+        opacity: 0;
+    }
+    to{
+        bottom: 100px;
+        opacity: 1;
+    }
+}
+
+.autumn-container .content { position: relative; width: 100%; height: 1879px; background: url('../img/mid-autumn-88/content.jpg') no-repeat; }
+.autumn-container .content .arrow { position: absolute; top: 139px; left: 626px; width: 18px; height: 19px; background: url('../img/mid-autumn-88/content_arrow.png') no-repeat; -webkit-animation: 1.5s contentArrow infinite; -moz-animation: 1.5s contentArrow infinite; -ms-animation: 1.5s contentArrow infinite; -o-animation: 1.5s contentArrow infinite; animation: 1.5s contentArrow infinite; }
+@-webkit-keyframes contentArrow {
+	from{
+        top: 129px;
+        opacity: 0;
+    }
+    to{
+        top: 149px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes contentArrow {
+    from{
+        top: 129px;
+        opacity: 0;
+    }
+    to{
+        top: 149px;
+        opacity: 1;
+    }
+}
+@-ms-keyframes contentArrow {
+    from{
+        top: 129px;
+        opacity: 0;
+    }
+    to{
+        top: 149px;
+        opacity: 1;
+    }
+}
+@-o-keyframes contentArrow {
+    from{
+        top: 129px;
+        opacity: 0;
+    }
+    to{
+        top: 149px;
+        opacity: 1;
+    }
+}
+@keyframes contentArrow {
+    from{
+        top: 129px;
+        opacity: 0;
+    }
+    to{
+        top: 149px;
+        opacity: 1;
+    }
+}
+
+#midAutumn .frm-container { width: 100%; background-color: #cdddec; }
+#midAutumn .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#midAutumn .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#midAutumn .frm-register > h2 { line-height: 50px; font-size: 30px; font-weight: 400; color: #0e2f8f; text-align: center; }
+#midAutumn .frm-register > ul { width: 100%; }
+#midAutumn .frm-register li { float: left; margin-right: 49px; }
+#midAutumn .frm-register li.last { margin-right: 0; }
+#midAutumn .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#midAutumn .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/mid-autumn-88/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#midAutumn .frm-register li .txt-vcode { background-image: url('../img/mid-autumn-88/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#midAutumn .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #8bade5; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#midAutumn .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #0e2f8f; border-radius: 10px; }
