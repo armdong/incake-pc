@@ -1,0 +1,35 @@
+#lion { width: 100%; min-width: 1200px; margin: 0 auto; background: #f0f3f8; }
+#lion .lion-container { width: 1200px; margin: 0 auto; }
+.lion-container .banner { position: relative; width: 100%; height: 1174px; background: url("../img/lion-half-price/banner.png") no-repeat; }
+.lion-container .banner .lion { position: absolute; top: 80px; left: 337px; width: 503px; height: 622px; }
+.lion-container .banner .lion .lion-hi { position: absolute; top: 194px; left: 0; width: 100%; height: 188px; background: url("../img/lion-half-price/lion_hi.png") no-repeat; }
+.lion-container .banner .lion .lion-eat { display: none; position: absolute; top: 147px; left: -218px; width: 256px; height: 160px; background: url("../img/lion-half-price/lion_eat.png") no-repeat; }
+.lion-container .banner .lion .lion-head { display: none; position: absolute; top: 0; left: 0; z-index: 9999; width: 100%; height: 444px; background: url("../img/lion-half-price/lion_head.png") no-repeat; opacity: 0; }
+.lion-container .banner .lion .lion-head-rotate { display: none; position: absolute; top: 30px; left: 0; z-index: 9999; width: 100%; height: 436px; background: url("../img/lion-half-price/lion_head_rotate.png") no-repeat; }
+.lion-container .banner .lion .lion-body { display: none; position: absolute; bottom: 0; left: 0; z-index: 9; width: 100%; height: 244px; background: url("../img/lion-half-price/lion_body.png") no-repeat; opacity: 0; }
+.lion-container .banner .leaf { position: absolute; top: 0; left: 0; z-index: 999; width: 100%; height: 800px; background: url("../img/lion-half-price/banner_leaf.png") no-repeat; }
+
+.lion-container .content { width: 100%; }
+.lion-container .content > p { font-size: 18px; line-height: 44px; text-align: center; color: #6b6a6a; }
+.lion-container .content .lion-cake { position: relative; width: 100%; height: 644px; background: url("../img/lion-half-price/lion_cake.png") no-repeat; }
+.lion-container .content .lion-cake > a { display: block; position: absolute; bottom: 64px; width: 146px; height: 35px;  background: url("../img/lion-half-price/btn_buy_bg.png") no-repeat; }
+.lion-container .content .lion-cake > a.lion-boy { left: 278px; }
+.lion-container .content .lion-cake > a.lion-girl { right: 278px; }
+
+#lion .lion-rule { width: 100%; background-color: #6b6a6a; padding: 30px 0; }
+#lion .lion-rule dl { width: 1200px; margin: 0 auto; }
+#lion .lion-rule dt { font-size: 18px; line-height: 24px; text-align: center; color: #fff; margin-bottom: 15px; }
+#lion .lion-rule dd { font-size: 14px; line-height: 24px; text-align: center; color: #fff; }
+
+#lion .frm-container { width: 100%; background-color: #425670; }
+#lion .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#lion .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#lion .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#lion .frm-register > ul { width: 100%; }
+#lion .frm-register li { float: left; margin-right: 49px; }
+#lion .frm-register li.last { margin-right: 0; }
+#lion .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#lion .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/lion-half-price/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#lion .frm-register li .txt-vcode { background-image: url('../img/lion-half-price/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#lion .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#lion .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
