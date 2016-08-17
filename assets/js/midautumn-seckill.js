@@ -9,65 +9,93 @@
 
     // 生成商品
     function fnBindProducts() {
+
         var $oSeckill = $('#seckill'),
             $oProduct = $oSeckill.find('.products'),
             $oCurrent = $oProduct.find('.current'),
-            $oList = $oProduct.find('.list');
+            $oList = $oProduct.find('.list'),
+            currHtml = '',
+            listHtml = '',
 
-        var currHtml = '',
-            listHtml = '';
+            // 连续五天商品列表
+            arrProduct = [{
+                day: 1,
+                date: new Date(2016, 7, 24),
+                img: 'img_1.jpg',
+                price: 'price_1.jpg'
+            }, {
+                day: 2,
+                date: new Date(2016, 7, 25),
+                img: 'img_2.jpg',
+                price: 'price_2.jpg'
+            }, {
+                day: 3,
+                date: new Date(2016, 7, 26),
+                img: 'img_3.jpg',
+                price: 'price_3.jpg'
+            }, {
+                day: 4,
+                date: new Date(2016, 7, 27),
+                img: 'img_4.jpg',
+                price: 'price_4.jpg'
+            }, {
+                day: 5,
+                date: new Date(2016, 7, 28),
+                img: 'img_5.jpg',
+                price: 'price_5.jpg'
+            }],
 
-        // 获得当前日期
-        var dayOfWeek = new Date().getDay();
-        //var dayOfWeek = 0;
+            // 购买按钮
+            objBtns = {
+                current: 'btn_current.png',
+                before: 'btn_before.png',
+                after: 'btn_after.png'
+            },
 
-        // 非法日期设为最后一天的价格
-        if(dayOfWeek < 1 || dayOfWeek > 5) {
-            dayOfWeek = 5;
+            // 获得当前日期
+            date = new Date(),  // 当前日期
+            currDay = 1,        // 当前日期处于活动的第几天
+            currDayBtn,         // 当天商品的按钮状态
+            currProduct;        // 当天商品
+
+        // 日期判断
+        if (date.getTime() < arrProduct[0].date.getTime()) {
+            currDay = 1;
+            currDayBtn = objBtns.before;
+        } else if (date.getTime() >= arrProduct[4].date.addDays(1).getTime()) {
+            currDay = arrProduct[4].day;
+            currDayBtn = objBtns.after;
+        } else {
+            // 第一天
+            if (date.getTime() >= arrProduct[0].date.getTime() && date.getTime() < arrProduct[1].date.getTime()) {
+                currDay = 1;
+            } else if (date.getTime() >= arrProduct[1].date.getTime() && date.getTime() < arrProduct[2].date.getTime()) {
+                currDay = 2;
+            } else if (date.getTime() >= arrProduct[2].date.getTime() && date.getTime() < arrProduct[3].date.getTime()) {
+                currDay = 3;
+            } else if (date.getTime() >= arrProduct[3].date.getTime() && date.getTime() < arrProduct[4].date.getTime()) {
+                currDay = 4;
+            } else {
+                currDay = 5;
+            }
+            currDayBtn = objBtns.current;
         }
 
-        // 周一到周五商品列表
-        var arrProduct = [{
-            day: 1,
-            img: 'img_1.jpg',
-            price: 'price_1.jpg'
-        }, {
-            day: 2,
-            img: 'img_2.jpg',
-            price: 'price_2.jpg'
-        }, {
-            day: 3,
-            img: 'img_3.jpg',
-            price: 'price_3.jpg'
-        }, {
-            day: 4,
-            img: 'img_4.jpg',
-            price: 'price_4.jpg'
-        }, {
-            day: 5,
-            img: 'img_5.jpg',
-            price: 'price_5.jpg'
-        }];
-
-        // 购买按钮
-        var objBtns = {
-            current: 'btn_current.png',
-            before: 'btn_before.png',
-            after: 'btn_after.png'
-        };
-
         // 获取当天的商品
-        var currProduct = arrProduct.slice(dayOfWeek - 1, dayOfWeek)[0];
+        currProduct = arrProduct.slice(currDay - 1, currDay)[0];
         // 过滤掉当天的商品
-        arrProduct.splice(dayOfWeek - 1, 1);
+        arrProduct.splice(currDay - 1, 1);
 
         // 生成当天商品html
-        currHtml += createProductItem(currProduct, objBtns.current);
+        currHtml += createProductItem(currProduct, currDayBtn);
         $oCurrent.html(currHtml);
 
         // 生成list商品html
         for (var i = 0, len = arrProduct.length; i < len; i++) {
-            listHtml += createProductItem(arrProduct[i], arrProduct[i].day < dayOfWeek ? objBtns.after : objBtns.before);
+            listHtml += createProductItem(
+                arrProduct[i],
+                arrProduct[i].date.getDate() < date.getDate() ? objBtns.after : objBtns.before
+            );
         }
         $oList.html(listHtml);
     }
