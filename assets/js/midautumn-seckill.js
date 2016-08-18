@@ -4,6 +4,8 @@
 (function () {
 
     $(function () {
+
+        // 生成商品
         fnBindProducts();
     });
 
@@ -98,6 +100,9 @@
             );
         }
         $oList.html(listHtml);
+
+        // 倒计时
+        fnCalculateRemainTime();
     }
 
     // 生成商品html方法
@@ -112,6 +117,70 @@
         _html += '</a></div>';
 
         return _html;
+    }
+
+    // 倒计时
+    function fnCalculateRemainTime() {
+
+        var $oSeckill = $('#seckill'),
+            $oEndTime = $oSeckill.find('.last-time'),
+            $oHour = $oEndTime.find('.hour'),
+            $oMinute = $oEndTime.find('.minute'),
+            $oSecond = $oEndTime.find('.second'),
+            timer = null;
+
+        var currDate = new Date(),
+            year = currDate.getFullYear(),
+            month = currDate.getMonth(),
+            date = currDate.getDate();
+
+        var endTime = new Date(year, month, date).addDays(1);
+        var curShowTimeSeconds = 0;
+
+        curShowTimeSeconds = getCurrentShowTimeSeconds();
+
+        timer = setInterval(function () {
+            render();
+            update();
+        }, 50);
+
+        function update() {
+
+            var nextShowTimeSeconds = getCurrentShowTimeSeconds();
+
+            var nextHours = parseInt(nextShowTimeSeconds / 3600);
+            var nextMinutes = parseInt((nextShowTimeSeconds - nextHours * 3600) / 60);
+            var nextSeconds = nextShowTimeSeconds % 60;
+
+            var curHours = parseInt(curShowTimeSeconds / 3600);
+            var curMinutes = parseInt((curShowTimeSeconds - curHours * 3600) / 60);
+            var curSeconds = curShowTimeSeconds % 60;
+
+            if (nextSeconds != curSeconds) {
+                curShowTimeSeconds = nextShowTimeSeconds;
+            }
+        }
+
+        function render() {
+            var hours = parseInt(curShowTimeSeconds / 3600);
+            var minutes = parseInt((curShowTimeSeconds - hours * 3600) / 60);
+            var seconds = curShowTimeSeconds % 60;
+
+            if (hours == 0 && minutes == 0 && seconds == 0) {
+                clearInterval(timer);
+            }
+
+            $oHour.html(hours < 10 ? '0' + hours : hours);
+            $oMinute.html(minutes < 10 ? '0' + minutes : minutes);
+            $oSecond.html(seconds < 10 ? '0' + seconds : seconds);
+        }
+
+        function getCurrentShowTimeSeconds() {
+            var curTime = new Date();
+            var ret = endTime.getTime() - curTime.getTime();
+            ret = Math.round(ret / 1000);
+            return ret >= 0 ? ret : 0;
+        }
     }
 
 })();

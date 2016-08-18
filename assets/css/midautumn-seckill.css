@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'DS-DIGIB';
+    src: url('../fonts/DS-DIGIB.eot');
+    src: url('../fonts/DS-DIGIB.eot?#font-spider') format('embedded-opentype'),
+    url('../fonts/DS-DIGIB.woff') format('woff'),
+    url('../fonts/DS-DIGIB.ttf') format('truetype'),
+    url('../fonts/DS-DIGIB.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 #seckill { width: 100%; min-width: 1200px; margin: 0 auto; overflow: hidden; background-color: #fcf9f2; }
 #seckill .seckill-container { width: 1200px; margin: 0 auto; }
 .seckill-container .banner { width: 986px; height: 610px; margin: 0 auto; background: url("../img/midautumn-seckill/banner.jpg") no-repeat; }
@@ -11,6 +21,7 @@
 .seckill-container .products { width: 986px; margin: 0 auto; padding-bottom: 87px; }
 .seckill-container .products .end-time { padding: 14px 0 32px; }
 .seckill-container .products .end-time p { font-size: 20px; line-height: 34px; color: #a72b34; text-align: center; }
+.seckill-container .products .end-time .last-time { font-family: 'DS-DIGIB'; font-size: 60px; color: #334457; line-height: 80px; }
 .seckill-container .products img { width: 100%; }
 .seckill-container .products .current { width: 329px; margin: 0 auto 50px; }
 .seckill-container .products .item { width: 100%; }
