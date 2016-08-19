@@ -1,0 +1,36 @@
+#updatePound { width: 100%; min-width: 1200px; margin: 0 auto; background-color: #fff; overflow: hidden; }
+#updatePound .update-container { width: 1200px; margin: 0 auto; }
+.update-container .banner { width: 100%; height: 914px; background: url("../img/update-pound/banner.jpg") no-repeat; }
+.update-container .desc { position: relative; width: 100%; height: 248px; }
+.update-container .desc .inner { position: absolute; bottom: 0; left: 0; width: 100%; }
+.update-container .desc .inner p { font-size: 14px; line-height: 24px; text-align: center; color: #462000; }
+.update-container .desc .inner .mb { margin-bottom: 25px; }
+.update-container .desc .inner .yellow { color: #bc671d; }
+
+.update-container .content { position: relative; width: 100%; height: 1724px; background: url("../img/update-pound/content.jpg") no-repeat; }
+.update-container .content .btn-container { position: absolute; width: 205px; height: 63px; background: url("../img/update-pound/btn_bg.png") no-repeat; }
+.update-container .content .btn-container.cake01 { top: 318px; left: 475px; }
+.update-container .content .btn-container.cake02 { top: 730px; right: 72px; }
+.update-container .content .btn-container.cake03 { bottom: 505px; left: 470px; }
+.update-container .content .btn-container.cake04 { bottom: 71px; right: 75px; }
+.update-container .content .btn-container > a { display: block; position: absolute; top: 20px; left: 26px; width: 90px; height: 22px; background: url("../img/update-pound/btn_text.png") no-repeat; }
+
+#updatePound .update-rule { width: 100%; background-color: #2a1500; padding: 28px 0; }
+#updatePound .update-rule dl { width: 1200px; margin: 0 auto; }
+#updatePound .update-rule dt,
+#updatePound .update-rule dd { line-height: 26px; color: #fff; margin-left: 340px; }
+#updatePound .update-rule dt { font-size: 18px; }
+#updatePound .update-rule dd { font-size: 14px; }
+
+#updatePound .frm-container { width: 100%; background-color: #425670; }
+#updatePound .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#updatePound .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#updatePound .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#updatePound .frm-register > ul { width: 100%; }
+#updatePound .frm-register li { float: left; margin-right: 49px; }
+#updatePound .frm-register li.last { margin-right: 0; }
+#updatePound .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#updatePound .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/update-pound/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#updatePound .frm-register li .txt-vcode { background-image: url('../img/update-pound/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#updatePound .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#updatePound .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
