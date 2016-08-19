@@ -1,8 +1,11 @@
-#register-container { width: 100%; background: #fff; }
+/*#register-container { width: 100%; background: #fff; }*/
+#register-container { width: 100%; min-width: 1200px; max-width: 1920px; overflow: hidden; background: #fff; }
 #register-container img { width: 100%; }
 
-#register-container .banner { width: 100%; background-color: #ffdf25; }
-#register-container .banner-content { width: 1200px; margin: 0 auto; }
+/*#register-container .banner { width: 100%; background-color: #ffdf25; }
+#register-container .banner-content { width: 1200px; margin: 0 auto; }*/
+#register-container .banner { position: relative; width: 1200px; height: 580px; margin: 0 auto; }
+#register-container .banner-content { position: absolute; top: 0; left: -360px; width: 1920px; height: 580px; }
 
 #register-container .feature { width: 100%; padding-bottom: 38px; background-color: #ffe7d3; overflow: hidden; }
 #register-container .feature .title { position: relative; width: 1200px; height: 90px; margin: 0 auto; }
