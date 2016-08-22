@@ -1,0 +1,31 @@
+#virgo { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #b7d677; }
+#virgo .virgo-container { width: 1200px; margin: 0 auto; }
+.virgo-container .banner { position: relative; width: 100%; height: 534px; background: url("../img/half-price-virgo/banner_bg.png") no-repeat; }
+.virgo-container .banner .circle { position: absolute; top: 85px; left: 50%; width: 386px; height: 386px; margin-left: -193px; background: url("../img/half-price-virgo/banner_circle.png") no-repeat; }
+.virgo-container .banner .text { position: absolute; top: 240px; left: -2000px; width: 408px; height: 72px; background: url("../img/half-price-virgo/banner_text.png") no-repeat; }
+.virgo-container .banner .title { position: absolute; bottom: 0; left: 50%; width: 414px; height: 40px; margin-left: -207px; background: url("../img/half-price-virgo/banner_title.png") no-repeat; }
+
+.virgo-container .content { position: relative; width: 100%; height: 1209px; background: url("../img/half-price-virgo/content_bg.png") no-repeat; }
+.virgo-container .content .flag { position: absolute; top: 67px; left: 461px; width: 332px; height: 344px; background: url("../img/half-price-virgo/flag.png") no-repeat; }
+.virgo-container .content .flag .tips { position: absolute; bottom: 48px; left: -247px; width: 238px; height: 147px; background: url("../img/half-price-virgo/tips.png") no-repeat; }
+.virgo-container .content .btn { display: block; position: absolute; bottom: 278px; left: 50%; width: 146px; height: 35px; margin-left: -73px; background: url("../img/half-price-virgo/btn_bg.png") no-repeat; }
+.virgo-container .content .text { position: absolute; bottom: 34px; left: 0; width: 100%; }
+.virgo-container .content .text p { font-size: 14px; line-height: 36px; color: #fff; text-align: center; }
+
+#virgo .virgo-rule { width: 100%; background-color: #525252; padding: 16px 0 22px; }
+#virgo .virgo-rule dl { width: 1200px; margin: 0 auto; color: #b6cd82; }
+#virgo .virgo-rule dt { font-size: 18px; line-height: 52px; text-align: center; }
+#virgo .virgo-rule dd { font-size: 14px; line-height: 28px; text-align: center; }
+
+#virgo .frm-container { width: 100%; background-color: #425670; }
+#virgo .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#virgo .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#virgo .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#virgo .frm-register > ul { width: 100%; }
+#virgo .frm-register li { float: left; margin-right: 49px; }
+#virgo .frm-register li.last { margin-right: 0; }
+#virgo .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#virgo .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price-virgo/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#virgo .frm-register li .txt-vcode { background-image: url('../img/half-price-virgo/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#virgo .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#virgo .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
