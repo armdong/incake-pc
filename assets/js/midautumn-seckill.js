@@ -7,7 +7,38 @@
 
         // 生成商品
         fnBindProducts();
+
+        // 城市定位
+        fnCityLocation();
     });
+
+    function fnCityLocation(){
+        var $oLocation = $('#cityLocation'),
+            $oTitle = $oLocation.find('>span'),
+            $oPopUp = $oLocation.find('.location-popup'),
+            $aCity = $oPopUp.find('li');
+
+        $oTitle.on('click', function(){
+            if($oPopUp.hasClass('expand')){
+                $oPopUp.removeClass('expand').fadeOut();
+            }else{
+                $oPopUp.addClass('expand').fadeIn();
+            }
+        });
+
+        // 切换城市
+        $aCity.each(function(i, ele){
+           $(ele).on('click', function(){
+               var text = $(this).html();
+               $oTitle.html(text);
+
+               // TODO 处理城市切换逻辑
+
+               $(this).addClass('active').siblings('li').removeClass('active');
+               $oPopUp.removeClass('expand').delay(100).fadeOut();
+           });
+        });
+    }
 
     // 生成商品
     function fnBindProducts() {

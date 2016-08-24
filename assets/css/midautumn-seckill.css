@@ -8,12 +8,22 @@
     font-weight: normal;
     font-style: normal;
 }
-#seckill { width: 100%; min-width: 1200px; margin: 0 auto; overflow: hidden; background-color: #fcf9f2; }
+#seckill { width: 100%; min-width: 1200px; margin: 0 auto; overflow: hidden; background-color: #fcf9f2; font-family: "Microsoft YaHei"; }
 #seckill .seckill-container { width: 1200px; margin: 0 auto; }
 .seckill-container .banner { width: 986px; height: 610px; margin: 0 auto; background: url("../img/midautumn-seckill/banner.jpg") no-repeat; }
 
 .seckill-container .content { width: 986px; margin: 0 auto; }
 .seckill-container .content .act-time { font-size: 18px; line-height: 22px; text-align: center; color: #334457; }
+.seckill-container .content .city-location { position: relative; display: block; width: 107px; height: 40px; margin: 20px auto; background: url("../img/midautumn-seckill/city_location.png") no-repeat; }
+.seckill-container .content .city-location > span { display: inline-block; width: 100%; line-height: 38px; font-size: 18px; color: #4f4f4f; text-align: center; cursor: pointer; }
+.seckill-container .content .city-location .location-popup { display: none; position: absolute; right: 0; top: 50px; width: 362px; background-color: #282828; border-radius: 5px; }
+.seckill-container .content .city-location .location-popup:after { width: 0; height: 0; content: ''; display: block; position: absolute; top: -12px; right: 47px; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid transparent; border-bottom: 6px solid #282828; }
+.seckill-container .content .city-location .location-popup > p { font-size: 18px; color: #d2d2d2; line-height: 60px; margin-left: 20px; }
+.seckill-container .content .city-location .location-popup > ul { width: 322px; margin: 0 auto; }
+.seckill-container .content .city-location .location-popup > ul li { float: left; display: inline-block; width: 78px; height: 30px; line-height: 28px; text-align: center; font-size: 18px; color: #d2d2d2; margin-bottom: 15px; cursor: pointer; border: 1px solid transparent; }
+.seckill-container .content .city-location .location-popup > ul li.active,
+.seckill-container .content .city-location .location-popup > ul li:hover { border-color: #c81528; color: #c81528; border-radius: 5px; }
+
 .seckill-container .content .img { width: 100%; height: 558px; background: url("../img/midautumn-seckill/content_img.jpg") no-repeat; }
 .seckill-container .content .text { position: relative; top: -30px; width: 100%; padding-bottom: 24px; border-bottom: 2px solid #293645; }
 .seckill-container .content .text p { font-size: 14px; line-height: 32px; text-align: center; color: #334457; }
@@ -32,6 +42,8 @@
 .seckill-container .products .list .item.no-margin { margin-right: 0; }
 .seckill-container .products .item .btn-buy { display: block; width: 188px; margin: 0 auto; }
 .seckill-container .products .current .btn-buy { width: 261px; }
+.seckill-container .products .last-count { margin: 30px 0; font-size: 36px; line-height: 48px; text-align: center; color: #334457; }
+.seckill-container .products .last-count span { display: inline-block; width: 120px; text-align: center; margin: 0 15px; background: #293645; color: #fff; font-family: 'DS-DIGIB'; }
 
 #seckill .seckill-rule { width: 100%; background-color: #334457; padding: 30px 0 50px; }
 .seckill-rule dl { width: 1200px; margin: 0 auto; color: #fff; }
