@@ -1,0 +1,78 @@
+#rabbit { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f0f3f8; }
+#rabbit .rabbit-container { width: 1200px; margin: 0 auto; }
+.rabbit-container .btn { display: block; position: absolute; width: 142px; height: 34px; background: url("../img/adorable-rabbit/btn_bg.png") no-repeat; }
+.rabbit-container .banner { position: relative; width: 100%; height: 883px; }
+.rabbit-container .banner .img { position: absolute; top: 0; left: -360px; width: 1920px; height: 883px; background: url("../img/adorable-rabbit/banner.jpg") no-repeat; }
+.rabbit-container .banner .btn { bottom: 12px; left: 296px; }
+
+.rabbit-container .content { position: relative; width: 100%; height: 923px; background: url("../img/adorable-rabbit/content.jpg") no-repeat; }
+.rabbit-container .content .arrow { position: absolute; top: 34px; right: 292px; width: 32px; height: 32px; background: url("../img/adorable-rabbit/arrow_bg.png") no-repeat; -webkit-animation: 1.5s arrowDown infinite; -moz-animation: 1.5s arrowDown infinite; -ms-animation: 1.5s arrowDown infinite; -o-animation: 1.5s arrowDown infinite; animation: 1.5s arrowDown infinite; }
+@-webkit-keyframes arrowDown {
+    from{
+        top: 24px;
+        opacity: 0;
+    }
+    to{
+        top: 44px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes arrowDown {
+    from{
+        top: 24px;
+        opacity: 0;
+    }
+    to{
+        top: 44px;
+        opacity: 1;
+    }
+}
+@-ms-keyframes arrowDown {
+    from{
+        top: 24px;
+        opacity: 0;
+    }
+    to{
+        top: 44px;
+        opacity: 1;
+    }
+}
+@-o-keyframes arrowDown {
+    from{
+        top: 24px;
+        opacity: 0;
+    }
+    to{
+        top: 44px;
+        opacity: 1;
+    }
+}
+@keyframes arrowDown {
+    from{
+        top: 24px;
+        opacity: 0;
+    }
+    to{
+        top: 44px;
+        opacity: 1;
+    }
+}
+.rabbit-container .content .btn { right: 187px; bottom: 357px; }
+
+#rabbit .rabbit-rule { width: 100%; background-color: #b29652; }
+.rabbit-rule dl { width: 1200px; margin: 0 auto; color: #fefefe; padding: 25px 0 48px; }
+.rabbit-rule dl dt { font-size: 18px; line-height: 24px; text-align: center; margin-bottom: 16px; }
+.rabbit-rule dl dd { font-size: 14px; line-height: 24px; text-align: center; }
+
+#rabbit .frm-container { width: 100%; background-color: #425670; }
+#rabbit .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#rabbit .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#rabbit .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#rabbit .frm-register > ul { width: 100%; }
+#rabbit .frm-register li { float: left; margin-right: 49px; }
+#rabbit .frm-register li.last { margin-right: 0; }
+#rabbit .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#rabbit .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/adorable-rabbit/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#rabbit .frm-register li .txt-vcode { background-image: url('../img/adorable-rabbit/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#rabbit .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#rabbit .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
