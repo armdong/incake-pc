@@ -1,9 +1,9 @@
 #rabbit { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f0f3f8; }
 #rabbit .rabbit-container { width: 1200px; margin: 0 auto; }
-.rabbit-container .btn { display: block; position: absolute; width: 142px; height: 34px; background: url("../img/adorable-rabbit/btn_bg.png") no-repeat; }
+.rabbit-container .btn { display: block; position: absolute; width: 177px; height: 42px; background: url("../img/adorable-rabbit/btn_bg.png") no-repeat; }
 .rabbit-container .banner { position: relative; width: 100%; height: 883px; }
 .rabbit-container .banner .img { position: absolute; top: 0; left: -360px; width: 1920px; height: 883px; background: url("../img/adorable-rabbit/banner.jpg") no-repeat; }
-.rabbit-container .banner .btn { bottom: 12px; left: 296px; }
+.rabbit-container .banner .btn { bottom: 9px; left: 294px; }
 
 .rabbit-container .content { position: relative; width: 100%; height: 923px; background: url("../img/adorable-rabbit/content.jpg") no-repeat; }
 .rabbit-container .content .arrow { position: absolute; top: 34px; right: 292px; width: 32px; height: 32px; background: url("../img/adorable-rabbit/arrow_bg.png") no-repeat; -webkit-animation: 1.5s arrowDown infinite; -moz-animation: 1.5s arrowDown infinite; -ms-animation: 1.5s arrowDown infinite; -o-animation: 1.5s arrowDown infinite; animation: 1.5s arrowDown infinite; }
@@ -57,7 +57,6 @@
         opacity: 1;
     }
 }
-.rabbit-container .content .btn { right: 187px; bottom: 357px; }
 
 #rabbit .rabbit-rule { width: 100%; background-color: #b29652; }
 .rabbit-rule dl { width: 1200px; margin: 0 auto; color: #fefefe; padding: 25px 0 48px; }
