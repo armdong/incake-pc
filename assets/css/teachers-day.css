@@ -1,0 +1,78 @@
+#teachersDay { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #dfeae3; }
+#teachersDay .teacher-container { width: 1200px; margin: 0 auto; padding: 100px 0 0; }
+.teacher-container .slides { width: 880px; height: 535px; margin: 0 auto; border: 29px solid #e7e7e7; border-radius: 40px; box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.6); overflow: hidden; background-color: #e7e7e7; }
+.teacher-container .slides .slides-inside { position: relative; width: 100%; height: 100%; border-radius: 40px; overflow: hidden; }
+.teacher-container .slides-inside .slide-container { position: absolute; top: 0; left: 0; width: 200%; height: 100%; }
+.teacher-container .slide-container .slide { float: left; width: 50%; height: 100%; }
+.teacher-container .slide-container .slide01 { background: url("../img/teachers-day/slide01_bg.jpg") no-repeat; }
+.teacher-container .slide-container .slide02 { position: relative; background: url("../img/teachers-day/slide02_bg.jpg") no-repeat; }
+.teacher-container .slide-container .slide02 > a { display: block; position: absolute; width: 140px; height: 50px; }
+.teacher-container .slide-container .slide02 .btn-tr { top: 121px; right: 231px; background: url("../img/teachers-day/slide_btn_tr.png") no-repeat; }
+.teacher-container .slide-container .slide02 .btn-bl { bottom: 36px; left: 189px; background: url("../img/teachers-day/slide_btn_bl.png") no-repeat; }
+
+.teacher-container .slides-inside .btn { display: block; position: absolute; top: 50%; width: 51px; height: 102px; margin-top: -51px; overflow: hidden; background-color: rgba(0, 0, 0, 0); }
+.teacher-container .slides-inside:hover .btn { background-color: rgba(0, 0, 0, 0.3); }
+.teacher-container .slides-inside .btn:hover { background-color: rgba(0, 0, 0, 0.6); }
+.teacher-container .slides-inside .btn-prev { display: none; left: 0; border-radius: 0 51px 51px 0; }
+.teacher-container .slides-inside .btn-next { right: 0; border-radius: 51px 0 0 51px; }
+.teacher-container .slides-inside .btn .arrow { display: block; position: absolute; top: 50%; width: 16px; height: 20px; margin-top: -10px; }
+.teacher-container .slides-inside .btn-prev .arrow { right: 10px; background: url("../img/teachers-day/arrow_prev.png") no-repeat; -webkit-animation: 1.5s aniArrowPrev infinite; -moz-animation: 1.5s aniArrowPrev infinite; -ms-animation: 1.5s aniArrowPrev infinite; -o-animation: 1.5s aniArrowPrev infinite; animation: 1.5s aniArrowPrev infinite; }
+@-webkit-keyframes aniArrowPrev {
+    from { right: 0px; opacity: 1; }
+    to { right: 20px; opacity: 0; }
+}
+@-moz-keyframes aniArrowPrev {
+    from { right: 0px; opacity: 1; }
+    to { right: 20px; opacity: 0; }
+}
+@-ms-keyframes aniArrowPrev {
+    from { right: 0px; opacity: 1; }
+    to { right: 20px; opacity: 0; }
+}
+@-o-keyframes aniArrowPrev {
+    from { right: 0px; opacity: 1; }
+    to { right: 20px; opacity: 0; }
+}
+@keyframes aniArrowPrev {
+    from { right: 0px; opacity: 1; }
+    to { right: 20px; opacity: 0; }
+}
+.teacher-container .slides-inside .btn-next .arrow { left: 10px; background: url("../img/teachers-day/arrow_next.png") no-repeat; -webkit-animation: 1.5s aniArrowNext infinite; -moz-animation: 1.5s aniArrowNext infinite; -ms-animation: 1.5s aniArrowNext infinite; -o-animation: 1.5s aniArrowNext infinite; animation: 1.5s aniArrowNext infinite; }
+@-webkit-keyframes aniArrowNext {
+    from { left: 0px; opacity: 1; }
+    to { left: 20px; opacity: 0; }
+}
+@-moz-keyframes aniArrowNext {
+    from { left: 0px; opacity: 1; }
+    to { left: 20px; opacity: 0; }
+}
+@-ms-keyframes aniArrowNext {
+    from { left: 0px; opacity: 1; }
+    to { left: 20px; opacity: 0; }
+}
+@-o-keyframes aniArrowNext {
+    from { left: 0px; opacity: 1; }
+    to { left: 20px; opacity: 0; }
+}
+@keyframes aniArrowNext {
+    from { left: 0px; opacity: 1; }
+    to { left: 20px; opacity: 0; }
+}
+.teacher-container .slides-inside .btn .text { display: none; position: absolute; top: 50%; width: 17px; height: 40px; margin-top: -20px; background: url("../img/teachers-day/arrow_text.png") no-repeat; }
+.teacher-container .slides-inside .btn-prev .text { left: 6px; }
+.teacher-container .slides-inside .btn-next .text { right: 6px; }
+
+#teachersDay .teacher-img { width: 880px; height: 460px; margin: 50px auto; background: url("../img/teachers-day/img_bg.png") no-repeat; }
+
+#teachersDay .frm-container { width: 100%; background-color: #425670; }
+#teachersDay .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#teachersDay .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#teachersDay .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#teachersDay .frm-register > ul { width: 100%; }
+#teachersDay .frm-register li { float: left; margin-right: 49px; }
+#teachersDay .frm-register li.last { margin-right: 0; }
+#teachersDay .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#teachersDay .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/teachers-day/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#teachersDay .frm-register li .txt-vcode { background-image: url('../img/teachers-day/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#teachersDay .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#teachersDay .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
