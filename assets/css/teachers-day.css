@@ -11,8 +11,8 @@
 .teacher-container .slide-container .slide02 .btn-bl { bottom: 36px; left: 189px; background: url("../img/teachers-day/slide_btn_bl.png") no-repeat; }
 
 .teacher-container .slides-inside .btn { display: block; position: absolute; top: 50%; width: 51px; height: 102px; margin-top: -51px; overflow: hidden; background-color: rgba(0, 0, 0, 0); }
-.teacher-container .slides-inside:hover .btn { background-color: rgba(0, 0, 0, 0.3); }
-.teacher-container .slides-inside .btn:hover { background-color: rgba(0, 0, 0, 0.6); }
+.teacher-container .slides-inside:hover .btn { background-color: #aaa; background-color: rgba(0, 0, 0, 0.3); }
+.teacher-container .slides-inside .btn:hover { background-color: #666; background-color: rgba(0, 0, 0, 0.6); }
 .teacher-container .slides-inside .btn-prev { display: none; left: 0; border-radius: 0 51px 51px 0; }
 .teacher-container .slides-inside .btn-next { right: 0; border-radius: 51px 0 0 51px; }
 .teacher-container .slides-inside .btn .arrow { display: block; position: absolute; top: 50%; width: 16px; height: 20px; margin-top: -10px; }
