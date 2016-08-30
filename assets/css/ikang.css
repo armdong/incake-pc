@@ -1,0 +1,16 @@
+#ikang { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f5f5e6; }
+#ikang .ikang-container { width: 100%; }
+.ikang-container .banner { position: relative; width: 1200px; height: 990px; margin: 0 auto; }
+.ikang-container .banner .inner { position: absolute; top: 0; left: -360px; width: 1920px; height: 990px; background: url("../img/ikang/banner_bg.jpg") no-repeat; }
+
+.ikang-container .content { width: 100%; padding-bottom: 100px; background: url("../img/ikang/content_bg.jpg") bottom center no-repeat; }
+.ikang-container .content .act-container { width: 1200px; margin: 0 auto; }
+.ikang-container .content .act { margin: 56px 0 0 90px; }
+.ikang-container .content .act .title { width: 156px; height: 64px; font-size: 46px; line-height: 64px; background-color: #e95504; color: #fff; text-align: center; margin-bottom: 20px; }
+.ikang-container .content .act .detail { font-size: 36px; line-height: 60px; color: #333851; }
+.ikang-container .content .act .detail span { color: #e95504; }
+
+#ikang .ikang-rule { width: 100%; background: #e95504; }
+#ikang .ikang-rule dl { width: 1200px; margin: 0 auto; color: #fff; padding: 20px 0; }
+#ikang .ikang-rule dt { font-size: 36px; line-height: 60px; text-align: center; }
+#ikang .ikang-rule dd { font-size: 24px; line-height: 48px; text-align: center; }
