@@ -1,0 +1,96 @@
+.container .shopping-cart-wrapper { width: 1160px; margin: 0 auto; }
+.shopping-cart-wrapper .shopping-step { width: 100%; }
+.shopping-cart-wrapper .shopping-step li { width: 380px; height: 92px; line-height: 92px; float: left; margin-right: 10px; text-align: center; font-size: 18px; color: #dcdcdc; }
+.shopping-cart-wrapper .shopping-step li.last { margin-right: 0; }
+.shopping-cart-wrapper .shopping-step li.active { color: #82aac8; }
+.shopping-cart-wrapper .shopping-step li i,
+.shopping-cart-wrapper .shopping-step li span { display: inline-block; }
+.shopping-cart-wrapper .shopping-step li i { height: 42px;
+background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: relative; top: 14px; }
+.shopping-cart-wrapper .shopping-step li .icon-cart { width: 92px; background-position: 0 0; }
+.shopping-cart-wrapper .shopping-step li.active .icon-cart { background-position: 0 -42px; }
+.shopping-cart-wrapper .shopping-step li .icon-order-info { width: 86px; background-position: -92px 0; }
+.shopping-cart-wrapper .shopping-step li.active .icon-order-info { background-position: -92px -42px; }
+.shopping-cart-wrapper .shopping-step li .icon-submit-ok { width: 84px; background-position: -178px 0; }
+.shopping-cart-wrapper .shopping-step li.active .icon-submit-ok { background-position: -178px -42px; }
+.shopping-cart-wrapper .shopping-step li.active .icon-submit-fail { width: 84px; background-position: -262px -42px; }
+.shopping-cart-wrapper .shopping-step li span { margin-left: 20px; }
+
+.shopping-cart-wrapper .section-container { width: 1080px; margin: 0 auto; }
+
+/* 订单创建状态 */
+.section-container .section { width: 100%; }
+.section-container .status { padding: 50px 0 20px; }
+.section-container .status h2 { font-size: 22px; line-height: 48px; color: #4f4f4f; text-align: center; font-weight: normal; }
+.section-container .status h2 .icon { display: inline-block; width: 60px; height: 48px; margin-right: 10px; background: url('../img/detail/mask_join_cart_bg.png') no-repeat; vertical-align: middle; border: none; font-style: normal; }
+.section-container .status .notice { font-size: 18px; line-height: 34px; text-align: center; color: #969696; margin-top: 14px; }
+.section-container .status .paytime { font-size: 14px; line-height: 24px; color: #d35050; text-align: center; }
+
+/* 订单编号及送货地址 */
+.section-container .info { padding: 5px 0; }
+.section-container .info p { font-size: 12px; line-height: 22px; color: #4f4f4f; margin-left: 15px; }
+.section-container .info .order-no span { color: #468259; }
+.section-container .info .order-address span { margin-right: 30px; }
+.section-container .info .order-address .mobile { margin-right: 0; }
+
+/* 订单商品列表 */
+.section-container .list { position: relative; width: 100%; margin-bottom: 50px; }
+.section-container .list .list-header { font-size: 12px; height: 40px; line-height: 40px; background-color: #f5f5f5; }
+.section-container .list .list-header span { display: inline-block; text-align: center; float: left; }
+.section-container .list .list-header .h-product { width: 354px; }
+.section-container .list .list-header .h-property { width: 184px; }
+.section-container .list .list-header .h-number { width: 138px; }
+.section-container .list .list-header .h-require { width: 256px; }
+.section-container .list .list-header .h-unitcost { width: 148px; }
+.section-container .list .list-body { width: 100%; font-size: 12px; border-bottom: 1px solid #dcdcdc; }
+.section-container .list .list-body li { width: 100%; height: 70px; border-top: 1px dashed #e6e6e6; }
+.section-container .list .list-body li:first-of-type { border-top: none; }
+.section-container .list .list-body li > div { float: left; height: 100%; }
+.section-container .list .list-body .b-product { width: 354px; }
+.section-container .list .list-body .b-property { width: 184px; }
+.section-container .list .list-body .b-number { width: 138px; }
+.section-container .list .list-body .b-require { width: 256px; }
+.section-container .list .list-body .b-unitcost { width: 148px; }
+.section-container .list .list-body li > div .text { display: table; float: right; width: 100%; height: 100%; }
+.section-container .list .list-body li > div .text p { display: table-cell; vertical-align: middle; line-height: 20px; color: #4f4f4f; }
+.section-container .list .list-body li > div .text span { display: inline-block; width: 100%; text-align: center;  }
+.section-container .list .list-body .b-product .img { display: block; float: left; width: 60px; height: 60px; margin: 5px 0 0 10px; }
+.section-container .list .list-body .b-product .img img { width: 100%; }
+.section-container .list .list-body .b-product .text { width: 224px; }
+.section-container .list .list-body .b-product .text span { text-align: left; }
+.section-container .list .list-body .b-property .text .tableware,
+.section-container .list .list-body .b-property .text .split { color: #b4b4b4; }
+.section-container .list .load-more { position: absolute; right: 0; bottom: -20px; width: 64px; height: 19px; border: 1px solid #dcdcdc; border-radius: 0 0 4px 4px; background-color: #f5f5f5; color: #505050; cursor: pointer; line-height: 18px; }
+.section-container .list .load-more p { width: 100%; height: 100%; text-align: center; }
+.section-container .list .load-more span { display: inline-block; vertical-align: middle; }
+.section-container .list .load-more .arrow { width: 10px; height: 12px; background: url('../img/arrow_unexpand.png') no-repeat; }
+.section-container .list .load-more .expand { background-image: url('../img/arrow_expand.png'); }
+
+/* 订单商品数量和总金额 */
+.section-container .totals { width: 100%; padding-bottom: 20px; }
+.section-container .totals > p { float: right; margin-right: 46px; line-height: 24px; font-size: 12px; }
+.section-container .totals > p span { display: inline-block; float: right; margin-left: 20px; }
+.section-container .totals > p span i { font-style: normal; }
+.section-container .totals > p .amount { color: #4f4f4f; vertical-align: middle; }
+.section-container .totals > p .amount i { display: inline-block; vertical-align: middle; font-size: 18px; color: #c81528; }
+.section-container .totals > p .num { color: #b4b4b4; }
+
+/* 支付方式 */
+.section-container .payment { width: 100%; padding-bottom: 55px; }
+.section-container .payment .payment-header { width: 100%; height: 44px; line-height: 44px; border-bottom: 1px solid #123250; background: url('../img/shopping-cart/section_title_bg.png') 10px center no-repeat; }
+.section-container .payment .payment-header span { display: inline-block; float: left; font-size: 18px; color: #0f3677; }
+.section-container .payment .payment-header .curr-type { margin-left: 36px; }
+.section-container .payment .payment-header .change-type { margin-left: 34px; font-size: 14px; color: #2378cd; text-decoration: underline; cursor: pointer; padding-left: 27px;  background: url('../img/icon_payment.png') left center no-repeat;}
+.section-container .payment .payment-body { width: 100%; height: 268px; }
+.section-container .payment .payment-body .paytype { width: 100%; height: 100%; }
+/* alipay */
+.section-container .payment .payment-body .alipay { position: relative; }
+.section-container .payment .payment-body .alipay .btn-pay { position: absolute; top: 104px; left: 180px; display: block; width: 220px; height: 60px; background: url('../img/submit-result/alipay_btn_bg.png') no-repeat; }
+.section-container .payment .payment-body .alipay > span { display: block; position: absolute; top: 50%; left: 50%; width: 20px; height: 16px; line-height: 16px; text-align: center; font-size: 16px; margin: -8px 0 0 -10px; color: #505050; }
+.section-container .payment .payment-body .alipay .scan-pay { position: absolute; top: 44px; right: 223px; width: 286px; height: 180px; }
+.section-container .payment .payment-body .alipay .scan-pay span { display: inline-block; position: absolute; top: 50%; left: 0; height: 16px; line-height: 16px; margin-top: -8px; font-size: 16px; color: #505050; }
+.section-container .payment .payment-body .alipay .scan-pay .img { position: absolute; top: 0; right: 0; width: 178px; height: 178px; border: 1px solid #abadaf; }
+/* unionpay */
+.section-container .payment .payment-body .unionpay { display: none; position: relative; }
+.section-container .payment .payment-body .unionpay .btn-pay { position: absolute; top: 34px; left: 10px; display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; background-color: #ea545d; color: #fff; font-size: 16px; }
+
