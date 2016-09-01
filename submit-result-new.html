@@ -369,15 +369,15 @@
 					<!-- 订单商品数量和总金额 end -->
 
 					<!-- 支付方式 begin -->
-					<div class="section payment">
+					<div class="section payment" id="payment">
 						<p class="payment-header clearfix">
-							<span class="curr-type">支付宝支付</span>
-							<span class="change-type">更改支付方式 </span>
+							<span class="curr-type" paytype="alipay">支付宝支付</span>
+							<span class="change-type">更改支付方式</span>
 						</p>
 						<div class="payment-body">
 							<!-- alipay begin -->
 							<div class="paytype alipay">
-								<a href="javascript:;" class="btn-pay"></a>
+								<a href="javascript:;" class="btn-pay"><img src="assets/img/submit-result/alipay_btn_bg.png" alt=""></a>
 								<span>或</span>
 								<div class="scan-pay">
 									<span>扫码支付 ></span>
@@ -387,14 +387,30 @@
 								</div>
 							</div>
 							<!-- alipay end -->
-							<!-- unionpay begin -->
-							<div class="paytype unionpay">
-								<a href="javascript:;" class="btn-pay">立即支付</a>
-							</div>
-							<!-- unionpay end -->
 						</div>
 					</div>
 					<!-- 支付方式 end -->
+
+                    <!-- 更改支付方式弹层 begin -->
+                    <div class="mask-payment" id="maskPayment">
+                        <div class="change-payment">
+                            <div class="pay-header">
+                                <p>支付方式</p>
+                            </div>
+                            <div class="pay-body">
+                                <div class="current-pay"></div>
+                                <div class="other-pay">
+                                    <p>其它支付方式</p>
+                                    <ul class="clearfix"></ul>
+                                </div>
+                            </div>
+                            <div class="pay-operate clearfix">
+                                <a href="javascript:;" class="btn-cancel">取消</a>
+                                <a href="javascript:;" class="btn-ok">确定</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 更改支付方式弹层 end -->
 
                 </div>
             </div>

@@ -1,4 +1,4 @@
-(function() {
+(function($) {
 
     $(function() {
 
@@ -7,6 +7,9 @@
 
         // 加载订单中更多商品
         fnMoreProduct();
+
+        // 更改支付方式
+        fnChangePayment();
     });
 
     /**
@@ -72,7 +75,7 @@
 
     /**
      * 加载订单中更多的商品
-     * @return {[type]} [description]
+     * @return null
      */
     function fnMoreProduct() {
 
@@ -111,8 +114,8 @@
                         // 后台获取到的商品列表
                         var list = data.list;
 
-                        if(list.length == 0) {
-                        	return false;
+                        if (list.length == 0) {
+                            return false;
                         }
 
                         // 遍历list
@@ -149,7 +152,7 @@
                             _html += '<span>' + (require == '' ? '-' : require) + '</span>';
                             _html += '</p></div></div>';
                             _html += '<div class="b-unitcost"><div class="text"><p>';
-                            _html += '<span>￥'+(unitcost == '' ? '0.00' : unitcost)+'</span>';
+                            _html += '<span>￥' + (unitcost == '' ? '0.00' : unitcost) + '</span>';
                             _html += '</p></div></div></li>';
                         }
 
@@ -174,4 +177,193 @@
         });
     }
 
-})();
+    /**
+     * 更改订单支付方式
+     * @return null
+     */
+    function fnChangePayment() {
+
+        var $oPayment = $('#payment'),
+            $oPaymentHeader = $oPayment.find('.payment-header'),
+            $oCurrType = $oPaymentHeader.find('.curr-type'),
+            $oChangeType = $oPaymentHeader.find('.change-type'),
+            $oPaymentBody = $oPayment.find('.payment-body'),
+            $oMaskPayment = $('#maskPayment'),
+            $oChangePayment = $oMaskPayment.find('.change-payment'),
+            $oCurrentPay = $oChangePayment.find('.current-pay'),
+            $oOtherPay = $oChangePayment.find('.other-pay'),
+            $oPaymentList = $oOtherPay.find('ul'),
+            $oMaskCancel = $oChangePayment.find('.btn-cancel'),
+            $oMaskOk = $oChangePayment.find('.btn-ok');
+
+        // 所有支付方式
+        var arrPayment = [{
+            name: '支付宝',
+            type: 'alipay',
+            img: 'assets/img/submit-result/payment-icons/alipay.jpg'
+        }, {
+            name: '微信',
+            type: 'wechat',
+            img: 'assets/img/submit-result/payment-icons/wechat.jpg'
+        }, {
+            name: '快钱',
+            type: '99bill',
+            img: 'assets/img/submit-result/payment-icons/99bill.jpg'
+        }, {
+            name: '银联',
+            type: 'unionpay',
+            img: 'assets/img/submit-result/payment-icons/unionpay.jpg'
+        }, {
+            name: '锦江e卡通',
+            type: 'jinjiang',
+            img: 'assets/img/submit-result/payment-icons/jinjiang.jpg'
+        }, {
+            name: '招商银行',
+            type: 'zhaohang',
+            img: 'assets/img/submit-result/payment-icons/zhaohang.jpg'
+        }, {
+            name: '中国银行',
+            type: 'china',
+            img: 'assets/img/submit-result/payment-icons/china.jpg'
+        }];
+
+        // 点击更改支付方式按钮
+        $oChangeType.on('click', function() {
+
+            var paytype = $oCurrType.attr('paytype');
+            var currIndex = 0;
+
+            switch (paytype) {
+                case 'alipay':
+                    currIndex = 0;
+                    break;
+                case 'wechat':
+                    currIndex = 1;
+                    break;
+                case '99bill':
+                    currIndex = 2;
+                    break;
+                case 'unionpay':
+                    currIndex = 3;
+                    break;
+                case 'jinjiang':
+                    currIndex = 4;
+                    break;
+                case 'zhaohang':
+                    currIndex = 5;
+                    break;
+                case 'china':
+                    currIndex = 6;
+                    break;
+                default:
+                    currIndex = 0;
+                    break;
+            }
+
+            // 绑定支付方式弹层数据
+            fnBindPaymentMask(currIndex);
+        });
+
+        // 其它支付方式切换事件
+        $oPaymentList.on('click', 'li', function() {
+            $(this).addClass('active').siblings('li').removeClass('active');
+        });
+
+        // 取消更改支付方式
+        $oMaskCancel.on('click', function() {
+            $oMaskPayment.fadeOut();
+        });
+
+        // 确定更改支付方式
+        $oMaskOk.on('click', function() {
+
+            var $oChoosePay = $oPaymentList.find('.active');
+
+            if ($oChoosePay.length !== 0) {
+
+                var choosePaytype = $oChoosePay.attr('paytype');
+                var choosePayname = $oChoosePay.attr('payname');
+
+                // 改变当前支付方式
+                $oCurrType.attr('paytype', choosePaytype).html(choosePayname + '支付');
+                
+                // 构建新的支付方式入口
+                fnBuildPaymentBody(choosePaytype);
+            }
+            $oMaskPayment.fadeOut();
+        });
+
+        /**
+         * 根据选中的支付方式构建新的支付入口
+         * @param  {[type]} paytype [支付方式]
+         * @return {[type]}         [null]
+         */
+        function fnBuildPaymentBody(paytype) {
+
+            var _html = '';
+
+            if (paytype === 'alipay') { // 支付宝支付
+
+                var alipayLink = 'javsacript:;';    // TODO alipay支付链接需要替换
+                var alipayQrcode = 'assets/img/submit-result/qrcode.jpg';   // TODO alipay二维码需要动态生成
+
+                _html += '<div class="paytype alipay">';
+                _html += '<a href="' + alipayLink + '" class="btn-pay"><img src="assets/img/submit-result/alipay_btn_bg.png" alt=""></a>';
+                _html += '<span>或</span><div class="scan-pay"><span>扫码支付 ></span><div class="img">';
+                _html += '<img src="' + alipayQrcode + '" alt=""></div></div></div>';
+            } else if (paytype === 'wechat') { // 微信支付
+
+                var wechatLink = 'javsacript:;';    // TODO wechat支付链接需要替换
+                var wechatQrcode = 'assets/img/submit-result/qrcode.jpg';   // TODO wechat二维码需要动态生成
+
+                _html += '<div class="paytype wechat">';
+                _html += '<a href="' + wechatLink + '" class="btn-pay"><img src="assets/img/submit-result/wechat_btn_bg.png" alt=""></a>';
+                _html += '<span>或</span><div class="scan-pay"><span>扫码支付 ></span><div class="img">';
+                _html += '<img src="' + wechatQrcode + '" alt=""></div></div></div>';
+            } else { // 其它在线支付
+
+                var onlineLink = 'javascript:;';    // TODO 其它在线支付方式                
+
+                _html += '<div class="paytype onlinepay">';
+                _html += '<a href="' + onlineLink + '" class="btn-pay" target="_blank">立即支付</a>';
+                _html += '</div>';
+            }
+
+            $oPaymentBody.html(_html);
+        }
+
+        /**
+         * 绑定支付方式弹层数据
+         * @param  {[type]} index [当前支付方式]
+         * @return {[type]}       [null]
+         */
+        function fnBindPaymentMask(index) {
+
+            // 当前支付方式
+            var currPay = arrPayment[index];
+
+            // 绑定当前支付方式
+            var _currHtml = '';
+            _currHtml += '<p>当前支付方式</p>';
+            _currHtml += '<a href="javascript:;" paytype="' + currPay.type + '" payname="' + currPay.name + '"><img src="' + currPay.img + '" alt=""></a>';
+            $oCurrentPay.html(_currHtml);
+
+            // 其他支付方式
+            var _otherHtml = '';
+            for (var i = 0, len = arrPayment.length; i < len; i++) {
+                if (i !== index) {
+                    _otherHtml += '<li paytype="' + arrPayment[i].type + '" payname="' + arrPayment[i].name + '"><a href="javascript:;"><img src="' + arrPayment[i].img + '" alt=""></a></li>';
+                }
+            }
+            $oPaymentList.html(_otherHtml);
+
+            // 显示弹层
+            $oMaskPayment.fadeIn();
+            $oChangePayment.css({
+                'margin-left': -$oChangePayment.width() / 2 + 'px',
+                'margin-top': -$oChangePayment.height() / 2 + 'px'
+            });
+        }
+    }
+
+})(jQuery);

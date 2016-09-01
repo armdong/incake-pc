@@ -63,8 +63,8 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .section-container .list .load-more { position: absolute; right: 0; bottom: -20px; width: 64px; height: 19px; border: 1px solid #dcdcdc; border-radius: 0 0 4px 4px; background-color: #f5f5f5; color: #505050; cursor: pointer; line-height: 18px; }
 .section-container .list .load-more p { width: 100%; height: 100%; text-align: center; }
 .section-container .list .load-more span { display: inline-block; vertical-align: middle; }
-.section-container .list .load-more .arrow { width: 10px; height: 12px; background: url('../img/arrow_unexpand.png') no-repeat; }
-.section-container .list .load-more .expand { background-image: url('../img/arrow_expand.png'); }
+.section-container .list .load-more .arrow { width: 10px; height: 12px; background: url('../img/submit-result/arrow_unexpand.png') no-repeat; }
+.section-container .list .load-more .expand { background-image: url('../img/submit-result/arrow_expand.png'); }
 
 /* 订单商品数量和总金额 */
 .section-container .totals { width: 100%; padding-bottom: 20px; }
@@ -80,17 +80,47 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .section-container .payment .payment-header { width: 100%; height: 44px; line-height: 44px; border-bottom: 1px solid #123250; background: url('../img/shopping-cart/section_title_bg.png') 10px center no-repeat; }
 .section-container .payment .payment-header span { display: inline-block; float: left; font-size: 18px; color: #0f3677; }
 .section-container .payment .payment-header .curr-type { margin-left: 36px; }
-.section-container .payment .payment-header .change-type { margin-left: 34px; font-size: 14px; color: #2378cd; text-decoration: underline; cursor: pointer; padding-left: 27px;  background: url('../img/icon_payment.png') left center no-repeat;}
+.section-container .payment .payment-header .change-type { margin-left: 34px; font-size: 14px; color: #2378cd; text-decoration: underline; cursor: pointer; padding-left: 27px;  background: url('../img/submit-result/icon_payment.png') left center no-repeat;}
 .section-container .payment .payment-body { width: 100%; height: 268px; }
 .section-container .payment .payment-body .paytype { width: 100%; height: 100%; }
 /* alipay */
 .section-container .payment .payment-body .alipay { position: relative; }
-.section-container .payment .payment-body .alipay .btn-pay { position: absolute; top: 104px; left: 180px; display: block; width: 220px; height: 60px; background: url('../img/submit-result/alipay_btn_bg.png') no-repeat; }
+.section-container .payment .payment-body .alipay .btn-pay { position: absolute; top: 104px; left: 180px; display: block; width: 220px; height: 60px; }
+.section-container .payment .payment-body .alipay .btn-pay img { width: 100%; }
 .section-container .payment .payment-body .alipay > span { display: block; position: absolute; top: 50%; left: 50%; width: 20px; height: 16px; line-height: 16px; text-align: center; font-size: 16px; margin: -8px 0 0 -10px; color: #505050; }
 .section-container .payment .payment-body .alipay .scan-pay { position: absolute; top: 44px; right: 223px; width: 286px; height: 180px; }
 .section-container .payment .payment-body .alipay .scan-pay span { display: inline-block; position: absolute; top: 50%; left: 0; height: 16px; line-height: 16px; margin-top: -8px; font-size: 16px; color: #505050; }
 .section-container .payment .payment-body .alipay .scan-pay .img { position: absolute; top: 0; right: 0; width: 178px; height: 178px; border: 1px solid #abadaf; }
-/* unionpay */
-.section-container .payment .payment-body .unionpay { display: none; position: relative; }
-.section-container .payment .payment-body .unionpay .btn-pay { position: absolute; top: 34px; left: 10px; display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; background-color: #ea545d; color: #fff; font-size: 16px; }
+/* wechat */
+.section-container .payment .payment-body .wechat { position: relative; }
+.section-container .payment .payment-body .wechat .btn-pay { position: absolute; top: 104px; left: 180px; display: block; width: 220px; height: 60px; }
+.section-container .payment .payment-body .wechat .btn-pay img { width: 100%; }
+.section-container .payment .payment-body .wechat > span { display: block; position: absolute; top: 50%; left: 50%; width: 20px; height: 16px; line-height: 16px; text-align: center; font-size: 16px; margin: -8px 0 0 -10px; color: #505050; }
+.section-container .payment .payment-body .wechat .scan-pay { position: absolute; top: 44px; right: 223px; width: 286px; height: 180px; }
+.section-container .payment .payment-body .wechat .scan-pay span { display: inline-block; position: absolute; top: 50%; left: 0; height: 16px; line-height: 16px; margin-top: -8px; font-size: 16px; color: #505050; }
+.section-container .payment .payment-body .wechat .scan-pay .img { position: absolute; top: 0; right: 0; width: 178px; height: 178px; border: 1px solid #abadaf; }
+/* onlinepay */
+.section-container .payment .payment-body .onlinepay { position: relative; }
+.section-container .payment .payment-body .onlinepay .btn-pay { position: absolute; top: 34px; left: 10px; display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; background-color: #ea545d; color: #fff; font-size: 16px; }
 
+.section-container .mask-payment { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/submit-result/mask_bg.png'); }
+.mask-payment .change-payment { position: absolute; top: 50%; left: 50%; width: 740px; padding: 20px; background-color: #fff; border-radius: 10px; overflow: hidden; }
+.change-payment .pay-header { width: 100%; height: 40px; border-bottom: 1px solid #0f3677; }
+.change-payment .pay-header p { width: 700px; margin: 0 auto; line-height: 40px; font-size: 18px; color: #0f3677; }
+.change-payment .pay-body { width: 100%; }
+.change-payment .pay-body .current-pay,
+.change-payment .pay-body .other-pay { width: 100%; }
+.change-payment .pay-body .current-pay p,
+.change-payment .pay-body .other-pay p { width: 700px; margin: 0 auto; line-height: 40px; font-size: 14px; color: #515151; }
+.change-payment .pay-body .current-pay p { color: #c8c8c8; }
+.change-payment .pay-body .current-pay a { display: block; width: 218px; height: 58px; margin: 0 0 10px 20px; border: 1px solid #c8c8c8; border-radius: 5px; overflow: hidden; }
+.change-payment .pay-body .current-pay a img { width: 100%; border: none; vertical-align: top; }
+.change-payment .pay-body .other-pay ul { width: 100%; }
+.change-payment .pay-body .other-pay li { float: left; width: 218px; height: 58px; margin: 0 0 20px 20px; border: 1px solid #c8c8c8; border-radius: 5px; overflow: hidden; }
+.change-payment .pay-body .other-pay li.active { border-color: #ea545d; }
+.change-payment .pay-body .other-pay li a { display: block; width: 100%; height: 100%; }
+.change-payment .pay-body .other-pay li a img { width: 100%; }
+.change-payment .pay-operate { width: 450px; padding-top: 25px; margin: 0 auto; }
+.change-payment .pay-operate a { display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; color: #fff; font-size: 14px; }
+.change-payment .pay-operate .btn-cancel { float: left; background-color: #0578c4; }
+.change-payment .pay-operate .btn-ok { float: right; background-color: #0f3677; }
