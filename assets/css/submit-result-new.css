@@ -6,7 +6,7 @@
 .shopping-cart-wrapper .shopping-step li i,
 .shopping-cart-wrapper .shopping-step li span { display: inline-block; }
 .shopping-cart-wrapper .shopping-step li i { height: 42px;
-background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: relative; top: 14px; }
+background: url('../img/shopping-cart/cart_icons_bg.png') no-repeat; position: relative; top: 14px; }
 .shopping-cart-wrapper .shopping-step li .icon-cart { width: 92px; background-position: 0 0; }
 .shopping-cart-wrapper .shopping-step li.active .icon-cart { background-position: 0 -42px; }
 .shopping-cart-wrapper .shopping-step li .icon-order-info { width: 86px; background-position: -92px 0; }
@@ -65,6 +65,7 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .section-container .list .load-more span { display: inline-block; vertical-align: middle; }
 .section-container .list .load-more .arrow { width: 10px; height: 12px; background: url('../img/submit-result/arrow_unexpand.png') no-repeat; }
 .section-container .list .load-more .expand { background-image: url('../img/submit-result/arrow_expand.png'); }
+.section-container .list .load-more .loading { display: none; position: absolute; top: 0; left: 0; width: 64px; height: 19px; background: url('../img/submit-result/zoomloader.gif') center center no-repeat; background-color: #f5f5f5; }
 
 /* 订单商品数量和总金额 */
 .section-container .totals { width: 100%; padding-bottom: 20px; }
@@ -102,7 +103,13 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 /* onlinepay */
 .section-container .payment .payment-body .onlinepay { position: relative; }
 .section-container .payment .payment-body .onlinepay .btn-pay { position: absolute; top: 34px; left: 10px; display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; background-color: #ea545d; color: #fff; font-size: 16px; }
+/* timeout */
+.section-container .payment .payment-body .timeout { width: 220px; margin: 48px auto 0; }
+.section-container .payment .payment-body .timeout p { font-size: 20px; line-height: 46px; text-align: center; color: #505050; margin-bottom: 34px; }
+.section-container .payment .payment-body .timeout p i { display: inline-block; width: 46px; height: 46px; vertical-align: middle; background: url('../img/submit-result/icon_timeout.png') no-repeat; margin-right: 20px; }
+.section-container .payment .payment-body .timeout > a { display: block; width: 100%; height: 45px; line-height: 45px; font-size: 14px; text-align: center; color: #fff; background-color: #0f3677; }
 
+/* 更改支付方式弹层 */
 .section-container .mask-payment { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/submit-result/mask_bg.png'); }
 .mask-payment .change-payment { position: absolute; top: 50%; left: 50%; width: 740px; padding: 20px; background-color: #fff; border-radius: 10px; overflow: hidden; }
 .change-payment .pay-header { width: 100%; height: 40px; border-bottom: 1px solid #0f3677; }
@@ -124,3 +131,31 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .change-payment .pay-operate a { display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; color: #fff; font-size: 14px; }
 .change-payment .pay-operate .btn-cancel { float: left; background-color: #0578c4; }
 .change-payment .pay-operate .btn-ok { float: right; background-color: #0f3677; }
+
+/* 付款确认弹层 */
+.section-container .mask-confirm { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/submit-result/mask_bg.png'); }
+.mask-confirm .payment-confirm { position: absolute; top: 50%; left: 50%; width: 380px; height: 200px; padding: 20px; margin: -120px 0 0 -210px; background-color: #fff; border-radius: 10px; overflow: hidden; }
+.payment-confirm .confirm-header { width: 100%; line-height: 40px; font-size: 18px; color: #0f3677; border-bottom: 1px solid #0f3677; }
+.payment-confirm .confirm-body { width: 288px; margin: 0 auto; padding-top: 34px; }
+.payment-confirm .confirm-body > div { width: 100px; }
+.payment-confirm .confirm-body .success { float: left; }
+.payment-confirm .confirm-body .problem { float: right; }
+.payment-confirm .confirm-body > div p,
+.payment-confirm .confirm-body > div a { display: inline-block; line-height: 30px; }
+.payment-confirm .confirm-body > div p { font-size: 16px; color: #505050; padding-left: 14px; background: url('../img/activity/item_span_bg.png') left center no-repeat; }
+.payment-confirm .confirm-body > div a { font-size: 12px; color: #2378cd; padding-left: 14px; }
+.payment-confirm .confirm-body > div a:hover { text-decoration: underline; }
+.payment-confirm .confirm-body > div .new-order { position: relative; }
+.payment-confirm .confirm-body > div .new-order > span { display: block; position: absolute; right: -74px; top: 50%; width: 64px; height: 20px; margin-top: -10px; background: url('../img/submit-result/mask_confirm_tip.png') no-repeat; }
+
+/* 订单失效弹层 */
+.section-container .mask-timeout { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/submit-result/mask_bg.png'); }
+.mask-timeout .timeout { position: absolute; top: 50%; left: 50%; width: 330px; height: 170px; padding: 35px 45px; margin: -120px 0 0 -210px; background-color: #fff; border-radius: 10px; overflow: hidden; }
+.mask-timeout .timeout .timeout-close { display: block; position: absolute; top: 15px; right: 20px; width: 26px; height: 26px; border-radius: 50%; background: url('../img/submit-result/timeout_close.png') no-repeat; overflow: hidden; }
+.mask-timeout .timeout .timeout-body { width: 100%; padding: 28px 0 50px; }
+.mask-timeout .timeout .timeout-body p { font-size: 20px; line-height: 46px; text-align: center; color: #505050; }
+.mask-timeout .timeout .timeout-body p i { display: inline-block; width: 46px; height: 46px; vertical-align: middle; background: url('../img/submit-result/icon_timeout.png') no-repeat; margin-right: 20px; }
+.mask-timeout .timeout .timeout-footer { width: 100%; }
+.mask-timeout .timeout .timeout-footer a { display: block; width: 160px; height: 45px; line-height: 45px; font-size: 14px; text-align: center; color: #fff; }
+.mask-timeout .timeout .timeout-footer .btn-leave { float: left; background-color: #0578c4; }
+.mask-timeout .timeout .timeout-footer .btn-reorder { float: right; background-color: #0f3677; }
