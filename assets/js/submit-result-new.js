@@ -2,15 +2,53 @@
 
     $(function() {
 
+        // TODO 获取创建订单时选择的支付类型
+        var currPaymentType = 'china';
+        var isTimeout = false; // 订单是否超时
+
+        // 所有支付方式
+        var arrPayment = [{
+            name: '支付宝',
+            type: 'alipay',
+            img: 'assets/img/submit-result/payment-icons/alipay.jpg',
+            link: 'http://www.alipay.com/'
+        }, {
+            name: '微信',
+            type: 'wechat',
+            img: 'assets/img/submit-result/payment-icons/wechat.jpg',
+            link: 'javascript:;'
+        }, {
+            name: '快钱',
+            type: '99bill',
+            img: 'assets/img/submit-result/payment-icons/99bill.jpg',
+            link: 'javascript:;'
+        }, {
+            name: '银联',
+            type: 'unionpay',
+            img: 'assets/img/submit-result/payment-icons/unionpay.jpg',
+            link: 'javascript:;'
+        }, {
+            name: '锦江e卡通',
+            type: 'jinjiang',
+            img: 'assets/img/submit-result/payment-icons/jinjiang.jpg',
+            link: 'javascript:;'
+        }, {
+            name: '招商银行',
+            type: 'zhaohang',
+            img: 'assets/img/submit-result/payment-icons/zhaohang.jpg',
+            link: 'javascript:;'
+        }, {
+            name: '中国银行',
+            type: 'china',
+            img: 'assets/img/submit-result/payment-icons/china.jpg',
+            link: 'javascript:;'
+        }];
+
         // 订单支付倒计时
         fnPayTimecount();
 
         // 加载订单中更多商品
         fnMoreProduct();
-
-        // TODO 获取创建订单时选择的支付类型
-        var currPaymentType = 'china';
-        var isTimeout = false; // 订单是否超时
 
         // 更改支付方式
         fnChangePayment(currPaymentType);
@@ -37,7 +75,7 @@
                 $oPaymentBody = $oPayment.find('.payment-body');
 
             //var beginTime = new Date(); // TODO:下单时间需要到数据库查询
-            var beginTime = new Date(2016, 8, 2, 14, 0, 0);
+            var beginTime = new Date(2016, 8, 2, 15, 40, 0);
             var endTime = beginTime.addMinutes(30); // 下单30分钟内需要完成支付
             var curShowTimeSeconds = 0;
 
@@ -145,13 +183,13 @@
                             requireLen: 20
                         },
                         dateType: 'json',
-                        beforeSend: function(){
+                        beforeSend: function() {
 
                             // 请求发送前回调函数
                             console.log('before send');
                             $oLoading.show();
                         },
-                        complete: function(){
+                        complete: function() {
 
                             // 请求完成后回调函数
                             console.log('send complete');
@@ -254,37 +292,6 @@
                 $oMaskConfirm = $('#maskConfirm'),
                 $oMaskTimeout = $('#maskTimeout');
 
-            // 所有支付方式
-            var arrPayment = [{
-                name: '支付宝',
-                type: 'alipay',
-                img: 'assets/img/submit-result/payment-icons/alipay.jpg'
-            }, {
-                name: '微信',
-                type: 'wechat',
-                img: 'assets/img/submit-result/payment-icons/wechat.jpg'
-            }, {
-                name: '快钱',
-                type: '99bill',
-                img: 'assets/img/submit-result/payment-icons/99bill.jpg'
-            }, {
-                name: '银联',
-                type: 'unionpay',
-                img: 'assets/img/submit-result/payment-icons/unionpay.jpg'
-            }, {
-                name: '锦江e卡通',
-                type: 'jinjiang',
-                img: 'assets/img/submit-result/payment-icons/jinjiang.jpg'
-            }, {
-                name: '招商银行',
-                type: 'zhaohang',
-                img: 'assets/img/submit-result/payment-icons/zhaohang.jpg'
-            }, {
-                name: '中国银行',
-                type: 'china',
-                img: 'assets/img/submit-result/payment-icons/china.jpg'
-            }];
-
             // 点击更改支付方式按钮
             $oChangeType.on('click', function() {
 
@@ -335,6 +342,7 @@
                 } else {
 
                     // TODO 跳转支付页面
+                    
                     $oMaskConfirm.fadeIn();
                 }
             });
@@ -363,29 +371,32 @@
              */
             function fnBuildPaymentBody(paytype) {
 
+                var _index = getPayIndex(paytype);
+                var _payment = arrPayment[_index];
+
                 var _html = '';
 
                 if (paytype === 'alipay') { // 支付宝支付
 
-                    var alipayLink = 'javsacript:;'; // TODO alipay支付链接需要替换
+                    var alipayLink = _payment.link + '?拼接参数'; // TODO alipay支付参数
                     var alipayQrcode = 'assets/img/submit-result/qrcode.jpg'; // TODO alipay二维码需要动态生成
 
                     _html += '<div class="paytype alipay">';
-                    _html += '<a href="' + alipayLink + '" class="btn-pay"><img src="assets/img/submit-result/alipay_btn_bg.png" alt=""></a>';
+                    _html += '<a href="' + alipayLink + '" class="btn-pay" target="_blank"><img src="assets/img/submit-result/alipay_btn_bg.png" alt=""></a>';
                     _html += '<span>或</span><div class="scan-pay"><span>扫码支付 ></span><div class="img">';
                     _html += '<img src="' + alipayQrcode + '" alt=""></div></div></div>';
                 } else if (paytype === 'wechat') { // 微信支付
 
-                    var wechatLink = 'javsacript:;'; // TODO wechat支付链接需要替换
+                    var wechatLink = _payment.link + '?拼接参数'; // TODO wechat支付支付参数
                     var wechatQrcode = 'assets/img/submit-result/qrcode.jpg'; // TODO wechat二维码需要动态生成
 
                     _html += '<div class="paytype wechat">';
-                    _html += '<a href="' + wechatLink + '" class="btn-pay"><img src="assets/img/submit-result/wechat_btn_bg.png" alt=""></a>';
+                    _html += '<a href="' + wechatLink + '" class="btn-pay" target="_blank"><img src="assets/img/submit-result/wechat_btn_bg.png" alt=""></a>';
                     _html += '<span>或</span><div class="scan-pay"><span>扫码支付 ></span><div class="img">';
                     _html += '<img src="' + wechatQrcode + '" alt=""></div></div></div>';
                 } else { // 其它在线支付
 
-                    var onlineLink = 'javascript:;'; // TODO 其它在线支付方式                
+                    var onlineLink = _payment.link + '?拼接参数'; // TODO 其它在线支付方式参数               
 
                     _html += '<div class="paytype onlinepay">';
                     _html += '<a href="' + onlineLink + '" class="btn-pay" target="_blank">立即支付</a>';
@@ -448,7 +459,7 @@
              * @param  {[type]} paytype [支付类型]
              * @return {[type]}         [对应支付类型索引]
              */
-            function getPayIndex(paytype){
+            function getPayIndex(paytype) {
 
                 var index = 0;
 
