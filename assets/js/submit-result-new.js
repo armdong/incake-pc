@@ -75,7 +75,7 @@
                 $oPaymentBody = $oPayment.find('.payment-body');
 
             //var beginTime = new Date(); // TODO:下单时间需要到数据库查询
-            var beginTime = new Date(2016, 8, 2, 15, 40, 0);
+            var beginTime = new Date(2016, 8, 2, 16, 40, 0);
             var endTime = beginTime.addMinutes(30); // 下单30分钟内需要完成支付
             var curShowTimeSeconds = 0;
 
