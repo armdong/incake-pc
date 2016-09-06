@@ -1,6 +1,6 @@
 #updatePound { width: 100%; min-width: 1200px; margin: 0 auto; background-color: #fff; overflow: hidden; }
 #updatePound .update-container { width: 1200px; margin: 0 auto; }
-.update-container .banner { width: 100%; height: 914px; background: url("../img/update-pound/banner.jpg") no-repeat; }
+.update-container .banner { width: 100%; height: 934px; background: url("../img/update-pound/banner.jpg") no-repeat; }
 .update-container .desc { position: relative; width: 100%; height: 248px; }
 .update-container .desc .inner { position: absolute; bottom: 0; left: 0; width: 100%; }
 .update-container .desc .inner p { font-size: 14px; line-height: 24px; text-align: center; color: #462000; }
