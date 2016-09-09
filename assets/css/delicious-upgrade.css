@@ -22,26 +22,45 @@
 .upgrade-container .bd > .questionnaire .join { text-align: center; }
 .upgrade-container .bd > .questionnaire .qrcode { position: absolute; top: 50%; right: -207px; width: 180px; height: 180px; margin-top: -90px; background: url('../img/delicious-upgrade/qrcode.jpg') no-repeat; }
 
-.upgrade-container .cakes { width: 1080px; margin: 0 auto; padding-bottom: 82px; }
-.upgrade-container .cakes li { float: left; width: 270px; }
+.upgrade-container .cakes { width: 1110px; margin: 0 auto; padding-bottom: 82px; }
+.upgrade-container .cakes li { float: left; width: 270px; margin-right: 10px; }
+.upgrade-container .cakes li.last-col { margin-right: 0; }
 .upgrade-container .cakes li .img { position: relative; width: 100%; }
 .upgrade-container .cakes li .img img { width: 100%; }
+.upgrade-container .cakes li .img img.gray { display: none; }
+.upgrade-container .cakes li.soldout .img img { display: none; width: 100%; }
+.upgrade-container .cakes li.soldout .img img.gray { display: block; }
 .upgrade-container .cakes li .img .tag { position: absolute; top: -4px; left: -4px; width: 128px; height: 128px; background: url('../img/delicious-upgrade/cake_tag.png') no-repeat; }
+.upgrade-container .cakes li.soldout .img .tag { background-image: url('../img/delicious-upgrade/cake_tag_gray.png'); }
+
+.upgrade-container .cakes li .remain { width: 250px; margin: 0 auto; padding-top: 5px; border-bottom: 1px solid #dcdcdc; }
+.upgrade-container .cakes li .remain p { font-size: 16px; line-height: 30px; color: #e66625; text-align: center; }
+.upgrade-container .cakes li.soldout .remain p { color: #848484; }
+.upgrade-container .cakes li .remain p span { font-size: 18px; }
+
 .upgrade-container .cakes li .text { width: 100%; padding: 28px 0 0; }
 .upgrade-container .cakes li .text p { text-align: center; color: #382624; }
+.upgrade-container .cakes li.soldout .text p { color: #848484; }
 .upgrade-container .cakes li .text .cn { font-size: 24px; line-height: 28px; }
 .upgrade-container .cakes li .text .en { font-size: 14px; line-height: 18px; }
 .upgrade-container .cakes li .text .info { margin-top: 20px; font-size: 18px; }
 .upgrade-container .cakes li .text .info span { color: #c50202; font-size: 24px; }
+.upgrade-container .cakes li.soldout .text .info span { color: #848484; }
 .upgrade-container .cakes li .text .info .price { font-size: 30px; font-weight: bold; }
 .upgrade-container .cakes li .btn-wrapper { position: relative; width: 210px; margin: 48px auto 0; }
 .upgrade-container .cakes li .btn-wrapper .btn { display: block; width: 206px; height: 46px; line-height: 46px; text-align: center; border: 2px solid #965b49; font-size: 18px; color: #965b49; border-radius: 25px; }
 .upgrade-container .cakes li .btn-wrapper .btn:hover { color: #c50202; border-color: #c50202; }
+.upgrade-container .cakes li.soldout .btn-wrapper .btn,
+.upgrade-container .cakes li.soldout .btn-wrapper .btn:hover { color: #848484; border-color: #848484; }
 .upgrade-container .cakes li .btn-wrapper .btn-icon { position: absolute; top: -32px; left: -9px; width: 78px; height: 89px; }
 .upgrade-container .cakes li .btn-wrapper .icon-qc { background: url('../img/delicious-upgrade/icon_qc.png') no-repeat; }
 .upgrade-container .cakes li .btn-wrapper .icon-pm { background: url('../img/delicious-upgrade/icon_pm.png') no-repeat; }
 .upgrade-container .cakes li .btn-wrapper .icon-cl { background: url('../img/delicious-upgrade/icon_cl.png') no-repeat; }
 .upgrade-container .cakes li .btn-wrapper .icon-t { background: url('../img/delicious-upgrade/icon_t.png') no-repeat; }
+.upgrade-container .cakes li.soldout .btn-wrapper .icon-qc { background: url('../img/delicious-upgrade/icon_qc_gray.png') no-repeat; }
+.upgrade-container .cakes li.soldout .btn-wrapper .icon-pm { background: url('../img/delicious-upgrade/icon_pm_gray.png') no-repeat; }
+.upgrade-container .cakes li.soldout .btn-wrapper .icon-cl { background: url('../img/delicious-upgrade/icon_cl_gray.png') no-repeat; }
+.upgrade-container .cakes li.soldout .btn-wrapper .icon-t { background: url('../img/delicious-upgrade/icon_t_gray.png') no-repeat; }
 
 #upgrade .upgrade-rule { width: 100%; background-color: #382624; }
 #upgrade .upgrade-rule dl { width: 1110px; padding: 35px 0; margin: 0 auto; color: #fff; background: url('../img/delicious-upgrade/rule_bg.png') right center no-repeat; }
