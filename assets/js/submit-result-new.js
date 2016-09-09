@@ -75,7 +75,7 @@
                 $oPaymentBody = $oPayment.find('.payment-body');
 
             //var beginTime = new Date(); // TODO:下单时间需要到数据库查询
-            var beginTime = new Date(2016, 8, 2, 16, 40, 0);
+            var beginTime = new Date(2016, 8, 9, 11, 0, 0);
             var endTime = beginTime.addMinutes(30); // 下单30分钟内需要完成支付
             var curShowTimeSeconds = 0;
 
@@ -379,20 +379,15 @@
                 if (paytype === 'alipay') { // 支付宝支付
 
                     var alipayLink = _payment.link + '?拼接参数'; // TODO alipay支付参数
-                    var alipayQrcode = 'assets/img/submit-result/qrcode.jpg'; // TODO alipay二维码需要动态生成
 
                     _html += '<div class="paytype alipay">';
-                    _html += '<a href="' + alipayLink + '" class="btn-pay" target="_blank"><img src="assets/img/submit-result/alipay_btn_bg.png" alt=""></a>';
-                    _html += '<span>或</span><div class="scan-pay"><span>扫码支付 ></span><div class="img">';
-                    _html += '<img src="' + alipayQrcode + '" alt=""></div></div></div>';
+                    _html += '<a href="' + alipayLink + '" class="btn-pay" target="_blank"><img src="assets/img/submit-result/alipay_btn_bg.png" alt=""></a></div>';
                 } else if (paytype === 'wechat') { // 微信支付
 
-                    var wechatLink = _payment.link + '?拼接参数'; // TODO wechat支付支付参数
                     var wechatQrcode = 'assets/img/submit-result/qrcode.jpg'; // TODO wechat二维码需要动态生成
 
                     _html += '<div class="paytype wechat">';
-                    _html += '<a href="' + wechatLink + '" class="btn-pay" target="_blank"><img src="assets/img/submit-result/wechat_btn_bg.png" alt=""></a>';
-                    _html += '<span>或</span><div class="scan-pay"><span>扫码支付 ></span><div class="img">';
+                    _html += '<div class="scan-pay"><div class="img">';
                     _html += '<img src="' + wechatQrcode + '" alt=""></div></div></div>';
                 } else { // 其它在线支付
 
