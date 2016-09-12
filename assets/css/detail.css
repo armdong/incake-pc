@@ -26,9 +26,9 @@
 .main-body .summary > li .content { float: left; }
 .main-body .summary .sweet,
 .main-body .summary .festival { width: 50%; }
-.main-body .summary .sweet .star { float: left; margin-left: 14px; margin-top: 7px; }
-.main-body .summary .sweet .star li { width: 12px; height: 11px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -28px -13px; margin-right: 3px; }
-.main-body .summary .sweet .star li.active { background-position: -28px 0; }
+.main-body .summary .sweet .star { float: left; }
+.main-body .summary .sweet .star li { width: 21px; height: 21px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -72px 0; margin-right: 3px; }
+.main-body .summary .sweet .star li.active { background-position: -93px 0; }
 .main-body .operation { width: 490px; float: right; }
 .main-body .operation h2 { font-weight: normal; line-height: 30px; padding: 15px 0; border-bottom: 1px solid #0f3677; color: #0f3677; font-size: 24px; }
 .main-body .operation h2 span { display: block; line-height: 16px; margin-top: 10px; font-size: 16px; color: #c81528; }
