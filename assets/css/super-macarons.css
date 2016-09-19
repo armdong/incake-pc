@@ -1,0 +1,38 @@
+#macarons { width: 100%; max-width: 1920px; min-width: 1200px; margin: 0 auto; background-color: #000; }
+#macarons .macarons-container { width: 1200px; margin: 0 auto; }
+.macarons-container .banner { width: 100%; height: 900px; background: url('../img/super-macarons/banner.jpg') no-repeat; }
+.macarons-container .city-location { width: 100%; padding: 85px 0; }
+.macarons-container .city-location > p { position: relative; width: 526px; height: 66px; margin: 0 auto; line-height: 66px; background: url('../img/super-macarons/location_bg.png') left center no-repeat; }
+.macarons-container .city-location > p span { margin-left: 95px; line-height: 66px; font-size: 30px; color: #fff; }
+.macarons-container .city-location > p a { display: block; position: absolute; right: 0; top: 50%; width: 149px; height: 50px; margin-top: -25px; background: url('../img/super-macarons/btn_location_bg.png') no-repeat; line-height: 50px; font-size: 26px; text-align: center; color: #fff; }
+.macarons-container .cakes { width: 100%; }
+.macarons-container .cakes .cake-item { position: relative; width: 100%; height: 536px; }
+.macarons-container .cakes .cake-item .img { position: absolute; width: 455px; height: 411px; }
+.macarons-container .cakes .cake-item.soldout .img:after { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.macarons-container .cakes .cake-maca { background: url('../img/super-macarons/cake_maca_bg.png') no-repeat; }
+.macarons-container .cakes .cake-maca .img { top: 13px; left: 384px; background: url('../img/super-macarons/cake_maca_img.png') no-repeat; }
+.macarons-container .cakes .cake-maca.soldout .img:after { content: url('../img/super-macarons/cake_maca_soldout.png'); }
+
+.macarons-container .cakes .cake-classic { background: url('../img/super-macarons/cake_classic_bg.png') no-repeat; }
+.macarons-container .cakes .cake-classic .img { top: 11px; right: 71px; background: url('../img/super-macarons/cake_classic_img.png') no-repeat; }
+.macarons-container .cakes .cake-classic.soldout .img:after { content: url('../img/super-macarons/cake_classic_soldout.png'); }
+
+.macarons-container .cakes .cake-item .btn { display: block; position: absolute; width: 180px; height: 50px; background: url('../img/super-macarons/btn_bg.png') no-repeat; cursor: pointer; }
+.macarons-container .cakes .cake-item.soldout .btn { background-image: url('../img/super-macarons/btn_soldout_bg.png'); cursor: default; }
+.macarons-container .cakes .cake-item .btn-maca { top: 266px; right: 106px; }
+.macarons-container .cakes .cake-item .btn-classic { top: 266px; left: 442px; }
+
+#macarons .macarons-rule { width: 100%; background-color: #fff; }
+.macarons-rule dl { width: 1200px; margin: 0 auto; padding: 22px 0; }
+.macarons-rule dl dt,
+.macarons-rule dl dd { margin-left: 40px; color: #000; padding-left: 20px; line-height: 48px; }
+.macarons-rule dl dt { font-size: 20px; }
+.macarons-rule dl dd { font-size: 16px; background: url('../img/super-macarons/rule_dd_bg.png') left center no-repeat; }
+
+#maskLocation { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url('../img/mask_bg.png'); }
+#maskLocation .location { position: absolute; top: 20%; left: 50%; width: 582px; margin-left: -360px; padding: 0 67px; border: 2px solid #fff; background-color: #e5e5e5; color: #000; }
+#maskLocation .location .title { font-size: 34px; line-height: 96px; text-align: center; }
+#maskLocation .location .content li { float: left; width: 120px; height: 60px; margin: 0 34px 20px 0; line-height: 60px; font-size: 30px; color: #1a1a1a; text-align: center; cursor: pointer; }
+#maskLocation .location .content li.no-margin { margin-right: 0; }
+#maskLocation .location .content li.active { background-color: #bc9f61; color: #fff; }
