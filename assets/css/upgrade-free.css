@@ -1,0 +1,31 @@
+#upgrade { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; background-color: #f4f3ed; overflow: hidden; }
+#upgrade .upgrade-container { position: relative; width: 1200px; height: 2720px; margin: 0 auto; background: url('../img/upgrade-free/bd_bg.jpg') no-repeat; }
+.upgrade-container .btn { display: block; position: absolute; width: 222px; height: 52px; background: url('../img/upgrade-free/btn_bg.png') no-repeat; }
+.upgrade-container .btn-queen-cheese { top: 884px; right: 190px; }
+.upgrade-container .btn-chocolate-in-love { top: 1400px; left: 196px; }
+.upgrade-container .btn-princess-margaret { bottom: 760px; right: 190px; }
+.upgrade-container .btn-tiramisu { bottom: 234px; left: 196px; }
+
+#upgrade .upgrade-bottom { width: 100%; padding: 50px 0; background-color: #381e1c; }
+.upgrade-bottom .inner { position: relative; width: 1200px; margin: 0 auto; color: #fff; }
+.upgrade-bottom .inner .desc { float: left; width: 599px; border-right: 2px solid #644f4e; }
+.upgrade-bottom .inner .desc p { margin-left: 200px; font-size: 14px; line-height: 28px; }
+.upgrade-bottom .inner .rule { float: left; width: 359px; margin: 95px 0 0 130px; }
+.upgrade-bottom .inner .rule dt,
+.upgrade-bottom .inner .rule dd { line-height: 26px; }
+.upgrade-bottom .inner .rule dt { font-size: 18px; }
+.upgrade-bottom .inner .rule dd { font-size: 14px; }
+.upgrade-bottom .inner .cup { position: absolute; top: -140px; left: 90px; width: 184px; height: 153px; background: url('../img/upgrade-free/bottom_inner_bg.png') no-repeat; }
+
+#upgrade .frm-container { width: 100%; background-color: #425670; }
+#upgrade .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#upgrade .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#upgrade .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#upgrade .frm-register > ul { width: 100%; }
+#upgrade .frm-register li { float: left; margin-right: 49px; }
+#upgrade .frm-register li.last { margin-right: 0; }
+#upgrade .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#upgrade .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/upgrade-free/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#upgrade .frm-register li .txt-vcode { background-image: url('../img/upgrade-free/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#upgrade .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#upgrade .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
