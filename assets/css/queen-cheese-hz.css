@@ -6,6 +6,8 @@
 .bd-wrapper .bd { position: relative; width: 1200px; height: 967px; margin: 0 auto; background: url('../img/queen-cheese-hz/bd_bg.jpg') no-repeat; }
 .bd-wrapper .bd .btn { display: block; position: absolute; top: 311px; right: 197px; width: 123px; height: 123px; background: url('../img/queen-cheese-hz/btn_bg.png') no-repeat; border-radius: 50%; }
 .bd-wrapper .bd .btn .arrow { position: absolute; left: 51px; bottom: 12px; width: 21px; height: 21px; background: url('../img/queen-cheese-hz/btn_arrow.png') no-repeat; }
+.bd-wrapper .bd .stock { position: absolute; top: 335px; right: 79px; width: 92px; height: 80px; background: url('../img/queen-cheese-hz/stock_bg.png') no-repeat; }
+.bd-wrapper .bd .stock > span { display: block; position: absolute; bottom: 7px; left: 0; width: 68px; line-height: 34px; text-align: center; font-size: 34px; }
 #queenCheese .rule-wrapper { width: 100%; background-color: #619cc6; }
 .rule-wrapper dl { width: 1200px; margin: 0 auto; padding: 60px 0; color: #fff; }
 .rule-wrapper dl dt { font-size: 20px; line-height: 40px; text-align: center; }
