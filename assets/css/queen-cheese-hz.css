@@ -1,0 +1,32 @@
+#queenCheese { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; }
+#queenCheese .banner-wrapper { width: 100%; background-color: #c1e2f8; }
+.banner-wrapper .banner { position: relative; width: 1200px; height: 553px; margin: 0 auto; background: url('../img/queen-cheese-hz/banner.jpg') no-repeat; }
+.banner-wrapper .banner .tip { position: absolute; bottom: -305px; right: 44px; z-index: 99; width: 590px; height: 460px; background: url('../img/queen-cheese-hz/banner_tip.png') no-repeat; }
+#queenCheese .bd-wrapper { width: 100%; padding-bottom: 130px; background-color: #fcf9f2; background-image: url('../img/queen-cheese-hz/bd_bottom_bg.png'); background-repeat: repeat-x; background-position: left bottom; }
+.bd-wrapper .bd { position: relative; width: 1200px; height: 967px; margin: 0 auto; background: url('../img/queen-cheese-hz/bd_bg.jpg') no-repeat; }
+.bd-wrapper .bd .btn { display: block; position: absolute; top: 311px; right: 197px; width: 123px; height: 123px; background: url('../img/queen-cheese-hz/btn_bg.png') no-repeat; border-radius: 50%; }
+.bd-wrapper .bd .btn .arrow { position: absolute; left: 51px; bottom: 12px; width: 21px; height: 21px; background: url('../img/queen-cheese-hz/btn_arrow.png') no-repeat; }
+#queenCheese .rule-wrapper { width: 100%; background-color: #619cc6; }
+.rule-wrapper dl { width: 1200px; margin: 0 auto; padding: 60px 0; color: #fff; }
+.rule-wrapper dl dt { font-size: 20px; line-height: 40px; text-align: center; }
+.rule-wrapper dl dd { font-size: 16px; line-height: 30px; text-align: center; }
+
+#mask-wrapper { display: none; position: fixed; top: 0; left: 0; z-index: 99999999; width: 100%; height: 100%; background: url('../img/mask_bg.png'); }
+#mask-wrapper .mask { display: none; position: absolute; top: 35%; left: 50%; width: 276px; padding: 30px; margin-left: -168px; background-color: #fff; }
+#mask-wrapper .mask .mask-close { display: block; position: absolute; top: 10px; right: 10px; width: 35px; height: 35px; background: url('../img/queen-cheese-hz/mask_close.png') no-repeat; }
+
+#mask-wrapper .mask-register .title { width: 276px; height: 58px; background: url('../img/queen-cheese-hz/mask_register_title.png') no-repeat; }
+#mask-wrapper .mask-register ul { width: 100%; }
+#mask-wrapper .mask-register li { width: 100%; margin-top: 10px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden; }
+#mask-wrapper .mask-register li input { width: 236px; height: 46px; line-height: 46px; padding-left: 40px; outline: none; border: none; }
+#mask-wrapper .mask-register li .txt-mobile { float: left; width: 118px; background: url('../img/queen-cheese-hz/icon_mobile.png') no-repeat; }
+#mask-wrapper .mask-register li .btn-vcode { float: right; display: block; width: 114px; height: 46px; line-height: 46px; text-align: center; background-color: #8bade5; color: #fff; }
+#mask-wrapper .mask-register li .txt-vcode { background: url('../img/queen-cheese-hz/icon_vcode.png') no-repeat; }
+#mask-wrapper .mask-register li .btn-reg { display: block; width: 100%; height: 46px; line-height: 46px; text-align: center; background-color: #0e2f8f; color: #fff; }
+
+#mask-wrapper .mask-exists > h3 { padding-top: 10px; font-size: 14px; font-weight: 400; color: #f00; text-align: center; line-height: 14px; }
+#mask-wrapper .mask-exists > p { font-size: 16px; line-height: 30px; color: #f00; text-align: center; }
+#mask-wrapper .mask-exists .qrcode { width: 100%; margin-top: 10px; }
+#mask-wrapper .mask-exists .qrcode .img { width: 172px; height: 169px; padding: 14px; margin: 0 auto; border: 1px solid #ddd; border-radius: 5px; }
+#mask-wrapper .mask-exists .qrcode .img img { width: 100%; }
+#mask-wrapper .mask-exists .qrcode p { margin-top: 10px; font-size: 14px; color: #505050; line-height: 30px; text-align: center; }
