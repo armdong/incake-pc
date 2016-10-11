@@ -27,9 +27,9 @@
 .list-cake .item-wrapper .info dd { color: #979797; line-height: 24px; font-size: 14px; }
 .list-cake .item-wrapper .sweet { margin-top: 16px; }
 .list-cake .item-wrapper .sweet span { float: left; }
-.list-cake .item-wrapper .sweet .star { float: left; margin-left: 14px; margin-top: 7px; }
-.list-cake .item-wrapper .sweet .star li { width: 12px; height: 11px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -28px -13px; margin-right: 3px; }
-.list-cake .item-wrapper .sweet .star li.active { background-position: -28px 0; }
+.list-cake .item-wrapper .sweet .star { float: left; margin-left: 14px; margin-top: 1px; }
+.list-cake .item-wrapper .sweet .star li { width: 21px; height: 21px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -72px 0; margin-right: 3px; }
+.list-cake .item-wrapper .sweet .star li.active { background-position: -93px 0; }
 .list-cake .item-wrapper .btns { width: 160px; height: 100%; float: right; }
 .list-cake .item-wrapper .btns a { width: 158px; height: 38px; border: 1px solid #0f3677; border-radius: 19px; display: block; text-align: center; line-height: 38px; }
 .list-cake .item-wrapper .btns a:hover { background: #0f3677; color: #fff; }
