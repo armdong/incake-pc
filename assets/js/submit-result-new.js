@@ -3,7 +3,7 @@
     $(function() {
 
         // TODO 获取创建订单时选择的支付类型
-        var currPaymentType = 'china';
+        var currPaymentType = 'wechat';
         var isTimeout = false; // 订单是否超时
 
         // 所有支付方式
@@ -75,7 +75,7 @@
                 $oPaymentBody = $oPayment.find('.payment-body');
 
             //var beginTime = new Date(); // TODO:下单时间需要到数据库查询
-            var beginTime = new Date(2016, 8, 9, 11, 0, 0);
+            var beginTime = new Date(2016, 9, 14, 13, 0, 0);
             var endTime = beginTime.addMinutes(30); // 下单30分钟内需要完成支付
             var curShowTimeSeconds = 0;
 
@@ -387,8 +387,11 @@
                     var wechatQrcode = 'assets/img/submit-result/qrcode.jpg'; // TODO wechat二维码需要动态生成
 
                     _html += '<div class="paytype wechat">';
-                    _html += '<div class="scan-pay"><div class="img">';
-                    _html += '<img src="' + wechatQrcode + '" alt=""></div></div></div>';
+                    _html += '<div class="scan-pay">';
+                    _html += '<p>使用微信扫一扫即可付款</p>'
+                    _html += '<div class="img">';
+                    _html += '<img src="' + wechatQrcode + '" alt=""></div>';
+                    _html += '</div></div>';
                 } else { // 其它在线支付
 
                     var onlineLink = _payment.link + '?拼接参数'; // TODO 其它在线支付方式参数               

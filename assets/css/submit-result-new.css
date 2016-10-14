@@ -90,8 +90,9 @@ background: url('../img/shopping-cart/cart_icons_bg.png') no-repeat; position: r
 .section-container .payment .payment-body .alipay .btn-pay img { width: 100%; }
 /* wechat */
 .section-container .payment .payment-body .wechat { position: relative; }
-.section-container .payment .payment-body .wechat .scan-pay { position: absolute; top: 50%; left: 50%; width: 180px; height: 180px; margin: -90px 0 0 -90px; }
+.section-container .payment .payment-body .wechat .scan-pay { position: absolute; top: 50%; left: 50%; width: 180px; height: 210px; margin: -105px 0 0 -90px; }
 .section-container .payment .payment-body .wechat .scan-pay .img { width: 178px; height: 178px; border: 1px solid #abadaf; }
+.section-container .payment .payment-body .wechat .scan-pay p { text-align: center; line-height: 30px; font-size: 14px; }
 /* onlinepay */
 .section-container .payment .payment-body .onlinepay { position: relative; }
 .section-container .payment .payment-body .onlinepay .btn-pay { position: absolute; top: 34px; left: 10px; display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; background-color: #ea545d; color: #fff; font-size: 16px; }
