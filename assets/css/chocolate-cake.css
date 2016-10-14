@@ -1,0 +1,26 @@
+#chocolate { width: 100%; background: #35201c; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; }
+#chocolate img { width: 100%; }
+
+#chocolate .banner { position: relative; width: 1200px; height: 872px; margin: 0 auto; }
+#chocolate .banner-content { position: absolute; top: 0; left: 50%; margin-left: -960px; width: 1920px; }
+#chocolate .btn-buy { position: absolute; bottom: 0; left: 130px; width: 300px; height: 50px; line-height: 50px; background-color: #ea7583; border-radius: 25px; font-size: 24px; color: #fff; text-align: center; }
+
+#chocolate .info { position: relative; width: 1200px; height: 944px; margin: 0 auto; background: #35201c url('../img/chocolate-cake/information.jpg') no-repeat; }
+
+
+#chocolate .rules { width: 100%; height: 210px; background-color: #fff; color: #874832; text-align: center; line-height: 24px; }
+#chocolate .rules dt { font-size: 18px; padding: 44px 0 16px; }
+#chocolate .rules dd { font-size: 14px; }
+
+#chocolate .frm-container { width: 100%; background-color: #f09ea8; }
+#chocolate .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#chocolate .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#chocolate .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#chocolate .frm-register > ul { width: 100%; }
+#chocolate .frm-register li { float: left; margin-right: 49px; }
+#chocolate .frm-register li.last { margin-right: 0; }
+#chocolate .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#chocolate .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/chocolate-cake/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#chocolate .frm-register li .txt-vcode { background-image: url('../img/chocolate-cake/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#chocolate .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #8bade5; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#chocolate .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #8bade5; border-radius: 10px; }
