@@ -52,6 +52,9 @@
 
         // 更改支付方式
         fnChangePayment(currPaymentType);
+        
+        // 优惠活动
+        fnActShare();
 
         /**
          * ================================
@@ -490,6 +493,64 @@
 
                 return index;
             }
+        }
+
+		/**
+         * 分享活动
+         */
+        function fnActShare() {
+
+            var $oAct = $('#maskAct'),
+                $oBtnOk = $oAct.find('.btn-ok'),
+                $oBtnCancel = $oAct.find('.btn-cancel'),
+                $oCode = $('#maskCode'),
+                $oBtnClose = $oCode.find('.btn-close'),
+                $oCodeHead = $oCode.find('.code-header'),
+                $oCodeTip = $oCode.find('.code-tip'),
+                $oCodeTime = $oCode.find('.code-time'),
+                t = 180;
+				
+			//此处添加判断是否符合优惠条件，更改status状态
+			var status = true;
+			
+			if(status){
+				$oAct.fadeIn();
+			}
+			
+			$oBtnCancel.on('click',function(){
+				$oAct.fadeOut();
+			});
+			
+			$oBtnOk.on('click',function(){
+				$oAct.fadeOut();
+				$oCode.fadeIn();
+				
+				var inter = setInterval(getRTime,1000);
+				
+			});
+			
+			$oBtnClose.on('click',function(){
+				$oCode.fadeOut();
+			});
+            
+            function getRTime(){
+		        t--;
+		        var m=Math.floor(t/60%60);
+		        var s=Math.floor(t%60);
+		        
+		        if(s == 0){
+					$oCodeHead.addClass('code-img');
+					$oCodeTip.text('二维码已失效哦~');
+				}
+		        if(s < 10) {
+		        	s='0'+s;
+		        }
+				if(s > 0 || s == '00'){
+					$oCodeTime.html('0' + m + ":" + s);
+				}
+				
+		    }
+            
         }
 
     });

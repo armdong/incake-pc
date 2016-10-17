@@ -152,3 +152,25 @@ background: url('../img/shopping-cart/cart_icons_bg.png') no-repeat; position: r
 .mask-timeout .timeout .timeout-footer a { display: block; width: 160px; height: 45px; line-height: 45px; font-size: 14px; text-align: center; color: #fff; }
 .mask-timeout .timeout .timeout-footer .btn-leave { float: left; background-color: #0578c4; }
 .mask-timeout .timeout .timeout-footer .btn-reorder { float: right; background-color: #0f3677; }
+
+/* 优惠活动弹层 */
+.section-container .mask-act { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/submit-result/mask_bg.png'); }
+.mask-act .act-content { position: absolute; top: 42%; left: 50%; width: 450px; margin-left: -245px; padding: 20px; background-color: #fff; border-radius: 10px; overflow: hidden; }
+.act-content .act-header { width: 100%; height: 40px; }
+.act-content .act-header p { line-height: 40px; font-size: 24px; text-align: center; }
+.act-content .act-body { width: 90%; margin: 0 auto; }
+.act-content .act-body p { margin-top: 20px; line-height: 30px; font-size: 18px; color: #515151; text-align: justify; }
+.act-content .act-body span { font-weight: bold; }
+.act-content .act-operate { padding-top: 40px; margin: 0 auto; }
+.act-content .act-operate a { display: block; width: 220px; height: 45px; line-height: 45px; text-align: center; color: #fff; font-size: 14px; }
+.act-content .act-operate .btn-ok { float: left; background-color: #0578c4; }
+.act-content .act-operate .btn-cancel { float: right; background-color: #0f3677; }
+
+/* 二维码分享弹层 */
+.section-container .mask-code { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/submit-result/mask_bg.png'); }
+.mask-code .code-content { position: absolute; top: 42%; left: 50%; width: 400px; margin-left: -220px; padding: 20px; background-color: #fff; border-radius: 10px; overflow: hidden; }
+.code-content .btn-close { display: block; float: right; width: 18px; height: 18px; }
+.code-content .code-header { width: 200px; height: 200px; margin: 24px auto 0; background: url(../img/submit-result/qr_code.jpg) no-repeat; }
+.code-content .code-img { background: url(../img/submit-result/qr_code_fail.jpg) no-repeat; }
+.code-content .code-body p { margin-top: 20px; line-height: 30px; font-size: 18px; color: #515151; text-align: center; }
+.code-content .code-body p.code-time { margin: 0; font-size: 20px; color: #f34950; }
