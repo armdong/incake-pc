@@ -1,0 +1,8 @@
+#flow { width: 100%; min-width: 1200px; overflow: hidden; background-color: #f2f0f0; }
+#flow .flow-wrapper { width: 1200px; margin: 0 auto; }
+.flow-wrapper .banner { position: relative; width: 100%; height: 1458px; background: url('../img/net-flow/banner.jpg') no-repeat; }
+.flow-wrapper .banner .btn-buy { display: block; position: absolute; bottom: 170px; left: 678px; width: 202px; height: 42px; background: url('../img/net-flow/btn_buy.jpg') no-repeat; }
+#flow .rules { width: 100%; background-color: #594c52; }
+#flow .rules dl { width: 1200px; margin: 0 auto; color: #fff; text-align: center; padding-bottom: 35px; }
+#flow .rules dt { font-size: 18px; line-height: 24px; padding: 24px 0 15px; }
+#flow .rules dd { font-size: 14px; line-height: 24px; }
