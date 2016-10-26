@@ -1,10 +1,23 @@
-#flow { width: 100%; min-width: 1200px; overflow: hidden; background-color: #252226; }
-#flow .flow-wrapper { width: 1200px; margin: 0 auto; }
-.flow-wrapper .banner { position: relative; width: 100%; height: 1610px; background: url('../img/halloween/banner.jpg') no-repeat; }
-.flow-wrapper .banner .btn-buy { display: block; position: absolute; top: 536px; left: 890px; width: 196px; height: 64px; transform: rotate(-8deg); -webkit-transform:rotate(-8deg); }
-#flow .rules { position: relative; width: 100%; background-color: #bb7313; }
-#flow .rules dl { width: 712px; margin: 0 auto; color: #fff; padding: 38px 0; }
-#flow .rules dt { font-size: 18px; line-height: 24px; padding: 24px 0 15px; }
-#flow .rules dd { font-size: 14px; line-height: 24px; }
-#flow .rules .icon_rule { position: absolute; left: 64%; bottom: 0; width: 186px; }
-#flow .rules .icon_rule img { width: 100%; }
+#halloween { width: 100%; min-width: 1200px; overflow: hidden; background-color: #252226; }
+#halloween .halloween-wrapper { width: 1200px; margin: 0 auto; }
+.halloween-wrapper .banner { position: relative; width: 100%; height: 1610px; background: url('../img/halloween/banner.jpg') no-repeat; }
+.halloween-wrapper .banner .btn-buy { display: block; position: absolute; top: 536px; left: 890px; width: 196px; height: 64px; transform: rotate(-8deg); -webkit-transform:rotate(-8deg); }
+#halloween .rules { position: relative; width: 100%; background-color: #bb7313; }
+#halloween .rules dl { width: 712px; margin: 0 auto; color: #fff; padding: 38px 0; }
+#halloween .rules dt { font-size: 18px; line-height: 24px; padding: 24px 0 15px; }
+#halloween .rules dd { font-size: 14px; line-height: 24px; }
+#halloween .rules .icon_rule { position: absolute; left: 64%; bottom: 0; width: 186px; }
+#halloween .rules .icon_rule img { width: 100%; }
+
+#halloween .frm-container { width: 100%; background-color: #425670; }
+#halloween .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#halloween .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#halloween .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#halloween .frm-register > ul { width: 100%; }
+#halloween .frm-register li { float: left; margin-right: 49px; }
+#halloween .frm-register li.last { margin-right: 0; }
+#halloween .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#halloween .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/halloween/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#halloween .frm-register li .txt-vcode { background-image: url('../img/halloween/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#halloween .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#halloween .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
