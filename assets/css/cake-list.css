@@ -28,8 +28,8 @@
 .list-cake .item-wrapper .sweet { margin-top: 16px; }
 .list-cake .item-wrapper .sweet span { float: left; }
 .list-cake .item-wrapper .sweet .star { float: left; margin-left: 14px; margin-top: 1px; }
-.list-cake .item-wrapper .sweet .star li { width: 21px; height: 21px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -72px 0; margin-right: 3px; }
-.list-cake .item-wrapper .sweet .star li.active { background-position: -93px 0; }
+.list-cake .item-wrapper .sweet .star li { width: 20px; height: 20px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -114px 0; margin-right: 3px; }
+.list-cake .item-wrapper .sweet .star li.active { background-position: -134px 0; }
 .list-cake .item-wrapper .btns { width: 160px; height: 100%; float: right; }
 .list-cake .item-wrapper .btns a { width: 158px; height: 38px; border: 1px solid #0f3677; border-radius: 19px; display: block; text-align: center; line-height: 38px; }
 .list-cake .item-wrapper .btns a:hover { background: #0f3677; color: #fff; }

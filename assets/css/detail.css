@@ -27,8 +27,8 @@
 .main-body .summary .sweet,
 .main-body .summary .festival { width: 50%; }
 .main-body .summary .sweet .star { float: left; }
-.main-body .summary .sweet .star li { width: 21px; height: 21px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -72px 0; margin-right: 3px; }
-.main-body .summary .sweet .star li.active { background-position: -93px 0; }
+.main-body .summary .sweet .star li { width: 20px; height: 20px; float: left; background: url(../img/list/list_item_icon.png) no-repeat; background-position: -114px 0; margin-right: 3px; }
+.main-body .summary .sweet .star li.active { background-position: -134px 0; }
 .main-body .operation { width: 490px; float: right; }
 .main-body .operation h2 { font-weight: normal; line-height: 30px; padding: 15px 0; border-bottom: 1px solid #0f3677; color: #0f3677; font-size: 24px; }
 .main-body .operation h2 span { display: block; line-height: 16px; margin-top: 10px; font-size: 16px; color: #c81528; }
