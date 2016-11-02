@@ -1,0 +1,26 @@
+#sagittarius { width: 100%; min-width: 1200px; overflow: hidden; background-color: #f6f4d6; }
+#sagittarius .sagittarius-wrapper { width: 1200px; margin: 0 auto; }
+.sagittarius-wrapper .cakes { position: relative; width: 100%; height: 1382px; background: url('../img/half-price-sagittarius/cake_female.jpg') no-repeat; margin-top: 100px; }
+.sagittarius-wrapper .cakes .btn-buy { display: block; position: absolute; bottom: 0; left: 180px; width: 286px; height: 60px; }
+.sagittarius-wrapper .cake-male { height: 1070px; background: url('../img/half-price-sagittarius/cake_male.jpg') no-repeat; }
+.sagittarius-wrapper .cake-male .btn-buy { left: 664px; } 
+
+#sagittarius .rules { position: relative; width: 100%; background-color: #80b6d1; margin-top: 72px; }
+#sagittarius .rules dl { width: 712px; margin: 0 auto; color: #fff; padding: 38px 0; }
+#sagittarius .rules dt { font-size: 18px; line-height: 24px; padding: 24px 0 15px; }
+#sagittarius .rules dd { font-size: 14px; line-height: 24px; }
+#sagittarius .rules .icon_rule { position: absolute; left: 70%; top: 130px; width: 138px; }
+#sagittarius .rules .icon_rule img { width: 100%; }
+
+#sagittarius .frm-container { width: 100%; background-color: #425670; }
+#sagittarius .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#sagittarius .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#sagittarius .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#sagittarius .frm-register > ul { width: 100%; }
+#sagittarius .frm-register li { float: left; margin-right: 49px; }
+#sagittarius .frm-register li.last { margin-right: 0; }
+#sagittarius .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#sagittarius .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price-sagittarius/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#sagittarius .frm-register li .txt-vcode { background-image: url('../img/half-price-sagittarius/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#sagittarius .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#sagittarius .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
