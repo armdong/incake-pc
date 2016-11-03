@@ -1,0 +1,18 @@
+#flow { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f2f0f0; }
+#flow .flow-header { width: 100%; height: 552px; background-color: #c1e2f8; }
+.flow-header .banner { position: relative; z-index: 9; width: 1200px; height: 552px; margin: 0 auto; background: url('../img/net-flow2/header_bg.png') no-repeat; background-size: cover; }
+.flow-header .banner .cake { position: absolute; bottom: -28px; right: 431px; z-index: 99; width: 128px; height: 110px; background: url('../img/net-flow2/header_cake.png') no-repeat; background-size: cover; }
+.flow-header .banner .card { position: absolute; bottom: -58px; right: -50px; z-index: 99; width: 490px; height: 480px; background: url('../img/net-flow2/header_card.png') no-repeat; background-size: cover; }
+
+#flow .flow-container { position: relative; z-index: 9; width: 1200px; height: 816px; margin: 0 auto; }
+.flow-container .cake { position: absolute; bottom: 0; left: 0; z-index: 99; width: 724px; height: 854px; background: url('../img/net-flow2/container_cake.png') no-repeat; background-size: cover; }
+.flow-container .cup { position: absolute; bottom: 0; right: -48px; z-index: 99; width: 220px; height: 250px; background: url('../img/net-flow2/container_cup.png') no-repeat; background-size: cover; }
+.flow-container .text { position: absolute; top: 138px; right: 0; width: 450px; }
+.flow-container .text p { font-size: 16px; line-height: 30px; color: #787878; }
+.flow-container .text p.note { color: #e57614; }
+.flow-container .text .btn-buy { display: block; width: 200px; height: 40px; margin-top: 18px; font-size: 24px; color: #594c52; line-height: 40px; text-align: center; background-color: #efd423; border-radius: 20px; }
+
+#flow .flow-footer { width: 100%; height: 277px; background-image: url('../img/net-flow2/container_footer_bg.png'); background-repeat: repeat-x; background-position: top left; }
+.flow-footer dl { width: 1200px; height: 100%; margin: 0 auto; color: #fff; }
+.flow-footer dt { padding: 50px 0 18px; font-size: 18px; text-align: center; }
+.flow-footer dd { font-size: 14px; line-height: 26px; text-align: center; }
