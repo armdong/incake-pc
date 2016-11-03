@@ -17,9 +17,23 @@
 		var $oContainer = $('#rotaryContainer'),
 			$oInnerCircle = $oContainer.find('.inner-circle'),
 			$oBtnLottery = $oContainer.find('.btn-lottery'),
+			$oMaskWrapper = $('#maskWrapper'),
+			$oDialogRegOrLogin = $('#dialogRegOrLogin'),
 			tl = new TimelineLite();
 
+		// 点击抽奖
 		$oBtnLottery.on('click', function() {
+
+			// TODO 第一步：检测有没有登录
+			var isLogin = false;
+
+			// 未登录状态，弹出登录/注册提示框
+			if(!isLogin) {
+				$oMaskWrapper.fadeIn(function(){
+					$oDialogRegOrLogin.fadeIn();
+				});
+				return false;
+			}			
 
 			// TODO 到后台拿到当前抽到的奖项，计算需要转动的角度
 			var rotation = 40;
@@ -30,6 +44,13 @@
 			}).to($oInnerCircle, 8, {
 				rotation: 360 * 10 + rotation,
 				ease: Circ.easeInOut
+			});
+		});
+
+		// 关闭登录/注册弹出层
+		$oDialogRegOrLogin.on('click', '.dialog-close', function() {
+			$oDialogRegOrLogin.fadeOut(function() {
+				$oMaskWrapper.fadeOut();
 			});
 		});
 	}

@@ -40,6 +40,8 @@
 .rotary-container .outer-circle .btn-lottery { display: block; position: absolute; top: 50%; left: 50%; z-index: 2000; width: 200px; height: 200px; margin: -100px 0 0 -100px; background: url('../img/rotary-draw/btn_lottery_bg.png') no-repeat; background-size: cover; border-radius: 50%; }
 .rotary-container .btn-prize { display: block; position: absolute; top: 335px; left: 102px; z-index: 99; width: 160px; height: 59px; background: url('../img/rotary-draw/btn_prize_bg.png') no-repeat; background-size: cover; }
 .rotary-container .btn-index { display: block; position: absolute; bottom: 136px; right: 127px; z-index: 99; width: 310px; height: 59px; background: url('../img/rotary-draw/btn_index_bg.png') no-repeat; background-size: cover; }
+.rotary-container .msg { position: absolute; bottom: 15px; left: 0; width: 100%; font-size: 20px; color: #363b47; text-align: center; }
+.rotary-container .msg span.times { font-size: 30px; color: #f4834c; font-weight: bold; }
 
 #rotaryDraw .rotary-footer { width: 1200px; height: 470px; margin: 0 auto; background: url('../img/rotary-draw/rotary_footer_bg.png') no-repeat; background-size: cover; }
 .rotary-footer .text { position: relative; top: 34px; width: 415px; margin-left: auto; }
@@ -54,3 +56,20 @@
 .rotary-rule .rule-container dt { font-size: 18px; }
 .rotary-rule .rule-container dd { font-size: 14px; line-height: 24px; }
 .rotary-rule .rule-container .v-line { width: 2px; height: 100%; margin: 0 auto; background-color: #fcf9f0; }
+
+#maskWrapper { display: none; position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; height: 100%; background: url('../img/mask_bg.png'); }
+
+.dialog { display: none; position: fixed; top: 30%; left: 50%; z-index: 99999999; width: 320px; padding: 0 30px 42px 30px; margin-left: -190px; background-color: #fff; border-radius: 10px; }
+.dialog .dialog-close { display: block; position: absolute; top: 20px; right: 20px; width: 30px; height: 30px; background: url('../img/rotary-draw/dialog_close_bg.png') no-repeat; background-size: cover; }
+.dialog .dialog-header { width: 100%; height: 18px; padding: 36px 0 24px 0; }
+.dialog .dialog-header p { font-size: 18px; text-align: center; color: #333; }
+.dialog .dialog-container { width: 100%; }
+.dialog .dialog-container .form-text { position: relative; width: 100%; margin-bottom: 30px; }
+.dialog .dialog-container .form-text input { width: 270px; height: 24px; padding: 12px 0 12px 50px;
+border: none; outline: none; -webkit-appearance: none; border-bottom: 2px solid #e0e0e0; background-size: 17px 27px; background-position: left 24px top 10px; background-repeat: no-repeat; }
+.dialog .dialog-container .form-text input:focus { border-color: #8bade5; }
+.dialog .dialog-container .form-text .txt-mobile { background-image: url('../img/rotary-draw/icon_mobile_bg.png'); }
+.dialog .dialog-container .form-text .txt-vcode { background-image: url('../img/rotary-draw/icon_vcode_bg.png'); }
+.dialog .dialog-container .form-text .btn-vcode { display: block; position: absolute; top: 12px; right: 0; width: 110px; height: 24px; border-radius: 3px; font-size: 14px; text-align: center; line-height: 24px; color: #fff; background-color: #8bade5; }
+.dialog .dialog-footer { width: 100%; height: 42px; }
+.dialog .dialog-footer .btn-confirm { display: block; width: 100%; height: 100%; font-size: 18px; text-align: center; line-height: 42px; color: #fff; background-color: #0e2f8f; border-radius: 5px; }

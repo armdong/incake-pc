@@ -223,8 +223,7 @@
         <!-- header end -->
 
         <!-- container begin -->
-        <div class="container">
-            
+        <div class="container">            
             <div id="rotaryDraw">
                 <div class="rotary-header" id="rotaryHeader">
                     <p class="title">订蛋糕参与转盘抽奖，中奖100%！</p>
@@ -252,6 +251,7 @@
                     </div>
                     <a href="javascript:;" class="btn-prize"></a>
                     <a href="javascript:;" class="btn-index"></a>
+                    <p class="msg">可抽奖<span class="times">1</span>次，<span class="countdown">4分29秒</span>后失效！</p>
                 </div>
                 <div class="rotary-footer">
                     <div class="text">
@@ -290,7 +290,31 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- 遮罩层 begin -->
+            <div id="maskWrapper"></div>
+            <!-- 遮罩层 end -->
 
+            <!-- 登录/注册弹框 begin -->
+            <div id="dialogRegOrLogin" class="dialog">
+                <a href="javascript:;" class="dialog-close"></a>
+                <div class="dialog-header">
+                    <p>登录/注册</p>
+                </div>
+                <div class="dialog-container">
+                    <div class="form-text">
+                        <input type="text" class="txt-mobile" placeholder="请输入手机号">
+                    </div>
+                    <div class="form-text">
+                        <input type="text" class="txt-vcode" placeholder="请输入短信验证码">
+                        <a href="javascript:;" class="btn-vcode">获取短信验证码</a>
+                    </div>
+                </div>
+                <div class="dialog-footer">
+                    <a href="javascript:;" class="btn-confirm">完成</a>
+                </div>
+            </div>
+            <!-- 登录/注册弹框 end -->
         </div>
         <!-- container end -->
 
