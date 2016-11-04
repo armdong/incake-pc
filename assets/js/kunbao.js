@@ -2,38 +2,26 @@
 
 	$(function() {
 
-		// 城市切换
-		fnInitLocation();
-
-		// 抽奖初始化
-		fnInitLottery();
+		// 立即领取初始化
+		fnInit();
 	});
 
 	/**
-	 * 抽奖初始化逻辑
+	 * 立即领取初始化逻辑
 	 * @return {[type]} [description]
 	 */
-	function fnInitLottery() {
-		var $oContainer = $('#rotaryContainer'),
-			$oInnerCircle = $oContainer.find('.inner-circle'),
-			$oBtnLottery = $oContainer.find('.btn-lottery'),
+	function fnInit() {
+		var $oContainer = $('#kunbao').find('.kunbao-container'),
+			$oBtnFetch = $oContainer.find('.btn-fetch'),
 			$oMaskWrapper = $('#maskWrapper'),
 			$oDialogRegOrLogin = $('#dialogRegOrLogin'),
 			tl = new TimelineLite();
 
-
-
-		/**
-		 * ===================================================
-		 * 转盘相关事件
-		 * ===================================================
-		 */
-
-		// 点击抽奖
-		$oBtnLottery.on('click', function() {
+		// 立即领取
+		$oBtnFetch.on('click', function() {
 
 			// Step1: TODO 第一步：检测有没有登录
-			var isLogin = true;
+			var isLogin = false;
 
 			// 未登录状态，弹出登录/注册提示框
 			if(!isLogin) {
@@ -42,34 +30,6 @@
 				});
 				return false;
 			}
-
-
-			// Step2: TODO 到后台拿到当前可抽奖次数及附带信息
-			// 说明：
-			// list: 有限订单
-			// id: 订单号
-			// timestamp: 下单时间（时间戳）
-			var _data = {
-				list: [{
-					id: '001',
-					timestamp: 1478228441982
-				}, {
-					id: '002',
-					timestamp: 1478228548016
-				}]
-			};
-
-
-			// TODO 到后台拿到当前抽到的奖项，计算需要转动的角度
-			var rotation = 40;
-
-			tl.clear();
-			tl.to($oInnerCircle, 0, {
-				rotation: 0
-			}).to($oInnerCircle, 8, {
-				rotation: 360 * 10 + rotation,
-				ease: Circ.easeInOut
-			});
 		});
 
 
@@ -81,18 +41,18 @@
 		 */
 
 		// 关闭登录/注册弹出层
-		$oDialogRegOrLogin.on('click', '.dialog-close', function() {
-			$oDialogRegOrLogin.fadeOut(function() {
+		$('.dialog').on('click', '.dialog-close', function() {
+			$(this).closest('.dialog').fadeOut(function() {
 				$oMaskWrapper.fadeOut();
 			});
 		}).on('mouseover', '.dialog-close', function() { // 鼠标移入关闭按钮时的动画
 			tl.clear();
-			tl.to($oDialogRegOrLogin.find('.dialog-close'), 0.5, {
+			tl.to($(this), 0.5, {
 				rotation: 180
 			});
 		}).on('mouseleave', '.dialog-close', function() { // 鼠标移出关闭按钮时的动画
 			tl.clear();
-			tl.to($oDialogRegOrLogin.find('.dialog-close'), 0.5, {
+			tl.to($(this), 0.5, {
 				rotation: 0
 			});
 		});
@@ -126,36 +86,17 @@
 
 			// TODO 验证验证码是否填写和正确性检测
 			
+			// TODO 是否已领过券
+			var isRecieved = true;
 
-		});
-	}
+			$oDialogRegOrLogin.fadeOut(function(){
+				if(!isRecieved) {
+					$('#dialogSuccess').fadeIn();
+				} else {
+					$('#dialogRecieved').fadeIn();
+				}
+			});
 
-	/**
-	 * 城市切换
-	 * @return {[type]} [description]
-	 */
-	function fnInitLocation() {
-		var $oRotaryHeader = $('#rotaryHeader'),
-			$oBtnLocation = $oRotaryHeader.find('.btn-location'),
-			$oDialogLocation = $oRotaryHeader.find('.dialog-location');
-
-		// 城市切换dialog 显示/隐藏
-		$oBtnLocation.hoverDelay({
-             hoverDuring: 0, // 鼠标移入延时时间，单位ms
-             outDuring: 200, // 鼠标移除延时时间，单位ms
-             hoverEvent: function() { // 鼠标移入处理事件
-                 $oDialogLocation.fadeIn();
-             },
-             outEvent: function() { // 鼠标移除处理事件
-                 $oDialogLocation.fadeOut();
-             }
-         });
-
-		// 城市切换
-		$oDialogLocation.on('click', 'li', function() {
-			$oBtnLocation.find('span').text($(this).text());
-			$(this).addClass('active').siblings().removeClass('active');
-			$oDialogLocation.fadeOut();
 		});
 	}
 
