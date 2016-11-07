@@ -25,6 +25,7 @@
 			$oDialogNormal = $('#dialogNormal'),
 			$oDialogPrize = $('#dialogPrize'),
 			tl = new TimelineLite(),
+			totalRotation = 0, // 记录转动的圈数
 			validNum = 0,
 			isExpired = false; // 是否过期
 
@@ -35,8 +36,8 @@
 		// validNum: 有效抽奖次数
 		var _data = {
 			cityCode: '0592', // 城市代码
-			expireTime: new Date(2016, 10, 7, 17, 23, 0), // 失效时间
-			validNum: 2 // 有效抽奖次数
+			expireTime: new Date(2016, 10, 7, 18, 40, 0), // 失效时间
+			validNum: 10 // 有效抽奖次数
 		};
 
 		// 将当前有效抽奖次数放在全局变量validNum里面
@@ -135,15 +136,15 @@
 		$oBtnLottery.on('click', handler4Lottery);
 
 		// 继续抽奖
-		$oContainer.on('click', '.btn-continues', handler4Lottery);
+		$oContainer.on('click', '.btn-continues', function() {
+			// 显示指针
+			$oContainer.find('.indicator').fadeIn();
+			// 隐藏奖品
+			$oPrizeCircle.fadeOut();
+		});
 
 		// 点击抽奖/继续抽奖逻辑
-		function handler4Lottery(e) {
-
-			// 显示指针
-			$oContainer.find('.indicator').show();
-			// 隐藏奖品
-			$oPrizeCircle.hide();
+		function handler4Lottery(e) {		
 
 			// Step1: TODO 第一步：检测有没有登录
 			var isLogin = true;
@@ -212,16 +213,16 @@
 			var prize = arrPrize[prizeIndex];
 			var rotation = prizeIndex * 40;
 
+			totalRotation = (totalRotation - (totalRotation % 360)) + rotation + 360 * 10;
+
 			// 同步抽奖次数
 			validNum = validNum - 1;
 			_data.validNum = validNum;
 			fnBindMsg(_data);
 
 			tl.clear();
-			tl.to($oInnerCircle, 0, {
-				rotation: 0
-			}).to($oInnerCircle, 8, {
-				rotation: 360 * 10 + rotation,
+			tl.to($oInnerCircle, 8, {
+				rotation: totalRotation,
 				ease: Circ.easeInOut,
 				onComplete: function() {
 					cb4Complete(prize); // 每次抽奖结束后的回调函数
@@ -233,12 +234,12 @@
 		function cb4Complete(prize) {
 
 			// 隐藏指针
-			$oContainer.find('.indicator').hide();
+			$oContainer.find('.indicator').fadeOut();
 
 			// 显示奖品
 			var prizeImg = 'assets/img/rotary-draw/' + prize.img;
 			$oPrizeCircle.find('.prize-img').html('<img src="' + prizeImg + '" alt="" />');
-			$oPrizeCircle.show();
+			$oPrizeCircle.fadeIn();
 
 			$oMaskWrapper.fadeIn(function(){
 				var _html = '<p>恭喜获得</p>';
