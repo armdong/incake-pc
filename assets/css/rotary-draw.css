@@ -88,8 +88,3 @@ border: none; outline: none; -webkit-appearance: none; border-bottom: 2px solid 
 .dialog.dialog-tip .dialog-container .message p { text-align: justify; }
 .dialog.dialog-normal .dialog-container .message p { font-size: 14px; }
 .dialog.dialog-normal .dialog-container .message p span { font-size: 16px; }
-
-/* 
-#maskWrapper,
-#dialogExpired { display: block; }
- */
