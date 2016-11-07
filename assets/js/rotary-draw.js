@@ -15,12 +15,109 @@
 	 */
 	function fnInitLottery() {
 		var $oContainer = $('#rotaryContainer'),
+			$oMsg = $oContainer.find('.msg'),
 			$oInnerCircle = $oContainer.find('.inner-circle'),
 			$oBtnLottery = $oContainer.find('.btn-lottery'),
 			$oMaskWrapper = $('#maskWrapper'),
 			$oDialogRegOrLogin = $('#dialogRegOrLogin'),
-			tl = new TimelineLite();
+			tl = new TimelineLite(),
+			validTimes = 0,
+			validNum = false; // 是否过期
 
+
+		// TODO 到后台拿到当前可抽奖次数及附带信息
+		// cityCode: 城市代码，厦门地区当日晚上9点清空抽奖此时
+		// expireTime: 过期时间
+		// validNum: 有效抽奖次数
+		var _data = {
+			cityCode: '0592', // 城市代码
+			expireTime: new Date(2016, 10, 7, 15, 20, 0), // 失效时间
+			validNum: 2 // 有效抽奖次数
+		};
+
+		// 将当前有效抽奖次数放在全局变量validNum里面
+		validNum = _data.validNum;
+
+		fnBindMsg(_data);
+		function fnBindMsg(_data) {
+
+			var validTimes = _data.validNum,
+				_html = '',
+				startCountDown = false;
+
+			var iNow = new Date().getTime();
+			var timeDiff = _data.expireTime.getTime() - iNow;
+
+			if(timeDiff < 0) { // 抽奖时间已失效
+				_html = '抽奖次数已失效，<a href="javascript:;" class="btn-invalid">为什么失效！</a>';
+			} else {
+
+				var diffSeconds = Math.round(timeDiff / 1000);
+
+				// 判断当前时间离失效时间是否在15分钟之内
+				if( diffSeconds <= 15 * 60 ) {
+					var iMin = Math.floor(diffSeconds / 60),
+						iSecond = diffSeconds % 60;
+					_html = '可抽奖<span class="times">' + _data.validNum + '</span>次，<span class="countdown">' + iMin + '分' + iSecond + '秒</span>后失效！';
+					startCountDown = true;
+				} else {
+					_html = '可抽奖<span class="times">' + validTimes + '</span>次！';
+				}
+			}
+			
+			$oMsg.html(_html);	
+
+			if(startCountDown) {				
+				// 开启倒计时
+				fnMsgCountDown(_data.expireTime.getTime());
+			}
+		}
+
+		// 抽奖过期倒计时
+		function fnMsgCountDown(endTimestamp) {
+			var $oTarget = $oMsg.find('.countdown'),
+				timer = null,
+	        	endTime = endTimestamp,
+	        	curShowTimeSeconds = 0;
+
+	        curShowTimeSeconds = getCurrentShowTimeSeconds();
+
+	        timer = setInterval(function() {
+	            render();
+	            update();
+	        }, 50);
+
+	        function update() {
+                var nextShowTimeSeconds = getCurrentShowTimeSeconds();
+                var nextMinutes = parseInt(nextShowTimeSeconds / 60);
+                var nextSeconds = nextShowTimeSeconds % 60;
+                var curMinutes = parseInt(curShowTimeSeconds / 60);
+                var curSeconds = curShowTimeSeconds % 60;
+                if (nextSeconds != curSeconds) {
+                    curShowTimeSeconds = nextShowTimeSeconds;
+                }
+            }
+
+	        function render() {
+	        	var minutes = parseInt(curShowTimeSeconds / 60);
+                var seconds = curShowTimeSeconds % 60;
+
+	            if (minutes === 0 && seconds === 0) {
+	                clearInterval(timer);
+	                isExpired = true;
+	                $oMsg.html('抽奖次数已失效，<a href="javascript:;" class="btn-invalid">为什么失效！</a>');
+	            } else {
+	            	$oTarget.html(minutes + '分' + seconds + '秒');
+	            }            
+	        }
+
+	        function getCurrentShowTimeSeconds() {
+	            var curTime = new Date().getTime();
+                var ret = endTime - curTime;
+                ret = Math.round(ret / 1000);
+                return ret >= 0 ? ret : 0;
+	        }
+		}
 
 
 		/**
@@ -43,22 +140,7 @@
 				return false;
 			}
 
-
-			// Step2: TODO 到后台拿到当前可抽奖次数及附带信息
-			// 说明：
-			// list: 有限订单
-			// id: 订单号
-			// timestamp: 下单时间（时间戳）
-			var _data = {
-				list: [{
-					id: '001',
-					timestamp: 1478228441982
-				}, {
-					id: '002',
-					timestamp: 1478228548016
-				}]
-			};
-
+			// 判断是否过期或当前抽奖次数是否有效
 
 			// TODO 到后台拿到当前抽到的奖项，计算需要转动的角度
 			var rotation = 40;
@@ -68,7 +150,10 @@
 				rotation: 0
 			}).to($oInnerCircle, 8, {
 				rotation: 360 * 10 + rotation,
-				ease: Circ.easeInOut
+				ease: Circ.easeInOut,
+				onComplete: function() {
+					cb4Complete(); // 每次抽奖结束后的回调函数
+				}
 			});
 		});
 
@@ -124,9 +209,7 @@
 		// 完成登录/注册
 		$oDialogRegOrLogin.on('click', '.btn-confirm', function() {
 
-			// TODO 验证验证码是否填写和正确性检测
-			
-
+			// TODO 验证验证码是否填写和正确性检测	
 		});
 	}
 

@@ -42,6 +42,7 @@
 .rotary-container .btn-index { display: block; position: absolute; bottom: 136px; right: 127px; z-index: 99; width: 310px; height: 59px; background: url('../img/rotary-draw/btn_index_bg.png') no-repeat; background-size: cover; }
 .rotary-container .msg { position: absolute; bottom: 15px; left: 0; width: 100%; font-size: 20px; color: #363b47; text-align: center; }
 .rotary-container .msg span.times { font-size: 30px; color: #f4834c; font-weight: bold; }
+.rotary-container .msg a { color: #f4834c; text-decoration: underline; }
 
 #rotaryDraw .rotary-footer { width: 1200px; height: 470px; margin: 0 auto; background: url('../img/rotary-draw/rotary_footer_bg.png') no-repeat; background-size: cover; }
 .rotary-footer .text { position: relative; top: 34px; width: 415px; margin-left: auto; }
