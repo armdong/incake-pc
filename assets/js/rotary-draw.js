@@ -23,6 +23,7 @@
 			$oDialogRegOrLogin = $('#dialogRegOrLogin'),
 			$oDialogExpired = $('#dialogExpired'),
 			$oDialogNormal = $('#dialogNormal'),
+			$oDialogPrize = $('#dialogPrize'),
 			tl = new TimelineLite(),
 			validNum = 0,
 			isExpired = false; // 是否过期
@@ -254,6 +255,31 @@
 			$oMaskWrapper.fadeIn(function(){
 				$oDialogExpired.find('.dialog-footer').html('<a href="javascript:;" class="btn-close">关闭</a>');
 				$oDialogExpired.fadeIn();
+			});
+		});
+
+		// 我的奖品
+		$oContainer.on('click', '.btn-prize', function() {
+
+			// TODO ajax拿到当前抽到的奖品
+			//var arrPrize = [];
+			var arrPrize = ['小黄人大眼萌海底冒险套装1个', '托马斯和朋友之托比寻宝大冒险套装1个'];
+			
+			var _html = '';
+			if(arrPrize.length === 0) {
+				_html += '<div class="incake-img"></div>';
+				_html += '<div class="message"><p>很可惜没有中奖哦～</p></div>';
+			} else {
+				_html += '<div class="message prize-list">';
+				_html += '<p>奖品：' + arrPrize.join('、') + '</p><br />';
+				_html += '<p>实物奖品寄送地址：随订单一起配送</p><br />';
+				_html += '<p>寄送时间：随订单一起配送</p><br />';
+				_html += '</div>';
+			}
+
+			$oDialogPrize.find('.dialog-container').html(_html);
+			$oMaskWrapper.fadeIn(function(){
+				$oDialogPrize.fadeIn();
 			});
 		});
 
