@@ -37,6 +37,10 @@
 }
 .rotary-container .outer-circle .indicator { position: absolute; top: -12px; left: 50%; z-index: 2000; width: 42px; height: 85px; margin-left: -21px; background: url('../img/rotary-draw/indicator_bg.png') no-repeat; background-size: cover; }
 .rotary-container .outer-circle .inner-circle { position: absolute; top: 24px; right: 24px; bottom: 24px; left: 24px; z-index: 1001; width: 639px; height: 639px; background: url('../img/rotary-draw/inner_circle_bg.png') no-repeat; background-size: cover; border-radius: 50%; -webkit-transform-origin: center center; -moz-transform-origin: center center; -ms-transform-origin: center center; -o-transform-origin: center center; transform-origin: center center; }
+.rotary-container .outer-circle .prize-circle { display: none; position: absolute; top: 24px; right: 24px; bottom: 24px; left: 24px; z-index: 2001; width: 639px; height: 639px; background: url('../img/rotary-draw/prize_circle_bg.png') no-repeat; background-size: cover; border-radius: 50%; }
+.rotary-container .outer-circle .prize-circle .prize-img { position: absolute; top: 34px; right: 34px; bottom: 34px; left: 34px; z-index: 2002; width: 571px; height: 571px; border-radius: 50%; overflow: hidden; }
+.rotary-container .outer-circle .prize-circle .prize-img img { width: 100%; height: 100%; }
+.rotary-container .outer-circle .prize-circle .btn-continues { display: block; position: absolute; bottom: 90px; left: 50%; z-index: 2003; width: 120px; height: 42px; margin-left: -60px; line-height: 42px; font-size: 18px; text-align: center; color: #fff; background-color: #754d3e; border-radius: 21px; }
 .rotary-container .outer-circle .btn-lottery { display: block; position: absolute; top: 50%; left: 50%; z-index: 2000; width: 200px; height: 200px; margin: -100px 0 0 -100px; background: url('../img/rotary-draw/btn_lottery_bg.png') no-repeat; background-size: cover; border-radius: 50%; }
 .rotary-container .btn-prize { display: block; position: absolute; top: 335px; left: 102px; z-index: 99; width: 160px; height: 59px; background: url('../img/rotary-draw/btn_prize_bg.png') no-repeat; background-size: cover; }
 .rotary-container .btn-index { display: block; position: absolute; bottom: 136px; right: 127px; z-index: 99; width: 310px; height: 59px; background: url('../img/rotary-draw/btn_index_bg.png') no-repeat; background-size: cover; }
@@ -80,6 +84,8 @@ border: none; outline: none; -webkit-appearance: none; border-bottom: 2px solid 
 .dialog .dialog-footer a { display: block; width: 100%; height: 100%; font-size: 18px; text-align: center; line-height: 42px; color: #fff; background-color: #0e2f8f; border-radius: 5px; }
 
 .dialog.dialog-tip .dialog-container .message p { text-align: justify; }
+.dialog.dialog-normal .dialog-container .message p { font-size: 14px; }
+.dialog.dialog-normal .dialog-container .message p span { font-size: 16px; }
 
 /* 
 #maskWrapper,

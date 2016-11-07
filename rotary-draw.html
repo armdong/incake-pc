@@ -247,6 +247,10 @@
                     <div class="outer-circle">
                         <div class="indicator"></div>
                         <div class="inner-circle"></div>
+                        <div class="prize-circle">
+                            <div class="prize-img"></div>
+                            <a href="javascript:;" class="btn-continues">继续抽奖</a>
+                        </div>
                         <a href="javascript:;" class="btn-lottery"></a>
                     </div>
                     <a href="javascript:;" class="btn-prize"></a>
@@ -318,7 +322,6 @@
 
             <!-- 失效提示 begin -->
             <div id="dialogExpired" class="dialog dialog-tip">
-                <a href="javascript:;" class="dialog-close"></a>
                 <div class="dialog-container">
                     <div class="incake-img"></div>
                     <div class="message">
@@ -330,6 +333,18 @@
                 </div>
             </div>
             <!-- 失效提示 end -->
+
+            <!-- 通用提示 begin -->
+            <div id="dialogNormal" class="dialog dialog-normal">
+                <div class="dialog-container">
+                    <div class="incake-img"></div>
+                    <div class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <a href="javascript:;" class="btn-use">去使用</a>
+                </div>
+            </div>
+            <!-- 通用提示 end -->
         </div>
         <!-- container end -->
 
@@ -450,6 +465,7 @@
     <script src="assets/js/jquery.hoverdelay.js"></script>
     <script src="assets/js/common.js"></script>
     <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/underscore.js"></script>
     <script src="assets/js/rotary-draw.js"></script>
     <!-- script end -->
 </body>

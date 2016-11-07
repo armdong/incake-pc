@@ -17,10 +17,12 @@
 		var $oContainer = $('#rotaryContainer'),
 			$oMsg = $oContainer.find('.msg'),
 			$oInnerCircle = $oContainer.find('.inner-circle'),
+			$oPrizeCircle = $oContainer.find('.prize-circle'),
 			$oBtnLottery = $oContainer.find('.btn-lottery'),
 			$oMaskWrapper = $('#maskWrapper'),
 			$oDialogRegOrLogin = $('#dialogRegOrLogin'),
 			$oDialogExpired = $('#dialogExpired'),
+			$oDialogNormal = $('#dialogNormal'),
 			tl = new TimelineLite(),
 			validNum = 0,
 			isExpired = false; // 是否过期
@@ -32,7 +34,7 @@
 		// validNum: 有效抽奖次数
 		var _data = {
 			cityCode: '0592', // 城市代码
-			expireTime: new Date(2016, 10, 7, 15, 10, 0), // 失效时间
+			expireTime: new Date(2016, 10, 7, 17, 23, 0), // 失效时间
 			validNum: 2 // 有效抽奖次数
 		};
 
@@ -129,7 +131,18 @@
 		 */
 
 		// 点击抽奖
-		$oBtnLottery.on('click', function() {
+		$oBtnLottery.on('click', handler4Lottery);
+
+		// 继续抽奖
+		$oContainer.on('click', '.btn-continues', handler4Lottery);
+
+		// 点击抽奖/继续抽奖逻辑
+		function handler4Lottery(e) {
+
+			// 显示指针
+			$oContainer.find('.indicator').show();
+			// 隐藏奖品
+			$oPrizeCircle.hide();
 
 			// Step1: TODO 第一步：检测有没有登录
 			var isLogin = true;
@@ -145,13 +158,63 @@
 			// 判断是否过期或当前抽奖次数是否有效
 			if(isExpired) {	// 已过期
 				$oMaskWrapper.fadeIn(function(){
+					$oDialogExpired.find('.dialog-footer').html('<a href="javascript:;" class="btn-close">关闭</a>');
 					$oDialogExpired.fadeIn();
 				});
 				return false;
 			}
 
-			// TODO 到后台拿到当前抽到的奖项，计算需要转动的角度
-			var rotation = 40;
+			// 判断当前可抽奖次数
+			if(validNum <= 0) {
+				$oMaskWrapper.fadeIn(function(){
+					var _html = '<p>当前抽奖次数为<span>0</span>，下单后</p><p>可获得抽奖机会哦～</p>';
+					$oDialogNormal.find('.message').html(_html);
+					$oDialogNormal.find('.dialog-footer').html('<a href="javascript:;" class="btn-look">去逛逛</a>');
+					$oDialogNormal.fadeIn();
+				});
+				return false;
+			}
+
+			// TODO 到后台拿到当前抽到的奖项，计算需要转动的角度			
+			var arrPrize = [{
+				name: '萌萌的天气瓶1个',
+				img: 'prize_img_01.png'
+			}, {
+				name: 'Iphone6s自拍杆功能手机壳1个',
+				img: 'prize_img_02.png'
+			}, {
+				name: '50元蛋糕优惠券1张',
+				img: 'prize_img_03.png'
+			}, {
+				name: '生日芭比1个',
+				img: 'prize_img_04.png'
+			}, {
+				name: '小黄人大眼萌海底冒险套装1个',
+				img: 'prize_img_05.png'
+			}, {
+				name: '托马斯和朋友之托比寻宝大冒险套装1个',
+				img: 'prize_img_06.png'
+			}, {
+				name: '189元蛋糕抵用券1张',
+				img: 'prize_img_07.png'
+			}, {
+				name: '海绵宝宝套装1个',
+				img: 'prize_img_08.png'
+			}, {
+				name: '炫酷VR眼镜1个',
+				img: 'prize_img_09.png'
+			}];
+
+			// TODO ajax 拿到奖项
+			// 我这里是随机获取
+			var prizeIndex = _.random(0, 8);
+			var prize = arrPrize[prizeIndex];
+			var rotation = prizeIndex * 40;
+
+			// 同步抽奖次数
+			validNum = validNum - 1;
+			_data.validNum = validNum;
+			fnBindMsg(_data);
 
 			tl.clear();
 			tl.to($oInnerCircle, 0, {
@@ -160,14 +223,36 @@
 				rotation: 360 * 10 + rotation,
 				ease: Circ.easeInOut,
 				onComplete: function() {
-					cb4Complete(); // 每次抽奖结束后的回调函数
+					cb4Complete(prize); // 每次抽奖结束后的回调函数
 				}
 			});
-		});
+		}
+
+		// 每次抽奖完成回调函数
+		function cb4Complete(prize) {
+
+			// 隐藏指针
+			$oContainer.find('.indicator').hide();
+
+			// 显示奖品
+			var prizeImg = 'assets/img/rotary-draw/' + prize.img;
+			$oPrizeCircle.find('.prize-img').html('<img src="' + prizeImg + '" alt="" />');
+			$oPrizeCircle.show();
+
+			$oMaskWrapper.fadeIn(function(){
+				var _html = '<p>恭喜获得</p>';
+				_html += '<p><span class="prize">' + prize.name + '</span>，</p>';
+				_html += '<p>该奖品会在完成配送后7个工作日内寄出~</p>';
+				$oDialogNormal.find('.message').html(_html);
+					$oDialogNormal.find('.dialog-footer').html('<a href="javascript:;" class="btn-close">知道了</a>');
+				$oDialogNormal.fadeIn();
+			});
+		}
 
 		// 为什么失效
 		$oMsg.on('click', '.btn-invalid', function() {
 			$oMaskWrapper.fadeIn(function(){
+				$oDialogExpired.find('.dialog-footer').html('<a href="javascript:;" class="btn-close">关闭</a>');
 				$oDialogExpired.fadeIn();
 			});
 		});
@@ -228,6 +313,10 @@
 			tl.clear();
 			tl.to($(this), 0.5, {
 				rotation: 0
+			});
+		}).on('click', '.btn-close', function() {
+			$(this).closest('.dialog').fadeOut(function() {
+				$oMaskWrapper.fadeOut();
 			});
 		});
 	}
