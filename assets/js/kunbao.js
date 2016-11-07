@@ -57,6 +57,7 @@
 			});
 		});
 
+
 		// 获取短信验证码
 		$oDialogRegOrLogin.on('click', '.btn-vcode', function() {
 
