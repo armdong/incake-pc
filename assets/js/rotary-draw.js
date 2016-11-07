@@ -20,9 +20,10 @@
 			$oBtnLottery = $oContainer.find('.btn-lottery'),
 			$oMaskWrapper = $('#maskWrapper'),
 			$oDialogRegOrLogin = $('#dialogRegOrLogin'),
+			$oDialogExpired = $('#dialogExpired'),
 			tl = new TimelineLite(),
-			validTimes = 0,
-			validNum = false; // 是否过期
+			validNum = 0,
+			isExpired = false; // 是否过期
 
 
 		// TODO 到后台拿到当前可抽奖次数及附带信息
@@ -31,7 +32,7 @@
 		// validNum: 有效抽奖次数
 		var _data = {
 			cityCode: '0592', // 城市代码
-			expireTime: new Date(2016, 10, 7, 15, 20, 0), // 失效时间
+			expireTime: new Date(2016, 10, 7, 15, 10, 0), // 失效时间
 			validNum: 2 // 有效抽奖次数
 		};
 
@@ -49,6 +50,7 @@
 			var timeDiff = _data.expireTime.getTime() - iNow;
 
 			if(timeDiff < 0) { // 抽奖时间已失效
+				isExpired = true;
 				_html = '抽奖次数已失效，<a href="javascript:;" class="btn-invalid">为什么失效！</a>';
 			} else {
 
@@ -141,6 +143,12 @@
 			}
 
 			// 判断是否过期或当前抽奖次数是否有效
+			if(isExpired) {	// 已过期
+				$oMaskWrapper.fadeIn(function(){
+					$oDialogExpired.fadeIn();
+				});
+				return false;
+			}
 
 			// TODO 到后台拿到当前抽到的奖项，计算需要转动的角度
 			var rotation = 40;
@@ -157,30 +165,18 @@
 			});
 		});
 
-
+		// 为什么失效
+		$oMsg.on('click', '.btn-invalid', function() {
+			$oMaskWrapper.fadeIn(function(){
+				$oDialogExpired.fadeIn();
+			});
+		});
 
 		/**
 		 * ============================================
 		 * 登录/注册相关事件
 		 * ============================================
 		 */
-
-		// 关闭登录/注册弹出层
-		$oDialogRegOrLogin.on('click', '.dialog-close', function() {
-			$oDialogRegOrLogin.fadeOut(function() {
-				$oMaskWrapper.fadeOut();
-			});
-		}).on('mouseover', '.dialog-close', function() { // 鼠标移入关闭按钮时的动画
-			tl.clear();
-			tl.to($oDialogRegOrLogin.find('.dialog-close'), 0.5, {
-				rotation: 180
-			});
-		}).on('mouseleave', '.dialog-close', function() { // 鼠标移出关闭按钮时的动画
-			tl.clear();
-			tl.to($oDialogRegOrLogin.find('.dialog-close'), 0.5, {
-				rotation: 0
-			});
-		});
 
 		// 获取短信验证码
 		$oDialogRegOrLogin.on('click', '.btn-vcode', function() {
@@ -210,6 +206,29 @@
 		$oDialogRegOrLogin.on('click', '.btn-confirm', function() {
 
 			// TODO 验证验证码是否填写和正确性检测	
+		});
+
+		/**
+		 * ============================================
+		 * 弹框通用事件
+		 * ============================================
+		 */
+
+		// 关闭登录/注册弹出层
+		$('.dialog').on('click', '.dialog-close', function() {
+			$(this).closest('.dialog').fadeOut(function() {
+				$oMaskWrapper.fadeOut();
+			});
+		}).on('mouseover', '.dialog-close', function() { // 鼠标移入关闭按钮时的动画
+			tl.clear();
+			tl.to($(this), 0.5, {
+				rotation: 180
+			});
+		}).on('mouseleave', '.dialog-close', function() { // 鼠标移出关闭按钮时的动画
+			tl.clear();
+			tl.to($(this), 0.5, {
+				rotation: 0
+			});
 		});
 	}
 
@@ -241,8 +260,6 @@
 			$oDialogLocation.fadeOut();
 		});
 	}
-
-
 
 
 	/**
