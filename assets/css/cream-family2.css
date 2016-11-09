@@ -1,0 +1,25 @@
+#creamFamily { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; }
+#creamFamily .cream-container { position: relative; z-index: 1; width: 1200px; height: 1802px; margin: 0 auto; }
+.cream-container .container-bd { position: absolute; top: 0; left: 50%; z-index: 2; width: 1920px; height: 100%; margin-left: -960px; background: url('../img/cream-family2/container_bg.jpg') no-repeat; background-size: cover; background-position: top center; }
+.cream-container .btn-buy { display: block; position: absolute; top: 690px; right: 98px; z-index: 2; width: 123px; height: 123px; background: url('../img/cream-family2/btn_buy_bg.png') no-repeat; background-size: cover; border-radius: 50%; }
+.cream-container .container-txt { position: absolute; bottom: 50px; right: 152px; z-index: 2; width: 420px; }
+.cream-container .container-txt p { font-size: 20px; line-height: 34px; color: #fff; }
+
+#creamFamily .cream-rule { width: 100%; background-color: #fff; }
+.cream-rule dl { width: 1200px; margin: 0 auto; padding: 42px 0; }
+.cream-rule dt { margin-bottom: 12px; font-size: 18px; text-align: center; color: #874832; }
+.cream-rule dd { font-size: 14px; line-height: 24px; text-align: center; color: #874832; }
+
+#creamFamily .frm-container { width: 100%; background-color: #425670; }
+#creamFamily .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#creamFamily .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#creamFamily .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #e4555f; text-align: center; }
+#creamFamily .frm-register > h2 a { color: #f90000; text-decoration: underline; }
+#creamFamily .frm-register > ul { width: 100%; }
+#creamFamily .frm-register li { float: left; margin-right: 49px; }
+#creamFamily .frm-register li.last { margin-right: 0; }
+#creamFamily .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#creamFamily .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/cream-family2/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#creamFamily .frm-register li .txt-vcode { background-image: url('../img/cream-family2/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#creamFamily .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#creamFamily .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
