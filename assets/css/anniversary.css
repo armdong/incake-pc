@@ -1,0 +1,29 @@
+#anniversary { width: 100%; min-width: 1200px; overflow: hidden; background: url('../img/anniversary/bg.jpg'); }
+#anniversary .anniversary-wrapper { width: 1200px; margin: 0 auto; }
+.anniversary-wrapper .banner { width: 100%; height: 3580px; background: url('../img/anniversary/banner.png') no-repeat; }
+
+#anniversary .info { width: 100%; background-color: #4e4c54; }
+
+#anniversary .exchange { width: 600px; margin: 0 auto; }
+#anniversary .exchange .title { height: 120px; font-size: 30px; line-height: 120px; text-align: center; color: #fff; }
+#anniversary .exchange li { width: 100%; height: 80px; margin-bottom: 30px; border-radius: 6px; overflow: hidden; }
+#anniversary .exchange li input { width: 100%; height: 80px; background-color: #fff; border: none; border-radius: 0; text-indent: 1em; font-size: 30px; line-height: 80px; }
+#anniversary .exchange li .txt-mobile { float: left; width: 384px; }
+#anniversary .exchange li .btn-vcode { float: left; display: inline-block; width: 216px; height: 80px; background-color: #726d81; font-size: 26px; line-height: 80px; color: #fff; text-align: center; }
+#anniversary .exchange li .btn-buy {  display: block; width: 100%; height: 80px; background-color: #e97b99; font-size: 30px; line-height: 80px; color: #fff; text-align: center;  }
+
+#anniversary .info dl { width: 1200px; margin: 100px auto 0; color: #fff; text-align: justify; padding-bottom: 45px; border-top: 1px solid #fff; }
+#anniversary .info dt { width: 90%; margin: 0 auto; font-size: 24px; line-height: 24px; padding: 50px 0 15px; }
+#anniversary .info dd { width: 90%; margin: 0 auto; font-size: 18px; line-height: 30px; }
+
+/* 注册结果 */
+#mask-result { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; }
+#mask-result .result { position: absolute; top: 50%; left: 0; right: 0; width: 410px; background: #fff; border: 2px solid #c8c8c8; margin: auto; border-radius: 6px; z-index: 9999; overflow: hidden; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.result img { width: 100%; }
+
+.result .result-content .result-info { display: none; width: 84%; margin: 30px auto; }
+.result .result-content .result-tips { margin: 88px auto; }
+.result .result-content .result-tips p { text-align: center; }
+.result-content .result-info .tip-title { display: block; width: 30%; margin: 0 auto; }
+.result-content .result-info .tip-text { font-size: 24px; line-height: 36px; text-align: justify; }
+.result-content .result-info .btn-ok { display: block; width: 100%; background-color: #0e2f8f; border-radius: 6px; margin-top: 10px; font-size: 24px; line-height: 50px; text-align: center; color: #fff;  }
