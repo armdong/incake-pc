@@ -1,6 +1,7 @@
 #anniversary { width: 100%; min-width: 1200px; overflow: hidden; background: url('../img/anniversary/bg.jpg'); }
 #anniversary .anniversary-wrapper { width: 1200px; margin: 0 auto; }
-.anniversary-wrapper .banner { width: 100%; height: 3580px; background: url('../img/anniversary/banner.png') no-repeat; }
+.anniversary-wrapper .banner { position: relative; width: 100%; height: 3580px; background: url('../img/anniversary/banner.png') no-repeat; }
+.anniversary-wrapper .banner .btn-website { position: absolute; bottom: 0; left: 460px; width: 280px; height: 90px; background: url('../img/anniversary/btn_website.png') no-repeat; }
 
 #anniversary .info { width: 100%; background-color: #4e4c54; }
 
