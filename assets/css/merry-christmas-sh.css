@@ -1,0 +1,35 @@
+#merryChristmas { width: 100%; min-width: 1200px; overflow: hidden; background-color: #000; }
+#merryChristmas .merryChristmas-wrapper { width: 1200px; margin: 0 auto; }
+
+.merryChristmas-wrapper .banner { width: 100%; height: 650px; background: url('../img/merry-christmas-sh/banner.jpg') no-repeat; }
+
+.merryChristmas-wrapper .cake { position: relative; width: 100%; height: 970px; background: url('../img/merry-christmas-sh/cake01.jpg') no-repeat; }
+.merryChristmas-wrapper .btn-buy { position: absolute; top:-6px; right: 76px; display: block; width: 188px; height: 198px; background: url('../img/merry-christmas-sh/btn_buy.png') no-repeat; -webkit-animation: 1.75s smooth infinite; animation: 1.75s smooth infinite; }
+.merryChristmas-wrapper .cake2 { height: 1390px; background: url('../img/merry-christmas-sh/cake02.jpg') no-repeat; }
+.merryChristmas-wrapper .cake2 .btn-buy { top: 26px; right: 330px; }
+.merryChristmas-wrapper .cake-bj { height: 1232px; background: url('../img/merry-christmas-sh/cake.jpg') no-repeat; }
+.merryChristmas-wrapper .cake-bj .btn-buy { top: -8px; right: 66px; }
+/* 呼吸灯样式  */
+@-webkit-keyframes smooth {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(1.1); }
+	100% { -webkit-transform: scale(1); }
+}
+@keyframes smooth {
+	0% { transform: scale(1); }
+	50% { transform: scale(1.1); }
+	100% { transform: scale(1); }
+}
+
+
+/* 注册结果 */
+#mask-result { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; }
+#mask-result .result { position: absolute; top: 50%; left: 0; right: 0; width: 410px; background: #fff; border: 2px solid #c8c8c8; margin: auto; border-radius: 6px; z-index: 9999; overflow: hidden; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.result img { width: 100%; }
+
+.result .result-content .result-info { display: none; width: 84%; margin: 30px auto; }
+.result .result-content .result-tips { margin: 88px auto; }
+.result .result-content .result-tips p { text-align: center; }
+.result-content .result-info .tip-title { display: block; width: 30%; margin: 0 auto; }
+.result-content .result-info .tip-text { font-size: 24px; line-height: 36px; text-align: center; }
+.result-content .result-info .btn-ok { display: block; width: 100%; background-color: #0e2f8f; border-radius: 6px; margin-top: 10px; font-size: 24px; line-height: 50px; text-align: center; color: #fff;  }
