@@ -9,6 +9,7 @@
 .merryChristmas-wrapper .cake2 .btn-buy { top: 26px; right: 330px; }
 .merryChristmas-wrapper .cake-bj { height: 1232px; background: url('../img/merry-christmas-sh/cake.jpg') no-repeat; }
 .merryChristmas-wrapper .cake-bj .btn-buy { top: -8px; right: 66px; }
+.merryChristmas-wrapper .cake-qd { height: 1200px; background: url('../img/merry-christmas-sh/cake_qd.jpg') no-repeat; }
 /* 呼吸灯样式  */
 @-webkit-keyframes smooth {
 	0% { -webkit-transform: scale(1); }
