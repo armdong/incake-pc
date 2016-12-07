@@ -3,13 +3,13 @@
 
 .merryChristmas-wrapper .banner { width: 100%; height: 650px; background: url('../img/merry-christmas-sh/banner.jpg') no-repeat; }
 
-.merryChristmas-wrapper .cake { position: relative; width: 100%; height: 970px; background: url('../img/merry-christmas-sh/cake01.jpg') no-repeat; }
+.merryChristmas-wrapper .cake { position: relative; width: 100%; height: 750px; background: url('../img/merry-christmas-sh/cake01.jpg') no-repeat; }
 .merryChristmas-wrapper .btn-buy { position: absolute; top:-6px; right: 76px; display: block; width: 188px; height: 198px; background: url('../img/merry-christmas-sh/btn_buy.png') no-repeat; -webkit-animation: 1.75s smooth infinite; animation: 1.75s smooth infinite; }
-.merryChristmas-wrapper .cake2 { height: 1390px; background: url('../img/merry-christmas-sh/cake02.jpg') no-repeat; }
+.merryChristmas-wrapper .cake2 { height: 1398px; background: url('../img/merry-christmas-sh/cake02.jpg') no-repeat; }
 .merryChristmas-wrapper .cake2 .btn-buy { top: 26px; right: 330px; }
-.merryChristmas-wrapper .cake-bj { height: 1232px; background: url('../img/merry-christmas-sh/cake.jpg') no-repeat; }
+.merryChristmas-wrapper .cake-bj { height: 1132px; background: url('../img/merry-christmas-sh/cake.jpg') no-repeat; }
 .merryChristmas-wrapper .cake-bj .btn-buy { top: -8px; right: 66px; }
-.merryChristmas-wrapper .cake-qd { height: 1200px; background: url('../img/merry-christmas-sh/cake_qd.jpg') no-repeat; }
+.merryChristmas-wrapper .cake-qd { height: 1112px; background: url('../img/merry-christmas-sh/cake_qd.jpg') no-repeat; }
 /* 呼吸灯样式  */
 @-webkit-keyframes smooth {
 	0% { -webkit-transform: scale(1); }
