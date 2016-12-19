@@ -34,7 +34,7 @@
                 oSadeBar.style.top = '0';
              } else {
                 oSadeBar.style.position = 'absolute';
-                oSadeBar.style.top = '710px';
+                oSadeBar.style.top = '788px';
              }
              if (scrollT >= clientH) {
                  oBackBtn.style.display = 'block';

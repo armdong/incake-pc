@@ -1,6 +1,6 @@
 .container { background-image: url('../img/index-merrychristmas/container_bg.png'); background-repeat: no-repeat; background-size: 1920px 3054px; background-position: top center; }
 /* banner begin */
-.container .main-banner { min-width: 1180px; margin: 0 auto; height: 740px; background: #f4f4f4; }
+.container .main-banner { min-width: 1180px; margin: 0 auto; height: 740px; background: #f4f4f4; cursor: none; }
 .main-banner .swiper-button-prev { background: url(../img/index-merrychristmas/banner_arrow.png) no-repeat left bottom; position: absolute; left: 60px; top: 50%; margin-top: -28px; width: 80px; height: 80px; z-index: 999992; border-radius: 50%; overflow: hidden; }
 .main-banner .swiper-button-prev:hover { background-color: rgba(0, 0, 0, 0.1); }
 .main-banner .swiper-button-next { background: url(../img/index-merrychristmas/banner_arrow.png) no-repeat left top; position: absolute; right: 60px; top: 50%; margin-top: -28px; width: 80px; height: 80px; z-index: 999992; border-radius: 50%; overflow: hidden; }
@@ -133,4 +133,6 @@
 #notice .notice-handle i { width: 5px; height: 8px; display: block; position: absolute; top: 50%; margin-top: -4px; left: 10px; background: url(../img/notice_handle_bg.png) no-repeat; background-position: -5px 0; }
 #notice .notice-handle.active i { background-position: 0 0; }
 
-
+.container .mouse { position: absolute; top: 150px; left: 354px; width: 41px; height: 60px; background: url('../img/index-merrychristmas/icon_mouse.png') no-repeat; z-index: 99999;}
+.container .mouse.show { display: block; }
+.container .mouse.hide { display: none; }

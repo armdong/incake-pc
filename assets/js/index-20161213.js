@@ -1,11 +1,15 @@
 (function() {
 
 	$(function() {
+		
+		// 下雪动画
+		fnShowSnow();
 		// 首页轮播图
 		fnSwiper();
 		fnCityLocation();
 		// 公告侧边栏
 		fnNotice();
+		
 	});
 
 	function fnSwiper() {
@@ -90,6 +94,15 @@
 					'transition':'.5s'
 				});
 			}
+		});
+	}
+	
+	// 下雪动画
+	function fnShowSnow(){
+		$.fn.snow({ 
+			minSize: 5,		//雪花的最小尺寸
+			maxSize: 50, 	//雪花的最大尺寸
+			newOn: 1000		//雪花出现的频率 这个数值越小雪花越多
 		});
 	}
 

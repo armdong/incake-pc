@@ -172,7 +172,7 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 /* footer end */
 
 /* sidebar begin */
-#sidebar { width: 40px; height: 100%; position: absolute; right: 0; top: 710px; background: #f2f1f0; z-index: 9999; }
+#sidebar { width: 40px; height: 100%; position: absolute; right: 0; top: 788px; background: #f2f1f0; z-index: 9999; }
 #sidebar .sidebar-wrapper { width: 100%; }
 #sidebar .side-list { width: 100%; padding: 8px 0; border-top: 1px solid #dcdcdc; }
 #sidebar .side-list.first { border-top: none; padding-top: 0; }
