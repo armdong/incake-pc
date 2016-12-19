@@ -62,8 +62,8 @@
             }
 
             $oBee.css({
-                left: pos.x,
-                top: pos.y
+                left: pos.x + 30 + 'px',
+                top: pos.y + 30 + 'px'
             });
 
             // 当鼠标移出banner所在位置，隐藏蜜蜂
