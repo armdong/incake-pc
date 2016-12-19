@@ -7,7 +7,8 @@
 		// 公告侧边栏
 		fnNotice();
 	});
-
+	
+	
 	function fnSwiper() {
 		$('.swiper-container').each(function(index) {
 			var count = $(this).find(".swiper-slide").length;
@@ -72,23 +73,69 @@
 		});
 	}
 	
+	/**
+	 * 首页公告自动展开/收缩
+	 */
+	
+	$(window).on('scroll.autoexpand',function(){
+		console.log('aaa');
+		var $oNotice = $('#notice');
+		var scrollTop =$(document).scrollTop();
+		if(scrollTop>900){
+			$(".notice-handle").removeClass('active');
+			$oNotice.css({
+				'left':'-122px',
+				'transition':'.5s'
+			});
+		}else{
+			$(".notice-handle").addClass('active');
+			$oNotice.css({
+				'left':'0',
+				'transition':'.5s'
+			});
+		}
+	});
 	function fnNotice(){
 		var $oNotice = $('#notice');
 		var $oNoticeHandle = $oNotice.find('.notice-handle');
 		$oNoticeHandle.on('click',function(){
 			var isActive = $(this).hasClass('active');
 			if(isActive){
+				// 移除监听事件
+				$(window).off('scroll.autoexpand');
 				$(this).removeClass('active');
 				$oNotice.css({
 					'left':'-122px',
 					'transition':'.5s'
 				});
 			}else{
+				// 移除监听事件
+				$(window).off('scroll.autoexpand')
 				$(this).addClass('active');
 				$oNotice.css({
 					'left':'0',
 					'transition':'.5s'
 				});
+				if($(this).addClass('active')){
+					// 重新绑定监听事件
+					$(window).on('scroll.autoexpand',function(){
+						var $oNotice = $('#notice');
+						var scrollTop =$(document).scrollTop();
+						if(scrollTop>900){
+							$(".notice-handle").removeClass('active');
+							$oNotice.css({
+								'left':'-122px',
+								'transition':'.5s'
+							});
+						}else{
+							$(".notice-handle").addClass('active');
+							$oNotice.css({
+								'left':'0',
+								'transition':'.5s'
+							});
+						}
+					});
+				}
 			}
 		});
 	}
