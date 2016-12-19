@@ -4,18 +4,12 @@
 
         var $oContainer = $('.swiper-container'),
             $oBee = $('#mosueSocks'),
-            //$oBtn = $('#btnBuy'),
-            //$oFrm = $oContainer.find('.frm-container'),
             iContainerW = $oContainer.width(),
             iContainerH = $oContainer.height(),// - $oFrm.height()
             iContainerL = $oContainer.offset().left,
             iContainerT = $oContainer.offset().top,
             iBeeW = $oBee.width(),
             iBeeH = $oBee.height(),
-            //iBtnW = $oBtn.width(),
-            //iBtnH = $oBtn.height(),
-            //iBtnL = $oBtn.offset().left,
-            //iBtnT = $oBtn.offset().top,
             iClientW = $(window).width();
 
         // 鼠标位置
@@ -83,15 +77,6 @@
 
 
         });
-
-        // 蜜蜂扇动翅膀
-        //var oFlyBee = document.getElementById('flyBee'),
-            //movieclip1 = new JSMovieclip(oFlyBee, {
-                //height: 58,
-                //direction: 'v',
-                //frames_number: 2,
-               //framerate: 10
-            //}).play(true);
 
     });
 
