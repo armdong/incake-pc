@@ -1,0 +1,16 @@
+.three-in-one { width: 1120px; margin: 0 auto; }
+.three-in-one .banner { position: relative; width: 1120px; height: 832px; background: url('../img/three-in-one/banner.jpg') no-repeat; background-size: cover; background-position: center center; border-bottom: 1px solid #c1aea7; }
+.three-in-one .banner .bg { position: absolute; bottom: -15px; right: -27px; width: 100px; height: 80px; background: url('../img/three-in-one/banner_bg.png') no-repeat; background-size: cover; background-position: center center; }
+.three-in-one .cake-wrapper { width: 1120px; padding: 16px 0 97px; }
+.three-in-one .cake-wrapper .cake { float: left; width: 367px; }
+.three-in-one .cake-wrapper .cake02 { width: 368px; margin: 0 9px; }
+.three-in-one .cake-wrapper .cake .img { width: 367px; height: 246px; }
+.three-in-one .cake-wrapper .cake02 .img { width: 368px; }
+.three-in-one .cake-wrapper .cake .title { position: relative; width: 367px; height: 114px; }
+.three-in-one .cake-wrapper .cake02 .title { width: 368px; }
+.three-in-one .cake-wrapper .cake .title .btn { display: block; position: absolute; bottom: 10px; right: 21px; width: 170px; height: 34px; font-size: 20px; line-height: 34px; text-align: center; color: #fff; border-radius: 5px; background-color: #eaa35a; }
+
+.container .rules { width: 100%; max-width: 1920px; background-color: #c1aea7; }
+.rules dl { width: 1120px; padding: 32px 0 66px; margin: 0 auto; color: #fff; }
+.rules dl dt { font-size: 16px; line-height: 34px; text-align: center; }
+.rules dl dd { font-size: 14px; line-height: 30px; text-align: center; }
