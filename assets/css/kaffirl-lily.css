@@ -1,0 +1,10 @@
+#kaffirl { width: 100%; min-width: 1343px; margin: 0 auto; overflow: hidden; background-color:#f1f0f1; }
+#kaffirl .kaffirl-container { width: 1343px; margin: 0 auto; }
+#kaffirl .kaffirl-container .banner {position: relative;  width: 100%; height: 1791px; background: url("../../assets/img/kaffirl-lily/kaffirl-lily-banner.jpg")no-repeat;}
+.kaffirl-container{position: relative;}
+.kaffirl-container .btn-buy{position: absolute;left:625px;top:1095px;}
+
+#kaffirl .spa-rules { width: 100%;height: 240px; background-color: #c30d23;text-align: center; }
+#kaffirl .spa-rules dl { width: 980px; margin: 0 auto; color: #fff; padding: 10px 0; }
+#kaffirl .spa-rules dt { line-height: 60px; font-size: 22px; }
+#kaffirl .spa-rules dd { line-height: 36px; font-size: 18px; }

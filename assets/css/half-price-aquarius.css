@@ -1,0 +1,25 @@
+#aquarius { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #dff7fc; }
+#aquarius .aquarius-container { width: 1200px; margin: 0 auto; }
+.aquarius-container .banner { position: relative; width: 100%; height: 2512px; background: url("../../assets/img/half-price-aquarius/banner.jpg") no-repeat; }
+.aquarius-container .banner .btn-left{position: absolute;left: 275px;top:2245px;display:block;width: 213px;height: 83px;background:url("../../assets/img/half-price-aquarius/buyLeft.jpg")no-repeat;}
+.aquarius-container .banner .btn-right{position: absolute;left: 765px;top:2245px;display:block;width: 213px;height: 83px;background:url("../../assets/img/half-price-aquarius/buyRight.jpg")no-repeat;}
+
+
+#aquarius .aquarius-rule { width: 100%; background-color: #a0e2fa; }
+#aquarius .aquarius-rule dl { width: 1200px; margin: 0 auto; padding: 36px 0; color: #6c7477;position: relative; }
+#aquarius .aquarius-rule dt {font-size: 25px;width: 655px;height:240px;  text-align: center; margin-bottom: 8px;color: #dff7fc;position: absolute; left: 275px;top: -135px; background: url("../../assets/img/half-price-aquarius/toMe.jpg")no-repeat; }
+#aquarius .aquarius-rule .first-child{margin-top: 65px;}
+#aquarius .aquarius-rule dd { font-size: 14px; line-height: 24px; position: relative;left: 275px;}
+
+#aquarius .frm-container { width: 100%; background-color: #425670; }
+#aquarius .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#aquarius .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#aquarius .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#aquarius .frm-register > ul { width: 100%; }
+#aquarius .frm-register li { float: left; margin-right: 49px; }
+#aquarius .frm-register li.last { margin-right: 0; }
+#aquarius .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#aquarius .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price-aquarius/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#aquarius .frm-register li .txt-vcode { background-image: url('../img/half-price-aquarius/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#aquarius .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#aquarius .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
