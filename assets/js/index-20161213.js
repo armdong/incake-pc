@@ -82,7 +82,7 @@
 	 */
 	
 	$(window).on('scroll.autoexpand',function(){
-		console.log('aaa');
+		
 		var $oNotice = $('#notice');
 		var scrollTop =$(document).scrollTop();
 		if(scrollTop>900){
