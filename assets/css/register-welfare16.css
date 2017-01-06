@@ -1,0 +1,39 @@
+#register-container { width:100%;}
+#register-container .register-container-header { background: #fd5147;height: 576px; }
+#register-container .register-container-header .register-container-header-sun{margin: 0 auto; width: 1200px;height: 576px;background: url("../img//register-welfare16/register-container-header.png") no-repeat;}
+#register-container .register-container-centre{height: 1695px; background: url("../img//register-welfare16/register-container-centre-bg.png") no-repeat;}
+#register-container .register-container-centre div{position: relative; margin: 0 auto; width: 1200px;height: 1550px;background:url("../img//register-welfare16/register-container-centre.png") no-repeat;background-position: 0 70px; }
+#register-container .register-container-centre div .orderOne{display: block;position: absolute;top: 972px;left: 240px;width: 285px;height: 67px; background-position: 0 70px;background:url("../img//register-welfare16/order-left.png") no-repeat ;}
+#register-container .register-container-centre div .orderTwo{display: block;position: absolute;top:375px;left: 710px; width: 285px;height: 67px;background:url("../img//register-welfare16/order-right.png") no-repeat ;}
+#register-container .register-container-centre div .orderThree{display: block;position: absolute;top:1440px;left: 720px; width: 285px;height: 67px;background:url("../img//register-welfare16/order-right.png") no-repeat ;}
+#register-container .register-container-centre div span{width: 96px;height: 96px;position: absolute;top:1425px;left: 980px;   background: url("../img//register-welfare16/mangguo.png") no-repeat;}
+
+
+#register-container .rules {width: 100%;height: 263px;background: #fd5147;text-align: center;color: white;}
+#register-container .rules .content{width: 1200px;margin: 0 auto;margin-top: -15px;}
+#register-container .rules .content p{margin: 15px 0;}
+#register-container .rules .content p:first-child{font-weight: 500;}
+#register-container .rules .content p:nth-of-type(4){color: #ffea00;}
+
+
+
+/* mask-redirect begin */
+.mask-redirect { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url('../img/mask_bg.png') repeat; z-index: 9999999; display: none; }
+.mask-redirect .redirect { width: 330px; height: 170px; padding: 40px 45px; position: absolute; left: 50%; margin-left: -210px; top: 50%; margin-top: -125px; z-index: 99999999; background: #fff; }
+.mask-redirect .redirect .btn-redirect-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 20px; cursor: pointer; background: url('../img/mask_btn_close.png') no-repeat; }
+.mask-redirect .redirect .redirect-content { width: 240px; padding: 0 45px; height: 126px; display: table; }
+.mask-redirect .redirect .redirect-content p { width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 20px; line-height: 30px; color: #515151; }
+.mask-redirect .redirect .redirect-footer { width: 100%; height: 46px; }
+.mask-redirect .redirect .redirect-footer a { width: 160px; height: 46px; line-height: 46px; color: #fff; font-size: 16px; display: block; text-align: center; }
+.mask-redirect .redirect .redirect-footer .btn-redirect-ok { float: left; background: #0f3677; }
+.mask-redirect .redirect .redirect-footer .btn-redirect-cancel { float: right; background: #0578c4; }
+/* mask-redirect end */
+
+/*shade*/
+.shade{width: 100%;height: 100%;position: fixed;left: 0;top: 0;background: url("../img/mask_bg.png") repeat;display: none;}
+.shade-order {width: 863px;height: 425px;position: fixed;top: 300px;left: 450px;background:url('../img/register-welfare16/shade-order.png') no-repeat;display: none;}
+.shade-order .phone-number{width: 150px;text-indent: 1em; height: 40px;border-radius: 5px 0 0 5px;position: absolute;top: 140px;left: 475px;line-height: 40px;}
+.shade-order .verification-code{display: block;color: white; background: #983023; width: 110px;height: 45px;*height:42px; border-radius: 0 5px 5px 0;text-align: center;line-height: 45px;position:absolute;top: 140px;left: 622px;}
+.shade-order .Phone-certification{width: 253px;height: 40px;text-indent: 1em; border-radius: 5px;position: absolute;top: 210px;left: 475px;line-height: 40px;}
+.shade-order .submit{display: block;color: white; width: 255px;height: 35px;border-radius: 5px; text-align: center;line-height: 35px;background-color: #3b476d;position: absolute;top: 280px;left: 477px;}
+.shade-order .delete{width: 35px;height: 35px;border-radius: 100%;position: absolute;top: 92px;right: 47px;}
