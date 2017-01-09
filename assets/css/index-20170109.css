@@ -1,6 +1,6 @@
 .container { background-image: url('../img/index-newyear/container_bg.png'); background-repeat: no-repeat; background-size: 1920px 3054px; background-position: top center; background-color: #f9f9f9; }
 /* banner begin */
-.container .main-banner { min-width: 1180px; margin: 0 auto; height: 740px; background: #f4f4f4; }
+.container .main-banner { min-width: 1180px; margin: 0 auto; height: 810px; background: #f4f4f4; }
 .main-banner .swiper-button-prev { background: url(../img/index-merrychristmas/banner_arrow.png) no-repeat left bottom; position: absolute; left: 60px; top: 50%; margin-top: -28px; width: 80px; height: 80px; z-index: 999992; border-radius: 50%; overflow: hidden; }
 .main-banner .swiper-button-prev:hover { background-color: rgba(0, 0, 0, 0.1); }
 .main-banner .swiper-button-next { background: url(../img/index-merrychristmas/banner_arrow.png) no-repeat left top; position: absolute; right: 60px; top: 50%; margin-top: -28px; width: 80px; height: 80px; z-index: 999992; border-radius: 50%; overflow: hidden; }
