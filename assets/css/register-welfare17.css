@@ -1,0 +1,83 @@
+#register-container { width: 100%; background: #fff; }
+#register-container img { width: 100%; }
+
+#register-container .banner { width: 100%; background-color: #f5f8fb; }
+#register-container .banner-content { width: 1920px; margin: 0 auto; }
+
+#register-container .feature { width: 100%; padding-bottom: 38px; background-color: #ffe7d3; overflow: hidden; }
+#register-container .feature .title { position: relative; width: 1200px; height: 90px; margin: 0 auto; }
+#register-container .feature .title > img { position: absolute; top: 0; left: 50%; width: 1920px; margin-left: -960px; }
+#register-container .feature .content { width: 1200px; margin: 0 auto; }
+#register-container .feature .content li { float: left; width: 296px; }
+#register-container .feature .content li.material { margin-left: 30px; margin-right: 140px; }
+#register-container .feature .content li.cut { margin-right: 140px; }
+#register-container .feature .content li .img { float: left; width: 62px; height: 62px; background: url('../img/register-welfare14/icons_feature.png') no-repeat; }
+#register-container .feature .content li.material .img { background-position: 0 0; }
+#register-container .feature .content li.cut .img { background-position: -62px 0; }
+#register-container .feature .content li.discount .img { background-position: -124px 0; }
+#register-container .feature .content li.transport .img { background-position: -186px 0; }
+#register-container .feature .content li .text { float: left; width: 140px; margin-left: 20px; color: #5a2e1a; }
+#register-container .feature .content li .text h2 { font-size: 18px; line-height: 30px; }
+#register-container .feature .content li .text p { font-size: 14px; line-height: 16px; }
+
+#register-container .hot-product { width: 100%; overflow: hidden; background-color: #fff; padding-bottom: 30px; }
+#register-container .hot-product .title { position: relative; width: 1200px; height: 84px; margin: 0 auto; }
+#register-container .hot-product .title > img { position: absolute; top: 0; left: 50%; width: 1920px; margin-left: -960px; }
+#register-container .hot-product .content { width: 1200px; margin: 0 auto; overflow: hidden; }
+#register-container .hot-product .tab-nav { width: 100%; }
+#register-container .hot-product .tab-nav li { float: left; width: 400px; height: 78px; border-top: 4px solid #4c6da5; border-left: 1px solid #4c6da5; margin-left: -1px; color: #fff; background-color: #0e2f8f; cursor: pointer; }
+#register-container .hot-product .tab-nav li.active { border-top: 4px solid #4668ca; background-color: #8bade5; }
+#register-container .hot-product .tab-nav li p { position:relative; top: 16px; height: 20px; text-align: center; }
+#register-container .hot-product .tab-nav li span { display: inline-block; line-height: 20px; }
+#register-container .hot-product .tab-nav li .cn { font-size: 20px; }
+#register-container .hot-product .tab-nav li .en { font-size: 18px; }
+#register-container .hot-product .tab-nav li .split { position: relative; top: 3px; height: 20px; margin: 0 6px; border-left: 1px solid #fff; }
+#register-container .hot-product .tab-nav li .icon { position: relative; top: 6px; width: 34px; height: 34px; margin-right: 6px; background: url('../img/register-welfare14/icons_hot.png') no-repeat; }
+#register-container .hot-product .tab-nav li .icon-cakes { background-position: 0 0; }
+#register-container .hot-product .tab-nav li .icon-insweet { background-position: -34px 0; }
+#register-container .hot-product .tab-nav li .icon-gaw { background-position: -68px 0; }
+#register-container .hot-product .tab-body { width: 100%; }
+#register-container .hot-product .tab-body > li { display: none; }
+#register-container .hot-product .tab-body > li.active { display: block; }
+#register-container .hot-product .tab-body .cake-list { width: 100%; }
+#register-container .hot-product .cake-list > li { float: left; width: 260px; margin-right: 53px; margin-top: 30px; }
+#register-container .hot-product .cake-list > li:nth-of-type(4n) { margin-right: 0; }
+#register-container .hot-product .cake-list > li.last-col { margin-right: 0; }
+#register-container .hot-product .cake-list > li .img { display: block; width: 100%; }
+#register-container .hot-product .cake-list > li .text { width: 100%; height: 60px; padding-top: 10px; color: #505050; background-color: #f5f5f5; }
+#register-container .hot-product .cake-list > li .text p { text-align: center; }
+#register-container .hot-product .cake-list > li .text .cn { font-size: 20px; line-height: 28px; }
+#register-container .hot-product .cake-list > li .text .en { font-size: 14px; line-height: 18px; }
+
+#register-container .rules { width: 100%; padding-bottom: 38px; background-color: #f5f5f5; overflow: hidden; }
+#register-container .rules .title { position: relative; width: 1200px; height: 90px; margin: 0 auto; }
+#register-container .rules .title > img { position: absolute; top: 0; left: 50%; width: 1920px; margin-left: -960px; }
+#register-container .rules .content { width: 1200px; margin: 0 auto; }
+#register-container .rules .content p { text-align: center; color: #927e76; line-height: 28px; }
+#register-container .rules .content p i { display: inline-block; width: 4px; height: 4px; background: #9c6247; vertical-align: middle; margin-right: 5px; }
+
+#register-container .frm-container { width: 100%; background-color: #cdddec; }
+#register-container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#register-container .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#register-container .frm-register > h2 { line-height: 98px; font-size: 38px; font-weight: 400; color: #0e2f8f; text-align: center; }
+#register-container .frm-register > h2 a { color: #f90000; text-decoration: underline; }
+#register-container .frm-register > ul { width: 100%; }
+#register-container .frm-register li { float: left; margin-right: 49px; }
+#register-container .frm-register li.last { margin-right: 0; }
+#register-container .frm-register li input { width: 282px; height: 58px; line-height: 58px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#register-container .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/register-welfare14/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#register-container .frm-register li .txt-vcode { background-image: url('../img/register-welfare14/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#register-container .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 58px; margin-left: -1px; line-height: 58px; text-align: center; color: #fff; font-size: 18px; background: #8bade5; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#register-container .frm-register li .btn-quick-register { display: block; width: 354px; height: 58px; line-height: 58px; font-size: 18px; text-align: center; color: #fff; background-color: #0e2f8f; border-radius: 10px; }
+
+/* mask-redirect begin */
+.mask-redirect { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url('../img/mask_bg.png') repeat; z-index: 9999999; display: none; }
+.mask-redirect .redirect { width: 330px; height: 170px; padding: 40px 45px; position: absolute; left: 50%; margin-left: -210px; top: 50%; margin-top: -125px; z-index: 99999999; background: #fff; }
+.mask-redirect .redirect .btn-redirect-close { width: 20px; height: 20px; display: block; position: absolute; right: 20px; top: 20px; cursor: pointer; background: url('../img/mask_btn_close.png') no-repeat; }
+.mask-redirect .redirect .redirect-content { width: 240px; padding: 0 45px; height: 126px; display: table; }
+.mask-redirect .redirect .redirect-content p { width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 20px; line-height: 30px; color: #515151; }
+.mask-redirect .redirect .redirect-footer { width: 100%; height: 46px; }
+.mask-redirect .redirect .redirect-footer a { width: 160px; height: 46px; line-height: 46px; color: #fff; font-size: 16px; display: block; text-align: center; }
+.mask-redirect .redirect .redirect-footer .btn-redirect-ok { float: left; background: #0f3677; }
+.mask-redirect .redirect .redirect-footer .btn-redirect-cancel { float: right; background: #0578c4; }
+/* mask-redirect end */
