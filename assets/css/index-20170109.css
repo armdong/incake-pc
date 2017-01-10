@@ -1,0 +1,99 @@
+.container { background-image: url('../img/index-newyear/container_bg.png'); background-repeat: no-repeat; background-size: 1920px 3054px; background-position: top center; background-color: #f9f9f9; }
+/* banner begin */
+.container .main-banner { min-width: 1180px; margin: 0 auto; height: 810px; background: #f4f4f4; }
+.main-banner .swiper-button-prev { background: url(../img/index-merrychristmas/banner_arrow.png) no-repeat left bottom; position: absolute; left: 60px; top: 50%; margin-top: -28px; width: 80px; height: 80px; z-index: 999992; border-radius: 50%; overflow: hidden; }
+.main-banner .swiper-button-prev:hover { background-color: rgba(0, 0, 0, 0.1); }
+.main-banner .swiper-button-next { background: url(../img/index-merrychristmas/banner_arrow.png) no-repeat left top; position: absolute; right: 60px; top: 50%; margin-top: -28px; width: 80px; height: 80px; z-index: 999992; border-radius: 50%; overflow: hidden; }
+.main-banner .swiper-button-next:hover { background-color: rgba(0, 0, 0, 0.1); }
+.main-banner .swiper-wrapper { background: transparent; }
+.main-banner .swiper-slide { background-position: center; background-repeat: no-repeat; }
+.main-banner .swiper-slide a { display: block; height: 100%; }
+.main-banner .swiper-pagination { position: absolute; left: 0; text-align: center; bottom: 170px; width: 100%; padding-top: 50px; z-index: 99992; }
+.main-banner .swiper-pagination .swiper-pagination-switch { width: 12px; height: 12px;    display: inline-block; margin: 0 5px; border-radius: 50%; background: #595858; cursor: pointer; }
+.main-banner .swiper-pagination .swiper-active-switch { background: #c81528; }
+.main-banner .banner-bottom { position: absolute; bottom: 0; left: 50%; z-index: 9999; width: 1920px; height: 160px; margin-left: -960px; background: url('../img/index-newyear/banner_bottom_front.png') no-repeat; background-size: cover; background-position: center center; }
+/* banner end */
+
+/* yours incake begin */
+.container .yours-incake { width: 100%; background-color: #f9f9f9; }
+.yours-incake .yours-warpper { position: relative; width: 1200px; height: 110px; margin: 0 auto; }
+.yours-incake .yours-warpper .img { position: absolute; bottom: 0; left: 19px; z-index: 99999; width: 380px; height: 270px; background: url('../img/index-newyear/yours_incake.png') no-repeat; }
+/* yours incake end */
+
+/* cake container begin */
+.container .cake-container { width: 1100px; margin: 0 auto; padding-top: 60px; }
+.cake-container .cake-section { width: 100%; margin-top: 64px; }
+.cake-container .section-title { position: relative; width: 100%; padding: 17px 0; }
+.cake-container .section-title .text { width: 100%; height: 42px; line-height: 42px; text-align: center; }
+.cake-container .section-title .text .icon { display: inline-block; width: 70px; height: 42px; margin-right: 10px; background: url('../img/index-newyear/section_title_bg.png') no-repeat; background-size: cover; background-position: center center; vertical-align: middle; }
+.cake-container .section-title .text span { display: inline-block; line-height: 42px; font-size: 30px; color: #e03c47; vertical-align: middle; }
+.cake-container .section-title .more { display: block; width: 30px; height: 30px; position: absolute; right: 10px; top: 50%; margin-top: -15px; }
+.cake-container .section-title .more img { width: 100%; }
+.cake-container .cake-section .section-list { width: 100%; }
+.cake-container .cake-section .section-item { width: 260px; height: 358px; float: left; margin-right: 20px; margin-bottom: 32px; }
+.cake-container .cake-section .last-column-item { margin-right: 0; }
+.cake-container .cake-section .section-item:nth-of-type(4n+4) { margin-right: 0; }
+.cake-container .section-item .img { width: 260px; height: 260px; display: block; position: relative; }
+.cake-container .section-item .img img { width: 100%; }
+.cake-container .section-item .img .type { width: 100%; height: 40px; line-height: 40px; text-align: right; color: #fff; background: url(../img/mask_bg.png) repeat; position: absolute; left: 0; bottom: 0; z-index: 9; display: none; }
+.cake-container .section-item .img:hover .type { display: block; }
+.cake-container .section-item .type .taste { margin-right: 10px; }
+.cake-container .section-item .info { width: 100%; height: 98px; background: #f5f5f5; }
+.cake-container .section-item .info p { text-align: center; }
+.cake-container .section-item .cn { font-size: 18px; padding-top: 10px; }
+.cake-container .section-item .en { font-size: 14px; line-height: 24px; }
+.cake-container .section-item .size { color: #000; }
+.cake-container .section-item .size .price { font-size: 20px; }
+.cake-container .theme-list { width: 100%; height: 450px; position: relative; background: url('../img/index-newyear/theme_list_bg.jpg') no-repeat; }
+.cake-container .theme-list .theme-cake { position: absolute; width: 200px; color: #323232; }
+.cake-container .theme-list .theme-cake .name { font-size: 18px; margin-bottom: 5px; }
+.cake-container .theme-list .theme-cake .desc { font-size: 12px; margin-bottom: 10px; }
+.cake-container .theme-list .theme-cake .attr span { float: left; line-height: 18px; }
+.cake-container .theme-list .theme-cake .attr .price { font-size: 16px; }
+.cake-container .theme-list .theme-cake .attr .pound { font-size: 12px; }
+.cake-container .theme-list .theme-cake .btn-buy { display: inline-block; width: 98px; height: 24px; margin-top: 15px; line-height: 24px; text-align: center; color: #323232; font-size: 14px; border: 1px solid #323232; border-radius: 11px; }
+.cake-container .theme-list .theme-cake.cake-01 { top: 30px; left: 370px; }
+.cake-container .theme-list .theme-cake.cake-02 { top: 284px; left: 210px; }
+.cake-container .theme-list .theme-cake.cake-03 { top: 0; right: 20px; width: 170px; height: 160px; background: url('../img/index-newyear/cake03_bg.png'); }
+.cake-container .theme-list .theme-cake.cake-03 p,
+.cake-container .theme-list .theme-cake.cake-03 a { margin-left: 20px; }
+.cake-container .theme-list .theme-cake.cake-03 .name { margin-top: 50px; }
+.cake-container .theme-list .theme-cake.cake-03 .btn-buy { margin-top: 10px; }
+
+.cake-container .cake-banner { width: 100%; padding: 50px 0; }
+.cake-container .cake-banner a { display: block; width: 100%; }
+/* cake container end */
+
+/* ad container begin */
+.container .ad-container { width: 1160px; margin: 52px auto 40px; }
+.ad-container .ad-item { width: 380px; height: 190px; float: left; margin-right: 10px;  position: relative;}
+.ad-container .last { margin-right: 0; }
+.ad-container .ad-item .view-detail { width: 100%; height: 100%; display: block; }
+.ad-container .ad-item .view-detail img { width: 100%; height: 100%; }
+/* ad container end */
+
+/* mask-city-location begin */
+.mask-city-location { width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: url(../img/mask_bg.png) repeat; z-index: 9999999; display: block; }
+.mask-city-location .city-location { width: 450px; height: 200px; padding: 30px 0; position: absolute; top: 50%; margin-top: -130px; left: 50%; margin-left: -225px; z-index: 99999999; background: #fff; }
+.mask-city-location .city-location .location-logo { width: 160px; height: 100%; border-right: 1px solid #dcdcdc; float: left; }
+.mask-city-location .city-location .location-logo img { width: 100%; }
+.mask-city-location .city-location .location-content { width: 250px; height: 100%; float: right; margin-right: 20px; }
+.mask-city-location .city-location .location-content h2 { font-size: 20px; line-height: 38px; font-weight: normal; color: #0f3677; }
+.mask-city-location .city-location .location-content > p { line-height: 34px; margin-top: 20px; }
+.mask-city-location .city-location .location-content .selector-location { width: 218px; border: 1px solid #dcdcdc; height: 34px; }
+.mask-city-location .city-location .location-content .selector-location p { line-height: 34px; }
+.mask-city-location .city-location .location-content .btn-location-ok { width: 126px; height: 36px; display: block; text-align: center; line-height: 36px; color: #fff; background: #0099ff; margin-top: 20px; }
+
+/* mask-city-location end */
+
+#notice { width: 100px; padding: 10px; border: 1px solid #dcdcdc; border-left: none; box-shadow: 0 0 4px #bbb; position: fixed; left: 0; top: 35%; background: #fff; z-index: 9999999999; }
+#notice .notice-header { width: 100%; line-height: 24px; text-align: center; font-size: 14px; }
+#notice .notice-content { width: 100%; }
+#notice .notice-content p { line-height: 20px; }
+#notice .notice-handle { width: 20px; height: 48px; background: #fff; border: 1px solid #dcdcdc; border-left: none; box-shadow: 0 0 4px #bbb; position: absolute; right: -20px; top: 50%; margin-top: -25px; z-index: 99999999999; cursor: pointer; }
+#notice .notice-handle i { width: 5px; height: 8px; display: block; position: absolute; top: 50%; margin-top: -4px; left: 10px; background: url(../img/notice_handle_bg.png) no-repeat; background-position: -5px 0; }
+#notice .notice-handle.active i { background-position: 0 0; }
+
+/*.container .mouse { position: absolute; top: 360px; left: 420px; width: 41px; height: 60px; background: url('../img/index-merrychristmas/icon_mouse.png') no-repeat; z-index: 9999;}
+.container .mouse.show { display: block; }
+.container .mouse.hide { display: none; }*/
