@@ -5,7 +5,6 @@
 #register-container .banner { width: 100%; background-color: #f5f8fb; }
 #register-container .banner-content { position: relative; width: 1200px; height: 580px; margin: 0 auto; }
 #register-container .banner-content img { position: absolute; top: 0; left: 50%; width: 1920px; height: 580px; margin-left: -960px; }
-#register-container .banner-content { width: 1920px; margin: 0 auto; }
 
 #register-container .feature { width: 100%; padding-bottom: 38px; background-color: #ffe7d3; overflow: hidden; }
 #register-container .feature .title { position: relative; width: 1200px; height: 90px; margin: 0 auto; }
