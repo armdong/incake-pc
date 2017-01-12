@@ -21,8 +21,9 @@
 /* yours incake end */
 
 /* cake container begin */
-.container .cake-container { width: 1100px; margin: 0 auto; padding-top: 60px; }
+.container .cake-container { width: 1100px; margin: 0 auto; }
 .cake-container .cake-section { width: 100%; margin-top: 64px; }
+.cake-container .cake-section.rec-section { margin-top: 20px; }
 .cake-container .section-title { position: relative; width: 100%; padding: 17px 0; }
 .cake-container .section-title .text { width: 100%; height: 42px; line-height: 42px; text-align: center; }
 .cake-container .section-title .text .icon { display: inline-block; width: 70px; height: 42px; margin-right: 10px; background: url('../img/index-newyear/section_title_bg.png') no-repeat; background-size: cover; background-position: center center; vertical-align: middle; }
