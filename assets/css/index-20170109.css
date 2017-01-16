@@ -11,7 +11,7 @@
 .main-banner .swiper-pagination { position: absolute; left: 0; text-align: center; bottom: 170px; width: 100%; padding-top: 50px; z-index: 99992; }
 .main-banner .swiper-pagination .swiper-pagination-switch { width: 12px; height: 12px;    display: inline-block; margin: 0 5px; border-radius: 50%; background: #595858; cursor: pointer; }
 .main-banner .swiper-pagination .swiper-active-switch { background: #c81528; }
-.main-banner .banner-bottom { position: absolute; bottom: 0; left: 50%; z-index: 9999; width: 1920px; height: 160px; margin-left: -960px; background: url('../img/index-newyear/banner_bottom_front.png') no-repeat; background-size: cover; background-position: center center; }
+.main-banner .banner-bottom { position: absolute; bottom: 0; left: 50%; z-index: 9999; width: 1920px; height: 250px; margin-left: -960px; background: url('../img/index-newyear/banner_bottom_front.png') no-repeat; background-size: cover; background-position: center center; }
 /* banner end */
 
 /* yours incake begin */
