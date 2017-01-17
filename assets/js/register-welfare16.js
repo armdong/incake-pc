@@ -3,6 +3,8 @@
     $(function() {
         //遮罩层处理事件
 		fnShade();
+		//遮罩层点击订购事件
+		fnShadego();
     });
 
 	function fnShade(){
@@ -19,5 +21,21 @@
 				$shade.fadeOut();
 			})
 		})
+	}
+	function fnShadego(){
+		var $shade = $(".shade");
+		var $shadeOrderGo = $(".shade-order-go");
+		var $delete = $(".delete");
+	
+		$(".orderOne,.orderTwo,.orderThree").on('click',function(){
+			$shade.fadeIn(function(){
+				$shadeOrderGo.fadeIn();
+			})
+		});
+		$delete.on('click',function(){
+			$shadeOrderGo.fadeOut(function(){
+				$shade.fadeOut();
+			})
+		});
 	}
 })();

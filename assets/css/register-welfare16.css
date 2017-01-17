@@ -2,10 +2,10 @@
 #register-container .register-container-header { background: #fd5147;height: 576px; }
 #register-container .register-container-header .register-container-header-sun{margin: 0 auto; width: 1200px;height: 576px;background: url("../img//register-welfare16/register-container-header.png") no-repeat;}
 #register-container .register-container-centre{height: 1695px; background: url("../img//register-welfare16/register-container-centre-bg.png") no-repeat;}
-#register-container .register-container-centre div{position: relative; margin: 0 auto; width: 1200px;height: 1550px;background:url("../img//register-welfare16/register-container-centre.png") no-repeat;background-position: 0 70px; }
-#register-container .register-container-centre div .orderOne{display: block;position: absolute;top: 972px;left: 240px;width: 285px;height: 67px; background-position: 0 70px;background:url("../img//register-welfare16/order-left.png") no-repeat ;}
-#register-container .register-container-centre div .orderTwo{display: block;position: absolute;top:375px;left: 710px; width: 285px;height: 67px;background:url("../img//register-welfare16/order-right.png") no-repeat ;}
-#register-container .register-container-centre div .orderThree{display: block;position: absolute;top:1440px;left: 720px; width: 285px;height: 67px;background:url("../img//register-welfare16/order-right.png") no-repeat ;}
+#register-container .register-container-centre div{position: relative; margin: 0 auto; width: 1200px;height: 1640px;background:url("../img//register-welfare16/register-container-centre.png") no-repeat;background-position: 0 70px; }
+#register-container .register-container-centre div .orderOne{display: block;position: absolute;top: 995px;left: 240px;width: 285px;height: 67px; background-position: 0 70px;background:url("../img//register-welfare16/order-left.png") no-repeat ;}
+#register-container .register-container-centre div .orderTwo{display: block;position: absolute;top:430px;left: 710px; width: 285px;height: 67px;background:url("../img//register-welfare16/order-right.png") no-repeat ;}
+#register-container .register-container-centre div .orderThree{display: block;position: absolute;top:1450px;left: 720px; width: 285px;height: 67px;background:url("../img//register-welfare16/order-right.png") no-repeat ;}
 #register-container .register-container-centre div span{width: 96px;height: 96px;position: absolute;top:1425px;left: 980px;   background: url("../img//register-welfare16/mangguo.png") no-repeat;}
 
 
@@ -31,9 +31,55 @@
 
 /*shade*/
 .shade{width: 100%;height: 100%;position: fixed;left: 0;top: 0;background: url("../img/mask_bg.png") repeat;display: none;}
-.shade-order {width: 863px;height: 425px;position: fixed;top: 300px;left: 450px;background:url('../img/register-welfare16/shade-order.png') no-repeat;display: none;}
+.shade-order {width: 864px;height: 426px;position: fixed;top: 50%;left:50%;margin-left:-432px ;margin-top:-213px; background:url('../img/register-welfare16/shade-order.png') no-repeat;display: none;}
 .shade-order .phone-number{width: 150px;text-indent: 1em; height: 40px;border-radius: 5px 0 0 5px;position: absolute;top: 140px;left: 475px;line-height: 40px;}
 .shade-order .verification-code{display: block;color: white; background: #983023; width: 110px;height: 45px;*height:42px; border-radius: 0 5px 5px 0;text-align: center;line-height: 45px;position:absolute;top: 140px;left: 622px;}
 .shade-order .Phone-certification{width: 253px;height: 40px;text-indent: 1em; border-radius: 5px;position: absolute;top: 210px;left: 475px;line-height: 40px;}
 .shade-order .submit{display: block;color: white; width: 255px;height: 35px;border-radius: 5px; text-align: center;line-height: 35px;background-color: #3b476d;position: absolute;top: 280px;left: 477px;}
 .shade-order .delete{width: 35px;height: 35px;border-radius: 100%;position: absolute;top: 92px;right: 47px;}
+
+.shade-order-go {width: 864px;height: 426px;position: fixed;top: 50%;left:50%;margin-left:-432px ;margin-top:-213px;background:url('../img/register-welfare16/shade-order.png') no-repeat;display: none;}
+.shade-order-go .phone-number{width: 150px;text-indent: 1em; height: 40px;border-radius: 5px 0 0 5px;position: absolute;top: 140px;left: 475px;line-height: 40px;}
+.shade-order-go .verification-code{display: block;color: white; background: #983023; width: 110px;height: 45px;*height:42px; border-radius: 0 5px 5px 0;text-align: center;line-height: 45px;position:absolute;top: 140px;left: 622px;}
+.shade-order-go .Phone-certification{width: 253px;height: 40px;text-indent: 1em; border-radius: 5px;position: absolute;top: 210px;left: 475px;line-height: 40px;}
+.shade-order-go .go-on{display: block; width: 95px;height: 35px;background: #6c779b;color: white;border-radius: 5px; text-align: center;line-height: 35px;position: absolute;top: 280px;left: 477px;}
+.shade-order-go .submit{display: block;color: white; width: 155px;height: 35px;border-radius: 5px; text-align: center;line-height: 35px;background-color: #3b476d;position: absolute;top: 280px;left: 577px;}
+.shade-order-go .delete{width: 35px;height: 35px;border-radius: 100%;position: absolute;top: 92px;right: 47px;}
+
+.dynamic-condition{display: block;position: fixed;bottom: 100px;right: 20px;width: 200px;height: 105px;}
+.dynamic-condition img{
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-ms-transform-origin: right bottom;
+	-o-transform-origin: right bottom;
+	transform-origin: right bottom;
+	animation:zoom 4s infinite;
+	-moz-animation:zoom 4s infinite; /* Firefox */
+	-webkit-animation:zoom 4s infinite; /* Safari and Chrome */
+	-o-animation:zoom 4s infinite; /* Opera */
+}
+@-webkit-keyframes zoom{
+	0%   { -webkit-transform: scale(1); }
+	50%  { -webkit-transform: scale(0.5); }
+	100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes zoom{
+	0%   { -moz-transform: scale(1); }
+	50%  { -moz-transform: scale(0.5); }
+	100% { -moz-transform: scale(1); }
+}
+@-ms-keyframes zoom{
+	0%   { -ms-transform: scale(1); }
+	50%  { -ms-transform: scale(0.5); }
+	100% { -ms-transform: scale(1); }
+}
+@-o-keyframes zoom{
+	0%   { -o-transform: scale(1); }
+	50%  { -o-transform: scale(0.5); }
+	100% { -o-transform: scale(1); }
+}
+@keyframes zoom{
+	0%   { transform: scale(1); }
+	50%  { transform: scale(0.5); }
+	100% { transform: scale(1); }
+}
