@@ -18,7 +18,7 @@
         width : 293,        
         direction : 'h',    
         frames_number : 2, 
-        framerate : 10      
+        framerate : 10     
     }).play(true);
 //  点击停止动画
 //	animation.onclick=function(){
