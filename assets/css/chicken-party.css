@@ -20,7 +20,7 @@
 }
 
 .party-container .party-close {
-    display: block;
+    display: none;
     position: absolute;
     top: 70px;
     right: 110px;
@@ -47,18 +47,6 @@
 .party-container .cake-final {
     display: none;
     background: url('../img/chicken-party/cake_final.png') no-repeat;
-}
-
-.party-container .switch {
-    display: none;
-    position: absolute;
-    bottom: 12px;
-    left: 50%;
-    z-index: 999;
-    width: 406px;
-    height: 338px;
-    margin-left: -203px;
-    background: url('../img/chicken-party/switch_bg.png') no-repeat;
 }
 
 #startChicken {

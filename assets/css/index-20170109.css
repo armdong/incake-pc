@@ -18,6 +18,7 @@
 .container .yours-incake { width: 100%; background-color: #f9f9f9; }
 .yours-incake .yours-warpper { position: relative; width: 1200px; height: 110px; margin: 0 auto; }
 .yours-incake .yours-warpper .img { position: absolute; bottom: 0; left: 19px; z-index: 99999; width: 380px; height: 270px; background: url('../img/index-newyear/yours_incake.png') no-repeat; }
+.yours-incake .yours-warpper .btn-show-party { display: block; position: absolute; bottom: 50px; left: 345px; z-index: 9999; width: 204px; height: 168px; background: url('../img/index-newyear/btn_show_party.png') no-repeat; }
 /* yours incake end */
 
 /* cake container begin */

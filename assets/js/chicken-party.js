@@ -17,10 +17,10 @@
             oDropTarget = document.getElementById('dropTarget'),
             oLine = document.getElementById('lightLine'),
             oBall = document.getElementById('lightBall'),
-            oSwitcher = document.getElementById('switcher'),
             oCakeOriginal = document.getElementById('cakeOriginal'),
             oCakeFinal = document.getElementById('cakeFinal'),
             oBtnGoChicken = document.getElementById('btnGoChicken'),
+            oBtnShowParty = document.getElementById('btnShowParty'),
             tl = new TimelineLite(),
             runClip = new JSMovieclip(oRun, {
                 width: 80,
@@ -57,13 +57,19 @@
             $(oMaskParty).fadeOut();
         });
 
+        $(oBtnShowParty).on('click', function() {
+            $(oMaskParty).fadeIn();
+        });
+
+        fnChickenIn();
+
         // 小鸡入场动画
-        (function fnChickenIn() {
+        function fnChickenIn() {
             tl.clear();
             tl.to(oStart, 0.1, {
                 bottom: '70px',
                 yoyo: true,
-                repeat: 15,
+                repeat: 7,
                 onComplete: function() {
                     $(oInfo).fadeIn(function() {
                         $(oStart).css('display', 'none');
@@ -72,12 +78,12 @@
                     });
                 }
             });
-        })();
+        }
 
         // 小鸡加速跑处理函数
         function fnChickenRun() {
             tl.clear();
-            tl.to(oRun, 1.2, {
+            tl.to(oRun, 2, {
                 left: '660px',
                 ease: Power2.easeIn,
                 onComplete: function() {
@@ -116,23 +122,16 @@
                     lineClip.play(true);
                     ballClip.play(true);
                     // 处理切换蛋糕逻辑
-                    tl.clear();
-                    tl.to(oSwitcher, 3, {
-                        transformOrigin: 'center center',
-                        rotation: -360 * 5,
-                        onStart: function() {
-                            $(oSwitcher).fadeIn();
-                        },
-                        onComplete: function() {
-                            $(oDrop).hide();
-                            $(oCakeOriginal).fadeOut(function() {
-                                $(oSwitcher).fadeOut(function() {
-                                    $(oCakeFinal).fadeIn();
-                                    $(oBtnGoChicken).fadeIn();
-                                });
-                            });
-                        }
-                    });
+                    
+                    setTimeout(function() {
+                        $(oDrop).fadeOut();
+                        $(oCakeOriginal).fadeOut(600);
+                        setTimeout(function() {
+                            $(oCakeFinal).fadeIn(600);
+                            $(oBtnGoChicken).fadeIn(600);
+                            $(oPartyClose).show();
+                        }, 600);
+                    }, 1000);                                        
                 }
             }).init();
         }
