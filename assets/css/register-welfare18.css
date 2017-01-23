@@ -60,7 +60,7 @@
 
 #register-container .frm-container { width: 100%; background-color: #cdddec; }
 #register-container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
-#register-container .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#register-container .frm-register { width: 1200px; margin: 0 auto; padding: 26px; }
 #register-container .frm-register > h2 { line-height: 98px; font-size: 38px; font-weight: 400; color: #0e2f8f; text-align: center; }
 #register-container .frm-register > h2 a { color: #f90000; text-decoration: underline; }
 #register-container .frm-register > ul { width: 100%; }
