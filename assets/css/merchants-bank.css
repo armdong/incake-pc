@@ -1,0 +1,20 @@
+.container { min-width: 1200px; max-width: 1920px; overflow: hidden; }
+#merchants-bank .banner { width: 100%; }
+#merchants-bank .banner-content { position: relative; width: 1200px; height: 2641px; margin: 0 auto; }
+#merchants-bank .banner-content img { position: absolute; top: 0; left: 50%; width: 1920px; height: 2641px; margin-left: -960px;}
+.btn-01,.btn-02,.btn-03,.btn-04,.btn-05,.btn-06,.btn-07,.btn-08{display: inline-block; width: 70px;height: 28px;border-radius: 10px;}
+#merchants-bank .banner .btn-01{position: absolute;left: 397px;top: 822px;}
+#merchants-bank .banner .btn-02{position: absolute;left: 559px;top: 990px;}
+#merchants-bank .banner .btn-03{position: absolute;left: 17px;top: 1095px;}
+#merchants-bank .banner .btn-04{position: absolute;left: 580px;top: 1538px;}
+#merchants-bank .banner .btn-05{position: absolute;left: 30px;bottom: 834px;}
+#merchants-bank .banner .btn-06{position: absolute;left: 736px;bottom: 600px;}
+#merchants-bank .banner .btn-07{position: absolute;left: 590px;bottom: 572px;}
+#merchants-bank .banner .btn-08{position: absolute;left: 260px;bottom: 65px;}
+
+
+#merchants-bank .merchants-bank-rule { width: 100%;height: 257px;  background: url("../img/merchants-bank/rulesBg.png") no-repeat;}
+#merchants-bank .merchants-bank-rule dl { width: 1200px;margin: 0 auto;padding: 80px;}
+#merchants-bank .merchants-bank-rule dt { font-size: 18px; line-height: 52px; text-align: center; }
+#merchants-bank .merchants-bank-rule dd { font-size: 14px; line-height: 28px; text-align: center; }
+

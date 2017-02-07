@@ -1,0 +1,46 @@
+.container { min-width: 1200px; max-width: 1920px; overflow: hidden; }
+#cheeeseCake .banner { width: 100%;}
+#cheeeseCake .banner-content { position: relative; width: 1200px; height: 2641px; margin: 0 auto; }
+#cheeeseCake .banner-content img { position: absolute; top: 0; left: 50%; width: 1920px; height: 2641px; margin-left: -960px;}
+.btn-01,.btn-02,.btn-03,.btn-04{display: inline-block; width: 123px;height: 102px;}
+#cheeeseCake .banner .btn-01{position: absolute;left: 830px;top: 745px;background: url("../img/half-price-cheeseCake/btn_right.png") no-repeat;}
+#cheeeseCake .banner .btn-02{position: absolute;left: 270px;top: 1184px;background: url("../img/half-price-cheeseCake/btn_left.png") no-repeat;}
+#cheeeseCake .banner .btn-03{position: absolute;left: 830px;bottom: 790px;background: url("../img/half-price-cheeseCake/btn_right.png") no-repeat;}
+#cheeeseCake .banner .btn-04{position: absolute;left: 240px;bottom: 340px;background: url("../img/half-price-cheeseCake/btn_left.png") no-repeat;}
+#cheeeseCake .banner .banner-bottom{display: block;width: 248px;height: 120px;position: absolute;right: -330px;bottom: 80px;background: url("../img/half-price-cheeseCake/banner_bottom.png") no-repeat;
+transform-origin: right bottom;animation: zoom 4s infinite;}
+@keyframes zoom{
+    0%   { -webkit-transform: scale(1); }
+	50%  { -webkit-transform: scale(0.5); }
+	100% { -webkit-transform: scale(1); }
+}    
+#cheeeseCake .rules { width: 100%; padding-bottom: 38px; background-color: #f8e3e4; overflow: hidden; }
+#cheeeseCake .rules .title { position: relative; width: 1200px; height: 90px; margin: 0 auto; }
+#cheeeseCake .rules .title > img { position: absolute; top: 30px; left: 50%; width: 1920px; margin-left: -960px; }
+#cheeeseCake .rules .content { width: 1200px; margin: 0 auto; }
+#cheeeseCake .rules .content p { text-align: center; color: #927e76; line-height: 28px; }
+#cheeeseCake .rules .content p i { display: inline-block; width: 4px; height: 4px; background: #9c6247; vertical-align: middle; margin-right: 5px; }
+
+#mask-result { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; }
+#mask-result .result { position: absolute; top: 50%; left: 0; right: 0; width: 624px;  margin: auto;  z-index: 9999; overflow: hidden; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+#mask-result .result-info{position: relative;}
+#mask-result .result-info .input{width: 252px;height: 40px;position: absolute;left: 227px;top: 100px;}
+#mask-result .result-info .input > input{width: 145px;height: 40px;text-indent:20px;border-radius: 5px 0 0 5px;outline:none}
+#mask-result .result-info .input > a{display: block;position: absolute;top: 0;right: 0; width:107px;height: 43px;text-align: center;line-height: 43px;background: #9d686b;border-radius: 0 5px 5px 0;}
+#mask-result .result-info > input{width: 252px;height: 40px;position: absolute;left: 227px;top: 160px;border-radius: 5px;outline: none;text-indent: 20px;}
+#mask-result .result-info > p{position: absolute;left: 280px;top: 210px;color: #fd3939;}
+#mask-result .result-info > .button{width: 252px;height: 40px;position: absolute;left: 227px;top: 250px;background: #dfb4b7;text-align: center;line-height: 40px;color: white;border-radius: 5px;}
+#mask-result .result-info .close{display: block;width: 38px;height: 38px;position: absolute;right: 58px;top: 56px;border-radius: 50%;}
+
+#mask { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; display: none;}
+#mask .result { position: absolute; top: 50%; left: 0; right: 0; width: 624px;  margin: auto;  z-index: 9999; overflow: hidden; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+#mask .result-info{position: relative;}
+#mask .result-info .input{width: 252px;height: 40px;position: absolute;left: 227px;top: 100px;}
+#mask .result-info .input > input{width: 145px;height: 40px;text-indent:20px;border-radius: 5px 0 0 5px;outline:none}
+#mask .result-info .input > a{display: block;position: absolute;top: 0;right: 0; width:107px;height: 43px;text-align: center;line-height: 43px;background: #cccccc;border-radius: 0 5px 5px 0;}
+#mask .result-info > input{width: 252px;height: 40px;position: absolute;left: 227px;top: 160px;border-radius: 5px;outline: none;text-indent: 20px;}
+#mask .result-info > p{position: absolute;left: 280px;top: 210px;color: #fd3939;}
+#mask .result-info > .go-on{width: 97px;height: 40px;position: absolute;left: 227px;top: 250px;background: #f3c5c8;text-align: center;line-height: 40px;color: white;border-radius: 5px;}
+#mask .result-info > .button{width: 152px;height: 40px;position: absolute;left: 328px;top: 250px;background: #9d686b;text-align: center;line-height: 40px;color: white;border-radius: 5px;}
+#mask .result-info .close{display: block;width: 38px;height: 38px;position: absolute;right: 58px;top: 56px;border-radius: 50%;}
+
