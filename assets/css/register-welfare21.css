@@ -1,0 +1,39 @@
+/*#register-container { width: 100%; background: #fff; }*/
+#register-container { width: 100%; min-width: 1200px; max-width: 1920px; overflow: hidden; background: #fff; }
+#register-container img { width: 100%; }
+
+#register-container .banner { position: relative; width: 1200px; height: 744px; margin: 0 auto; }
+#register-container .banner-content { position: absolute; top: 0; left: -360px; width: 1920px; height: 744px; }
+
+#register-container .abs { position: absolute; }
+
+/* 登录、注册 */
+#register-container .content-login { top: 106px; right: 44px; width: 300px; height: 310px; background-color: #f0d7d3; border-radius: 5px; }
+#register-container .content-login .title { height: 90px; line-height: 90px; font-size: 22px; text-align: center; color: #404040; }
+.content-login ul { width: 256px; margin: 0 auto; }
+.content-login li { width: 100%; margin-bottom: 30px; border-radius: 4px; overflow: hidden; }
+.content-login li input { width: 100%; height: 38px; background-color: #fff; border: none; border-radius: 0; text-indent: 1em; font-size: 14px; line-height: 38px; }
+.content-login li .txt-mobile { float: left; width: 146px; }
+.content-login li .btn-vcode { float: left; display: inline-block; width: 110px; height: 38px; background-color: #da8287; font-size: 14px; line-height: 38px; color: #fff; text-align: center; }
+.content-login li .btn-get { display: block; width: 100%; height: 38px; background-color: #3b476c; font-size: 18px; line-height: 38px; color: #fff; text-align: center;  }
+
+#register-container .content-login .after .title { height: 110px; line-height: 110px; color: #e0424b; } 
+.content-login .after li { margin-bottom: 0; font-size: 16px; line-height: 28px; text-align: center; color: #404040; } 
+.content-login .after li .btn-ok { display: block; width: 100%; height: 38px; background-color: #3b476c; border-radius:4px; margin-top: 32px; font-size: 18px; line-height: 38px; color: #fff; text-align: center; }
+
+#register-container .btn-website { top: 0; right: 126px; width: 132px; height: 84px; -webkit-animation: 1.75s smooth infinite; animation: 1.75s smooth infinite; }
+#register-container .icon-logo { top: 24px; left: 26px; width: 128px; height: 48px; }
+#register-container .icon-flower { top: 32px; right: 16px; width: 84px; height: 102px; }
+#register-container .icon-text { bottom: 64px; left: 56px; width: 678px; height: 62px; }
+
+/* 呼吸灯样式  */
+@-webkit-keyframes smooth {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(1.1); }
+	100% { -webkit-transform: scale(1); }
+}
+@keyframes smooth {
+	0% { transform: scale(1); }
+	50% { transform: scale(1.1); }
+	100% { transform: scale(1); }
+}
