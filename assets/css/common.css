@@ -140,7 +140,7 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 .footer .footer-middle .order-flow .img img { width: 115px; height: 115px; padding: 5px; }
 .footer .footer-middle .order-flow .text { float: right; width: 308px; }
 .footer .footer-middle .order-flow .text h2 { font-size: 16px; font-weight: normal; color: #1d1d1d; padding-bottom: 7px; }
-.footer .footer-middle .order-flow .text p { font-size: 14px; color: #4f4f4f; line-height: 24px;width: 210px;margin-top: 40px; }
+.footer .footer-middle .order-flow .text p { font-size: 14px; color: #4f4f4f; line-height: 24px;width: 210px; }
 .footer .footer-middle .site-map { float: right; height: 169px; }
 .footer .footer-middle .site-map li { float: left; width: 146px; }
 .footer .footer-middle .site-map dl { width: 100%; }

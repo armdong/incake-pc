@@ -1,0 +1,26 @@
+.container { min-width: 1200px; max-width: 1920px;overflow: hidden;  }
+
+.sem-banner { position: relative; width: 1200px; height: 1212px; margin: 0 auto; }
+.sem-banner img { position: absolute; top: 0; left: 50%; width: 1920px; height: 1212px; margin-left: -960px; }
+
+.sem-banner .official{display: block;font-size: 22px;font-family: "微软雅黑"; position: absolute;right: 146px;top: 35px; width: 90px;height: 25px;color: #8f6429;
+animation: official 3s infinite;
+}
+@keyframes official{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+	50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.5); }
+	100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+} 
+.sem-banner .register p{font-family: "微软雅黑"; font-size: 22px; position: absolute;right: 135px;top: 195px;}
+.sem-banner .register .input{width: 255px;height: 40px;position: absolute;right: 65px;top: 245px;}
+.sem-banner .register .input input{width: 145px;height: 40px;line-height: 40px;text-indent: 20px;outline: none;overflow: hidden;border-radius: 5px 0 0 5px;}
+.sem-banner .register .input a{display: block;position: absolute;right: 0;top: 0; width: 110px;height: 44px;background-color: #99807f;line-height: 44px;text-align: center;color: #fff;border-radius: 0 5px 5px 0;}
+.sem-banner .register > input{width: 250px;height: 40px;position: absolute;right: 65px;top: 315px;line-height: 40px;text-indent: 20px;outline: none;border-radius: 5px;}
+.sem-banner .register > a{display: block;position: absolute;right: 64px;top: 390px; width: 255px;height: 44px;background-color: #3b476c;line-height: 44px;text-align: center;color: #fff;border-radius: 5px;}
+.sem-banner .register-complete{display: none;}
+.sem-banner .register-complete .complete{font-size: 22px; font-family: "微软雅黑"; position: absolute;right: 135px;top: 195px;color: #e0424b;}
+.sem-banner .register-complete .reminder{font-size: 16px; font-family: "微软雅黑"; position: absolute;right: 95px;top: 230px;text-align:center ;}
+.sem-banner .register-complete .reminder p{margin: 15px 0 ;}
+.sem-banner .register-complete a{display: block;position: absolute;right: 64px;top: 390px;font-size: 18px; font-family: "微软雅黑"; width: 255px;height: 44px;background-color: #3b476c;line-height: 44px;text-align: center;color: #fff;border-radius: 5px;}
+
+
