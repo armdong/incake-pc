@@ -215,3 +215,11 @@
 .main-body .operation .gaw-section > ul li.active { border-color: #ea545d; color: #ea545d; }
 .main-body .operation .gaw-section > ul li.active:after { width: 30px; height: 30px; position: absolute; right: -1px; bottom: -1px; content: url(../img/detail/btn_pound_bg.png); }
 .main-body .operation .pound-btns .btn-pound { display: block; width: 100%; height: 100%; color: inherit; }
+
+.main-body .operation .gaw-container { position: relative; }
+.main-body .operation .gaw-container .wap-detail { display: block; position: absolute; top: -60px; right: 20px; width: 120px; height: 40px; cursor: pointer; }
+.main-body .operation .gaw-container .wap-detail .icon-phone { float: left; display: inline-block; width: 26px; height: 40px; background: url('../img/detail/icon_phone.png') no-repeat; background-size: cover; }
+.main-body .operation .gaw-container .wap-detail .txt { float: right; position: relative; top: 22px; color: #ea545d; font-size: 12px; vertical-align: bottom; margin-left: 5px; }
+.main-body .operation .gaw-container .wap-detail .wap-qrcode { display: none; position: absolute; top: 46px; left: -6px; width: 140px; height: 140px; border: 1px solid #b4b4b4; }
+.main-body .operation .gaw-container .wap-detail .wap-qrcode img { width: 120px; height: 120px; border: 10px solid #fff; }
+.main-body .operation .gaw-container .wap-detail:hover .wap-qrcode { display: block; }
