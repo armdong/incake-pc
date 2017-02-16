@@ -1,0 +1,37 @@
+#halfPrice {  min-width: 1200px;max-width: 1920px; overflow: hidden;  }
+.half-wrapper .banner { position: relative; width: 1920px;height: 2492px;  background: url('../img/half-price-pisces/banner.png') no-repeat; }
+.btn-buy01,.btn-buy02,.btn-buy03,.btn-buy04{display: block;width: 158px;height: 43px;background: url("../img/half-price-pisces/btn.png") no-repeat;position: absolute;}
+.half-wrapper .banner .btn-buy01{bottom: 765px;left: 475px;}
+.half-wrapper .banner .btn-buy02{bottom: 765px;left: 710px;}
+.half-wrapper .banner .btn-buy03{bottom: 295px;left: 1065px;}
+.half-wrapper .banner .btn-buy04{bottom: 295px;left: 1300px;}
+
+.half-wrapper .banner .message{position: absolute; left: 1124px;bottom:0px;width: 155px;height: 140px;background: url("../img/half-price-pisces/message.png") no-repeat;
+animation: message 4s infinite;transform-origin: right bottom; 
+}
+@keyframes message
+{
+	from {transform: scale(1);-webkit-transform: scale(1);}
+	50% {transform: scale(.5);-webkit-transform: scale(.5);}
+	to {transform: scale(1);-webkit-transform: scale(1);}
+}
+.half-wrapper .banner .pices{position: absolute;left: 1265px;bottom: -90px;width: 230px;height: 190px;background: url("../img/half-price-pisces/pisces.png") no-repeat;}
+
+.half-pisces { max-width:1920px;height: 414px; background: url("../img/half-price-pisces/banner-footer.png") no-repeat; font-size: 18px;}
+.half-pisces dt{padding-top: 50px;}
+.half-pisces dl { width: 1920px; margin: 0 auto; text-align: center;  }
+.half-pisces dd { line-height: 24px;margin: 12px 0; }
+.half-pisces .first{margin-top: 45px;}
+
+.container .frm-container { width: 100%; background-color: #425670; }
+.container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+.container .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 10px; }
+.container .frm-register > h2 { line-height: 48px; font-size: 24px; font-weight: 400; color: #b13a41; text-align: center; }
+.container .frm-register > ul { width: 100%; }
+.container .frm-register li { float: left; margin-right: 49px; }
+.container .frm-register li.last { margin-right: 0; }
+.container .frm-register li input { width: 282px; height: 42px; line-height: 42px; outline: none; font-size: 16px; color: #505050; padding-left: 66px; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+.container .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+.container .frm-register li .txt-vcode { background-image: url('../img/half-price/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+.container .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 42px; margin-left: -1px; line-height: 42px; text-align: center; color: #fff; font-size: 16px; background: #aa4e54; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+.container .frm-register li .btn-quick-register { display: block; width: 354px; height: 42px; line-height: 42px; font-size: 16px; text-align: center; color: #fff; background-color: #aa4e54; border-radius: 10px; }
