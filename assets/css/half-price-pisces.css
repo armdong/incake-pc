@@ -1,12 +1,16 @@
-#halfPrice {  min-width: 1200px;max-width: 1920px; overflow: hidden;  }
-.half-wrapper .banner { position: relative; width: 1920px;height: 2492px;  background: url('../img/half-price-pisces/banner.png') no-repeat; }
-.btn-buy01,.btn-buy02,.btn-buy03,.btn-buy04{display: block;width: 158px;height: 43px;background: url("../img/half-price-pisces/btn.png") no-repeat;position: absolute;}
-.half-wrapper .banner .btn-buy01{bottom: 765px;left: 475px;}
-.half-wrapper .banner .btn-buy02{bottom: 765px;left: 710px;}
-.half-wrapper .banner .btn-buy03{bottom: 295px;left: 1065px;}
-.half-wrapper .banner .btn-buy04{bottom: 295px;left: 1300px;}
+.container { min-width: 1200px; max-width: 1920px; overflow: hidden; }
 
-.half-wrapper .banner .message{position: absolute; left: 1124px;bottom:0px;width: 155px;height: 140px;background: url("../img/half-price-pisces/message.png") no-repeat;
+#register-container .banner { width: 100%; background-color: #f5f8fb; }
+#register-container .banner-content { position: relative; width: 1200px; height: 2906px; margin: 0 auto; }
+#register-container .banner-content img { position: absolute; top: 0; left: 50%; width: 1920px; height: 2906px; margin-left: -960px; }
+
+.btn-buy01,.btn-buy02,.btn-buy03,.btn-buy04{display: block;width: 158px;height: 43px;background: url("../img/half-price-pisces/btn.png") no-repeat;position: absolute;}
+ .btn-buy01{bottom: 1185px;left: 115px;}
+.btn-buy02{bottom: 1185px;left: 350px;}
+.btn-buy03{bottom: 720px;left: 710px;}
+ .btn-buy04{bottom: 720px;left: 940px;}
+
+ .message{position: absolute; left: 775px;bottom:430px;width: 155px;height: 140px;background: url("../img/half-price-pisces/message.png") no-repeat;
 animation: message 4s infinite;transform-origin: right bottom; 
 }
 @keyframes message
@@ -17,11 +21,10 @@ animation: message 4s infinite;transform-origin: right bottom;
 }
 .half-wrapper .banner .pices{position: absolute;left: 1265px;bottom: -90px;width: 230px;height: 190px;background: url("../img/half-price-pisces/pisces.png") no-repeat;}
 
-.half-pisces { max-width:1920px;height: 414px; background: url("../img/half-price-pisces/banner-footer.png") no-repeat; font-size: 18px;}
-.half-pisces dt{padding-top: 50px;}
-.half-pisces dl { width: 1920px; margin: 0 auto; text-align: center;  }
+.half-pisces {position: absolute;bottom: 20px;left: 50%;margin-left: -960px; width:1920px; font-size: 18px;}
+.half-pisces dl { margin: 0 auto; text-align: center;  }
 .half-pisces dd { line-height: 24px;margin: 12px 0; }
-.half-pisces .first{margin-top: 45px;}
+.half-pisces .first{margin-top: 50px;}
 
 .container .frm-container { width: 100%; background-color: #425670; }
 .container .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }

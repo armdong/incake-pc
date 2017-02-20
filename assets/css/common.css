@@ -62,7 +62,7 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 .header .content { width: 100%; padding: 8px 0 17px; position: relative; }
 .header .content .logo { float: left; display: block; width: 180px; height: 64px; }
 .header .content .logo img { width: 100%; }
-.header .content .nav { height: 47px; position: absolute; right: 0; bottom: 4px; }
+.header .content .nav { height: 47px; position: absolute; right: 20px; bottom: 4px; }
 .header .content .item { width: 140px; height: 100%; float: left; margin-right: 20px; position: relative; border-bottom: 4px solid #fff; }
 .header .content .item.active,
 .header .content .item:hover { border-bottom: 4px solid #0f3677; }
@@ -140,7 +140,7 @@ body { width: 100%; font-size: 14px; font-family: "Arial","微软雅黑"; backgr
 .footer .footer-middle .order-flow .img img { width: 115px; height: 115px; padding: 5px; }
 .footer .footer-middle .order-flow .text { float: right; width: 308px; }
 .footer .footer-middle .order-flow .text h2 { font-size: 16px; font-weight: normal; color: #1d1d1d; padding-bottom: 7px; }
-.footer .footer-middle .order-flow .text p { font-size: 14px; color: #4f4f4f; line-height: 24px;width: 210px; }
+.footer .footer-middle .order-flow .text p { font-size: 14px; color: #4f4f4f; line-height: 24px;width: 210px;margin-top: 40px; }
 .footer .footer-middle .site-map { float: right; height: 169px; }
 .footer .footer-middle .site-map li { float: left; width: 146px; }
 .footer .footer-middle .site-map dl { width: 100%; }
