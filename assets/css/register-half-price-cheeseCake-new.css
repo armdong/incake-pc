@@ -1,0 +1,25 @@
+.container { min-width: 1200px; max-width: 1920px; overflow: hidden; }
+#cheeeseCake .banner { width: 100%;background: #f7f6fb; }
+#cheeeseCake .banner-content { position: relative; width: 1200px;  margin: 0 auto;}
+#cheeeseCake .banner .btn{position: absolute;left: 650px;bottom: 235px;width: 274px;height: 58px; background: url("../img/register-queen-cheese-new/btn.png") no-repeat;}
+
+   
+#cheeeseCake .rules { width: 100%;overflow: hidden; position: relative;}
+#cheeeseCake .rules .title { position: relative; width: 1200px; height: 305px; margin: -30px auto; }
+#cheeeseCake .rules .title > img { position: absolute; top: 30px; left: 50%; width: 1920px; margin-left: -960px; }
+#cheeeseCake .rules .content { position: absolute; top: 70px; left: 50%; width: 1920px; margin-left: -960px; line-height: 28px;text-align: center;color: #f7f6fb;}
+#cheeeseCake .rules .content dt{font-size: 22px;padding-bottom: 15px;}
+
+
+#cheeeseCake .frm-container { width: 100%; background-color: #425670; }
+#cheeeseCake .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#cheeeseCake .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#cheeeseCake .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#cheeeseCake .frm-register > ul { width: 100%; }
+#cheeeseCake .frm-register li { float: left; margin-right: 49px; }
+#cheeeseCake .frm-register li.last { margin-right: 0; }
+#cheeeseCake .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#cheeeseCake .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price-valentine/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#cheeeseCake .frm-register li .txt-vcode { background-image: url('../img/half-price-valentine/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#cheeeseCake .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#cheeeseCake .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }

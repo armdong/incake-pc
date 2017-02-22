@@ -110,6 +110,7 @@ input[type="number"]{
 #register-container .frm-register li input { width: 348px; height: 40px; line-height: 40px; outline: none; font-size: 16px; color: #505050; text-indent: 20px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
 #register-container .frm-register li .txt-mobile { float: left; width: 218px; border-radius: 10px 0 0 10px;  }
 #register-container .frm-register li .btn-vcode { float: left; display: block; width: 179px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size: 16px; background: #af3b4d; border: 1px solid #ccc; border-left: 0; border-radius: 0 10px 10px 0; }
+.txt-vcode{*margin-left: -70px;}
 #register-container .frm-register li .btn-quick-register { display: block; width: 350px; height: 42px; line-height: 42px; font-size: 16px; color: #fff; background-color: #af3b4d; border-radius: 10px; }
 
 /* mask-redirect begin */
