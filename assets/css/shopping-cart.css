@@ -60,6 +60,8 @@ background: url(../img/shopping-cart/cart_icons_bg.png) no-repeat; position: rel
 .shopping-cart-wrapper .section-body .b-attr .text .cut { color: #b4b4b4; }
 .shopping-cart-wrapper .section-body .b-attr .text .cut i { width: 17px; height: 17px; display: inline-block; background: url(../img/shopping-cart/section_body_cut_bg.png) no-repeat; position: relative; top: 4px; right: 5px; cursor: pointer; }
 .shopping-cart-wrapper .section-body .b-attr .text .cut i.checked { background: url(../img/shopping-cart/section_body_cut_checked_bg.png) no-repeat; }
+.shopping-cart-wrapper .section-body .b-attr .text .cake-tip { width: 70px; height: 20px; border: 1px solid #e69b4f; margin-top: 6px; line-height: 20px; color: #e69b4f; }
+.shopping-cart-wrapper .section-body .b-attr .text .tip-text { color:#ea545d; } 
 
 .shopping-cart-wrapper .section-body .body-item .b-price { width: 124px; }
 .shopping-cart-wrapper .section-body .b-price .text { width: 100%; height: 100%; display: table; }
