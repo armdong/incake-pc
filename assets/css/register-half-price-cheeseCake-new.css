@@ -1,4 +1,4 @@
-.container { min-width: 1200px; max-width: 1920px; overflow: hidden; }
+.container { min-width: 1200px; max-width: 1920px; overflow: hidden;margin: 0 auto; }
 #cheeeseCake .banner { width: 100%;background: #f7f6fb; }
 #cheeeseCake .banner-content { position: relative; width: 1200px;  margin: 0 auto;}
 #cheeeseCake .banner .btn{position: absolute;left: 650px;bottom: 235px;width: 274px;height: 58px; background: url("../img/register-queen-cheese-new/btn.png") no-repeat;}

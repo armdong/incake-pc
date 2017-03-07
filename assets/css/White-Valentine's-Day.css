@@ -1,0 +1,17 @@
+.container { min-width: 1200px; max-width: 1920px; overflow: hidden;margin: 0 auto;}
+
+#register-container .banner { width: 100%; }
+#register-container .banner-top { position: relative; width: 1200px; height:1070px; margin: 0 auto; }
+#register-container .banner-top img { position: absolute; top: 0; left: 50%; width: 1920px; height: 1070px; margin-left: -960px; }
+#register-container .banner-fotter{width: 1200px;margin: 0 auto;}
+
+#register-container .message{display: block;width: 220px;height: 155px;background: url("../img/White-Valentine's-Day/message.png") no-repeat;position: absolute;left: 950px;bottom: 245px;
+animation: message 4s infinite;transform-origin:left bottom; 
+}
+@keyframes message
+{
+	from {transform: scale(1);-webkit-transform: scale(1);}
+	50% {transform: scale(.5);-webkit-transform: scale(.7);}
+	to {transform: scale(1);-webkit-transform: scale(1);}
+}
+#register-container .QR-code{display: block;width: 365px;height: 260px;background: url("../img/White-Valentine's-Day/QR-code.png") no-repeat;position: fixed;right: 50px;bottom: 50px;}

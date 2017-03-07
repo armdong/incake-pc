@@ -1,0 +1,118 @@
+a{text-decoration: none;overflow: hidden;}
+ul{list-style: none;}
+.wrapper { width: 100%; background: inherit; min-width: 1200px; max-width: 1920px;overflow: hidden; margin: 0 auto; }
+.page-header { width: 100%;height: 60px; position: relative; }
+.page-header .header-wrapper { width: 1200px;height: 60px; margin: 0 auto; position: relative; }
+.page-header .header-wrapper img{margin-top: 3px;}
+.page-header .header-wrapper span{position: absolute;left: 166px;top: 27px; color: #0f3677;}
+.page-header .header-wrapper a{display: block;position: absolute;top: 10px;right: 36px;background:#e89300 ;border-radius: 5px; font-size: 20px;color: #fff; width: 208px;height: 40px;text-align: center;line-height: 40px;}
+
+
+
+
+.page-container { width: 100%; }
+#register-container .banner { width: 100%; overflow: hidden; }
+#register-container .banner-content { position: relative; width: 1200px; height: 600px; margin: 0 auto;  }
+#register-container .banner-content img { position: absolute; top: 0; left: 50%; width: 1920px; height: 600px; margin-left: -960px; }
+
+#register-container .feature { width: 100%;height: 110px;  background-color: #e89300; overflow: hidden; }
+#register-container .feature .title {  width: 1200px;height: 148px; margin: 0 auto; }
+#register-container .feature .content { width: 1200px; margin: 0 auto;height: 148px; }
+#register-container .feature .content li {display: block; float: left; width: 330px;border-right: 1px solid #fff;margin-top: 12px;}
+#register-container .feature .content li.material {  margin-right: 80px; }
+#register-container .feature .content li.cut { margin-right: 80px; }
+#register-container .feature .content li .img { float: left;margin-top: 25px; width: 62px; height: 62px; background: url('../img/register-welfare24/icons_feature.png') no-repeat; }
+#register-container .feature .content li.material .img { background-position: 0 0; }
+#register-container .feature .content li.cut .img { background-position: -62px -5px; }
+#register-container .feature .content li.discount .img { background-position: -124px 0; }
+#register-container .feature .content li.transport .img { background-position: -126px 0; }
+#register-container .feature .content li .text { float: left; width: 140px; margin-left: 10px; color: #fff; }
+#register-container .feature .content li .text p{ font-size: 24px; line-height: 16px;width: 250px;margin-top: 45px; }
+
+
+#register-container .hot-product { width: 100%;height: 52px; overflow: hidden; background-color: #ffaa18; }
+
+#register-container .hot-product .content,.tab-nav { width: 1200px; margin: 0 auto; overflow: hidden;}
+#register-container .hot-product li{float: left;height: 52px; line-height: 52px;color: #fef8f8;font-size: 18px;position: relative;width: 400px;}
+#register-container .hot-product .content .tab-nav .character01,.character02,.character03{font-size: 30px;}
+#register-container .hot-product .content .tab-nav .li-one .span-register{position: absolute;top: 3px;left: 36px;width: 50px;}
+#register-container .hot-product .content .tab-nav .greater-than01,.greater-than02,.greater-than03{display: inline-block; width: 21px;height: 42px; background: url("../img/register-welfare24/greater-than.png") no-repeat;}
+.greater-than01{position: absolute;left:80px;top:14px;}
+#register-container .hot-product .content .tab-nav .li-one .register{position: absolute;top: 3px;left: 105px;width: 200px;}
+.character02{position: absolute;left: 10px;top: 0px;}
+.greater-than02{position: absolute;left: 85px;top: 14px;}
+#register-container .hot-product .content .tab-nav .li-two .span-orders{position: absolute;top: 3px;left: 42px;width: 50px;}
+#register-container .hot-product .content .tab-nav .li-two .orders{position: absolute;top: 3px;left: 105px;width: 200px;}
+
+.character03{position: absolute;left: 20px;top: 0px;}
+#register-container .hot-product .content .tab-nav .li-three .span-distribution{position: absolute;top: 3px;left: 55px;width: 50px;}
+.greater-than03{position: absolute;left: 95px;top: 14px;}
+#register-container .hot-product .content .tab-nav .li-three  .distribution{position: absolute;top: 3px;left: 120px;width: 200px;}
+
+
+
+
+#register-container .rules { width: 100%;height: 1818px; overflow: hidden; background: url("../img/register-welfare24/shading.png");}
+#register-container .rules .title { position: relative; width: 1200px; height: 1818px; margin: 0 auto;}
+#register-container .rules img{}
+
+
+.content03 {width: 100%;height: 340px; margin: 0 auto; background: #e89300;padding-bottom: 160px;}
+.content03 .dl{width: 1200px;margin: 0 auto;height: 310px;position: relative;color: #fff;}
+.content03 > dl { text-align: center; line-height: 34px;}
+.content03 dl > dt{padding-top: 50px;font-size: 24px;}
+.content03 dl > dd{margin: 20px 50px;font-size: 18px;}
+
+
+#register-container .frm-container { width: 100%;height: 143px; background-color: #6e492d;position: fixed; bottom: 0; left: 0; }
+#register-container .frm-register { width: 1200px; margin: 0 auto; padding: 20px 0; }
+#register-container .frm-register > ul { width: 100%; margin: 0 auto;}
+#register-container .frm-register li{float: left;display: inline-block;}
+#register-container .frm-register .first,.last {  width: 285px;height: 103px;position: relative;}
+#register-container .frm-register .first{margin-left: 170px;background: url("../img/register-welfare24/Margery.png") no-repeat;}
+#register-container .frm-register .vcode{ width: 248px;height: 103px; background: url("../img/register-welfare24/Second.png") no-repeat;}
+#register-container .frm-register .last{background: url("../img/register-welfare24/cheese.png") no-repeat;}
+#register-container .frm-register a{display: block;width: 65px;height: 18px;position:absolute;bottom: 17px;left: 202px;}
+
+
+
+#mask-register { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999;display: none;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+#mask-register .register { position: absolute; top: 50%; left: 50%;margin-top: -175px;margin-left: -160px; width: 380px;height: 395px;background: #fff;border-radius: 5px;  z-index: 9999; overflow: hidden;  }
+#mask-register .register-content{position: relative;text-align: center;}
+#mask-register .register-content p{color: #ff0000;font-size: 24px;margin-top: 55px;}
+#mask-register .register-content .phone,.verification{width: 315px;height: 35px;position: relative;margin: 0 auto;}
+#mask-register .register-content .phone{margin-top: 50px;border-bottom: 3px solid #ddd;}
+#mask-register .register-content .phone input{width: 315px;height: 35px;position: absolute;left: 0;top: 0;border: none;outline: none;}
+#mask-register .register-content .phone a{display: block; width: 130px;height: 35px;position: absolute;right: 0;top: 0;line-height: 35px;text-align: center;background: #e9546b;color: #fff;border-radius: 5px;}
+#mask-register .register-content .verification{margin-top: 35px;}
+#mask-register .register-content .verification input{width: 315px;height: 35px;border: none;outline: none;border-bottom: 3px solid #ddd;}
+#mask-register .register-content .confirm{display: block;width: 315px;height: 40px;background: #e9546b;color: #fff;text-align: center;line-height: 40px;margin: 50px auto;border-radius: 5px;}
+#mask-register .delete{display: block; width: 35px;height: 35px;border-radius: 50%;text-align: center;line-height: 35px;border: 2px solid red;font-size: 25px;position: absolute;right: 15px;top: 15px;}
+
+#mask-register .register-content input:focus
+{
+	border-bottom: 3px solid #e9546b;
+}
+/* mask-redirect end */
+
+#mask-result { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; display: none;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+#mask-result .result { position: absolute; top: 50%; left: 50%;margin-left: -188px;margin-top: -154px; width: 377px;height: 308px;background: #fff;border-radius: 5px;    z-index: 9999; overflow: hidden; }
+#mask-result .result-content{position: relative;text-align: center;}
+#mask-result .result-content p:first-child{color: #ff0000;font-size: 24px;margin-top: 75px;}
+#mask-result .result-content p:nth-of-type(2),p:nth-of-type(3){color: #ff0000;font-size: 19px;margin-top: 10px;}
+#mask-result .result-content a{display: block;width: 175px;height: 40px;text-align: center;line-height: 40px;background: #e9546b;margin: 30px 100px;color: #fff;border-radius: 5px;}
+#mask-result .result-content p:last-child{margin-top: -15px;}
+#mask-result .delete{display: block; width: 35px;height: 35px;border-radius: 50%;text-align: center;line-height: 35px;border: 2px solid red;font-size: 25px;position: absolute;right: 15px;top: 15px;}
+
+
+#shade { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; display: none;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+#shade .shade-result { position: absolute; top: 50%; left: 50%;margin-left: -188px;margin-top: -154px; width: 377px;height: 308px;background: #fff;border-radius: 5px;    z-index: 9999; overflow: hidden;  }
+#shade .result-content{position: relative;text-align: center;}
+#shade .result-content p:first-child{color: #ff0000;font-size: 19px;margin-top: 75px;}
+#shade .result-content p:nth-of-type(2){color: #ff0000;font-size: 19px;margin-top: 10px;}
+#shade .result-content a{display: block;width: 175px;height: 40px;text-align: center;line-height: 40px;background: #e9546b;margin: 30px 100px;color: #fff;border-radius: 5px;}
+#shade .result-content p:last-child{margin-top: -15px;}
+#shade .delete{display: block; width: 35px;height: 35px;border-radius: 50%;text-align: center;line-height: 35px;border: 2px solid red;font-size: 25px;position: absolute;right: 15px;top: 15px;}
+
+
+.Margery_p,.cheese_p{display: none;}
