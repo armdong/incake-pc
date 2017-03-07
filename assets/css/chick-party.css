@@ -1,7 +1,7 @@
 #capricornus { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f3f2f3; }
 #capricornus .capricornus-container { width: 1200px; margin: 0 auto; }
 
-.capricornus-container .banner { position: relative; width: 100%; height: 1885px; background: url('../img/chick-party/banner.png') no-repeat; }
+.capricornus-container .banner { position: relative; width: 100%; height: 1885px; background: url('../img/chick-party/banner.jpg') no-repeat; }
 .capricornus-container .banner #animation{width: 293px;height: 234px;background: url('../img/chick-party/animation.png') no-repeat;position: absolute;left: 57px;top: 132px;}
 .capricornus-container .banner .btn-buy { position: absolute; bottom: 640px; left: 185px; display: block; width: 330px; height: 64px; background: url('../img/chick-party/btn_buy.png') no-repeat; }
 .capricornus-container .banner .fruit{position: absolute; bottom: 606px; left: 478px; display: block; width: 140px; height: 104px; background: url('../img/chick-party/fruit.png') no-repeat;}
