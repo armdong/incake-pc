@@ -14,7 +14,8 @@
 /* banner end */
 
 /* cake container begin */
-.container .cake-container { width: 1100px; margin: 0 auto; }
+.container .cake-container { position: relative; width: 1100px; margin: 0 auto; }
+.container .cake-container .ali { position: absolute; top: -185px; right: -30px; display: block; width: 194px; height: 203px; z-index: 99999; }
 .cake-container .cake-section { width: 100%; margin-top: 64px; }
 .cake-container .cake-section.rec-section { margin-top: 20px; }
 .cake-container .section-title { position: relative; width: 100%; }
