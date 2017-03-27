@@ -1,14 +1,14 @@
 ﻿#sakura { width: 100%; max-width: 1920px; min-width: 1200px; margin: 0 auto; overflow: hidden; }
 .sakura-container { width: 100%; background: url('../img/sakura/container_bg.jpg'); }
 .sakura-container .content { width: 1200px; margin: 0 auto; }
-.sakura-container .content .banner { position: relative; width: 100%; height: 1753px; background: url('../img/sakura/container.png') no-repeat; }
+.sakura-container .content .banner { position: relative; width: 100%; height: 1753px; background: url('../img/sakura/container.jpg') no-repeat; }
 .sakura-container .content .banner .butterfly { position: absolute; top: 422px; left: 182px; width: 157px; height: 142px; background: url('../img/sakura/hd.gif') no-repeat; }
 .sakura-container .content .desc { position: relative; width: 100%; height: 527px; background: url('../img/sakura/desc_bg.png') no-repeat; }
 .sakura-container .content .desc .btn-buy { display: block; position: absolute; top: 0; left: 50%; width: 155px; height: 155px; margin-left: -78px; background: url('../img/sakura/btn_buy.png') no-repeat; border-radius: 50%; }
 .sakura-container .content .desc .btn-buy span { display: block; position: absolute; top: -22px; right: -75px; width: 118px; height: 128px; background: url('../img/sakura/btn_buy_flower.png') no-repeat; }
 
 .sakura-rule { width: 100%; background-color: #de4f51; }
-.sakura-rule dl { width: 1200px; height: 270px; margin: 0 auto; background: url('../img/sakura/rule_bg.png') no-repeat; background-size: 378px 244px; background-position: top 0 right 23px; color: #fff; }
+.sakura-rule dl { width: 1200px; height: 270px; margin: 0 auto; background: url('../img/sakura/rule_bg.jpg') no-repeat; color: #fff; }
 .sakura-rule dt { padding-top: 23px; margin-left: 113px; font-size: 20px; line-height: 50px; }
 .sakura-rule dd { margin-left: 113px; font-size: 16px; line-height: 30px; }
 .sakura-rule dd span { color: #edc150; }
