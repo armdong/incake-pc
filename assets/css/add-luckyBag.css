@@ -1,0 +1,39 @@
+#luckyBag { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background:url("../img/add-luckyBag/shade.jpg"); }
+#luckyBag .luckyBag-container { width: 1200px; margin: 0 auto; }
+.luckyBag-container .banner { position: relative; width: 100%; height: 1690px; background: url('../img/add-luckyBag/banner.png') no-repeat; }
+.luckyBag-container .banner .btn-buy { position: absolute; bottom: 100px; left: 493px; display: block;width: 330px;height: 136px;background: url("../img/add-luckyBag/buy.png") no-repeat;  }
+.luckyBag-container .banner .blink01,.blink02{display: block;width: 250px;height: 200px;}
+.luckyBag-container .banner .blink01{position: absolute;left: 150px;top: 440px;background: url("../img/add-luckyBag/blink01.gif") no-repeat;z-index: 9999;}
+.luckyBag-container .banner .blink02{position: absolute;left: 835px;bottom: 150px;background: url("../img/add-luckyBag/blink02.gif") no-repeat;}
+.luckyBag-container .banner .love-red{display: block;width: 645px;height: 440px;background: url("../img/add-luckyBag/cake.png") no-repeat;position: absolute;left: 335px;top: 225px;animation:cake 1s;
+-webkit-animation:cake 1s; }
+@keyframes cake
+{
+	0%   {left: 335px;top: 200px}
+	100% {left: 335px;top: 225px}
+}
+
+@-webkit-keyframes cake /* Safari and Chrome */
+{
+	0%   {left: 335px;top: 200px}
+	100% {left: 335px;top: 225px}
+}
+
+#luckyBag .luckyBag-rule { width: 100%; background-color: #5c5c5c;}
+#luckyBag .luckyBag-rule .text-rule { width: 1200px; margin: 0 auto; padding: 36px 0; color: #fff; }
+#luckyBag .luckyBag-rule dl{width: 600px;height: 230px;margin-left: 300px;}
+#luckyBag .luckyBag-rule dt { font-size: 18px; line-height: 24px;text-align: center; margin-bottom: 15px;}
+#luckyBag .luckyBag-rule dd { font-size: 16px; line-height: 30px; text-align: left; }
+
+#luckyBag .frm-container { width: 100%; background-color: #425670; }
+#luckyBag .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+#luckyBag .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#luckyBag .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#luckyBag .frm-register > ul { width: 100%; }
+#luckyBag .frm-register li { float: left; margin-right: 49px; }
+#luckyBag .frm-register li.last { margin-right: 0; }
+#luckyBag .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#luckyBag .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/add-luckyBag/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#luckyBag .frm-register li .txt-vcode { background-image: url('../img/add-luckyBag/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#luckyBag .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#luckyBag .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }
