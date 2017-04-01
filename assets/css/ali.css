@@ -7,5 +7,5 @@
 #ali .content .btn-buy {display: block; position: absolute; top: 451px; right: 104px; width: 212px; height: 201px; background: url('../img/ali/buy_bg.png') no-repeat; background-size: cover; }
 #ali .rule { width: 100%; background-color: #f8b018; background-image: url('../img/ali/rule_bg.png'); background-position: top left; background-repeat: repeat-x; }
 #ali .rule dl { width: 1200px; height: 312px; margin: 0 auto; color: #fff; font-family: "Microsoft Yahei"; text-align: center; }
-#ali .rule dt { font-size: 38px; padding: 50px 0 15px; }
-#ali .rule dd { font-size: 20px; line-height: 30px; }
+#ali .rule dt { font-size: 24px; padding: 50px 0 15px; }
+#ali .rule dd { font-size: 14px; line-height: 30px; }
