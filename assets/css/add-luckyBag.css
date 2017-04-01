@@ -5,7 +5,7 @@
 .luckyBag-container .banner .blink01,.blink02{display: block;width: 250px;height: 200px;}
 .luckyBag-container .banner .blink01{position: absolute;left: 150px;top: 440px;background: url("../img/add-luckyBag/blink01.gif") no-repeat;z-index: 9999;}
 .luckyBag-container .banner .blink02{position: absolute;left: 835px;bottom: 150px;background: url("../img/add-luckyBag/blink02.gif") no-repeat;}
-.luckyBag-container .banner .love-red{display: block;width: 645px;height: 440px;background: url("../img/add-luckyBag/cake.png") no-repeat;position: absolute;left: 335px;top: 225px;animation:cake 1s;
+.luckyBag-container .banner .love-red{ width: 645px;height: 440px;background: url("../img/add-luckyBag/cake.png") no-repeat;position: absolute;left: 335px;top: 225px;animation:cake 1s;
 -webkit-animation:cake 1s; }
 @keyframes cake
 {

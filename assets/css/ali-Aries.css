@@ -1,0 +1,10 @@
+#aries { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden;  }
+.aries-container .banner { position: relative; width: 1200px;margin: 0 auto; height: 2245px;  }
+.aries-container .banner img{position: absolute;left: 50%;top: 0;margin-left: -960px;}
+.aries-container .banner .btn{position: absolute;left: 786px;bottom:770px;display:block;width: 226px;height: 57px;background:url("../../assets/img/ali-Aries/btn.png") no-repeat;}
+.aries-container .banner  .ali{position: absolute;left: 100px;bottom: -130px;display: block;width: 273px;height: 405px;background: url("../../assets/img/ali-Aries/ali.png") no-repeat;}
+
+#aries .aries-rule { width: 100%; background-color: #fff; }
+#aries .aries-rule .text-rule{width: 1200px;height: 160px; margin: 0 auto;text-align: center;color: #fe95ae;}
+#aries .aries-rule .text-rule p{padding-bottom: 15px;}
+#aries .aries-rule .text-rule .first-p{margin-top: 50px;}

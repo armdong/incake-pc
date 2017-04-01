@@ -103,13 +103,6 @@ input[type="number"]{
 #register-container .rules .rules-center .buy-foot{position: absolute;left: 415px;bottom: 94px;}
 
 
-
-
-
-
-
-
-
 .content03 {width: 100%;height: 348px; margin: 0 auto; background: #f0ece0;padding-bottom: 140px;}
 .content03 .dl{width: 1200px;margin: 0 auto;height: 310px;position: relative;}
 .content03 > dl { text-align: left; line-height: 34px;}
@@ -174,6 +167,23 @@ input[type="number"]{
 #shade .result-content p:last-child{margin-top: -15px;}
 #shade .delete{display: block; width: 35px;height: 35px;border-radius: 50%;text-align: center;line-height: 35px;border: 2px solid red;font-size: 30px;position: absolute;right: 15px;top: 15px;}
 
+#mask-register { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999;display: none;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+#mask-register .register { position: absolute; top: 50%; left: 50%;margin-top: -175px;margin-left: -160px; width: 380px;height: 395px;background: #fff;border-radius: 5px;  z-index: 9999; overflow: hidden;  }
+#mask-register .register-content{position: relative;text-align: center;}
+#mask-register .register-content p{color: #ff0000;font-size: 24px;margin-top: 55px;}
+#mask-register .register-content .phone,.verification{width: 315px;height: 35px;position: relative;margin: 0 auto;}
+#mask-register .register-content .phone{margin-top: 50px;border-bottom: 1px solid #ddd;}
+#mask-register .register-content .phone input{width: 315px;height: 35px;position: absolute;left: 0;top: 0;border: none;outline: none;}
+#mask-register .register-content .phone a{display: block; width: 130px;height: 35px;position: absolute;right: 0;top: 0;line-height: 35px;text-align: center;background: #e9546b;color: #fff;border-radius: 5px;}
+#mask-register .register-content .verification{margin-top: 35px;}
+#mask-register .register-content .verification input{width: 315px;height: 35px;border: none;outline: none;border-bottom: 1px solid #ddd;}
+#mask-register .register-content .confirm{display: block;width: 315px;height: 40px;background: #e9546b;color: #fff;text-align: center;line-height: 40px;margin: 50px auto;border-radius: 5px;}
+#mask-register .delete{display: block; width: 35px;height: 35px;border-radius: 50%;text-align: center;line-height: 35px;border: 3px solid red;font-size: 25px;position: absolute;right: 15px;top: 15px;}
+
+
+#mask-register .register-content span{position: absolute;bottom: 0;left: 0;display: inline-block;max-width: 100%;width: 100%;height: 2px;border-bottom: 1px solid #d9d9d9;}
+#mask-register .register-content span:after{content: "";position: absolute;bottom: 0;left: 0;width: 100%;height: 2px;background:#e9546b;transform: scale(0);transition: all .2s ease-out;}
+#mask-register .register-content input:focus+span:after {transform: scale(1);}
 
 
 

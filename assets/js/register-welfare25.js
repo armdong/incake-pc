@@ -3,8 +3,9 @@
     var flag = true,
     	content =$(".content03");
     $(".cake").click(function(){
-    	$('html,body').animate({ scrollTop: content.offset().top}, 800);
-    	$(".txt-mobile").focus();
+    	$("#mask-register").fadeIn(function(){
+    		$(".register").fadeIn();
+    	})
     });
     $(".official").click(function(){
     	$("#mask").fadeIn(function(){
@@ -26,6 +27,7 @@
 			$("#shade").fadeOut();
 			$("#mask-result").fadeOut();
 			$("#mask").fadeOut();
+			$("#mask-register").fadeOut();
 		});
 	})
 	$(".draw").click(function(){
