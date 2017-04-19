@@ -1,0 +1,11 @@
+.container { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #fff; }
+#ali { width: 100%; }
+#ali .banner { position: relative; width: 1200px; height: 1732px; margin: 0 auto; }
+#ali .banner img { position: absolute; top: 0; left: 50%; width: 1920px; height: 1732px; margin-left: -960px; }
+#ali .banner .btn-buy{display: block;position: absolute;left: 490px;bottom: 225px;border: 1px solid #fff; width: 175px;height: 50px;line-height: 50px;text-align: center;font-weight: bold;color: #fff;font-size: 33px;}
+#ali .banner span{display: block;position: absolute;bottom: -130px;right: 150px; width: 240px;height: 250px;background: url("../img/ali-panic-buying/rule.png") no-repeat;}
+
+#ali .rule { width: 100%; background-color: #ff797d; background-image: url('../img/ali-panic-buying/rule_bg.png'); background-position: top left; background-repeat: repeat-x; }
+#ali .rule dl { width: 1200px; height: 300px; margin: 0 auto; color: #fff; font-family: "Microsoft Yahei"; text-align: center;}
+#ali .rule dt { font-size: 24px; padding: 60px 0 15px; }
+#ali .rule dd { font-size: 14px; line-height: 30px;}
