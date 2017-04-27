@@ -1,0 +1,17 @@
+.container { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #f7f8f9; }
+#ali { width: 100%; }
+#ali .banner_01{position: relative;width: 1200px;height: 660px; margin: 0 auto;}
+#ali .banner_01 img{position: absolute; top: 0; left: 50%; width: 1920px; height: 660px; margin-left: -960px;}
+#ali .banner_02,.banner_03 { position: relative; width: 1200px;margin: 0 auto;position: relative; }
+#ali .banner_01 a{display: block;position: absolute;right: 153px;bottom: 0;width: 167px;height: 47px;background: url("../img/mother'sday-other/buy.png") no-repeat;}
+#ali .banner_02{height: 533px;background: url("../img/mother'sday-other/banner02.png") no-repeat;}
+#ali .banner_03{height: 678px;background: url("../img/mother'sday-other/banner03.png") no-repeat;}
+#ali .banner_03 a{display: block;position: absolute;left: 495px;bottom: 50px;width: 215px;height: 60px;background: url("../img/mother'sday-other/cake-pavilion.png") no-repeat;}
+
+
+
+.rule { width: 100%;max-width: 1920px; height: 363px; background: url("../img/mother'sday-other/rule_bg.png") no-repeat;  }
+.rule div{width: 1200px; height: 363px;margin: 0 auto;background: url("../img/mother'sday-other/cup.png") no-repeat;background-size: 123px 90px;background-position: 790px 235px;}
+.rule dl {margin-left: 255px; color: #fff; font-family: "Microsoft Yahei"; }
+.rule dt { font-size: 20px; padding: 60px 0 15px; }
+.rule dd { font-size: 18px; line-height: 35px;}

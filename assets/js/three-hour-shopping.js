@@ -1,0 +1,16 @@
+(function(){
+	$(".banner").on("click","a",function(){
+		$("#shade").fadeIn(function(){
+			$(".shade_buy").fadeIn();
+		})
+	});
+	$(".shade_buy").on("click","li",function(){
+		$(this).addClass("active");
+		$(this).siblings().removeClass("active");
+	});
+	$(".cancel").click(function(){
+		$(".shade_buy").fadeOut(function(){
+			$("#shade").fadeOut();
+		});
+	});
+})()
