@@ -1,0 +1,11 @@
+﻿.container { width: 100%; }
+.page-container { width: 100%; background-color: #f7f8f9; }
+.m-container { position: relative; width: 1200px; height: 1690px; margin: 0 auto; background: url('../img/mothersday-sh/container_bg.jpg') no-repeat; }
+.m-container > a { display: block; position: absolute; }
+.m-container .btn-buy { top: 583px; right: 159px; width: 164px; height: 46px; background: url('../img/mothersday-sh/container_btn_buy_bg.png') no-repeat; }
+.m-container .btn-join { bottom: 50px; left: 496px; width: 211px; height: 58px; background: url('../img/mothersday-sh/container_btn_join_bg.png') no-repeat; }
+
+.m-footer { width: 100%; background-color: #d8b57a; }
+.m-footer .footer-head { position: relative; width: 1200px; height: 40px; margin: 0 auto; }
+.m-footer .footer-head .bg { position: absolute; top: 0; left: 50%; width: 1920px; height: 40px; margin-left: -960px; background: url('../img/mothersday-sh/rule_header_bg.jpg') no-repeat top center; }
+.m-footer .footer-body { width: 1200px; height: 475px; margin: 0 auto; background: url('../img/mothersday-sh/rule_body_bg.png') no-repeat; }
