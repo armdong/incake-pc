@@ -10,8 +10,8 @@
 
 
 
-.rule { width: 100%;max-width: 1920px; height: 363px; background: url("../img/mother'sday-other/rule_bg.png") no-repeat;  }
+.rule { width: 100%;max-width: 1920px; height: 363px; background: url("../img/mother'sday-other/rule_bg.png") no-repeat;}
 .rule div{width: 1200px; height: 363px;margin: 0 auto;background: url("../img/mother'sday-other/cup.png") no-repeat;background-size: 123px 90px;background-position: 790px 235px;}
 .rule dl {margin-left: 255px; color: #fff; font-family: "Microsoft Yahei"; }
-.rule dt { font-size: 20px; padding: 60px 0 15px; }
+.rule dt { font-size: 20px; padding: 40px 0 15px; }
 .rule dd { font-size: 18px; line-height: 35px;}

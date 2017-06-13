@@ -1,0 +1,74 @@
+.layout-container{
+	max-width: 1920px;
+	min-width: 1200px;
+    width: 100%;
+    overflow: hidden;
+    }
+.layout-container .layout-banner{
+    max-width: 1920px;
+    min-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #1e1e1e;}
+.layout-container .layout-banner .banner{
+    position: relative;
+    top: 0;
+    width: 1203px;
+    margin: 0 auto;}
+.layout-container .layout-banner .banner .hero{
+    position: absolute;
+    left: 30px;
+    top: 85px;
+}
+.layout-container .rule{
+	    position: relative;
+	    width: 1200px;
+	    margin: 0 auto;
+        height: 1215px;}
+.layout-container .rule >img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 1920px;
+            height: 1215px;
+            margin-left: -960px;
+        }
+ .layout-container .rule a{
+            display: block;
+            position: absolute;
+            left: 565px;
+            top: 830px;
+            width: 222px;
+            height: 58px;
+            animation: btn 3s infinite;
+        }
+ .layout-container .rule dl{
+            position: absolute;
+            left: 250px;
+            bottom: 40px;
+            color: #fff;}
+.layout-container .rule dl dt{
+	font-size: 24px;
+                text-align: center;
+            }
+.layout-container .rule dl dd{
+                line-height: 30px;
+            }
+            @keyframes btn{
+            	0%{transform: scale(1);}
+            	50%{transform: scale(0.8);}
+            	100%{transform: scale(1);}
+            }
+ .frm-container {max-width: 7920px; width: 100%; background-color: #425670; }
+ .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999; }
+ .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+ .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+ .frm-register > ul { width: 100%; }
+ .frm-register li { float: left; margin-right: 49px; }
+ .frm-register li.last { margin-right: 0; }
+ .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+ .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/add-luckyBag/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+ .frm-register li .txt-vcode { background-image: url('../img/add-luckyBag/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+ .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #e4555f; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+ .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #e4555f; border-radius: 10px; }

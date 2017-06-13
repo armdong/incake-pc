@@ -1,0 +1,68 @@
+.container-head { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto;  background-color: #c1e2f8; }
+.container-head .head{width: 1200px; margin: 0 auto;position: relative;}
+.container-head .discount{position: absolute;bottom: -110px;left: 200px;z-index: 99;}
+.container-head  .discount-number {display: block; position: absolute;left: 615px;bottom: 20px; width: 106px; height: 80px;  
+animation: discount 3s infinite;z-index: 999;
+}
+@keyframes discount{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+	50%  { -webkit-transform: scale(0.7); -ms-transform: scale(0.7); }
+	100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}
+.container-center{width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto;  background-color: #fcf9f2;}
+.container-center .center{width: 1200px; margin: 0 auto;position: relative;}
+.container-center .center p{position: absolute;bottom: 100px;left: 340px;font-size: 20px;color: #fff;}
+.container-center .center .number{display: block;position: absolute;left: 520px;bottom: 260px;width: 150px;height: 70px;text-align: center;line-height: 70px;background: #dc122c;font-size: 60px;color: #fff;}
+.container-center .center .btn-buy{display: block;position: absolute;left: 622px;bottom: 110px;width: 180px;height: 50px;border: 1px solid #fff;text-align: center;line-height: 50px;font-size: 33px;color: #fff;
+animation: btn 3s infinite;}
+@keyframes btn{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+	50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+	100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}
+.rule { width: 100%;min-width: 1200px; max-width: 1920px; margin: 0 auto; background: url("../img/ali-childrens-day/rule-bg.png") no-repeat; }
+ .rule dl { width: 1200px; height: 305px; margin: 0 auto; color: #fff; font-family: "Microsoft Yahei"; text-align: center; }
+ .rule dt { font-size: 24px; padding: 50px 0 15px; }
+ .rule dd { font-size: 16px; line-height: 30px; }
+ 
+.shade{
+	display: none;
+ 	position: fixed;
+ 	left: 0;
+ 	top: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: rgba(0,0,0,0.5);
+ 	z-index: 9998;
+ }
+.shade .shade-up{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -217px;
+	margin-top: -150px;
+	width: 435px;
+	height: 300px;
+	border: 2px solid #000000;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.shade .shade-up >img{
+	margin-left: 30px;
+	margin-top: 60px;
+}
+.shade .shade-up .delete{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 40px;
+	height: 40px;
+	
+}
+.shade .shade-up p{
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 29px;
+	color: #344558;
+}

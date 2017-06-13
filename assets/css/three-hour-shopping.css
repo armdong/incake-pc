@@ -3,27 +3,34 @@
 #ali .banner { position: relative; width: 1200px; height: 2387px; margin: 0 auto; }
 #ali .banner img { position: absolute; top: 0; left: 50%; width: 1920px; height: 2387px; margin-left: -960px; }
 #ali .banner a{display: block; width: 100px;height: 30px;background: url("../img/three-hour-shopping/buy.png") no-repeat;}
-#ali .banner .btn-buy01{position: absolute;left: 420px;top: 770px;}
-#ali .banner .btn-buy02{position: absolute;right: 210px;top: 770px;}
-#ali .banner .btn-buy03{position: absolute;left: 335px;top: 1180px;}
-#ali .banner .btn-buy04{position: absolute;left: 670px;top: 1180px;}
-#ali .banner .btn-buy05{position: absolute;right: 45px;top: 1180px;}
-#ali .banner .btn-buy06{position: absolute;left: 420px;bottom: 760px;}
-#ali .banner .btn-buy07{position: absolute;right: 205px;bottom:760px;}
-#ali .banner .btn-buy08{position: absolute;left: 340px;bottom: 335px;}
-#ali .banner .btn-buy09{position: absolute;left: 665px;bottom: 335px;}
-#ali .banner .btn-buy010{position: absolute;right: 45px;bottom: 335px;}
+#ali .banner .btn-buy01{position: absolute;left: 420px;top: 890px;}
+#ali .banner .btn-buy02{position: absolute;right: 210px;top: 890px;}
+#ali .banner .btn-buy03{position: absolute;left: 295px;top: 1270px;}
+#ali .banner .btn-buy04{position: absolute;left: 665px;top: 1270px;}
+#ali .banner .btn-buy05{position: absolute;right: 45px;top: 1270px;}
+#ali .banner .btn-buy06{position: absolute;left: 410px;bottom: 700px;}
+#ali .banner .btn-buy07{position: absolute;right: 220px;bottom:700px;}
+#ali .banner .btn-buy08{position: absolute;left: 295px;bottom: 315px;}
+#ali .banner .btn-buy09{position: absolute;left: 665px;bottom: 315px;}
+#ali .banner .btn-buy010{position: absolute;right: 45px;bottom: 315px;}
 
 #ali .content{
+	position: relative;
 	width: 1200px;
-	height: 615px;
+	height: 623px;
 	margin: 0 auto;
-	background: url("../img/three-hour-shopping/time.png") no-repeat;
 }
-
-#ali .rule { width: 100%;height: 140px; background-color: #aa4b0c;  }
+#ali .content img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1920px;
+	height: 623px;
+	margin-left: -960px;
+}
+#ali .rule { width: 100%;height: 140px; background-color: #ff6fbd;  }
 #ali .rule dl { width: 1200px; height: 140px; margin: 0 auto; color: #fff; font-family: "Microsoft Yahei"; }
-#ali .rule dt { font-size: 24px; padding: 10px 0 15px; text-align: center;}
+#ali .rule dt { font-size: 24px; padding: 20px 0 15px; text-align: center;}
 #ali .rule dd { font-size: 14px; line-height: 30px;margin-left: 357px;}
 
 #shade{

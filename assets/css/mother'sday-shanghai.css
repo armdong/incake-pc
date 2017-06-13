@@ -14,3 +14,18 @@
 .rule dl {margin-left: 255px; color: #fff; font-family: "Microsoft Yahei"; }
 .rule dt { font-size: 20px; padding: 60px 0 15px; }
 .rule dd { font-size: 18px; line-height: 35px;}
+
+#register{width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden;background-color: #fc6668;}
+#register .register{width: 1200px;margin: 0 auto;}
+#register .register .frm-container { width: 100%; }
+#register .register .frm-container.flt { position: fixed; bottom: 0; left: 0; z-index: 999999;background-color: #fc6668; }
+#register .register .frm-register { width: 1200px; margin: 0 auto; padding-bottom: 26px; }
+#register .register .frm-register > h2 { line-height: 50px; font-size: 20px; font-weight: 400; color: #fff; text-align: center; }
+#register .register .frm-register > ul { width: 100%; }
+#register .register .frm-register li { float: left; margin-right: 49px; }
+#register .register .frm-register li.last { margin-right: 0; }
+#register .register .frm-register li input { width: 282px; height: 44px; line-height: 44px; outline: none; font-size: 18px; color: #505050; padding-left: 66px; box-sizing: padding-box; background-color: #fff; border: 1px solid #ccc; border-radius: 10px; }
+#register .register .frm-register li .txt-mobile { float: left; width: 174px; border-radius: 10px 0 0 10px; background-image: url('../img/half-price-sagittarius/icon_mobile.png'); background-repeat: no-repeat; background-position: 20px center; }
+#register .register .frm-register li .txt-vcode { background-image: url('../img/half-price-sagittarius/icon_vcode.png'); background-repeat: no-repeat; background-position: 20px center; }
+#register .register .frm-register li .btn-vcode { float: left; display: block; width: 154px; height: 44px; margin-left: -1px; line-height: 44px; text-align: center; color: #fff; font-size: 18px; background: #ad3c4e; border: 1px solid #ccc; border-left: none; border-radius: 0 10px 10px 0; }
+#register .register .frm-register li .btn-quick-register { display: block; width: 354px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #fff; background-color: #ad3c4e; border-radius: 10px; }

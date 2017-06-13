@@ -1,0 +1,87 @@
+.layout-container{
+    width: 100%;
+    height: auto;overflow: hidden;}
+ .layout-container .banner{
+        position: relative;
+        top: 0;
+        width: 1200px;
+        height: 1969px;
+        margin: 0 auto;}
+ .layout-container .banner >img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 1920px;
+            height: 1969px;
+            margin-left: -960px; 
+        }
+ .layout-container .banner  a{
+            display: block;
+            width: 95px;
+            height: 42px;
+            background: url("../img/618/buy.png") no-repeat;
+            background-size: 95px 42px;
+        }
+ .layout-container .banner .btn-buy01{
+            position: absolute;
+            left: 235px;
+            top: 850px;
+        }
+ .layout-container .banner .btn-buy02{
+            position: absolute;
+            left: 635px;
+            top: 850px;
+        }
+ .layout-container .banner .btn-buy03{
+            position: absolute;
+            left: 1035px;
+            top: 850px;
+        }
+ .layout-container .banner .btn-buy04{
+            position: absolute;
+            left: 865px;
+            top: 1235px;
+        }
+ .layout-container .banner .btn-buy05{
+            position: absolute;
+            left: 405px;
+            top: 1235px;
+        }
+ .layout-container .banner .btn-buy06{
+            position: absolute;
+            left: 235px;
+            bottom: 290px;
+        }
+ .layout-container .banner .btn-buy07{
+            position: absolute;
+            left: 635px;
+            bottom: 290px;
+        }
+ .layout-container .banner .btn-buy08{
+            position: absolute;
+            left: 1035px;
+            bottom: 290px;
+        }
+ .layout-container .rule{
+        max-width: 1920px;
+        width: 100%;
+        height: 340px;
+        background-color: #9fc1f1;}
+ .layout-container .rule  dl{
+            width: 1200px;
+            height: 320px;
+            margin: 0 auto;
+            color: #fff;}
+ .layout-container .rule dl dt{
+                padding-top: 60px;
+                font-size: 17px;
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+            }
+ .layout-container .rule dl  dd{
+                margin: 20px 0;
+                margin-left: 350px;
+                font-size: 18px;
+            }
+        

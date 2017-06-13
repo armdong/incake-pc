@@ -1,0 +1,19 @@
+.container { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #eaebef; }
+#ali { width: 100%; }
+#ali .bannerTop { position: relative; width: 1200px; height: 1266px; margin: 0 auto; }
+#ali .bannerTop >img { position: absolute; top: 0; left: 50%; width: 1920px; height: 1266px; margin-left: -960px; }
+#ali .bannerTop a{display: block;position: absolute;left: 580px;bottom: 80px;width: 234px;height: 165px;animation: btn 3s infinite;}
+
+@keyframes btn{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+	50%  { -webkit-transform: scale(0.7); -ms-transform: scale(0.7); }
+	100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}
+#ali .bannerBottom { position: relative; width: 1200px; height: 1021px; margin: 0 auto; }
+#ali .bannerBottom >img { position: absolute; top: 0; left: 50%; width: 1920px; height: 1021px; margin-left: -960px; }
+#ali .bannerBottom a{display: block;position: absolute;left: 500px;bottom: 100px;width: 230px;height: 58px;animation: btn 3s infinite;}
+#ali .bannerBottom span{display: block;position: absolute;left: 210px;bottom: -70px;width: 205px;height: 200px;}
+#ali .rule { width: 100%; background-color: #403d50; }
+#ali .rule dl { width: 1200px; height: 255px; margin: 0 auto; color: #fff; font-family: "Microsoft Yahei"; text-align: center;background: url("../img/ali-gemini/ruleBg.png") no-repeat;background-size: 100px 95px;background-position: 920px 105px; }
+#ali .rule dt { font-size: 24px; padding: 50px 0 15px; }
+#ali .rule dd { font-size: 14px; line-height: 30px; }
